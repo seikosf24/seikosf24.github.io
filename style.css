@@ -1,24 +1,20 @@
-/* a minimalist set of CSS resets */
-
-/* default to border-box */
 html {
   font-size: 62.5%;
 }
-
-*, *:before, *:after {
-  box-sizing: inherit;
-}
-
-/* adjust typography defaults */
 body {
-  margin: 1rem;
-  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  font-family: "DIN","Helvetica", sans-serif;
   line-height: 1.5;
 }
-
-/* images and videos max out at full width */
-img,
-video {
-  height: auto;
-  max-width: 100%;
+header {
+width: 100vw;
+  height: 50px;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+header li{
+  display: inline-block;
+text-decoration: none;
 }
