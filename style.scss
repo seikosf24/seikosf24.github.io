@@ -1,0 +1,31 @@
+html {
+  font-size: 62.5%;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 1.6rem;
+  font-family: "DIN", "Helvetica", sans-serif;
+  line-height: 1.5;
+}
+header {
+  width: 100vw;
+  height: 50px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  li {
+    display: inline-block;
+    text-decoration: none;
+    a {
+      color: green;
+    }
+  }
+}
+#topImage {
+  width: 100vw;
+  height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(https://cdn.glitch.global/6b229fd4-b092-4044-9cc2-0b306f76df3b/IMG_6340.jpeg?v=1714780045834);
+  background-size: cover;
+}
