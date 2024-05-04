@@ -72,7 +72,6 @@ header {
     background: #224;
     transition: ease 0.4s;
     overflow: hidden;
-    padding-top: 200px;
   }
   /*アクティブクラスがついたら位置を0に*/
   #g-nav.panelactive {
@@ -81,19 +80,13 @@ header {
 
   /*ナビゲーション*/
   #g-nav ul {
-    padding: 0;
+    padding-top: 200px;
     text-align: center;
     /*ナビゲーション天地中央揃え*/
-    position: absolute;
-    z-index: 999;
-    top: 35%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    overflow: scroll;
+    z-index: 9999;
   }
 
   /*リストのレイアウト設定*/
-
   #g-nav li {
     display: list-item;
     list-style: none;
