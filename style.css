@@ -27,11 +27,6 @@ header {
   transform: translateX(-50%);
   z-index: 99;
 }
-# {
-position: fixed;
-  top: 10px;
-  left: 5px;
-}
 #g-nav ul {
   margin: 0;
   padding: 10px;
@@ -59,7 +54,7 @@ header .hide {
   left: 0;
   width: 100vw;
   height: min(100vw, 100vh);
-  background-image: url(https://cdn.glitch.global/6b229fd4-b092-4044-9cc2-0b306f76df3b/IMG_6340.jpeg?v=1714780045834);
+  background-image: url("https://cdn.glitch.global/6b229fd4-b092-4044-9cc2-0b306f76df3b/IMG_6340.jpeg?v=1714780045834");
   background-size: cover;
   z-index: 25;
 }
@@ -67,7 +62,7 @@ header .hide {
   position: relative;
   width: 100vw;
   height: min(100vw, 100vh);
-  background-image: url(https://cdn.glitch.global/6b229fd4-b092-4044-9cc2-0b306f76df3b/IMG_6346.jpeg?v=1714810752604);
+  background-image: url("https://cdn.glitch.global/6b229fd4-b092-4044-9cc2-0b306f76df3b/IMG_6346.jpeg?v=1714810752604");
   background-size: cover;
   transition: opacity ease 1s;
   z-index: 30;
@@ -106,11 +101,11 @@ header .hide {
   z-index: 40;
 }
 #cc1 {
-  position: absolute;
-  bottom: calc(15px + 9vw);
-  left: 5px;
-  color: #fcfcfc;
-  font-size: 9vw;
+  position: sticky;
+  top: 3px;
+  margin-left: max(20px, calc(50vw - 480px));
+  color: #222222;
+  font-size: min(36px, calc(10vw + );
   font-family: "oswald", sans-serif;
   z-index: 80;
 }
