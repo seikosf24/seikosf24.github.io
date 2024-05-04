@@ -11,6 +11,10 @@ body {
   -webkit-tap-highlight-color: transparent;
   scroll-behavior: smooth;
 }
+a {
+text-decoration: none;
+  color: #2222dd;
+}
 header {
   width: 100vw;
   height: 50px;
@@ -20,7 +24,7 @@ header {
   z-index: 999;
   ul {
     margin: 0;
-    padding: 0;
+    padding: 10px;
     text-align: right;
     display: flex;
     flex-wrap: nowrap;
@@ -43,11 +47,14 @@ header {
   background-size: cover;
 }
 #headerBlack {
-  width: 100vw;
-  height: 90px;
+  width: min(100vw, 600px);
+  height: 60px;
   position: sticky;
-  iverflow: hidden;
+  overflow: hidden;
   top: 0;
-  background: linear-gradient(-4deg, transparent 50%, #222 50%);
+  background: linear-gradient(-45deg, transparent 30%, #222 30%);
   z-index: 998;
+}
+@media screen and （max-width: 768px） {
+/* 768px以下の画面サイズで適用されるスタイル */
 }
