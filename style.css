@@ -10,6 +10,7 @@ body {
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: transparent;
   scroll-behavior: smooth;
+  overflow: hidden;
 }
 header {
   width: 100vw;
@@ -43,10 +44,10 @@ header {
   background-size: cover;
 }
 #headerBlack {
-  width: 100vw;
+  width: 800px;
   height: 50px;
 position: sticky;
   top: 0;
-  background-color: #222;
+  background: linear-gradient(0deg, #222 50%, transparent 50%);
   z-index: 998;
 }
