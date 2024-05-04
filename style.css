@@ -59,25 +59,24 @@ header {
   background: linear-gradient(-45deg, transparent 30%, #222 30%);
   z-index: 98;
 }
-/*@media screen and （max-width: 999px） {
-  999px以下の画面サイズで適用されるスタイル */
+/*@media screen and (max-width: 768px） {*/
   #g-nav {
     /*position:fixed;にし、z-indexの数値を大きくして前面へ*/
     position: fixed;
     z-index: 55;
     opacity: 0.9;
-    /*ナビのスタート位置と形状*/
-    top: 0;
-    right: -250px;
-    width: 250px;
-    height: 120vh; /*ナビの高さ*/
-    background: #311;
-    /*動き*/
-    transition: right 0.4s;
+    top: -200px;
+    left: 0;
+    width: 100vw;
+    height: 200px;
+    background: #224;
+    transition: ease 0.4s;
+    overflow: hidden;
+    padding-top: 200px;
   }
   /*アクティブクラスがついたら位置を0に*/
   #g-nav.panelactive {
-    right: 0;
+    height: 400px;
   }
 
   /*ナビゲーション*/
@@ -118,7 +117,7 @@ header {
     position: fixed;
     z-index: 9999; /*ボタンを最前面に*/
     top: 10px;
-    right: 50px;
+    left: 50px;
     cursor: pointer;
     width: 50px;
     height: 50px;
@@ -164,3 +163,4 @@ header {
     width: 30%;
   }
 
+}
