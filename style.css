@@ -44,14 +44,10 @@ header {
 }
 #headerBlack {
   width: 100vw;
-  height: 75px;
+  height: 90px;
   position: sticky;
   iverflow: hidden;
   top: 0;
-  div{
-  width: 800px;
-  height: 75px;
-  background: linear-gradient(-5deg, transparent 50%, #222 50%);
+  background: linear-gradient(-4deg, transparent 50%, #222 50%);
   z-index: 998;
-  }
 }
