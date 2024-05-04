@@ -5,7 +5,8 @@ body {
   margin: 0;
   padding: 0;
   font-size: 1.6rem;
-  font-family: "DIN", "Helvetica", sans-serif;
+  font-family: "BIZ UDPGothic", sans-serif;
+  font-weight: 400;
   line-height: 1.5;
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: transparent;
@@ -64,7 +65,16 @@ header .hide {
   background-size: 2px 2px;
   background-position: 0 0, 2px 2px;
 }
-#cc {
+#cc1 {
+  position: absolute;
+  bottom: calc(15px + 9vw);
+  left: 5px;
+  color: #fcfcfc;
+  font-size: 9vw;
+  font-family: "oswald", sans-serif;
+  z-index: 50;
+}
+#cc2 {
   position: absolute;
   bottom: 5px;
   left: 5px;
@@ -83,7 +93,7 @@ header .hide {
   z-index: 98;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 700px) {
   #g-nav {
     /*position:fixed;にし、z-indexの数値を大きくして前面へ*/
     position: fixed;
@@ -94,7 +104,7 @@ header .hide {
     height: 200px;
     background: #224;
     transition: ease 0.4s;
-    overflow: hidden;
+    overflow: scroll;
     padding: 0;
   }
   /*アクティブクラスがついたら位置を0に*/
