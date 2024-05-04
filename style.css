@@ -46,6 +46,8 @@ header .hide {
 }
 #topImage2 {
   position: absolute;
+  top: 0;
+  left: 0;
   width: 100vw;
   height: min(100vw, 100vh);
   background-image: url(https://cdn.glitch.global/6b229fd4-b092-4044-9cc2-0b306f76df3b/IMG_6346.jpeg?v=1714810752604);
@@ -58,10 +60,18 @@ header .hide {
   height: min(100vw, 100vh);
   background-image: url(https://cdn.glitch.global/6b229fd4-b092-4044-9cc2-0b306f76df3b/IMG_6340.jpeg?v=1714780045834);
   background-size: cover;
-  transition: ease 0.4s;
+  transition: opacity ease 1s;
   z-index: 20;
 }
-#topImage::after {
+#topImage3 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: min(100vw, 100vh);
+  z-index: 30;
+}
+#topImage3::after {
   content: "";
   display: block;
   position: absolute;
@@ -74,7 +84,7 @@ header .hide {
     radial-gradient(#111 30%, transparent 31%);
   background-size: 2px 2px;
   background-position: 0 0, 2px 2px;
-  z-index: 30;
+  z-index: 40;
 }
 #cc1 {
   position: absolute;
