@@ -14,6 +14,10 @@ let element = document.getElementById("topImage");
 let style = window.getComputedStyle(element);
 setInterval(function () {
   topImage++;
+  if (topImage % 2 == 0){
   element.style.opacity = 0.5 - (style.getPropertyValue("opacity") - 0.5);
+  }
+  document.getElementById("topImage").style.backgroundImage = arrey[(Math.floor(topImage / 4) + 1 ) % 5]
+  
   console.log(arrey[topImage]);
-}, 3000);
+}, 1500);
