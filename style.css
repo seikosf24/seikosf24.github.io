@@ -17,7 +17,7 @@ a {
   color: #2222cc;
 }
 header {
-  width: 100vw;
+  margin: 0;
   height: 50px;
   position: fixed;
   top: 0;
@@ -115,10 +115,12 @@ header .hide {
   z-index: 98;
   filter: drop-shadow(5px 5px 10px gray);
 }
-p {
-margin: 10px;
+main {
+  margin: 10px auto;
+  width: min(1000px, calc(100vw - 20px));
 }
-
+p {
+}
 
 @media screen and (max-width: 700px) {
   #g-nav {
