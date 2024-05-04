@@ -11,6 +11,7 @@ body {
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: transparent;
   scroll-behavior: smooth;
+  background-color: #fafafc;
 }
 a {
   text-decoration: none;
@@ -18,7 +19,7 @@ a {
 }
 header {
   margin: 0;
-  width: min(1000px, calc(100vw - 20px));
+  width: min(1000px, 100vw);
   height: 50px;
   position: fixed;
   top: 0;
@@ -31,6 +32,7 @@ header {
   padding: 10px;
   text-align: right;
   display: flex;
+  justify-content: right;
   flex-wrap: nowrap;
   overflow-x: scroll;
 }
@@ -122,9 +124,9 @@ header .hide {
   position: sticky;
   overflow: hidden;
   top: 60px;
-  background: linear-gradient(-30deg, transparent 55%, #224 55%);
+  background: linear-gradient(-30deg, #224 55%, #fafafc 55%);
   z-index: 15;
-  /*filter: drop-shadow(5px 5px 10px gray);*/
+  box-shadow: 5px 5px 10px gray;
   transform: translateY(-60px);
 }
 main {
@@ -185,7 +187,7 @@ p {
     position: fixed;
     z-index: 9999; /*ボタンを最前面に*/
     top: 5px;
-    left: 20px;
+    right: 40px;
     cursor: pointer;
     width: 50px;
     height: 50px;
