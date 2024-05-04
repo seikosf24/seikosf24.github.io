@@ -18,10 +18,12 @@ a {
 }
 header {
   margin: 0;
+  width: min(1000px, calc(100vw - 20px));
   height: 50px;
   position: fixed;
   top: 0;
-  left: 0;
+  left: 50%;
+  transform: translateX(-50%);
   z-index: 99;
 }
 #g-nav ul {
@@ -106,6 +108,7 @@ header .hide {
   z-index: 50;
 }
 #headerBlack {
+  margin-left: max(0px, calc(50vw - 500px));
   width: min(100vw, 600px);
   height: 60px;
   position: sticky;
