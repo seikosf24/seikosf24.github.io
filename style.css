@@ -44,11 +44,27 @@ header .hide {
   opacity: 0.5;
 }
 #topImage {
+  pisition: relative;
   width: 100vw;
   height: min(100vw, 100vh);
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-    url(https://cdn.glitch.global/6b229fd4-b092-4044-9cc2-0b306f76df3b/IMG_6340.jpeg?v=1714780045834);
+  background-image: url(https://cdn.glitch.global/6b229fd4-b092-4044-9cc2-0b306f76df3b/IMG_6340.jpeg?v=1714780045834);
   background-size: cover;
+  writing-mode: vertical-rl;
+  color: #fcfcfc;
+  font-size: 30px;
+}
+#topImage::after {
+	content: '';
+	display: block;
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,0.1);
+	background-image: radial-gradient(#111 30%, transparent 31%), radial-gradient(#111 30%, transparent 31%);
+	background-size: 4px 4px;
+	background-position: 0 0, 2px 2px;
 }
 #headerBlack {
   width: min(100vw, 600px);
@@ -76,12 +92,12 @@ header .hide {
   }
   /*アクティブクラスがついたら位置を0に*/
   #g-nav.panelactive {
-    height: 600px;
+    height: 640px;
   }
 
   /*ナビゲーション*/
   #g-nav ul {
-    padding-top: 200px;
+    padding-top: 240px;
     z-index: 999;
     display: block;
   }
@@ -97,7 +113,7 @@ header .hide {
     border-bottom: 2px groove #224;
     color: white;
     text-decoration: none;
-    padding: 10px;
+    padding: 20px;
     display: block;
     letter-spacing: 0.1em;
     font-weight: bold;
