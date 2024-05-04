@@ -1,12 +1,19 @@
 document.getElementById("openbtn").addEventListener("click", function () {
-    document.getElementById("openbtn").classList.toggle("active");
-    document.getElementById("g-nav").classList.toggle("panelactive");
-  });
+  document.getElementById("openbtn").classList.toggle("active");
+  document.getElementById("g-nav").classList.toggle("panelactive");
+});
 
+let arrey = [
+  "https://cdn.glitch.global/6b229fd4-b092-4044-9cc2-0b306f76df3b/IMG_6340.jpeg?v=1714780045834",
+  "https://cdn.glitch.global/6b229fd4-b092-4044-9cc2-0b306f76df3b/IMG_6346.jpeg?v=1714810752604",
+  "https://cdn.glitch.global/6b229fd4-b092-4044-9cc2-0b306f76df3b/IMG_3176.jpeg?v=1714810802794",
+  "https://cdn.glitch.global/6b229fd4-b092-4044-9cc2-0b306f76df3b/IMG_6345.jpeg?v=1714811796059",
+];
 let topImage = 0;
-let element = document.getElementById('topImage');
+let element = document.getElementById("topImage");
 let style = window.getComputedStyle(element);
-setInterval(function() {
-  topImage ++;
-  element.style.opacity = 0.5 - (style.getPropertyValue('opacity') - 0.5);
+setInterval(function () {
+  topImage++;
+  element.style.opacity = 0.5 - (style.getPropertyValue("opacity") - 0.5);
+  console.log(arrey[topImage]);
 }, 3000);
