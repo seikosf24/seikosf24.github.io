@@ -7,6 +7,9 @@ body {
   font-size: 1.6rem;
   font-family: "DIN", "Helvetica", sans-serif;
   line-height: 1.5;
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: transparent;
+  scroll-behavior: smooth;
 }
 header {
   width: 100vw;
@@ -14,11 +17,20 @@ header {
   position: fixed;
   top: 0;
   left: 0;
-  li {
-    display: inline-block;
-    text-decoration: none;
-    a {
-      color: green;
+  ul {
+    margin: 0;
+    padding: 0;
+    text-align: right;
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+    li {
+      display: block;
+      padding: 15px;
+      a {
+        color: #fcfcfc;
+        text-decoration: none;
+      }
     }
   }
 }
