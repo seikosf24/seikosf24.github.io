@@ -50,7 +50,7 @@ header .hide {
   left: 0;
   width: 100vw;
   height: min(100vw, 100vh);
-  background-image: url(https://cdn.glitch.global/6b229fd4-b092-4044-9cc2-0b306f76df3b/IMG_6346.jpeg?v=1714810752604);
+  background-image: url(https://cdn.glitch.global/6b229fd4-b092-4044-9cc2-0b306f76df3b/IMG_6340.jpeg?v=1714780045834);
   background-size: cover;
   z-index: 10;
 }
@@ -58,7 +58,7 @@ header .hide {
   position: relative;
   width: 100vw;
   height: min(100vw, 100vh);
-  background-image: url(https://cdn.glitch.global/6b229fd4-b092-4044-9cc2-0b306f76df3b/IMG_6340.jpeg?v=1714780045834);
+  background-image: url(https://cdn.glitch.global/6b229fd4-b092-4044-9cc2-0b306f76df3b/IMG_6346.jpeg?v=1714810752604);
   background-size: cover;
   transition: opacity ease 1s;
   z-index: 20;
@@ -113,6 +113,10 @@ header .hide {
   background: linear-gradient(-45deg, transparent 30%, #224 30%);
   z-index: 98;
 }
+p {
+margin: 10px;
+}
+
 
 @media screen and (max-width: 700px) {
   #g-nav {
