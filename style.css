@@ -21,7 +21,7 @@ header {
   position: fixed;
   top: 0;
   left: 0;
-  z-index: 999;
+  z-index: 99;
   ul {
     margin: 0;
     padding: 10px;
@@ -38,6 +38,10 @@ header {
       }
     }
   }
+  .hide {
+    transform: translateY(-60px);
+    opacity: 0.5;
+  }
 }
 #topImage {
   width: 100vw;
@@ -53,10 +57,10 @@ header {
   overflow: hidden;
   top: 0;
   background: linear-gradient(-45deg, transparent 30%, #222 30%);
-  z-index: 998;
+  z-index: 98;
 }
-@media screen and （max-width: 768px） {
-  /* 768px以下の画面サイズで適用されるスタイル */
+/*@media screen and （max-width: 999px） {
+  999px以下の画面サイズで適用されるスタイル */
   #g-nav {
     /*position:fixed;にし、z-indexの数値を大きくして前面へ*/
     position: fixed;
@@ -159,4 +163,4 @@ header {
     transform: translateY(-6px) rotate(45deg);
     width: 30%;
   }
-}
+
