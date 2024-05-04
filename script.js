@@ -24,3 +24,15 @@ setInterval(function () {
     arrey[(Math.floor((topImage + 2) / 4) * 2) % arrey.length]
   }"`;
 }, 1500);
+
+let b = 0;
+let a = document.getElementById("cc1");
+window.addEventListener("scroll", function () {
+  let c = document.documentElement.scrollTop || document.body.scrollTop;
+  if (c < b || c < 500) {
+    a.style.color = "black";
+  } else {
+    a.style.color = "white";
+  }
+  b = document.documentElement.scrollTop || document.body.scrollTop;
+});

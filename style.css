@@ -101,13 +101,14 @@ header .hide {
   z-index: 40;
 }
 #cc1 {
-  position: sticky;
-  top: 3px;
-  margin-left: max(20px, calc(50vw - 480px));
+  position: fixed;
+  top: max(3px, calc(8px - 3vw));
+  left: max(20px, calc(50vw - 480px));
   color: #222222;
-  font-size: min(36px, calc(10vw + );
+  font-size: min(36px, calc(4vw + 16px));
   font-family: "oswald", sans-serif;
   z-index: 80;
+  opacity: 1;
 }
 #cc2 {
   position: absolute;
