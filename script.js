@@ -12,11 +12,10 @@ let arrey = [
 ];
 let topImage = 0;
 let element = document.getElementById("topImage");
-let style = window.getComputedStyle(element);
 setInterval(function () {
   topImage++;
   if (topImage % 2 == 0) {
-    element.style.opacity = 0.5 - (style.getPropertyValue("opacity") - 0.5);
+    element.style.opacity = (2 - (topImage % 4)) / 2;
   }
   document.getElementById("topImage").style.backgroundImage = `url("${
     arrey[(Math.floor(topImage / 4) * 2 + 1) % arrey.length]

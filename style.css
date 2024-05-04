@@ -74,6 +74,15 @@ header .hide {
   height: min(100vw, 100vh);
   z-index: 30;
 }
+#topImage3::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0; 
+    border-bottom: 25vw solid #22224488;  /* 好みで高さ色を変えてください */ 
+    border-right: 75vw solid transparent;
+  z-index: 45;
+}
 #topImage3::after {
   content: "";
   display: block;
@@ -83,8 +92,8 @@ header .hide {
   width: 100vw;
   height: min(100vw, 100vh);
   background-color: rgba(0, 0, 0, 0.4);
-  background-image: radial-gradient(#111 30%, transparent 31%),
-    radial-gradient(#111 30%, transparent 31%);
+  background-image: radial-gradient(#444 30%, transparent 31%),
+    radial-gradient(#444 30%, transparent 31%);
   background-size: 2px 2px;
   background-position: 0 0, 2px 2px;
   z-index: 40;
