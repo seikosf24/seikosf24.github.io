@@ -104,11 +104,12 @@ header .hide {
   position: fixed;
   top: max(3px, calc(8px - 3vw));
   left: max(20px, calc(50vw - 480px));
-  color: #222222;
+  color: #fcfcfc;
   font-size: min(36px, calc(4vw + 16px));
   font-family: "oswald", sans-serif;
   z-index: 80;
   opacity: 1;
+  transition: color ease 0.5s;
 }
 #cc2 {
   position: absolute;

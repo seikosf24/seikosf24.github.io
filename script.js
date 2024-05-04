@@ -25,14 +25,13 @@ setInterval(function () {
   }"`;
 }, 1500);
 
-let b = 0;
+const h1 = document.getElementById("topImage").offsetHeight - 30;
 let a = document.getElementById("cc1");
 window.addEventListener("scroll", function () {
   let c = document.documentElement.scrollTop || document.body.scrollTop;
-  if (c < b || c < 500) {
-    a.style.color = "black";
+  if (c < h1) {
+    a.style.color = "#fcfcfc";
   } else {
-    a.style.color = "white";
+    a.style.color = "#222222";
   }
-  b = document.documentElement.scrollTop || document.body.scrollTop;
 });
