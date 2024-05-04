@@ -109,7 +109,7 @@ header .hide {
   }
   /*アクティブクラスがついたら位置を0に*/
   #g-nav.panelactive {
-    height: 640px;
+    height: min(540px, calc(60vh + 200px));
   }
 
   /*ナビゲーション*/
@@ -130,11 +130,11 @@ header .hide {
     border-bottom: 2px groove #224;
     color: white;
     text-decoration: none;
-    padding: 20px;
+    padding: 15px;
     display: block;
     letter-spacing: 0.1em;
     font-weight: bold;
-    font-size: 2rem;
+    font-size: 1.8rem;
   }
   #g-nav li a:hover {
     color: #666;
