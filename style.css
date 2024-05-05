@@ -140,26 +140,41 @@ main {
 .container {
   display: flex;
 }
+h2 {
+  font-weight: normal;
+  padding: 10px;
+  border-left: 5px solid #224;
+  font-size: 3rem;
+  font-family: "oswald", sans-serif;
+}
 .cells {
   width: 50%;
   min-height: 200px;
+  display: grid;
+  place-items: center;
 }
 .cells img {
+  border: 2px solid #224;
   border-radius: 10px;
   margin: 0px auto;
-  position: sticky;
-  top: 50vh;
 }
 p {
   line-height: 2;
   letter-spacing: 0.2em;
+  clear: both;
+  margin: 10px 0;
+}
+p::first-letter {
+  font-size: 2em;
+  float: left;
+  padding-right: 5px;
 }
 footer {
   min-height: 200vh;
 }
 @media screen and (max-width: 700px) {
+  /*ヘッダー*/
   #g-nav {
-    /*position:fixed;にし、z-indexの数値を大きくして前面へ*/
     position: fixed;
     z-index: 55;
     top: -200px;
@@ -175,15 +190,11 @@ footer {
   #g-nav.panelactive {
     height: min(540px, calc(60vh + 200px));
   }
-
-  /*ナビゲーション*/
   #g-nav ul {
     padding-top: 240px;
     z-index: 999;
     display: block;
   }
-
-  /*リストのレイアウト設定*/
   #g-nav li {
     display: list-item;
     list-style: none;
@@ -206,7 +217,7 @@ footer {
   /*ボタン用*/
   #openbtn {
     position: fixed;
-    z-index: 9999; /*ボタンを最前面に*/
+    z-index: 9999;
     top: 5px;
     right: 40px;
     cursor: pointer;
@@ -252,5 +263,12 @@ footer {
     left: 18px;
     transform: translateY(-6px) rotate(45deg);
     width: 30%;
+  }
+  /*ここまで*/
+  .container {
+    display: block;
+  }
+  .cells {
+    width: 100%;
   }
 }
