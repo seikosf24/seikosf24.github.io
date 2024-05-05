@@ -25,7 +25,7 @@ setInterval(function () {
   }"`;
 }, 1500);
 
-const h1 = document.getElementById("topImage").offsetHeight - 30;
+const h1 = document.getElementById("topImage").offsetHeight - 50;
 let a = document.getElementById("cc1");
 window.addEventListener("scroll", function () {
   let c = document.documentElement.scrollTop || document.body.scrollTop;
