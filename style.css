@@ -77,12 +77,12 @@ header .hide {
   z-index: 40;
 }
 #topImage3::before {
-    content: '';
-    position: absolute;
-    bottom: 0;
-    left: 0; 
-    border-bottom: 25vw solid #666699aa;  /* 好みで高さ色を変えてください */ 
-    border-right: 75vw solid transparent;
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  border-bottom: 25vw solid #666699aa; /* 好みで高さ色を変えてください */
+  border-right: 75vw solid transparent;
   z-index: 45;
 }
 #topImage3::after {
@@ -137,9 +137,26 @@ main {
   margin: 10px auto;
   width: min(1000px, calc(100vw - 40px));
 }
-p {
+.container {
+  display: flex;
 }
-
+.cells {
+  width: 50%;
+  min-height: 200px;
+}
+.cells img {
+  border-radius: 10px;
+  margin: 0px auto;
+  position: sticky;
+  top: 50vh;
+}
+p {
+  line-height: 2;
+  letter-spacing: 0.2em;
+}
+footer {
+  min-height: 200vh;
+}
 @media screen and (max-width: 700px) {
   #g-nav {
     /*position:fixed;にし、z-indexの数値を大きくして前面へ*/
