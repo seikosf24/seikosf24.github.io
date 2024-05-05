@@ -109,7 +109,7 @@ header .hide {
   font-family: "oswald", sans-serif;
   z-index: 80;
   opacity: 1;
-  transition: color ease 0.5s;
+  transition: color ease 0.3s;
 }
 h1 {
   margin: 0;
@@ -117,7 +117,7 @@ h1 {
   bottom: 5px;
   left: 5px;
   color: #fcfcfc;
-  font-size: 9vw;
+  font-size: calc(6vw + 15px);
   font-family: serif;
   font-weight: normal;
   z-index: 80;
