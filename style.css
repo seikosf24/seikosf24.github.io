@@ -174,7 +174,8 @@ p::first-letter {
   padding-right: 5px;
 }
 footer {
-  min-height: 200vh;
+  padding: 20px;
+  text-align: center;
 }
 @media screen and (max-width: 700px) {
   /*ヘッダー*/
