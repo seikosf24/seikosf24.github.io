@@ -44,16 +44,30 @@ header {
   display: block;
 }
 #g-nav a {
+  position: relative;
   display: block;
   padding: 4px;
   margin: 5px;
   color: #fcfcfc;
   text-decoration: none;
   display: block;
-  border-bottom-width: 2px;
-  border-bottom-style: solid;
-  border-image-source: linear-gradient(to right, white, transparent);
-  border-image-slice: 1;
+}
+#g-nav a::after {
+position: absolute;
+left: 0;
+content: '';
+width: 100%;
+height: 2px;
+background: #fcfcfc;
+bottom: -1px;
+transform: scale(0, 1);
+transform-origin: right top; /*変形（アンダーラインの伸長）の原点がaタグ（各メニュー）の右端*/
+transition: transform 0.3s;  /*変形の時間*/
+}
+
+#g-nav a:hover::after {
+transform: scale(1, 1);     /*ホバー後、x軸方向に1（相対値）伸長*/
+transform-origin: left top; /*左から右に向かう*/
 }
 header .hide {
   transform: translateY(-60px);
@@ -188,7 +202,7 @@ p::first-letter {
 footer {
   padding: 20px;
   text-align: center;
-  min-height: 2vh;
+  min-height: 200vh;
 }
 @media screen and (max-width: 700px) {
   /*ヘッダー*/
