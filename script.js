@@ -25,13 +25,26 @@ setInterval(function () {
   }"`;
 }, 1500);
 
-const h1 = document.getElementById("topImage").offsetHeight - 50;
 let a = document.getElementById("cc1");
 window.addEventListener("scroll", function () {
+  let h1 = document.getElementById("topImage").offsetHeight - 50;
   let c = document.documentElement.scrollTop || document.body.scrollTop;
   if (c < h1) {
     a.style.color = "#fcfcfc";
   } else {
     a.style.color = "#222222";
+  }
+});
+let oElements = document.getElementsByClassName("container");
+window.addEventListener("scroll", function () {
+  for (let i = 0; i < oElements.length; i++) {
+    var tag = oElements[i];
+    var scr = tag.getBoundingClientRect();
+    var y = window.innerHeight - scr.top;
+    if (y > 200) {
+      tag.classList.remove("ap");
+    } else {
+      tag.classList.add("ap");
+    }
   }
 });
