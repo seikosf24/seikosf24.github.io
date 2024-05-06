@@ -135,7 +135,7 @@ header .hide {
   position: fixed;
   top: max(3px, calc(8px - 3vw));
   left: max(20px, calc(50vw - 480px));
-  color: #fcfcfc;
+  color: var(--light);
   font-size: min(36px, calc(4vw + 16px));
   font-family: "oswald", sans-serif;
   z-index: 80;
@@ -159,7 +159,7 @@ h1 {
   position: sticky;
   overflow: hidden;
   top: 60px;
-  background: linear-gradient(-30deg, #224 52%, #fafafc 52%);
+  background: linear-gradient(-30deg, var(--dark) 52%, var(--light) 52%);
   z-index: 15;
   box-shadow: 0px 10px 20px silver;
   transform: translateY(-60px);
@@ -189,8 +189,8 @@ h2::before {
   margin: 1.4rem 1.4rem 1rem 1rem;
   width: 2.7rem;
   height: 2.7rem;
-  border-top: 0.4rem solid #224;
-  border-right: 0.4rem solid #224;
+  border-top: 0.4rem solid var(--dark);
+  border-right: 0.4rem solid var(--dark);
   transform: rotate(45deg);
 }
 .ap {
@@ -204,7 +204,7 @@ h2::before {
   text-align: center;
 }
 .cellsImage {
-  border: 2px solid #224;
+  border: 2px solid var(--dark);
   border-radius: 15px;
   margin: 0px auto;
   box-shadow: 0px 0px 20px silver;
@@ -226,7 +226,7 @@ footer {
   text-align: center;
   min-height: 50vh;
   color: var(--light);
-  background-color: #224;
+  background-color: var(--dark);
 }
 @media screen and (max-width: 700px) {
   /*ヘッダー*/
@@ -237,7 +237,7 @@ footer {
     left: 0;
     width: 100vw;
     height: 200px;
-    background: #224;
+    background-color: var(--dark);
     transition: ease 0.4s;
     overflow: scroll;
     padding: 0;
@@ -259,7 +259,7 @@ footer {
     padding: 0;
   }
   #g-nav li a {
-    border-bottom: 2px groove #224;
+    border-bottom: 2px groove var(--dark);
     color: var(--light);
     text-decoration: none;
     padding: 15px;

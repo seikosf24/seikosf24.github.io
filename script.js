@@ -32,9 +32,9 @@ window.addEventListener("scroll", function () {
   let h1 = document.getElementById("topImage").offsetHeight - 50;
   let c = document.documentElement.scrollTop || document.body.scrollTop;
   if (c < h1) {
-    a.style.color = "#fcfcfc";
+    a.style.color = getComputedStyle(element).getPropertyValue("--light");
   } else {
-    a.style.color = "#222222";
+    a.style.color = getComputedStyle(element).getPropertyValue("--dark");
   }
 });
 
