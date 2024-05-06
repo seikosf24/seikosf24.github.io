@@ -49,7 +49,7 @@ function ap() {
     var tag = oElements[i];
     var scr = tag.getBoundingClientRect();
     var y = window.innerHeight - scr.top;
-    if (y < (window.innerHeight) * 0.3) {
+    if (y < window.innerHeight * 0.3) {
       tag.classList.add("ap");
     } else {
       tag.classList.remove("ap");
