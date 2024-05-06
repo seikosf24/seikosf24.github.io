@@ -46,11 +46,14 @@ header {
 #g-nav a {
   position: relative;
   display: block;
-  padding: 4px;
-  margin: 5px;
+  padding: 10px;
   color: #fcfcfc;
   text-decoration: none;
   display: block;
+  transition: all ease 0.3s;
+}
+#g-nav a:hover {
+  color: #fdd;
 }
 #g-nav a::after {
 position: absolute;
@@ -61,13 +64,12 @@ height: 2px;
 background: #fcfcfc;
 bottom: -1px;
 transform: scale(0, 1);
-transform-origin: right top; /*変形（アンダーラインの伸長）の原点がaタグ（各メニュー）の右端*/
+transform-origin: center top; /*変形（アンダーラインの伸長）の原点がaタグ（各メニュー）の右端*/
 transition: transform 0.3s;  /*変形の時間*/
 }
 
 #g-nav a:hover::after {
 transform: scale(1, 1);     /*ホバー後、x軸方向に1（相対値）伸長*/
-transform-origin: left top; /*左から右に向かう*/
 }
 header .hide {
   transform: translateY(-60px);
@@ -236,16 +238,13 @@ footer {
   }
   #g-nav li a {
     border-bottom: 2px groove #224;
-    color: white;
+    color: #fcfcfc;
     text-decoration: none;
     padding: 15px;
     display: block;
     letter-spacing: 0.1em;
     font-weight: bold;
     font-size: 1.8rem;
-  }
-  #g-nav li a:hover {
-    color: #666;
   }
   /*ボタン用*/
   #openbtn {

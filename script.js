@@ -35,7 +35,7 @@ window.addEventListener("scroll", function () {
     a.style.color = "#222222";
   }
 });
-let oElements = document.getElementsByClassName("container");
+let oElements = document.getElementsByClassName("cellsImage");
 window.addEventListener("scroll", function () {
   for (let i = 0; i < oElements.length; i++) {
     var tag = oElements[i];
