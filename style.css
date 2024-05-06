@@ -142,7 +142,7 @@ main {
 }
 .container {
   display: flex;
-  transition: all ease 1s;
+  transition: opacity ease 1s;
 }
 h2 {
   font-weight: normal;
