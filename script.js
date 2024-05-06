@@ -1,3 +1,4 @@
+//スマホでメニュー出てくるとこ
 document.getElementById("openbtn").addEventListener("click", function () {
   document.getElementById("openbtn").classList.toggle("active");
   document.getElementById("g-nav").classList.toggle("panelactive");
@@ -25,6 +26,7 @@ setInterval(function () {
   }"`;
 }, 1500);
 
+//Seikoの左上のやつ
 let a = document.getElementById("cc1");
 window.addEventListener("scroll", function () {
   let h1 = document.getElementById("topImage").offsetHeight - 50;
@@ -35,16 +37,19 @@ window.addEventListener("scroll", function () {
     a.style.color = "#222222";
   }
 });
+
+//写真の表示非表示
 let oElements = document.getElementsByClassName("cellsImage");
 window.addEventListener("scroll", function () {
   for (let i = 0; i < oElements.length; i++) {
     var tag = oElements[i];
     var scr = tag.getBoundingClientRect();
     var y = window.innerHeight - scr.top;
-    if (y > 250) {
-      tag.classList.remove("ap");
-    } else {
+    console.log(y);
+    if (y < 250) {
       tag.classList.add("ap");
+    } else {
+      tag.classList.remove("ap");
     }
   }
 });
