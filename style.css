@@ -1,5 +1,6 @@
 html {
   font-size: 62.5%;
+  scroll-behavior: smooth;
 }
 :root {
   --light: #fafafc;
@@ -14,11 +15,13 @@ body {
   line-height: 1.5;
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: transparent;
-  scroll-behavior: smooth;
   background-color: var(--light);
   background-image: url("https://cdn.glitch.global/6b229fd4-b092-4044-9cc2-0b306f76df3b/text.svg?v=1714920707773");
   background-repeat: repeat;
   background-size: 100%;
+}
+::selection{
+background: #22224488;
 }
 a {
   text-decoration: none;
