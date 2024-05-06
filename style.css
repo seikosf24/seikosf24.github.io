@@ -145,7 +145,7 @@ h1 {
   left: 5px;
   color: #fcfcfc;
   font-size: calc(6vw + 15px);
-  font-family: serif;
+  font-family: "Shippori Mincho", serif;
   font-weight: normal;
   z-index: 80;
 }
