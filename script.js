@@ -64,7 +64,6 @@ function ap() {
     var tag = oElements[i];
     var scr = tag.getBoundingClientRect();
     var y = window.innerHeight - scr.top;
-    console.log(y);
     if (y < 250) {
       tag.classList.add("ap");
     } else {

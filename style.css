@@ -170,6 +170,7 @@ main {
 }
 .container {
   display: flex;
+  margin-bottom: 100px;
 }
 h2 {
   position: relative;
@@ -214,7 +215,7 @@ p {
   line-height: 2;
   letter-spacing: 0.2em;
   clear: both;
-  margin: 10px 0;
+  margin: 20px 0;
 }
 p::first-letter {
   font-size: 2em;
