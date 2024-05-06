@@ -1,6 +1,10 @@
 html {
   font-size: 62.5%;
 }
+:root {
+  --light: #fafafc;
+  --dark: #222244;
+}
 body {
   margin: 0;
   padding: 0;
@@ -11,7 +15,7 @@ body {
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: transparent;
   scroll-behavior: smooth;
-  background-color: #fafafc;
+  background-color: var(--light);
   background-image: url("https://cdn.glitch.global/6b229fd4-b092-4044-9cc2-0b306f76df3b/text.svg?v=1714920707773");
   background-repeat: repeat;
   background-size: 100%;
@@ -47,7 +51,7 @@ header {
   position: relative;
   display: block;
   padding: 10px;
-  color: #fcfcfc;
+  color: var(--light);
   text-decoration: none;
   display: block;
   transition: all ease 0.3s;
@@ -61,7 +65,7 @@ header {
   content: "";
   width: 100%;
   height: 2px;
-  background: #fcfcfc;
+  background-color: var(--light);
   bottom: -1px;
   transform: scale(0, 1);
   transform-origin: center top; /*変形（アンダーラインの伸長）の原点がaタグ（各メニュー）の右端*/
@@ -143,7 +147,7 @@ h1 {
   position: absolute;
   bottom: 5px;
   left: 5px;
-  color: #fcfcfc;
+  color: var(--light);
   font-size: calc(6vw + 15px);
   font-family: "Shippori Mincho", serif;
   font-weight: normal;
@@ -220,7 +224,9 @@ p::first-letter {
 footer {
   padding: 20px;
   text-align: center;
-  min-height: 200vh;
+  min-height: 50vh;
+  color: var(--light);
+  background-color: #224;
 }
 @media screen and (max-width: 700px) {
   /*ヘッダー*/
@@ -254,7 +260,7 @@ footer {
   }
   #g-nav li a {
     border-bottom: 2px groove #224;
-    color: #fcfcfc;
+    color: var(--light);
     text-decoration: none;
     padding: 15px;
     display: block;
@@ -281,7 +287,7 @@ footer {
     left: 14px;
     height: 3px;
     border-radius: 2px;
-    background-color: #fcfcfc;
+    background-color: var(--light);
     width: 45%;
   }
   #openbtn span:nth-of-type(1) {
