@@ -38,7 +38,7 @@ window.addEventListener("scroll", function () {
   }
 });
 
-//写真の表示非表示
+/*
 let oElements = document.getElementsByClassName("cellsImage");
 window.addEventListener("scroll", function () {
   for (let i = 0; i < oElements.length; i++) {
@@ -53,3 +53,22 @@ window.addEventListener("scroll", function () {
     }
   }
 });
+*/
+let oElements = document.getElementsByClassName("cellsImage");
+window.addEventListener("scroll", function () {
+  ap();
+});
+ap();
+function ap() {
+  for (let i = 0; i < oElements.length; i++) {
+    var tag = oElements[i];
+    var scr = tag.getBoundingClientRect();
+    var y = window.innerHeight - scr.top;
+    console.log(y);
+    if (y < 250) {
+      tag.classList.add("ap");
+    } else {
+      tag.classList.remove("ap");
+    }
+  }
+}

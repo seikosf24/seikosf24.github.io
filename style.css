@@ -205,7 +205,6 @@ h2::before {
   margin: 0px auto;
   box-shadow: 0px 0px 20px silver;
   transition: opacity ease 1s;
-  opacity: 1;
 }
 p {
   line-height: 2;
