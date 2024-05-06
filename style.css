@@ -38,14 +38,22 @@ header {
   justify-content: right;
   flex-wrap: nowrap;
   overflow-x: scroll;
+  float: right;
 }
 #g-nav li {
   display: block;
-  padding: 10px;
 }
 #g-nav a {
+  display: block;
+  padding: 4px;
+  margin: 5px;
   color: #fcfcfc;
   text-decoration: none;
+  display: block;
+  border-bottom-width: 2px;
+  border-bottom-style: solid;
+  border-image-source: linear-gradient(to right, white, transparent);
+  border-image-slice: 1;
 }
 header .hide {
   transform: translateY(-60px);
@@ -152,7 +160,7 @@ h2 {
   font-family: "oswald", sans-serif;
 }
 .ap {
-opacity: 0;
+  opacity: 0;
 }
 .cells {
   width: 50%;
@@ -180,6 +188,7 @@ p::first-letter {
 footer {
   padding: 20px;
   text-align: center;
+  min-height: 2vh;
 }
 @media screen and (max-width: 700px) {
   /*ヘッダー*/
@@ -203,6 +212,7 @@ footer {
     padding-top: 240px;
     z-index: 999;
     display: block;
+    float: none;
   }
   #g-nav li {
     display: list-item;
