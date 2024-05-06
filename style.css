@@ -56,20 +56,20 @@ header {
   color: #fdd;
 }
 #g-nav a::after {
-position: absolute;
-left: 0;
-content: '';
-width: 100%;
-height: 2px;
-background: #fcfcfc;
-bottom: -1px;
-transform: scale(0, 1);
-transform-origin: center top; /*変形（アンダーラインの伸長）の原点がaタグ（各メニュー）の右端*/
-transition: transform 0.3s;  /*変形の時間*/
+  position: absolute;
+  left: 0;
+  content: "";
+  width: 100%;
+  height: 2px;
+  background: #fcfcfc;
+  bottom: -1px;
+  transform: scale(0, 1);
+  transform-origin: center top; /*変形（アンダーラインの伸長）の原点がaタグ（各メニュー）の右端*/
+  transition: transform 0.3s; /*変形の時間*/
 }
 
 #g-nav a:hover::after {
-transform: scale(1, 1);     /*ホバー後、x軸方向に1（相対値）伸長*/
+  transform: scale(1, 1); /*ホバー後、x軸方向に1（相対値）伸長*/
 }
 header .hide {
   transform: translateY(-60px);
@@ -170,21 +170,24 @@ main {
 h2 {
   position: relative;
   font-weight: normal;
-  margin: 0 auto;
+  margin: 20px auto;
   padding-left: 10px;
-  border-left: 5px solid #224;
   font-size: 3rem;
   font-family: "oswald", sans-serif;
   min-width: 0;
+  width: fit-content;
 }
 h2::before {
   content: "";
-position: absolute;
+  position: absolute;
   top: 0;
-  left: 0;
-  width: 3rem;
-  height: 3rem;
-  background-color: green;
+  left: -4.5rem;
+  margin: 1.3rem 1.3rem 1rem 1rem;
+  width: 1.9rem;
+  height: 1.9rem;
+  border-top: 0.3rem solid #224;
+  border-right: 0.3rem solid #224;
+  transform: rotate(45deg);
 }
 .ap {
   opacity: 0;
@@ -194,7 +197,7 @@ position: absolute;
   min-height: 200px;
 }
 .cells:nth-child(odd) {
-text-align: center;
+  text-align: center;
 }
 .cellsImage {
   border: 2px solid #224;
