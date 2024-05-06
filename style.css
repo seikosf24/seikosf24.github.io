@@ -226,6 +226,8 @@ footer {
   padding: 20px;
   text-align: center;
   min-height: 50vh;
+  font-size: 1.8rem;
+  font-family: "oswald", sans-serif;
   color: var(--light);
   background-color: var(--dark);
 }
