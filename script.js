@@ -41,7 +41,7 @@ window.addEventListener("scroll", function () {
     var tag = oElements[i];
     var scr = tag.getBoundingClientRect();
     var y = window.innerHeight - scr.top;
-    if (y > 400) {
+    if (y > 250) {
       tag.classList.remove("ap");
     } else {
       tag.classList.add("ap");
