@@ -22,7 +22,7 @@ body {
 }
 a {
   text-decoration: none;
-  color: #2222cc;
+  color: #4444dd;
 }
 /*上のメニュー*/
 header {
@@ -133,7 +133,7 @@ header .hide {
   background-position: 0 0, 2px 2px;
   z-index: 40;
 }
-/
+/*メニューのSEIKOの文字*/
 #cc1 {
   position: fixed;
   top: max(3px, calc(8px - 3vw));
@@ -145,6 +145,7 @@ header .hide {
   opacity: 1;
   transition: color ease 0.3s;
 }
+/*キャッチコピー*/
 h1 {
   margin: 0;
   position: absolute;
@@ -167,7 +168,7 @@ h1 {
   z-index: 15;
   box-shadow: 0px 10px 20px silver;
 }
-
+/*インスタのボタン*/
 #insta_btn2 {
   color: white;
   border-radius: 7px;
@@ -212,11 +213,10 @@ h1 {
   top: -15px;
   transition: 0.5s;
 }
-
 #insta_btn2:hover span {
   transform: rotateX(360deg);
 }
-
+/*メイン要素*/
 main > div {
   margin: 60px auto;
   width: min(1000px, calc(100vw - 40px));
@@ -266,18 +266,17 @@ h2::before {
 /*お知らせ*/
 table.news {
   width: 90%;
+  border-collapse: collapse;
 }
 .news tr {
-  border-bottom: 1px groove #e9d0d0;
+  border-bottom: 1px solid var(--dark);
   width: 80%;
 }
 .news td {
   padding: 10px;
   margin: 10px;
 }
-.news td a {
-  color: #84c;
-}
+/*写真の表示非表示*/
 .ap {
   opacity: 0;
 }
@@ -301,11 +300,13 @@ p {
   clear: both;
   margin: 20px 0;
 }
+/*1文字目を大きく*/
 p::first-letter {
   font-size: 2em;
   float: left;
   padding-right: 5px;
 }
+/*フッター*/
 footer {
   overflow: hidden;
   padding-top: 20px;
@@ -315,6 +316,7 @@ footer {
   color: var(--light);
   background-color: var(--dark);
 }
+/*フッターの大きい文字*/
 #footerCoolLogo {
   margin-top: 30px;
   font-style: italic;
@@ -365,7 +367,7 @@ footer {
     font-weight: bold;
     font-size: 1.8rem;
   }
-  /*ボタン用*/
+  /*ハンバーガーメニュー*/
   #openbtn {
     position: fixed;
     z-index: 9999;
@@ -415,7 +417,7 @@ footer {
     transform: translateY(-6px) rotate(45deg);
     width: 30%;
   }
-  /*ここまで*/
+  /*縦並び*/
   .container {
     display: block;
   }
