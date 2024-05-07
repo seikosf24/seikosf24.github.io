@@ -24,6 +24,7 @@ a {
   text-decoration: none;
   color: #2222cc;
 }
+/*上のメニュー*/
 header {
   margin: 0;
   width: min(1000px, 100vw);
@@ -74,11 +75,12 @@ header {
 #g-nav a:hover::after {
   transform: scale(1, 1); /*ホバー後、x軸方向に1（相対値）伸長*/
 }
-
+/*使わない*/
 header .hide {
   transform: translateY(-60px);
   opacity: 0.5;
 }
+/*メイン画像*/
 #topImage2 {
   position: absolute;
   top: 0;
@@ -131,6 +133,7 @@ header .hide {
   background-position: 0 0, 2px 2px;
   z-index: 40;
 }
+/
 #cc1 {
   position: fixed;
   top: max(3px, calc(8px - 3vw));
@@ -197,7 +200,7 @@ h1 {
     )
     no-repeat;
 }
-#insta_btn2 img{
+#insta_btn2 img {
   font-size: 35px;
   position: relative;
   top: 4px;
@@ -259,6 +262,21 @@ h2::before {
   border-top: 0.4rem solid var(--dark);
   border-right: 0.4rem solid var(--dark);
   transform: rotate(45deg);
+}
+/*お知らせ*/
+table.news {
+  width: 90%;
+}
+.news tr {
+  border-bottom: 1px groove #e9d0d0;
+  width: 80%;
+}
+.news td {
+  padding: 10px;
+  margin: 10px;
+}
+.news td a {
+  color: #84c;
 }
 .ap {
   opacity: 0;
