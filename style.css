@@ -138,7 +138,7 @@ header .hide {
   color: var(--light);
   font-size: min(36px, calc(4vw + 16px));
   font-family: "oswald", sans-serif;
-  z-index: 80;
+  z-index: 70;
   opacity: 1;
   transition: color ease 0.3s;
 }
@@ -156,9 +156,10 @@ h1 {
 #headerBlack {
   width: 100vw;
   height: 60px;
-  position: sticky;
+  position: fixed;
   overflow: hidden;
-  top: 60px;
+  top: 0px;
+  left: 0px;
   background: linear-gradient(-30deg, var(--dark) 52%, var(--light) 52%);
   z-index: 15;
   box-shadow: 0px 10px 20px silver;
@@ -226,9 +227,16 @@ footer {
   text-align: center;
   min-height: 50vh;
   font-size: 1.8rem;
-  font-family: "oswald", sans-serif;
+  /*font-family: "oswald", sans-serif;*/
   color: var(--light);
   background-color: var(--dark);
+}
+#footerCoolLogo {
+  font-style: italic;
+  font-size: min(100px, 12vw);
+  color: var(--dark);
+  -webkit-text-stroke: 1px var(--light);
+  text-stroke: 1px var(--light);
 }
 @media screen and (max-width: 700px) {
   /*ヘッダー*/
