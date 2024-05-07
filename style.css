@@ -233,11 +233,11 @@ footer {
 }
 #footerCoolLogo {
   font-style: italic;
-  font-size: min(10vw, calc(8vw + 16px));
+  font-size: max(10vw, calc(8vw + 16px));
   color: var(--dark);
   -webkit-text-stroke: 1px var(--light);
   text-stroke: 1px var(--light);
-  transform: translateY(3vw) scale(1);
+  transform: translateY(3vw) scale(1.25);
 }
 @media screen and (max-width: 700px) {
   /*ヘッダー*/
