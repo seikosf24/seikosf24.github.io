@@ -165,41 +165,100 @@ h1 {
   box-shadow: 0px 10px 20px silver;
 }
 
-#insta_btn2{/*ボタンの下地*/
-  color: #FFF;/*文字・アイコン色*/
-  border-radius: 7px;/*角丸に*/
+#insta_btn2 {
+  color: white;
+  border-radius: 7px;
   position: relative;
-  display: inline-block;
+  display: block;
   margin: 0 auto;
-  height: 50px;/*高さ*/
-  width: 190px;/*幅*/
-  text-align: center;/*中身を中央寄せ*/
-  font-size: 25px;/*文字のサイズ*/
-  line-height: 50px;/*高さと合わせる*/
-  background: -webkit-linear-gradient(135deg, #427eff 0%, #f13f79 70%) no-repeat;
-  background: linear-gradient(135deg, #427eff 0%, #f13f79 70%) no-repeat;/*グラデーション①*/
-  overflow: hidden;/*はみ出た部分を隠す*/
-  text-decoration:none;/*下線は消す*/
+  height: 50px;<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0.00 0.00 512.00 512.00">
+<path fill="#FFFFFF" d="
+  M 98.94 477.26
+  C 58.56 456.86 35.85 419.94 31.41 375.47
+  Q 30.74 368.79 30.73 355.51
+  Q 30.68 270.82 30.72 177.74
+  Q 30.73 164.49 31.48 157.78
+  Q 33.81 137.05 40.27 120.26
+  C 54.85 82.40 86.43 56.36 126.07 47.28
+  Q 143.42 43.31 162.29 43.31
+  Q 255.04 43.31 348.51 43.31
+  Q 372.67 43.31 395.94 51.25
+  Q 428.52 62.37 450.17 89.08
+  Q 469.05 112.35 475.25 141.75
+  Q 478.55 157.43 478.56 174.45
+  Q 478.61 269.58 478.53 363.54
+  Q 478.51 375.05 476.17 388.39
+  C 471.31 416.08 458.78 440.84 438.28 459.02
+  C 413.88 480.66 381.58 491.11 349.21 491.16
+  Q 308.23 491.23 158.92 491.13
+  C 139.42 491.12 117.10 486.43 98.94 477.26
+  Z
+  M 162.57 84.85
+  C 124.90 84.84 91.40 100.58 78.20 137.93
+  Q 72.27 154.70 72.26 172.02
+  Q 72.20 264.77 72.28 360.68
+  C 72.30 389.31 82.32 418.44 107.33 434.66
+  C 123.46 445.12 142.39 449.64 161.46 449.65
+  Q 256.16 449.69 347.74 449.66
+  C 382.34 449.64 415.66 434.35 430.27 401.47
+  Q 438.77 382.36 438.79 362.55
+  Q 438.90 267.25 438.81 173.98
+  C 438.79 150.66 431.24 127.21 415.39 110.34
+  C 398.37 92.22 373.62 84.88 348.61 84.88
+  Q 254.09 84.85 162.57 84.85
+  Z"
+/>
+<circle fill="#FFFFFF" cx="374.74" cy="148.09" r="26.17"/>
+<path fill="#FFFFFF" d="
+  M 370.08 266.47
+  A 115.53 115.53 0.0 0 1 254.55 382.00
+  A 115.53 115.53 0.0 0 1 139.02 266.47
+  A 115.53 115.53 0.0 0 1 254.55 150.94
+  A 115.53 115.53 0.0 0 1 370.08 266.47
+  Z
+  M 328.60 266.38
+  A 73.96 73.96 0.0 0 0 254.64 192.42
+  A 73.96 73.96 0.0 0 0 180.68 266.38
+  A 73.96 73.96 0.0 0 0 254.64 340.34
+  A 73.96 73.96 0.0 0 0 328.60 266.38
+  Z"
+/>
+</svg>
+
+  width: 190px;
+  text-align: center;
+  font-size: 25px;
+  line-height: 50px;
+  background: linear-gradient(135deg, #427eff 0%, #f13f79 70%) no-repeat;
+  overflow: hidden;
+  text-decoration: none;
+  transform: translateY(10px);
+  box-shadow: 0px 5px 10px silver;
 }
-#insta_btn2:before{/*グラデーション②*/
-  content: '';
+#insta_btn2:before {
+  content: "";
   position: absolute;
   top: 0;
   left: 0;
-  width: 100%;/*全体を覆う*/
-  height: 100%;/*全体を覆う*/
-  background: -webkit-linear-gradient(15deg, #ffdb2c, rgb(249, 118, 76) 25%, rgba(255, 77, 64, 0) 50%) no-repeat;
-  background: linear-gradient(15deg, #ffdb2c, rgb(249, 118, 76) 25%, rgba(255, 77, 64, 0) 50%) no-repeat;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+      15deg,
+      #ffdb2c,
+      rgb(249, 118, 76) 25%,
+      rgba(255, 77, 64, 0) 50%
+    )
+    no-repeat;
 }
-#insta_btn2 span {/*テキスト*/
-  display:inline-block;
+#insta_btn2 span {
+  display: inline-block;
   position: relative;
-  transition: .5s
+  transition: 0.5s;
 }
 
-#insta_btn2:hover span{/*ホバーで一周回転*/
-  -webkit-transform: rotateX(360deg);
-  -ms-transform: rotateX(360deg);
+#insta_btn2:hover span {
   transform: rotateX(360deg);
 }
 
