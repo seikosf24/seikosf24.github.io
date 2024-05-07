@@ -201,10 +201,12 @@ h1 {
   font-size: 35px;
   position: relative;
   top: 4px;
+  transform: translateY(-5px);
 }
 #insta_btn2 span {
   display: inline-block;
   position: relative;
+  transform: translateY(-15px);
   transition: 0.5s;
 }
 
