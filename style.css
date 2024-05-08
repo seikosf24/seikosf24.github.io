@@ -271,17 +271,18 @@ h2::before {
   padding: 15px;
   margin: 0 auto;
   border-collapse: collapse;
-  background-color: #ffffff88;
+  background: linear-gradient(-135deg, transparent 24px, var(--light) 0) top right;
+  background-repeat: no-repeat;
 }
 .news:after{
 	position: absolute;
 	content: '';
 	right: 0px;
 	top: 0px;
-	border-width: 0 15px 15px 0;
+	border-width: 0 34px 34px 0;
 	border-style: solid;
-	border-color: #ccc transparent  #ccc;
-	box-shadow: -1px 1px 1px rgba(0, 0, 0, 0.15);
+	border-color: #bbb transparent  #bbb;
+	box-shadow: -2px 2px 2px rgba(0, 0, 0, 0.15);
 }
 .news tbody {
 display: block;
