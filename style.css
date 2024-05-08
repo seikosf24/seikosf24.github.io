@@ -224,6 +224,7 @@ main > div {
 .container {
   display: flex;
 }
+/*見出し*/
 h2 {
   position: relative;
   font-weight: normal;
@@ -273,6 +274,8 @@ h2::before {
   border-collapse: collapse;
   background: linear-gradient(-135deg, transparent 24px, var(--light) 0) top right;
   background-repeat: no-repeat;
+  border-radius: 10px;
+  filter: drop-shadow(5px 5px 3px gray);
 }
 .news:after{
 	position: absolute;
@@ -282,12 +285,12 @@ h2::before {
 	border-width: 0 34px 34px 0;
 	border-style: solid;
 	border-color: #bbb transparent  #bbb;
-	box-shadow: -2px 2px 2px rgba(0, 0, 0, 0.15);
+	filter: drop-shadow(2px 2px 2px gray);
 }
-.news tbody {
+.news tbody, .news tfoot{
 display: block;
 }
-.news tr {
+.news tr:not(:last-child) {
   border-bottom: 1px solid var(--dark);
   display: flex;
   justify-content: space-between;
