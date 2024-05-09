@@ -55,7 +55,7 @@ document.getElementById("pagetop").addEventListener("click", function () {
 //背景変色
 //高さで表示非表示
 function backShift() {
-  if (window.scrollY > 1200) {
+  if (window.scrollY > 2000) {
     document.body.style.backgroundColor = "var(--dark)";
   } else {
     document.body.style.backgroundColor = "var(--light)";
