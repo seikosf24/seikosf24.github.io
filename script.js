@@ -52,6 +52,22 @@ document.getElementById("pagetop").addEventListener("click", function () {
   });
 });
 
+//背景変色
+//高さで表示非表示
+function backShift() {
+  if (window.scrollY > 1200) {
+    document.getElementById("pagetop").style.right = "20px";
+    document.body.style.backgroundColor = "var(--dark)";
+  } else {
+    document.getElementById("pagetop").style.right = "-60px";
+    document.body.style.backgroundColor = "var(--light)";
+  }
+}
+window.addEventListener("scroll", function () {
+  backShift();
+});
+backShift;
+
 //Seikoの左上のやつ
 let a = document.getElementById("cc1");
 window.addEventListener("scroll", function () {
