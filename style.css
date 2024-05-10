@@ -3,16 +3,20 @@ html {
   scroll-behavior: smooth;
 }
 @font-face {
-  font-family: 'oswald'; 
-  src: url('https://cdn.glitch.global/6b229fd4-b092-4044-9cc2-0b306f76df3b/Oswald-Regular.ttf?v=1715349345985') format('truetype');
+  font-family: "oswald";
+  src: url("https://cdn.glitch.global/6b229fd4-b092-4044-9cc2-0b306f76df3b/Oswald-Regular.ttf?v=1715349345985")
+    format("truetype");
   font-weight: normal;
-    font-style: normal;
+  font-style: normal;
+  font-display: swap;
 }
 @font-face {
-  font-family: 'BIZ UDPGothic'; 
-  src: url('https://cdn.glitch.global/6b229fd4-b092-4044-9cc2-0b306f76df3b/BIZUDPGothic-Regular.ttf?v=1715349968213') format('truetype');
+  font-family: "BIZ UDPGothic";
+  src: url("https://cdn.glitch.global/6b229fd4-b092-4044-9cc2-0b306f76df3b/BIZUDPGothic-Regular.ttf?v=1715349968213")
+    format("truetype");
   font-weight: normal;
-    font-style: normal;
+  font-style: normal;
+  font-display: swap;
 }
 :root {
   --light: #fafafc;
@@ -95,31 +99,31 @@ header .hide {
 }
 /*上に戻る*/
 #pagetop {
-    width: 38px;
-    height: 38px;
+  width: 38px;
+  height: 38px;
   border: 1px solid var(--light);
-    border-radius: 100%;
-    background-color: var(--dark);
-    position: fixed;
-    bottom: 20px;
-    right: -40px;
-    z-index: 998;
-    cursor: pointer;
-    opacity: 0.8;
-    transition: all 0.5s ease;
+  border-radius: 100%;
+  background-color: var(--dark);
+  position: fixed;
+  bottom: 20px;
+  right: -40px;
+  z-index: 998;
+  cursor: pointer;
+  opacity: 0.8;
+  transition: all 0.5s ease;
 }
- 
+
 #pagetop::after {
-    content: "";
-    width: 15px;
-    height: 15px;
-    border-left: 4px solid white;
-    border-top: 4px solid white;
-    position: absolute;
-    transform: rotate(45deg);
-    bottom: 7px;
-    right: 10px;
-    z-index: 999;
+  content: "";
+  width: 15px;
+  height: 15px;
+  border-left: 4px solid white;
+  border-top: 4px solid white;
+  position: absolute;
+  transform: rotate(45deg);
+  bottom: 7px;
+  right: 10px;
+  z-index: 999;
 }
 /*メイン画像*/
 #topImage2 {
@@ -313,23 +317,25 @@ h2::before {
   padding: 15px;
   margin: 0 auto;
   border-collapse: collapse;
-  background: linear-gradient(-135deg, transparent 24px, var(--light) 0) top right;
+  background: linear-gradient(-135deg, transparent 24px, var(--light) 0) top
+    right;
   background-repeat: no-repeat;
   border-radius: 10px;
   filter: drop-shadow(5px 5px 4px #88888888);
 }
-.news:after{
-	position: absolute;
-	content: '';
-	right: 0px;
-	top: 0px;
-	border-width: 0 34px 34px 0;
-	border-style: solid;
-	border-color: #bbb transparent  #bbb;
-	filter: drop-shadow(2px 2px 2px #88888888);
+.news:after {
+  position: absolute;
+  content: "";
+  right: 0px;
+  top: 0px;
+  border-width: 0 34px 34px 0;
+  border-style: solid;
+  border-color: #bbb transparent #bbb;
+  filter: drop-shadow(2px 2px 2px #88888888);
 }
-.news tbody, .news tfoot{
-display: block;
+.news tbody,
+.news tfoot {
+  display: block;
 }
 .news tbody tr {
   border-bottom: 1px solid var(--dark);
