@@ -126,16 +126,6 @@ header .hide {
   z-index: 999;
 }
 /*メイン画像*/
-#topImage2 {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100vw;
-  height: min(100vw, 100vh);
-  background-image: url("https://cdn.glitch.global/6b229fd4-b092-4044-9cc2-0b306f76df3b/IMG_6340.jpeg?v=1714780045834");
-  background-size: cover;
-  z-index: 25;
-}
 #topImage {
   position: relative;
   width: 100vw;
@@ -145,6 +135,16 @@ header .hide {
   transition: opacity ease 1s;
   z-index: 30;
   opacity: 1;
+}
+#topImage2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: min(100vw, 100vh);
+  background-image: url("https://cdn.glitch.global/6b229fd4-b092-4044-9cc2-0b306f76df3b/IMG_6340.jpeg?v=1714780045834");
+  background-size: cover;
+  z-index: 25;
 }
 #topImage3 {
   position: absolute;
