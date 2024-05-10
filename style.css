@@ -9,12 +9,6 @@ html {
     font-style: normal;
 }
 @font-face {
-  font-family: 'Shippori Mincho'; 
-  src: url('https://cdn.glitch.global/6b229fd4-b092-4044-9cc2-0b306f76df3b/ShipporiMincho-Regular.ttf?v=1715349671670') format('truetype');
-  font-weight: normal;
-    font-style: normal;
-}
-@font-face {
   font-family: 'BIZ UDPGothic'; 
   src: url('https://cdn.glitch.global/6b229fd4-b092-4044-9cc2-0b306f76df3b/BIZUDPGothic-Regular.ttf?v=1715349968213') format('truetype');
   font-weight: normal;
@@ -200,7 +194,7 @@ h1 {
   left: 5px;
   color: var(--light);
   font-size: calc(6vw + 15px);
-  font-family: "Shippori Mincho", serif;
+  font-family: serif;
   font-weight: normal;
   z-index: 80;
 }
@@ -264,7 +258,7 @@ h1 {
   transform: rotateX(360deg);
 }
 /*メイン要素*/
-main > div {
+main > section {
   margin: 60px auto;
   width: min(1000px, calc(100vw - 40px));
 }
