@@ -2,6 +2,10 @@ html {
   font-size: 62.5%;
   scroll-behavior: smooth;
 }
+@font-face {
+  font-family: 'oswald'; 
+  src: url('https://cdn.glitch.global/6b229fd4-b092-4044-9cc2-0b306f76df3b/Oswald-Regular.ttf?v=1715349345985') format('truetype');
+}
 :root {
   --light: #fafafc;
   --dark: #222244;
