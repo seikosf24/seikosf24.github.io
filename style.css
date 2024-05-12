@@ -220,6 +220,7 @@ h1 {
   color: white;
   border-radius: 7px;
   position: relative;
+  top: 25px;
   display: block;
   margin: 0 auto;
   height: 50px;
@@ -230,8 +231,8 @@ h1 {
   background: linear-gradient(135deg, #427eff 0%, #f13f79 70%) no-repeat;
   overflow: hidden;
   text-decoration: none;
-  transform: translateY(25px);
   box-shadow: 0px 5px 10px var(--shadow);
+  animation: poyoyon3 2.5s infinite;
 }
 #insta_btn2:before {
   content: "";
@@ -262,6 +263,32 @@ h1 {
 }
 #insta_btn2:hover span {
   transform: rotateX(360deg);
+}
+@keyframes poyoyon3 {
+  0%, 40% {
+    transform: skew(0deg, 0deg);
+  }
+  5% {
+    transform: skew(5deg, 5deg);
+  }
+  10% {
+    transform: skew(-4deg, -4deg);
+  }
+  15% {
+    transform: skew(3deg, 3deg);
+  }
+  20% {
+    transform: skew(-2deg, -2deg);
+  }
+  25% {
+    transform: skew(1deg, 1deg);
+  }
+  30% {
+    transform: skew(-0.6deg, -0.6deg);
+  }
+  35% {
+    transform: skew(0.3deg, 0.3deg);
+  }
 }
 /*メイン要素*/
 main > section {
