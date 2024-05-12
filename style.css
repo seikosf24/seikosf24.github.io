@@ -35,7 +35,7 @@ body {
   background-image: url("https://cdn.glitch.global/6b229fd4-b092-4044-9cc2-0b306f76df3b/text.svg?v=1714920707773");
   background-repeat: repeat;
   background-size: 100%;
-  transition: background-color ease 0.5s;
+  transition: background-color ease 1s;
 }
 a {
   text-decoration: none;
@@ -267,6 +267,7 @@ main > section {
 }
 .container {
   display: flex;
+  color: var(--light);
 }
 /*見出し*/
 h2 {
@@ -307,6 +308,16 @@ h2::before {
   border-top: 0.4rem solid var(--dark);
   border-right: 0.4rem solid var(--dark);
   transform: rotate(45deg);
+}
+.container h2 {
+  color: var(--light);
+}
+.container h2::after {
+  background-color: var(--light);
+}
+.container h2::before {
+  border-top: 0.4rem solid var(--light);
+  border-right: 0.4rem solid var(--light);
 }
 /*お知らせ*/
 .news {
