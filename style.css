@@ -394,7 +394,7 @@ h2::before {
   background: var(--light);
   border-radius: 10px;
   margin: 0 auto;
-  padding: 15px;
+  padding: 40px 15px;
   position: relative;
   border: 2px solid silver;
 }
@@ -495,7 +495,10 @@ footer {
   background-color: var(--dark);
 }
 #footerLink {
+  margin: 30px auto;
+  width: min(1000px, calc(100vw - 40px));
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
 }
 #footerLink a {
