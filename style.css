@@ -20,7 +20,7 @@ html {
 }
 :root {
   --light: #fafafc;
-  --dark: #222244;
+  --dark: #112244;
   --shadow: #22222244;
 }
 body {
@@ -442,10 +442,14 @@ h2::before {
   transition: opacity ease 1s;
 }
 .cells p {
+  background-color: var(--dark);
+  border-radius: 10px;
   line-height: 2;
-  letter-spacing: 0.2em;
+  letter-spacing: 0.1em;
   clear: both;
   margin: 20px 0;
+  padding: 10px;
+  border: 1px solid var(--light);
 }
 /*1文字目を大きく*/
 .cells p::first-letter {
