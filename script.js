@@ -58,10 +58,8 @@ function backShift() {
   let clientRect = document.getElementById("colorChange").getBoundingClientRect() ;
   if (clientRect.top < 100) {
     document.body.style.backgroundColor = "var(--dark)";
-    document.body.style.backgroundImage = "var(--dark)";
   } else {
     document.body.style.backgroundColor = "var(--light)";
-    document.body.style.backgroundImage = "var(--dark)";
   }
 }
 window.addEventListener("scroll", function () {

@@ -21,6 +21,7 @@ html {
 :root {
   --light: #fafafc;
   --dark: #222244;
+  --shadow: #22222244;
 }
 body {
   margin: 0;
@@ -111,6 +112,7 @@ header .hide {
   cursor: pointer;
   opacity: 0.8;
   transition: all 0.5s ease;
+  filter: drop-shadow(0 0 5px var(--shadow));
 }
 
 #pagetop::after {
@@ -200,6 +202,7 @@ h1 {
   font-family: serif;
   font-weight: normal;
   z-index: 80;
+  text-shadow: 0.1em 0.1em 0.1em var(--shadow);
 }
 #headerBlack {
   width: 100vw;
@@ -210,7 +213,7 @@ h1 {
   left: 0px;
   background: linear-gradient(-30deg, var(--dark) 52%, var(--light) 52%);
   z-index: 15;
-  box-shadow: 0px 10px 20px silver;
+  box-shadow: 0px 10px 20px var(--shadow);
 }
 /*インスタのボタン*/
 #insta_btn2 {
@@ -228,7 +231,7 @@ h1 {
   overflow: hidden;
   text-decoration: none;
   transform: translateY(25px);
-  box-shadow: 0px 5px 10px silver;
+  box-shadow: 0px 5px 10px var(--shadow);
 }
 #insta_btn2:before {
   content: "";
@@ -331,7 +334,7 @@ h2::before {
     right;
   background-repeat: no-repeat;
   border-radius: 10px;
-  filter: drop-shadow(5px 5px 4px #88888888);
+  filter: drop-shadow(5px 5px 4px var(--shadow));
 }
 .news:after {
   position: absolute;
@@ -341,7 +344,7 @@ h2::before {
   border-width: 0 34px 34px 0;
   border-style: solid;
   border-color: #bbb transparent #bbb;
-  filter: drop-shadow(2px 2px 2px #88888888);
+  filter: drop-shadow(2px 2px 2px var(--shadow));
 }
 .news tbody,
 .news tfoot {
@@ -366,7 +369,7 @@ h2::before {
   margin: 0 auto;
   padding: 15px;
   position: relative;
-  border: 2px solid silver
+  border: 2px solid silver;
 }
 .message:before, .message:after {
     bottom: 26px;
@@ -393,7 +396,7 @@ h2::before {
     position: relative;
   border-radius: 10px 0 0 0;
     border-width: 1px 1px 2px;
-    box-shadow: 0 2px 6px #22222288;
+    box-shadow: 0 2px 6px var(--shadow);
     margin: 0;
     padding: 4px 40px;
     position: absolute;
@@ -432,10 +435,10 @@ h2::before {
   text-align: center;
 }
 .cellsImage {
-  border: 2px solid var(--dark);
+  border: 2px solid var(--light);
   border-radius: 15px;
   margin: 0px auto;
-  box-shadow: 0px 0px 20px silver;
+  box-shadow: 0px 0px 20px var(--shadow);
   transition: opacity ease 1s;
 }
 .cells p {
