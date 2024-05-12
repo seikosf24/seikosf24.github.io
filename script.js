@@ -61,7 +61,7 @@ function backShift() {
     document.body.style.backgroundImage = "var(--dark)";
   } else {
     document.body.style.backgroundColor = "var(--light)";
-    document.body.style.backgroundColor = "var(--dark)";
+    document.body.style.backgroundImage = "var(--dark)";
   }
 }
 window.addEventListener("scroll", function () {
