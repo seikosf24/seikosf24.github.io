@@ -431,13 +431,13 @@ h2::before {
     top: 12px;
 }
 .message h3:after {
-    border-width: 7px;
+    border-width: 6px;
     border-style: solid;
     border-color: #134 transparent transparent #134;
-    bottom: -15px;
+    bottom: -12px;
     content: "";
     position: absolute;
-    right: -1px;
+    right: 0px;
 }
 .message p {
   line-height: 2.5;
