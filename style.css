@@ -21,7 +21,7 @@ html {
 :root {
   --light: #fafafc;
   --dark: #112244;
-  --shadow: #22222244;
+  --shadow: #88888888;
 }
 body {
   margin: 0;
@@ -438,7 +438,7 @@ h2::before {
   border: 2px solid var(--light);
   border-radius: 15px;
   margin: 0px auto;
-  box-shadow: 0px 0px 20px var(--shadow);
+  box-shadow: 5px 5px 20px var(--shadow);
   transition: opacity ease 1s;
 }
 .cells p {
