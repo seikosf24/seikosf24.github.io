@@ -388,6 +388,19 @@ footer {
   color: var(--light);
   background-color: var(--dark);
 }
+#footerLink {
+  display: flex;
+  justify-content: center;
+}
+#footerLink a {
+  display: block;
+  padding: 15px;
+  color: #ddf;
+  text-decoration: underline;
+}
+#footerLink a::before {
+  content: "> ";
+}
 /*フッターの大きい文字*/
 #footerCoolLogo {
   margin-top: 30px;
