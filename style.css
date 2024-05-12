@@ -75,7 +75,7 @@ header {
   transition: all ease 0.3s;
 }
 #g-nav a:hover {
-  color: #fdd;
+  color: #ffdddd;
 }
 #g-nav a::after {
   position: absolute;
