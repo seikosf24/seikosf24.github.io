@@ -380,7 +380,7 @@ h2::before {
     font-size: 21px;
     font-weight: bold;
     position: relative;
-  border-radius: 
+  border-radius: 10px 0 0 0;
     border-width: 1px 1px 2px;
     box-shadow: 0 2px 6px #22222288;
     margin: 0;
@@ -404,6 +404,10 @@ h2::before {
   padding: 0.2em;
   border-bottom: 1px dashed gray;
   letter-spacing: 0.1em;
+}
+.message > div {
+  display: block;
+  text-align: right;
 }
 /*写真の表示非表示*/
 .ap {
