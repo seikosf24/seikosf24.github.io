@@ -389,6 +389,14 @@ h2::before {
 .news td:nth-child(2) {
   width: 70%;
 }
+#info {
+text-align: center;
+  display: block;
+  margin: 10px auto;
+  padding: 15px;
+  width: fit-content;
+}
+/*説明*/
 .message {
   width: min(calc(100% - 30px), 700px);
   background: var(--light);
