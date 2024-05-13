@@ -265,7 +265,8 @@ h1 {
   transform: rotateX(360deg);
 }
 @keyframes poyoyon3 {
-  0%, 40% {
+  0%,
+  40% {
     transform: skew(0deg, 0deg);
   }
   5% {
@@ -390,43 +391,35 @@ h2::before {
   width: 70%;
 }
 #info {
-text-align: center;
+  text-align: center;
   display: block;
   margin: 10px auto;
   width: fit-content;
   font-size: 2em;
-  
-    position: relative;
-    padding: 1.5rem 1rem 0.6rem;
-    border-radius: 10px;
-    border: 1rem solid #535353;
-    background-color: white;
+  position: relative;
+  padding: 30px;
+  border-radius: 10px;
+  border: 10px solid #535353;
+  background-color: white;
 }
-
-#info::before {
-    position: absolute;
-    top: 3.5rem;
-    left: 1rem;
-    width: calc(100% - 2rem);
-    height: calc(100% - 2rem);
-    background-image: repeating-linear-gradient(#ffe8e8 0 1px, transparent 1px 37px);
-    content: '';
-}
-
 #info::after {
-    position: absolute;
-    top: -2rem;
-    left: 50%;
-    width: 60px;
-    height: 30px;
-    background-image: repeating-linear-gradient(-45deg, rgba(124, 249, 249, .5) 0 5px, transparent 5px 10px);
-    border-left: 2px dashed rgba(0, 0, 0, .1);
-    border-right: 2px dashed rgba(0, 0, 0, .1);
-    box-shadow: 0 0 5px rgba(0, 0, 0, .2);
-    padding: 0.25em 2em;
-    color: #65513f;
-    transform: translateX(-50%) rotate(-5deg);
-    content: '';
+  position: absolute;
+  top: -30px;
+  left: 50%;
+  width: 60px;
+  height: 30px;
+  background-image: repeating-linear-gradient(
+    -45deg,
+    rgba(124, 249, 249, 0.5) 0 5px,
+    transparent 5px 10px
+  );
+  border-left: 2px dashed rgba(0, 0, 0, 0.1);
+  border-right: 2px dashed rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  padding: 4px 32px;
+  color: #65513f;
+  transform: translateX(-50%) rotate(-5deg);
+  content: "";
 }
 /*説明*/
 .message {
@@ -438,46 +431,47 @@ text-align: center;
   position: relative;
   border: 2px solid silver;
 }
-.message:before, .message:after {
-    bottom: 26px;
-    box-shadow: 0 28px 8px #22222288;
-    content: "";
-    height: 28px;
-    position: absolute;
-    width: 48%;
-    z-index: -1;
+.message:before,
+.message:after {
+  bottom: 26px;
+  box-shadow: 0 28px 8px #22222288;
+  content: "";
+  height: 28px;
+  position: absolute;
+  width: 48%;
+  z-index: -1;
 }
 .message:before {
-    left: 2%;
-    transform: rotate(-3deg);
+  left: 2%;
+  transform: rotate(-3deg);
 }
 .message:after {
-    right: 2%;
-    transform: rotate(3deg);
+  right: 2%;
+  transform: rotate(3deg);
 }
 .message h3 {
-    background: #4ae;
-    color: #fff;
-    font-size: 21px;
-    font-weight: bold;
-    position: relative;
+  background: #4ae;
+  color: #fff;
+  font-size: 21px;
+  font-weight: bold;
+  position: relative;
   border-radius: 10px 0 0 0;
-    border-width: 1px 1px 2px;
-    box-shadow: 0 2px 6px var(--shadow);
-    margin: 0;
-    padding: 4px 40px;
-    position: absolute;
-    right: -14px;
-    top: 12px;
+  border-width: 1px 1px 2px;
+  box-shadow: 0 2px 6px var(--shadow);
+  margin: 0;
+  padding: 4px 40px;
+  position: absolute;
+  right: -14px;
+  top: 12px;
 }
 .message h3:after {
-    border-width: 6px;
-    border-style: solid;
-    border-color: #134 transparent transparent #134;
-    bottom: -12px;
-    content: "";
-    position: absolute;
-    right: 0px;
+  border-width: 6px;
+  border-style: solid;
+  border-color: #134 transparent transparent #134;
+  bottom: -12px;
+  content: "";
+  position: absolute;
+  right: 0px;
 }
 .message p {
   line-height: 2.5;
