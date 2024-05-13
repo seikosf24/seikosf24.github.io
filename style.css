@@ -401,6 +401,11 @@ h2::before {
   border-radius: 10px;
   border: 10px solid #535353;
   background-color: white;
+  transition: all ease 0.3s;
+  box-shadow: 5px 5px 10px var(--shadow);
+}
+#info:hover {
+transform: scale(0.9);
 }
 #info::after {
   position: absolute;

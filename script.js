@@ -4,8 +4,6 @@ document.getElementById("openbtn").addEventListener("click", function () {
   document.getElementById("g-nav").classList.toggle("panelactive");
 });
 
-
-
 //トップ遷移のやつ表示
 let firster = document.body.firstChild;
 let new_element = document.createElement("div");
@@ -31,3 +29,15 @@ document.getElementById("pagetop").addEventListener("click", function () {
     behavior: "smooth",
   });
 });
+
+//フッター
+let footer = document.getElementsByTagName("footer")[0];
+footer.innerHTML = `<div id="footerLink">
+        <a href="#">INFO</a>
+        <a href="#">BOOTH</a>
+        <a href="#">STAGE</a>
+        <a href="#">NEWS</a>
+        <a href="#">FAQ</a>
+      </div>
+      &copy; 2024 SUGITA Yuya and School Council
+      <div id="footerCoolLogo">SEIKO SF '24</div>`;
