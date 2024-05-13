@@ -33,6 +33,7 @@ document.getElementById("pagetop").addEventListener("click", function () {
 //フッター
 let footer = document.getElementsByTagName("footer")[0];
 footer.innerHTML = `<div id="footerLink">
+        <a href="/">HOME</a>
         <a href="#">INFO</a>
         <a href="#">BOOTH</a>
         <a href="#">STAGE</a>
