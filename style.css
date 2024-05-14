@@ -10,14 +10,6 @@ html {
   font-style: normal;
   font-display: swap;
 }
-@font-face {
-  font-family: "BIZ UDPGothic";
-  src: url("https://cdn.glitch.global/6b229fd4-b092-4044-9cc2-0b306f76df3b/BIZUDPGothic-Regular.ttf?v=1715349968213")
-    format("truetype");
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
 :root {
   --light: #fafafc;
   --dark: #112244;
@@ -27,7 +19,7 @@ body {
   margin: 0;
   padding: 0;
   font-size: 1.6rem;
-  font-family: "BIZ UDPGothic", sans-serif;
+  font-family: sans-serif;
   font-weight: 400;
   line-height: 1.5;
   -webkit-text-size-adjust: 100%;
@@ -489,7 +481,6 @@ transform: scale(0.9);
   display: inline;
   padding: 0.2em;
   border-bottom: 1px dashed gray;
-  letter-spacing: 0.1em;
 }
 .message > div {
   display: block;
@@ -517,7 +508,6 @@ transform: scale(0.9);
   background-color: var(--dark);
   border-radius: 10px;
   line-height: 2;
-  letter-spacing: 0.1em;
   clear: both;
   margin: 20px 0;
   padding: 10px;
@@ -559,7 +549,7 @@ footer {
 #footerCoolLogo {
   margin-top: 30px;
   font-style: italic;
-  font-size: max(10vw, calc(8vw + 16px));
+  font-size: max(12vw, calc(9vw + 20px));
   color: var(--dark);
   -webkit-text-stroke: 0.7px var(--light);
   text-stroke: 0.7px var(--light);

@@ -42,5 +42,5 @@ footer.innerHTML = `<div id="footerLink">
         <a href="#">NEWS</a>
         <a href="#">FAQ</a>
       </div>
-      &copy; 2024 SUGITA Yuya and School Council
+      &copy; School Fair Steering Committee
       <div id="footerCoolLogo">SEIKO SF '24</div>`;
