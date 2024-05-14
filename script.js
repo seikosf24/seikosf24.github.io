@@ -1,3 +1,5 @@
+document.body.setAttribute("ontouchstart", "");
+
 //スマホでメニュー出てくるとこ
 document.getElementById("openbtn").addEventListener("click", function () {
   document.getElementById("openbtn").classList.toggle("active");
