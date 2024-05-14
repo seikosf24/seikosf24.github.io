@@ -394,7 +394,7 @@ h2::before {
 .infoflex {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: space-evenly;
 }
 .info {
   text-align: center;
