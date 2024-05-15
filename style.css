@@ -176,7 +176,7 @@ header .hide {
   position: fixed;
   top: max(3px, calc(8px - 3vw));
   left: max(20px, calc(50vw - 480px));
-  color: var(--light);
+  color: var(--dark);
   font-size: min(36px, calc(4vw + 16px));
   font-family: "oswald", sans-serif;
   z-index: 70;
