@@ -185,9 +185,14 @@ header .hide {
 }
 /*キャッチコピー*/
 h1.nohome {
+  position: absolute;
+  top: 50#;
+    left: 50%;
   margin-top: 80px;
   font-weight: normal;
   font-family: serif;
+  text-align: center;
+  transform: translate(-50%, -50%);
 }
 .h1Back {
   text-align: center;
@@ -203,13 +208,12 @@ h1.nohome {
   transform: scale(1.25, 1.5);
 }
 h1.home {
-  text-align: center;
   font-weight: normal;
   font-family: serif;
   margin: 0;
   position: absolute;
-  bottom: 50%;
-  left: 50%;
+  bottom: 5px;
+  left: 5px;
   color: var(--light);
   font-size: calc(6vw + 15px);
   z-index: 80;
