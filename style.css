@@ -185,14 +185,17 @@ header .hide {
 }
 /*キャッチコピー*/
 h1 {
+margin-top: 80px;
+  font-weight: normal;
+  font-family: serif;
+}
+h1.top {
   margin: 0;
   position: absolute;
   bottom: 5px;
   left: 5px;
   color: var(--light);
-  font-size: calc(6vw + 15px);
-  font-family: serif;
-  font-weight: normal;
+  -size: calc(6vw + 15px);
   z-index: 80;
   text-shadow: 0.1em 0.1em 0.1em var(--shadow);
 }
