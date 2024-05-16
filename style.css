@@ -200,6 +200,7 @@ h1.nohome {
   transform: translate(-50%, -50%) skew(-5deg);
   background-color: var(--dark);
   color: var(--light);
+  opacity: 0.9;
 }
 .h1Back {
   text-align: center;
