@@ -221,7 +221,7 @@ h1.home {
   left: 5px;
   color: var(--light);
   font-size: calc(6vw + 15px);
-  z-index: 80;
+  z-index: 100;
   text-shadow: 0.1em 0.1em 0.1em var(--shadow);
 }
 #headerBlack {
@@ -589,7 +589,7 @@ footer {
   #g-nav {
     position: fixed;
     z-index: 55;
-    top: -200px;
+    top: -202px;
     left: 0;
     width: 100vw;
     height: 200px;
@@ -597,6 +597,7 @@ footer {
     transition: ease 0.4s;
     overflow: scroll;
     padding: 0;
+    border-bottom: 2px solid var(--light);
   }
   /*アクティブクラスがついたら位置を0に*/
   #g-nav.panelactive {
@@ -604,7 +605,6 @@ footer {
   }
   #g-nav ul {
     padding-top: 240px;
-    z-index: 999;
     display: block;
     float: none;
   }
