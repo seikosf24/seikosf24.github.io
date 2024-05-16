@@ -195,7 +195,7 @@ h1.nohome {
   font-size: 3.6rem;
   text-align: center;
   box-shadow: 1px 1px 3px var(--shadow);
-  transform: translate(-50%, -50%) skew(5deg);
+  transform: translate(-50%, -50%) skew(-5deg);
   backdrop-filter: blur(7px);
   -webkit-backdrop-filter: blur(7px););
 }
