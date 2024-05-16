@@ -173,6 +173,7 @@ header .hide {
 }
 /*メニューのSEIKOの文字*/
 #cc1 {
+  display: block;
   position: fixed;
   top: max(3px, calc(8px - 3vw));
   left: max(20px, calc(50vw - 480px));
@@ -183,7 +184,7 @@ header .hide {
   opacity: 1;
   transition: color ease 0.3s;
 }
-/*キャッチコピー*/
+/*メイン見出し*/
 h1.nohome {
   margin: 0;
   position: absolute;
@@ -209,6 +210,7 @@ h1.nohome {
 }
 .h1Contain {
   position: relative;
+  overflow: hidden;
 }
 h1.home {
   font-weight: normal;
