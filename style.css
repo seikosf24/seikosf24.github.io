@@ -180,7 +180,7 @@ header .hide {
   color: var(--dark);
   font-size: min(36px, calc(4vw + 16px));
   font-family: "oswald", sans-serif;
-  z-index: 70;
+  z-index: 100;
   opacity: 1;
   transition: color ease 0.3s;
 }
@@ -192,12 +192,16 @@ h1.nohome {
   left: 50%;
   font-weight: normal;
   font-family: serif;
+  font-size: 3.6rem;
   text-align: center;
-  transform: translate(-50%, -50%);
+  box-shadow: 1px 1px 3px var(--shadow);
+  transform: translate(-50%, -50%) skew(5deg);
+  backdrop-filter: blur(7px);
+  -webkit-backdrop-filter: blur(7px););
 }
 .h1Back {
   text-align: center;
-  margin: 80px auto 20px;
+  margin: 0 auto;
   font-weight: normal;
   font-family: serif;
   font-style: italic;
@@ -209,6 +213,7 @@ h1.nohome {
   transform: scale(1.25, 1.5);
 }
 .h1Contain {
+  margin: 80px auto 20px;
   position: relative;
   overflow: hidden;
 }
