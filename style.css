@@ -187,6 +187,8 @@ header .hide {
 /*メイン見出し*/
 h1.nohome {
   margin: 0;
+  padding: 0px 15px;
+  border-radius: 3px;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -196,8 +198,8 @@ h1.nohome {
   text-align: center;
   box-shadow: 1px 1px 3px var(--shadow);
   transform: translate(-50%, -50%) skew(-5deg);
-  backdrop-filter: blur(7px);
-  -webkit-backdrop-filter: blur(7px););
+  background-color: var(--dark);
+  color: var(--light);
 }
 .h1Back {
   text-align: center;
@@ -205,7 +207,7 @@ h1.nohome {
   font-weight: normal;
   font-family: serif;
   font-style: italic;
-  font-size: min(180px, 25vw);
+  font-size: min(140px, 20vw);
   color: var(--light);
   -webkit-text-stroke: 1px var(--dark);
   text-stroke: 1px var(--dark);
