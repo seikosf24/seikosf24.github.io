@@ -188,7 +188,7 @@ header .hide {
 h1.nohome {
   margin: 0;
   padding: 0px 15px;
-  border-radius: 3px;
+  border-radius: 1px;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -197,10 +197,10 @@ h1.nohome {
   font-size: 3.6rem;
   text-align: center;
   box-shadow: 1px 1px 3px var(--shadow);
-  transform: translate(-50%, -50%) skew(-5deg);
+  transform: translate(-50%, -50%) skew(-12deg);
   background-color: var(--dark);
   color: var(--light);
-  opacity: 0.9;
+  opacity: 0.85;
 }
 .h1Back {
   text-align: center;
