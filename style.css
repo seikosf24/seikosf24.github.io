@@ -326,7 +326,6 @@ main > section {
 }
 .container {
   display: flex;
-  color: var(--light);
 }
 /*見出し*/
 h2 {
@@ -541,13 +540,13 @@ h2::before {
   transition: opacity ease 1s;
 }
 .cells p {
-  background-color: var(--dark);
+  background-color: var(--light);
   border-radius: 10px;
   line-height: 2;
   clear: both;
   margin: 20px 0;
   padding: 10px;
-  border: 1px solid var(--light);
+  border: 1px solid gray;
 }
 /*1文字目を大きく*/
 .cells p::first-letter {
