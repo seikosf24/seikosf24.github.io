@@ -67,6 +67,21 @@
       href="https://cdn.glitch.global/6b229fd4-b092-4044-9cc2-0b306f76df3b/IMG_6346.jpeg?v=1714810752604"
       as="image"
     />
+    <style>
+      .flexer {
+        display: flex;
+        flex-wrap: wrap;
+        /*align-content: stretch;*/
+      }
+      .flexChild {
+        flex: 1;
+        min-width: 100px;
+        height: 100px;
+        background-color: purple;
+        border-radius: 5px;
+        margin: 5px;
+      }
+    </style>
   </head>
   <body>
     <header>
@@ -87,6 +102,15 @@
       <div class="h1Back">INFO</div>
       <h1 class="nohome">開催情報</h1>
     </div>
+    <section>
+      <div class="flexer">
+        <div class="flexChild">j</div>
+        <div class="flexChild">j</div>
+        <div class="flexChild">j</div>
+        <div class="flexChild">j</div>
+        <div class="flexChild">j</div>
+      </div>
+    </section>
     <footer></footer>
     <script type="text/javascript" src="/script.js"></script>
   </body>
