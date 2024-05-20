@@ -324,6 +324,13 @@ main > section {
   margin: 60px auto;
   width: min(1000px, calc(100vw - 40px));
 }
+.cd {
+  text-align: center;
+  font-size: 4rem;
+  font-weight: bold;
+  mask-image: url("https://cdn.glitch.global/6b229fd4-b092-4044-9cc2-0b306f76df3b/IMG_8168.jpeg?v=1716177890438");
+  
+}
 .container {
   display: flex;
 }
