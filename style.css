@@ -328,19 +328,23 @@ main > section {
   width: 36rem;
   margin: 0 auto;
   text-align: center;
-  font-size: 6rem;
+  font-size: 4rem;
   font-weight: bold;
   background-image: url("https://cdn.glitch.global/6b229fd4-b092-4044-9cc2-0b306f76df3b/IMG_8168.jpeg?v=1716177890438");
   background-position: center;
   background-clip: text;
   color: transparent;
   line-height: 1.2;
+  -webkit-text-stroke: 2px #ddd;
+}
+.mother span {
+font-size: 8rem;
 }
 .container {
   display: flex;
 }
 /*見出し*/
-h2 {
+.arrow h2 {
   position: relative;
   font-weight: normal;
   margin: 20px auto;
@@ -351,7 +355,7 @@ h2 {
   width: fit-content;
   color: var(--dark);
 }
-h2::after {
+.arrow h2::after {
   position: absolute;
   left: 0;
   bottom: -1px;
@@ -363,11 +367,11 @@ h2::after {
   transform-origin: center right;
   transition: transform 0.3s;
 }
-h2:hover::after {
+.arrow h2:hover::after {
   transform-origin: center left;
   transform: scale(1, 1);
 }
-h2::before {
+.arrow h2::before {
   content: "";
   position: absolute;
   top: 0;
