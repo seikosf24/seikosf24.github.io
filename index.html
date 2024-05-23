@@ -37,12 +37,21 @@
     />
 -->
     <meta name="apple-mobile-web-app-title" content="Seiko SF '24" />
-    <meta name="application-name" content="テーマ || 2024年大阪星光学院スクールフェア(SF)特設サイト" />
+    <meta
+      name="application-name"
+      content="テーマ || 2024年大阪星光学院スクールフェア(SF)特設サイト"
+    />
     <!-- ogp -->
-    <meta property="og:site_name" content="テーマ || 2024年大阪星光学院スクールフェア(SF)特設サイト" />
+    <meta
+      property="og:site_name"
+      content="テーマ || 2024年大阪星光学院スクールフェア(SF)特設サイト"
+    />
     <meta property="og:url" content="https://sf24.glitch.me/" />
     <meta property="og:type" content="website" />
-    <meta property="og:title" content="テーマ || 2024年大阪星光学院スクールフェア(SF)特設サイト" />
+    <meta
+      property="og:title"
+      content="テーマ || 2024年大阪星光学院スクールフェア(SF)特設サイト"
+    />
     <meta
       property="og:description"
       content="'24年度大阪星光学院スクールフェア(SF)特設サイトです"
@@ -58,11 +67,72 @@
       href="https://cdn.glitch.global/6b229fd4-b092-4044-9cc2-0b306f76df3b/IMG_6346.jpeg?v=1714810752604"
       as="image"
     />
-    <link
-      rel="preload"
-      href="https://cdn.glitch.global/6b229fd4-b092-4044-9cc2-0b306f76df3b/IMG_6345.jpeg?v=1714811796059"
-      as="image"
-    />
+    <style>
+      /*メイン画像*/
+      #topImage {
+        position: relative;
+        width: 100vw;
+        height: min(100vw, 100vh);
+        background-image: url("https://cdn.glitch.global/6b229fd4-b092-4044-9cc2-0b306f76df3b/IMG_6346.jpeg?v=1714810752604");
+        background-size: cover;
+        transition: opacity ease 1s;
+        z-index: 30;
+        opacity: 1;
+      }
+      #topImage2 {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: min(100vw, 100vh);
+        background-size: cover;
+        z-index: 25;
+      }
+      #topImage3 {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: min(100vw, 100vh);
+        z-index: 40;
+      }
+      #topImage3::before {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        border-bottom: 25vw solid #666699aa; /* 好みで高さ色を変えてください */
+        border-right: 75vw solid transparent;
+        z-index: 45;
+      }
+      #topImage3::after {
+        content: "";
+        display: block;
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 100vw;
+        height: min(100vw, 100vh);
+        background-color: rgba(0, 0, 0, 0.2);
+        background-image: radial-gradient(#444 30%, transparent 31%),
+          radial-gradient(#444 30%, transparent 31%);
+        background-size: 2px 2px;
+        background-position: 0 0, 2px 2px;
+        z-index: 40;
+      }
+      h1.home {
+        font-weight: normal;
+        font-family: serif;
+        margin: 0;
+        position: absolute;
+        bottom: 5px;
+        left: 5px;
+        color: var(--light);
+        font-size: calc(6vw + 15px);
+        z-index: 100;
+        text-shadow: 0.1em 0.1em 0.1em var(--shadow);
+      }
+    </style>
   </head>
   <body>
     <header>
@@ -80,7 +150,7 @@
     <div id="topImage"></div>
     <div id="topImage2"></div>
     <div id="topImage3"><h1 class="home">今年のテーマを入力</h1></div>
-    <a href="/"><div id="cc1" style="color:var(--light)">Seiko SF '24</div></a>
+    <a href="/"><div id="cc1" style="color: var(--light)">Seiko SF '24</div></a>
     <div id="headerBlack"></div>
     <a href="#" id="insta_btn2">
       <img
@@ -92,7 +162,9 @@
       <span>FOLLOW US</span>
     </a>
     <main class="arrow">
-      <figure class="mother"><p>あと<span id="countDown">???</span>日</p></figure>
+      <figure class="mother">
+        <p>あと<span id="countDown">???</span>日</p>
+      </figure>
       <section>
         <h2>Latest News</h2>
         <table class="news">
@@ -120,12 +192,8 @@
         </table>
       </section>
       <section class="infoflex">
-      <a href="/info" class="info">
-        開催情報はこちら
-      </a>
-      <a href="#" class="info">
-        各出し物はこちら
-      </a>
+        <a href="/info" class="info"> 開催情報はこちら </a>
+        <a href="#" class="info"> 各出し物はこちら </a>
       </section>
       <section>
         <h2 id="colorChange">Introduction</h2>
@@ -260,25 +328,25 @@
         }
       }
       //カウントダウン
-let CD = document.getElementById("countDown");
-    // 現在の「曜日 月 日 年 時 分 秒」を取得
-    let nowDate = new Date();
-    let tYear = nowDate.getFullYear();
-    let tMonth = nowDate.getMonth();
-    let tDate = nowDate.getDate();
-    let now = new Date(tYear, tMonth, tDate).getTime();
-    
-    // 指定月日の年を指定
-    let nYear = tYear;
-    let nMonth = 11 - 1;
-    let nDate = 3;
-    let nTarget = new Date( nYear, nMonth, nDate ).getTime();
+      let CD = document.getElementById("countDown");
+      // 現在の「曜日 月 日 年 時 分 秒」を取得
+      let nowDate = new Date();
+      let tYear = nowDate.getFullYear();
+      let tMonth = nowDate.getMonth();
+      let tDate = nowDate.getDate();
+      let now = new Date(tYear, tMonth, tDate).getTime();
 
-    let diffDate = nTarget - now;
-    // 指定日までの日数 = 指定月日までのミリ秒 / ( 1000 * 60秒 * 60分 * 24時間 )
-    let date = Math.floor( diffDate / ( 1000 * 60 * 60 * 24 ));
-    CD.innerHTML = date;
-//ここまで
+      // 指定月日の年を指定
+      let nYear = tYear;
+      let nMonth = 11 - 1;
+      let nDate = 3;
+      let nTarget = new Date(nYear, nMonth, nDate).getTime();
+
+      let diffDate = nTarget - now;
+      // 指定日までの日数 = 指定月日までのミリ秒 / ( 1000 * 60秒 * 60分 * 24時間 )
+      let date = Math.floor(diffDate / (1000 * 60 * 60 * 24));
+      CD.innerHTML = date;
+      //ここまで
     </script>
     <script type="text/javascript" src="/script.js" defer></script>
   </body>
