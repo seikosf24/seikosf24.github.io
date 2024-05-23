@@ -335,10 +335,10 @@ main > section {
   background-clip: text;
   color: transparent;
   line-height: 1.2;
-  -webkit-text-stroke: 2px #ddd;
 }
 .mother span {
-font-size: 8rem;
+font-size: 10rem;
+  font-family: "oswald", sans-serif;
 }
 .container {
   display: flex;
