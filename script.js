@@ -31,26 +31,6 @@ document.getElementById("pagetop").addEventListener("click", function () {
     behavior: "smooth",
   });
 });
-//カウントダウン
-let CD = document.getElementById("countDown");
-    // 現在の「曜日 月 日 年 時 分 秒」を取得
-    let nowDate = new Date();
-    let tYear = nowDate.getFullYear();
-    let tMonth = nowDate.getMonth();
-    let tDate = nowDate.getDate();
-    let now = new Date(tYear, tMonth, tDate).getTime();
-    
-    // 指定月日の年を指定
-    let nYear = tYear;
-    let nMonth = 11 - 1;
-    let nDate = 3;
-    let nTarget = new Date( nYear, nMonth, nDate ).getTime();
-
-    let diffDate = nTarget - now;
-    // 指定日までの日数 = 指定月日までのミリ秒 / ( 1000 * 60秒 * 60分 * 24時間 )
-    let date = Math.floor( diffDate / ( 1000 * 60 * 60 * 24 ));
-    CD.innerHTML = date;
-//ここまで
 
 
 //フッター
