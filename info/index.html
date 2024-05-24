@@ -72,20 +72,24 @@
         flex: 1;
         min-width: 250px;
         height: 100px;
-        background-color: #eeeeee;
+        background-color: var(--light);
         border-radius: 10px;
         margin: 5px;
-        padding: 10px 50px;
+        padding: 10px;
       }
       .flexChild i {
 display: block;
+        text-align: center;
         float: left;
-        font-size: 80px;
+        font-size: 75px;
+        width: 95px;
+        overflow: hidden;
         line-height: 1;
         margin: 10px;
 }
       h2 {
         line-height: 1;
+        margin: 10px 0;
 }
     </style>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -130,7 +134,15 @@ display: block;
               AM9:00〜PM4:00
             </p>
           </div>
-          <div class="flexChild"></div>
+          <div class="flexChild">
+          <i class="fa-solid fa-money-bills"></i>
+            <h2>
+              入場料
+            </h2>
+            <p>
+              無料（別途食費・体験料等がかかります）
+            </p>
+          </div>
           <div class="flexChild"></div>
           <div class="flexChild"></div>
           <div class="flexChild"></div>
