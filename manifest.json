@@ -1,12 +1,12 @@
 {
-  "theme_color": "#fafafc",
+  "theme_color": "#112244",
   "background_color": "#fafafc",
   "display": "standalone",
   "scope": "/",
   "start_url": "/",
   "description": "2024年度大阪星光学院スクールフェア(SF)特設サイトです",
   "name": "テーマ || 2024年大阪星光学院スクールフェア(SF)特設サイト",
-  "short_name": "テーマ",
+  "short_name": "SF2024",
   "icons": [
     {
       "src": "(32x32の画像サンプル)",
