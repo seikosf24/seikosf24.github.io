@@ -2,6 +2,7 @@ html {
   font-size: 62.5%;
   scroll-behavior: smooth;
 }
+/*オズワルドフォント。シンプルでかっこいい。*/
 @font-face {
   font-family: "oswald";
   src: url("https://cdn.glitch.global/6b229fd4-b092-4044-9cc2-0b306f76df3b/Oswald-Regular.ttf?v=1715349345985")
@@ -10,6 +11,7 @@ html {
   font-style: normal;
   font-display: swap;
 }
+/*CSS変数*/
 :root {
   --light: #fafafc;
   --dark: #112244;
@@ -30,6 +32,7 @@ body {
   background-size: 100%;
   transition: background-color ease 1s;
 }
+/*リンク色、下線を消す*/
 a {
   text-decoration: none;
   color: #4444dd;

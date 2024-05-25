@@ -9,16 +9,16 @@
   "short_name": "SF2024",
   "icons": [
     {
-      "src": "(32x32の画像サンプル)",
+      "src": "/images/icon32x32.png",
       "sizes": "32x32",
       "type": "image/png"
     },{
-      "src": "(512x512の画像サンプル)",
+      "src": "/images/icon512x512.png",
       "sizes": "512x512",
       "type": "image/png"
     },
     {
-      "src": "(1024x1024のsvg画像サンプル)",
+      "src": "/images/icon1024x1024.svg",
       "sizes": "1024x1024",
       "type": "image/svg+xml"
     }
