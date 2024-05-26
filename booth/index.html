@@ -43,10 +43,16 @@
     <style>
       details {
         background-color: #fee;
-        border: 2px dashed gray;
-        border-radius: 15px;
-        padding: 15px;
+        border-top: 1px solid gray;
+        border-radius: 10px;
       }
+      details:last-child {
+border-bottom: 1px solid gray;
+}
+      summary 
+      details summary {
+background-color: #a77;
+}
       details summary::before {
         content: "（＋）";
         display: block;
@@ -151,13 +157,11 @@
           });
         });
       });
-
       // アニメーションの時間とイージング
       const animTiming = {
         duration: 300,
         easing: "ease-in-out",
       };
-
       // アコーディオンを閉じるときのキーフレーム
       const closingAnimation = (answer) => [
         {
@@ -169,7 +173,6 @@
           opacity: 0,
         },
       ];
-
       // アコーディオンを開くときのキーフレーム
       const openingAnimation = (answer) => [
         {
