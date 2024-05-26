@@ -218,7 +218,7 @@ font-size: 10rem;
   border-right: 0.4rem solid var(--dark);
   transform: rotate(45deg);
 }
-.container h2 {
+.container.light h2 {
   color: var(--light);
 }
 .container h2::after {
