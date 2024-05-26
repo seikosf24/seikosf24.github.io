@@ -48,14 +48,14 @@
         padding: 15px;
       }
       details summary::before {
-        content: "▼";
+        content: "（＋）";
         display: block;
         text-align: center;
         width: 5rem;
         float: left;
       }
       details[open] summary::before {
-        content: "▲";
+        content: "（－）"
       }
       summary {
         /* display: list-item;以外を指定してデフォルトの三角形アイコンを消します */
@@ -65,7 +65,6 @@
         border-bottom: 1px solid gray;
       }
       summary::-webkit-details-marker {
-        /* Safariで表示されるデフォルトの三角形アイコンを消します */
         display: none;
       }
     </style>
