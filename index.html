@@ -12,10 +12,10 @@
       content="2024年度大阪星光学院スクールフェア(SF)特設サイトです"
     />
     <!-- favicon/webclipicon -->
-    <link rel="icon" href="/images/icon.ico" />
-    <link rel="icon" href="/images/icon512x512.png" type="image/png" />
-    <link rel="apple-touch-icon" href="/images/icon192x192.png" />
-    <link rel="manifest" href="/manifest.json" />
+    <link rel="icon" href="./images/icon.ico" />
+    <link rel="icon" href="./images/icon512x512.png" type="image/png" />
+    <link rel="apple-touch-icon" href="./images/icon192x192.png" />
+    <link rel="manifest" href="./manifest.json" />
     <meta name="apple-mobile-web-app-title" content="Seiko SF '24" />
     <meta
       name="application-name"
@@ -36,12 +36,12 @@
       property="og:description"
       content="2024年度大阪星光学院スクールフェア(SF)特設サイトです"
     />
-    <meta property="og:image" content="/images/logo1200x630.jpg" />
+    <meta property="og:image" content="./images/logo1200x630.jpg" />
     <meta property="og:locale" content="ja_JP" />
-    <link rel="stylesheet" href="/style.css" />
+    <link rel="stylesheet" href="./style.css" />
     <link
       rel="preload"
-      href="https://cdn.glitch.global/6b229fd4-b092-4044-9cc2-0b306f76df3b/IMG_6346.jpeg?v=1714810752604"
+      href="./images/snapshots/01.webp"
       as="image"
     />
     <style>
@@ -116,11 +116,11 @@
       <div id="openbtn"><span></span><span></span><span></span></div>
       <div id="g-nav">
         <ul>
-          <li><a href="/info">INFO</a></li>
-          <li><a href="#">BOOTH</a></li>
-          <li><a href="#">STAGE</a></li>
-          <li><a href="#">NEWS</a></li>
-          <li><a href="#">FAQ</a></li>
+          <li><a href="./info">INFO</a></li>
+          <li><a href="./booth">BOOTH</a></li>
+          <li><a href="./stage">STAGE</a></li>
+          <li><a href="./blog">BLOG</a></li>
+          <li><a href=".faq">FAQ</a></li>
         </ul>
       </div>
     </header>
@@ -131,7 +131,7 @@
     <div id="headerBlack"></div>
     <a href="#" id="insta_btn2">
       <img
-        src="https://cdn.glitch.global/6b229fd4-b092-4044-9cc2-0b306f76df3b/instagram.svg?v=1715084193236"
+        src=".assets/instagram.svg"
         width="50px"
         height="50px"
         alt="Instagram"
@@ -169,8 +169,8 @@
         </table>
       </section>
       <section class="infoflex">
-        <a href="/info" class="info"> 開催情報はこちら </a>
-        <a href="#" class="info"> 各出し物はこちら </a>
+        <a href="./info" class="info"> 開催情報はこちら </a>
+        <a href=".booth" class="info"> 各出し物はこちら </a>
       </section>
       <section>
         <h2 id="colorChange">Introduction</h2>
@@ -196,7 +196,7 @@
         <div class="cells">
           <h2>What is "SF"?</h2>
           <img
-            src="https://cdn.glitch.global/6b229fd4-b092-4044-9cc2-0b306f76df3b/IMG_6340.jpeg?v=1714780045834"
+            src="./images/snapshots/04.jpeg"
             alt="sf1"
             width="320"
             height="240"
@@ -216,7 +216,7 @@
         <div class="cells">
           <h2>What is "Seiko"?</h2>
           <img
-            src="https://cdn.glitch.global/6b229fd4-b092-4044-9cc2-0b306f76df3b/IMG_8107.jpeg?v=1714976909945"
+            src="./images/snapshots/03.webp"
             alt="seiko"
             width="320"
             height="240"
@@ -237,10 +237,10 @@
     <script>
       //手作りスライドショー(ガチで時間かかった)
       let arrey = [
-        "https://cdn.glitch.global/6b229fd4-b092-4044-9cc2-0b306f76df3b/IMG_6340.jpeg?v=1714780045834",
-        "https://cdn.glitch.global/6b229fd4-b092-4044-9cc2-0b306f76df3b/IMG_6346.jpeg?v=1714810752604",
-        "https://cdn.glitch.global/6b229fd4-b092-4044-9cc2-0b306f76df3b/IMG_3176.jpeg?v=1714810802794",
-        "https://cdn.glitch.global/6b229fd4-b092-4044-9cc2-0b306f76df3b/IMG_6345.jpeg?v=1714811796059",
+        "./images/snapshots/01.webp",
+        "./images/snapshots/02.webp",
+        "./images/snapshots/03.webp",
+        "./images/snapshots/04.jpeg",
       ];
       let topImage = 0;
       let element = document.getElementById("topImage");
@@ -325,6 +325,6 @@
       CD.innerHTML = date;
       //ここまで
     </script>
-    <script type="text/javascript" src="/script.js" defer></script>
+    <script type="text/javascript" src="./script.js" defer></script>
   </body>
 </html>

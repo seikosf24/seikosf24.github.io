@@ -5,7 +5,7 @@ html {
 /*オズワルドフォント。シンプルでかっこいい。*/
 @font-face {
   font-family: "oswald";
-  src: url("https://cdn.glitch.global/6b229fd4-b092-4044-9cc2-0b306f76df3b/Oswald-Regular.ttf?v=1715349345985")
+  src: url("./assets/Oswald-Regular.ttf")
     format("truetype");
   font-weight: normal;
   font-style: normal;
@@ -27,7 +27,7 @@ body {
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: transparent;
   background-color: var(--light);
-  background-image: url("https://cdn.glitch.global/6b229fd4-b092-4044-9cc2-0b306f76df3b/text.svg?v=1714920707773");
+  background-image: url("./assets/text.svg");
   background-repeat: repeat;
   background-size: 100%;
   transition: background-color ease 1s;
@@ -240,7 +240,7 @@ main > section {
   text-align: center;
   font-size: 4rem;
   font-weight: bold;
-  background-image: url("https://cdn.glitch.global/6b229fd4-b092-4044-9cc2-0b306f76df3b/IMG_8168.jpeg?v=1716177890438");
+  background-image: url("./assets/bg.jpeg");
   background-position: center;
   background-clip: text;
   color: transparent;
