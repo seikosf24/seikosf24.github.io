@@ -253,7 +253,6 @@
       window.addEventListener("load", function () {
         setInterval(function () {
           topImage++;
-          console.log(topImage);
           if (topImage % 8 == 1) {
             t2.style.opacity = 1;
           }
@@ -277,21 +276,20 @@
       //Seikoの左上のやつ
       let a = document.getElementById("cc1");
       window.addEventListener("scroll", function () {
-        let h1 = document.getElementById("topImage").offsetHeight - 50;
+        let h1 = t2.offsetHeight - 50;
+        console.log(h1);
         let c = document.documentElement.scrollTop || document.body.scrollTop;
         if (c < h1) {
-          a.style.color = getComputedStyle(element).getPropertyValue("--light");
+          a.style.color = 'var(--light)'
         } else {
-          a.style.color = getComputedStyle(element).getPropertyValue("--dark");
+          a.style.color = getComputedStyle(element).getPropertyValue("--dark")'';
         }
       });
 
       //背景変色
       //高さで表示非表示
       function backShift() {
-        let clientRect = document
-          .getElementById("colorChange")
-          .getBoundingClientRect();
+        let clientRect = document.getElementById("colorChange").getBoundingClientRect();
         if (clientRect.top < 0) {
           document.body.style.backgroundColor = "var(--dark)";
         } else {
