@@ -39,11 +39,7 @@
     <meta property="og:image" content="./images/logo1200x630.jpg" />
     <meta property="og:locale" content="ja_JP" />
     <link rel="stylesheet" href="./style.css" />
-    <!--<link
-      rel="preload"
-      href="./images/snapshots/02.webp"
-      as="image"
-    />-->
+    <link rel="preload" href="./images/snapshots/02.webp" as="image" />
     <style>
       /*メイン画像*/
       #topImage {
@@ -133,10 +129,11 @@
     <div id="headerBlack"></div>
     <a href="#" id="insta_btn2">
       <img
-        src=".assets/instagram.svg"
+        src="./assets/instagram.svg"
         width="50px"
         height="50px"
         alt="Instagram"
+        loading="lazy"
       />
       <span>FOLLOW US</span>
     </a>
@@ -248,6 +245,7 @@
       let element = document.getElementById("topImage");
       setInterval(function () {
         topImage++;
+        console.log(topImage);
         if (topImage % 2 == 0) {
           element.style.opacity = (2 - (topImage % 4)) / 2;
         }
@@ -257,7 +255,7 @@
         document.getElementById("topImage2").style.backgroundImage = `url("${
           arrey[(Math.floor((topImage + 2) / 4) * 2) % arrey.length]
         }"`;
-      }, 2500);
+      }, 1500);
 
       //Seikoの左上のやつ
       let a = document.getElementById("cc1");
