@@ -42,17 +42,22 @@
     <link rel="stylesheet" href="../style.css" />
     <style>
       details {
-        background-color: #fee;
+        background-color: #fcfafa;
         border-top: 1px solid gray;
-        border-radius: 10px;
+        border-radius: 10px 10px 0 0;
+        box-shadow: 1px 1px 10px var(--shadow);
       }
       details:last-child {
-border-bottom: 1px solid gray;
-}
-      summary 
+        border-bottom: 1px solid gray;
+      }
+      summary,
+      .answerInner {
+        padding: 20px;
+      }
       details summary {
-background-color: #a77;
-}
+        background-color: #a77;
+        border-radius: 10px 10px 0 0;
+      }
       details summary::before {
         content: "（＋）";
         display: block;
@@ -60,8 +65,11 @@ background-color: #a77;
         width: 5rem;
         float: left;
       }
+      details[open] {
+        border-radius: 10px;
+      }
       details[open] summary::before {
-        content: "（－）"
+        content: "（－）";
       }
       summary {
         /* display: list-item;以外を指定してデフォルトの三角形アイコンを消します */
@@ -73,6 +81,11 @@ background-color: #a77;
       summary::-webkit-details-marker {
         display: none;
       }
+      .answerInner img {
+float: right;
+        margin: 10px;
+        box-shadow: 0 0 10px var(--shadow);
+}
     </style>
   </head>
   <body>
@@ -118,7 +131,17 @@ background-color: #a77;
           <details class="details">
             <summary class="summary">企画名</summary>
             <div class="answer">
-              <div class="answerInner">内容</div>
+              <div class="answerInner">
+                <img
+                  src="../images/icon512x512.png"
+                  width="160"
+                  height="160"
+                  alt="icon"
+                />
+                <p>
+                  ここにせつめいがはいります。説明入れよう。とにかく入れろ？
+                </p>
+              </div>
             </div>
           </details>
         </div>
