@@ -52,9 +52,14 @@
         height: 100px;
         background-color: var(--light);
         border-radius: 10px;
-        margin: 5px;
+        margin: 10px;
         padding: 10px;
+        box-shadow: 1px 1px 10px var(--shadow);
+        transition: all ease 0.5s;
       }
+      .flexChild:hover {
+transform: scale(1.1);
+}
       .flexChild i {
         display: block;
         text-align: center;
@@ -99,6 +104,9 @@
         <h1 class="nohome">開催情報</h1>
       </div>
       <section>
+<a href="../">ホームへ戻る</a>
+</section>
+      <section>
         <div class="flexer">
           <div class="flexChild">
             <i class="fa-regular fa-calendar-check"></i>
@@ -125,7 +133,11 @@
             <h2>チケット</h2>
             <p>50円×4組で販売しています</p>
           </div>
-          <div class="flexChild"></div>
+          <div class="flexChild">
+            <i class="fa-solid fa-bag-shopping"></i>
+            <h2>持ち物</h2>
+            <p>上履き/スリッパが必要です</p>
+          </div>
         </div>
       </section>
     </main>
