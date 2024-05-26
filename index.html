@@ -39,21 +39,10 @@
     <meta property="og:image" content="./images/logo1200x630.jpg" />
     <meta property="og:locale" content="ja_JP" />
     <link rel="stylesheet" href="./style.css" />
-    <link rel="preload" href="./images/snapshots/02.webp" as="image" />
+    <link rel="preload" href="./images/snapshots/01.webp" as="image" />
     <style>
       /*メイン画像*/
-      #topImage {
-        position: relative;
-        width: 100vw;
-        height: min(100vw, 100vh);
-        background-image: url("./images/snapshots/01.webp");
-        background-size: cover;
-        background-position: center;
-        transition: opacity ease 1s;
-        z-index: 30;
-        opacity: 1;
-      }
-      #topImage2 {
+      .topImage {
         position: absolute;
         top: 0;
         left: 0;
@@ -61,9 +50,28 @@
         height: min(100vw, 100vh);
         background-size: cover;
         background-position: center;
-        z-index: 25;
+        transition: opacity ease 1s;
+        opacity: 0;
+      }
+      #topImage1 {
+        position: relative;
+        background-image: url("./images/snapshots/01.webp");
+        z-index: 27;
+        opacity: 1;
+      }
+      #topImage2 {
+        background-image: url("./images/snapshots/02.webp");
+        z-index: 28;
       }
       #topImage3 {
+        background-image: url("./images/snapshots/03.webp");
+        z-index: 29;
+      }
+      #topImage4 {
+        background-image: url("./images/snapshots/04.jpeg");
+        z-index: 30;
+      }
+      #topImage5 {
         position: absolute;
         top: 0;
         left: 0;
@@ -71,7 +79,7 @@
         height: min(100vw, 100vh);
         z-index: 40;
       }
-      #topImage3::before {
+      #topImage5::before {
         content: "";
         position: absolute;
         bottom: 0;
@@ -80,7 +88,7 @@
         border-right: 75vw solid transparent;
         z-index: 45;
       }
-      #topImage3::after {
+      #topImage5::after {
         content: "";
         display: block;
         position: absolute;
@@ -122,9 +130,11 @@
         </ul>
       </div>
     </header>
-    <div id="topImage"></div>
-    <div id="topImage2"></div>
-    <div id="topImage3"><h1 class="home">今年のテーマを入力</h1></div>
+    <div class="topImage" id="topImage1"></div>
+    <div class="topImage" id="topImage2"></div>
+    <div class="topImage" id="topImage3"></div>
+    <div class="topImage" id="topImage4"></div>
+    <div id="topImage5"><h1 class="home">今年のテーマを入力</h1></div>
     <a href="/"><div id="cc1" style="color: var(--light)">Seiko SF '24</div></a>
     <div id="headerBlack"></div>
     <a href="#" id="insta_btn2">
@@ -235,32 +245,33 @@
     <footer></footer>
     <script>
       //手作りスライドショー(ガチで時間かかった)
-      let arrey = [
-        "./images/snapshots/01.webp",
-        "./images/snapshots/02.webp",
-        "./images/snapshots/03.webp",
-        "./images/snapshots/04.jpeg",
-      ];
-      arrey.forEach((src) => {
-    const img = new Image();
-    img.src = src;
-});
       let topImage = 0;
-      let element = document.getElementById("topImage");
-      window.addEventListener('load', function() {
-      setInterval(function () {
-        topImage++;
-        console.log(topImage);
-        if (topImage % 2 == 0) {
-          element.style.opacity = (2 - (topImage % 4)) / 2;
-        }
-        document.getElementById("topImage").style.backgroundImage = `url("${
-          arrey[(Math.floor(topImage / 4) * 2 + 1) % arrey.length]
-        }"`;
-        document.getElementById("topImage2").style.backgroundImage = `url("${
-          arrey[(Math.floor((topImage + 2) / 4) * 2) % arrey.length]
-        }"`;
-      }, 1500);
+      let t2 = document.getElementById("topImage2");
+      let t3 = document.getElementById("topImage3");
+      let t4 = document.getElementById("topImage4");
+      window.addEventListener("load", function () {
+        setInterval(function () {
+          topImage++;
+          console.log(topImage);
+          if (topImage % 8 == 1) {
+            t2.style.opacity = 1;
+          }
+          if (topImage % 8 == 4) {
+            t2.style.opacity = 0;
+          }
+          if (topImage % 8 == 3) {
+            t3.style.opacity = 1;
+          }
+          if (topImage % 8 == 6) {
+            t3.style.opacity = 0;
+          }
+          if (topImage % 8 == 5) {
+            t4.style.opacity = 1;
+          }
+          if (topImage % 8 == 7) {
+            t4.style.opacity = 0;
+          }
+        }, 1500);
       });
       //Seikoの左上のやつ
       let a = document.getElementById("cc1");
