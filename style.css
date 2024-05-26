@@ -130,12 +130,12 @@ h1.nohome {
   font-weight: normal;
   font-family: serif;
   font-style: italic;
-  font-size: min(140px, 20vw);
+  font-size: min(175px, 25vw);
   color: var(--light);
-  -webkit-text-stroke: 1px var(--dark);
-  text-stroke: 1px var(--dark);
+  -webkit-text-stroke: 1.25px var(--dark);
+  text-stroke: 1.25px var(--dark);
   line-height: 1.3;
-  transform: scale(1.25, 1.5);
+  transform:  scale(1, 1.2) translateX(max(-10px, -1.2vw));
 }
 .h1Contain {
   margin: 80px auto 20px;
