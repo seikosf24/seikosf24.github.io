@@ -42,10 +42,20 @@
     <link rel="stylesheet" href="../style.css" />
     <style>
       details {
-        background-color: var(--light);
+        background-color: #fee;
         border: 2px dashed gray;
         border-radius: 15px;
         padding: 15px;
+      }
+      details summary::before {
+        content: "▼";
+        display: block;
+        text-align: center;
+        width: 5rem;
+        float: left;
+      }
+      details[open] summary::before {
+        content: "▲";
       }
       summary {
         /* display: list-item;以外を指定してデフォルトの三角形アイコンを消します */
@@ -93,14 +103,86 @@
           />
         </div>
         <div class="cells">
-          <details>
-            <summary>Details</summary>
-            Something small enough to escape casual notice.
+          <details class="details">
+            <summary class="summary">企画名</summary>
+            <div class="answer">
+              <div class="answerInner">内容</div>
+            </div>
+          </details>
+          <br />
+          <details class="details">
+            <summary class="summary">企画名</summary>
+            <div class="answer">
+              <div class="answerInner">内容</div>
+            </div>
           </details>
         </div>
       </section>
     </main>
     <footer></footer>
+    <script>
+      document.addEventListener("DOMContentLoaded", () => {
+        document.querySelectorAll(".details").forEach(function (el) {
+          const summary = el.querySelector(".summary");
+          const answer = el.querySelector(".answer");
+          summary.addEventListener("click", (event) => {
+            // デフォルトの挙動を無効化
+            event.preventDefault();
+            // detailsのopen属性を判定
+            if (el.getAttribute("open") !== null) {
+              // アコーディオンを閉じるときの処理
+              const closingAnim = answer.animate(
+                closingAnimation(answer),
+                animTiming
+              );
+
+              closingAnim.onfinish = () => {
+                // アニメーションの完了後にopen属性を取り除く
+                el.removeAttribute("open");
+              };
+            } else {
+              // open属性を付与
+              el.setAttribute("open", "true");
+              // アコーディオンを開くときの処理
+              const openingAnim = answer.animate(
+                openingAnimation(answer),
+                animTiming
+              );
+            }
+          });
+        });
+      });
+
+      // アニメーションの時間とイージング
+      const animTiming = {
+        duration: 300,
+        easing: "ease-in-out",
+      };
+
+      // アコーディオンを閉じるときのキーフレーム
+      const closingAnimation = (answer) => [
+        {
+          height: answer.offsetHeight + "px",
+          opacity: 1,
+        },
+        {
+          height: 0,
+          opacity: 0,
+        },
+      ];
+
+      // アコーディオンを開くときのキーフレーム
+      const openingAnimation = (answer) => [
+        {
+          height: 0,
+          opacity: 0,
+        },
+        {
+          height: answer.offsetHeight + "px",
+          opacity: 1,
+        },
+      ];
+    </script>
     <script type="text/javascript" src="../script.js"></script>
   </body>
 </html>
