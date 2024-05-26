@@ -241,8 +241,13 @@
         "./images/snapshots/03.webp",
         "./images/snapshots/04.jpeg",
       ];
+      arrey.forEach((src) => {
+    const img = new Image();
+    img.src = src;
+});
       let topImage = 0;
       let element = document.getElementById("topImage");
+      window.addEventListener('load', function() {
       setInterval(function () {
         topImage++;
         console.log(topImage);
@@ -256,7 +261,7 @@
           arrey[(Math.floor((topImage + 2) / 4) * 2) % arrey.length]
         }"`;
       }, 1500);
-
+      });
       //Seikoの左上のやつ
       let a = document.getElementById("cc1");
       window.addEventListener("scroll", function () {
