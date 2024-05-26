@@ -221,10 +221,10 @@ font-size: 10rem;
 .container.light h2 {
   color: var(--light);
 }
-.container h2::after {
+.container.light h2::after {
   background-color: var(--light);
 }
-.container h2::before {
+.container.light h2::before {
   border-top: 0.4rem solid var(--light);
   border-right: 0.4rem solid var(--light);
 }
