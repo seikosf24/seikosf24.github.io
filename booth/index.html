@@ -41,18 +41,23 @@
     <link rel="preload" as="font" href="../assets/Oswald-Regular.ttf" />
     <link rel="stylesheet" href="../style.css" />
     <style>
-      .flexer {
-        display: flex;
-        flex-wrap: wrap;
-        /*align-content: stretch;*/
-      }
-      .flexChild {
-        flex: 1;
-        min-width: 250px;
-        height: 100px;
+      details {
         background-color: var(--light);
-        border-radius: 10px;
-        margin: 10px;
+        border: 2px dashed gray;
+        border-radius: 15px;
+        padding: 15px;
+      }
+      summary {
+        /* display: list-item;以外を指定してデフォルトの三角形アイコンを消します */
+        display: block;
+        font-size: 2rem;
+        font-weight: bold;
+        border-bottom: 1px solid gray;
+      }
+      summary::-webkit-details-marker {
+        /* Safariで表示されるデフォルトの三角形アイコンを消します */
+        display: none;
+      }
     </style>
   </head>
   <body>
