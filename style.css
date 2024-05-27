@@ -474,6 +474,11 @@ footer {
     list-style: none;
     text-align: center;
     padding: 0;
+    transform: scale(0.5) translateY(100px);
+    transition: ease 0.4s;
+  }
+#g-nav.panelactive li {
+    transform: scale(1) translateY(0px);
   }
   #g-nav li a {
     border-bottom: 2px groove var(--dark);
