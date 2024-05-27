@@ -43,13 +43,15 @@
     <style>
       details {
         background-color: #fcfafa;
-        border-top: 1px solid gray;
+        border: 1px solid gray;
         box-shadow: 1px 1px 10px var(--shadow);
       }
-      details:last-child {
+      details:last-child,
+      details:last-child summary {
         border-radius: 0 0 10px 10px;
       }
-      details:first-child {
+      details:first-child,
+      details:first-child summary {
         border-radius: 10px 10px 0 0;
       }
       summary,
@@ -58,7 +60,6 @@
       }
       details summary {
         background-color: #a77;
-        border-radius: 10px;
       }
       details summary::before {
         content: "（＋）";
@@ -81,13 +82,13 @@
         display: none;
       }
       .answerInner img {
-float: right;
+        float: right;
         margin: 10px;
         box-shadow: 0 0 10px var(--shadow);
-}
+      }
       footer {
-margin-top: 160px;
-}
+        margin-top: 160px;
+      }
     </style>
   </head>
   <body>
