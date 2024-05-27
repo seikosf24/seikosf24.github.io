@@ -44,11 +44,13 @@
       details {
         background-color: #fcfafa;
         border-top: 1px solid gray;
-        border-radius: 10px 10px 0 0;
         box-shadow: 1px 1px 10px var(--shadow);
       }
       details:last-child {
-        border-bottom: 1px solid gray;
+        border-radius: 0 0 10px 10px;
+      }
+      details:first-child {
+        border-radius: 10px 10px 0 0;
       }
       summary,
       .answerInner {
@@ -56,7 +58,7 @@
       }
       details summary {
         background-color: #a77;
-        border-radius: 10px 10px 0 0;
+        border-radius: 10px;
       }
       details summary::before {
         content: "（＋）";
@@ -64,9 +66,6 @@
         text-align: center;
         width: 5rem;
         float: left;
-      }
-      details[open] {
-        border-radius: 10px;
       }
       details[open] summary::before {
         content: "（－）";
@@ -85,6 +84,9 @@
 float: right;
         margin: 10px;
         box-shadow: 0 0 10px var(--shadow);
+}
+      footer {
+margin-top: 160px;
 }
     </style>
   </head>
@@ -124,10 +126,19 @@ float: right;
           <details class="details">
             <summary class="summary">企画名</summary>
             <div class="answer">
-              <div class="answerInner">内容</div>
+              <div class="answerInner">
+                <img
+                  src="../images/icon512x512.png"
+                  width="160"
+                  height="160"
+                  alt="icon"
+                />
+                <p>
+                  ここにせつめいがはいります。説明入れよう。とにかく入れろ？
+                </p>
+              </div>
             </div>
           </details>
-          <br />
           <details class="details">
             <summary class="summary">企画名</summary>
             <div class="answer">
