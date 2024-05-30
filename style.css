@@ -310,56 +310,17 @@ main > section {
   content: "";
 }
 /*説明*/
+.flexChild {
+  background-color: var(--light);
+  border-radius: 10px;
+  margin: 10px;
+  padding: 10px;
+  box-shadow: inset 1px 1px 5px var(--shadow);
+}
 .message {
   width: min(calc(100% - 30px), 700px);
-  background: var(--light);
-  border-radius: 10px;
   margin: 0 auto;
   padding: 40px 15px;
-  position: relative;
-  border: 2px solid silver;
-}
-.message:before,
-.message:after {
-  bottom: 26px;
-  box-shadow: 0 28px 8px #22222288;
-  content: "";
-  height: 28px;
-  position: absolute;
-  width: 48%;
-  z-index: -1;
-}
-.message:before {
-  left: 2%;
-  transform: rotate(-3deg);
-}
-.message:after {
-  right: 2%;
-  transform: rotate(3deg);
-}
-.message h3 {
-  background: #4ae;
-  color: #fff;
-  font-size: 21px;
-  font-weight: bold;
-  position: relative;
-  border-radius: 10px 0 0 0;
-  border-width: 1px 1px 2px;
-  box-shadow: 0 2px 6px var(--shadow);
-  margin: 0;
-  padding: 4px 40px;
-  position: absolute;
-  right: -14px;
-  top: 12px;
-}
-.message h3:after {
-  border-width: 6px;
-  border-style: solid;
-  border-color: #134 transparent transparent #134;
-  bottom: -12px;
-  content: "";
-  position: absolute;
-  right: 0px;
 }
 .message p {
   line-height: 2.5;
