@@ -422,7 +422,7 @@ footer {
   }
   /*アクティブクラスがついたら位置を0に*/
   #g-nav.panelactive {
-    height: min(540px, calc(60vh + 200px));
+    height: min(600px, calc(60vh + 240px));
   }
   #g-nav ul {
     padding-top: 240px;
