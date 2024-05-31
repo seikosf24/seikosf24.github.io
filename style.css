@@ -414,7 +414,7 @@ footer {
     left: 0;
     width: 100vw;
     height: 200px;
-    background-color: var(--dark);
+    background-color: #0b1f61;
     transition: ease 0.4s;
     overflow: scroll;
     padding: 0;
@@ -441,7 +441,7 @@ footer {
     transform: scale(1) translateY(0px);
   }
   #g-nav li a {
-    border-bottom: 2px groove var(--dark);
+    border-bottom: 2px groove #0b1f61;
     color: var(--light);
     text-decoration: none;
     padding: 15px;
