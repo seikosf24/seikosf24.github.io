@@ -13,9 +13,9 @@ footer.innerHTML = `<div id="footerLink">
         <a href="/">HOME</a>
         <a href="/info">INFO</a>
         <a href="/booth">BOOTH</a>
-        <a href="#">STAGE</a>
-        <a href="#">NEWS</a>
-        <a href="#">FAQ</a>
+        <a href="/stage">STAGE</a>
+        <a href="/blog">BLOG</a>
+        <a href="/faq">FAQ</a>
       </div>
       &copy; School Fair Steering Committee
       <div id="footerCoolLogo">SEIKO SF '24</div>`;
