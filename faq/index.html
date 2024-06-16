@@ -2,7 +2,7 @@
 <html lang="ja">
   <head>
     <meta charset="utf-8" />
-    <title>ブログ || 2024年大阪星光学院スクールフェア(SF)</title>
+    <title>よくある質問 || 2024年大阪星光学院スクールフェア(SF)</title>
     <meta
       name="viewport"
       content="width=device-width, initial-scale=1, viewport-fit=cover, shrink-to-fit=no"
@@ -19,18 +19,18 @@
     <meta name="apple-mobile-web-app-title" content="Seiko SF '24" />
     <meta
       name="application-name"
-      content="ブログ || 2024年大阪星光学院スクールフェア(SF)特設サイト"
+      content="よくある質問 || 2024年大阪星光学院スクールフェア(SF)特設サイト"
     />
     <!-- ogp -->
     <meta
       property="og:site_name"
       content="テーマ || 2024年大阪星光学院スクールフェア(SF)"
     />
-    <meta property="og:url" content="https://sf24.glitch.me/blog" />
+    <meta property="og:url" content="https://sf24.glitch.me/faq" />
     <meta property="og:type" content="website" />
     <meta
       property="og:title"
-      content="ブログ || 2024年大阪星光学院スクールフェア(SF)"
+      content="よくある質問 || 2024年大阪星光学院スクールフェア(SF)"
     />
     <meta
       property="og:description"
@@ -41,7 +41,51 @@
     <link rel="preload" as="font" href="../assets/Oswald-Regular.ttf" />
     <link rel="stylesheet" href="../style.css" />
     <style>
-      
+      details {
+        background-color: #fcfafa;
+        border: 1px solid gray;
+        box-shadow: 1px 1px 10px var(--shadow);
+      }
+      details:last-child,
+      details:last-child summary {
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+      }
+      details:first-of-type,
+      details:first-of-type summary {
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+      }
+      summary,
+      .answerInner {
+        padding: 20px;
+      }
+      details[open] summary {
+        color: #725;
+      }
+      details summary::before {
+        content: "（＋）";
+        display: block;
+        text-align: center;
+        width: 5rem;
+        float: left;
+      }
+      details[open] summary::before {
+        content: "（－）";
+      }
+      summary {
+        /* display: list-item;以外を指定してデフォルトの三角形アイコンを消します */
+        display: block;
+        font-size: 2rem;
+        font-weight: bold;
+        border-bottom: 1px solid gray;
+      }
+      summary::-webkit-details-marker {
+        display: none;
+      }
+      footer {
+        margin-top: 160px;
+      }
     </style>
   </head>
   <body>
@@ -53,8 +97,8 @@
           <li><a href="../info">INFO</a></li>
           <li><a href="../booth">BOOTH</a></li>
           <li><a href="../stage">STAGE</a></li>
-          <li><a href="#">BLOG</a></li>
-          <li><a href="../faq">FAQ</a></li>
+          <li><a href="../blog">BLOG</a></li>
+          <li><a href="#">FAQ</a></li>
         </ul>
       </div>
     </header>
@@ -62,11 +106,21 @@
     <div id="headerBlack"></div>
     <main class="arrow">
       <div class="h1Contain">
-        <div class="h1Back">BLOG</div>
-        <h1 class="nohome">ブログ</h1>
+        <div class="h1Back">FAQ</div>
+        <h1 class="nohome">よくある質問</h1>
       </div>
       <section>
-        
+        <h2>
+          MONEY
+        </h2>
+        <details class="details">
+          <summary class="summary">しつもんしつもんしつもん？？？</summary>
+          <div class="answer">
+            <div class="answerInner">
+              <p>答え答え答えとにかくここに回答を書く。</p>
+            </div>
+          </div>
+        </details>
       </section>
     </main>
     <footer></footer>
