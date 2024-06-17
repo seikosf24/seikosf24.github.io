@@ -345,7 +345,6 @@ main > section {
 }
 .cells:nth-child(even) {
   margin-top: 60px;
-  
 }
 .cellsImage {
   border: 2px solid var(--light);
@@ -353,6 +352,11 @@ main > section {
   margin: 0px auto;
   box-shadow: 5px 5px 20px var(--shadow);
   transition: opacity ease 1s;
+}
+.light .flexChild {
+margin: 60px 0 0;
+  padding: 15px;
+  box-sizing: border-box;
 }
 .light p {
   line-height: 2;
