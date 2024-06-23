@@ -96,8 +96,8 @@ header .hide {
 #cc1 {
   display: block;
   position: fixed;
-  top: 0px;
-  left: max(20px, calc(50vw - 480px));
+  top: 3px;
+  left: max(20px, calc(50vw - 450px));
   color: var(--dark);
   font-size: 40px;
   line-height: 1.2;
