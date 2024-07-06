@@ -73,12 +73,24 @@
       }
       details .pm::after {
         content: "";
-        width: 1px;
-        height: 16px;
-        border-top: 6px;
+        width: 20px;
+        height: 20px;
+        border-top: 4px solid var(--dark);
+        position: absolute;
+        top: 13px;
+        left: 5px;
+      }
+      details .pm::before {
+        content: "";
+        width: 20px;
+        height: 20px;
+        border-left: 4px solid var(--dark);
+        position: absolute;
+        left: 13px;
+        top: 5px;
       }
       details[open] .pm {
-        transform: rotate(45deg);
+        transform:  scale(1.2) rotate(135deg);
       }
       summary {
         /* display: list-item;以外を指定してデフォルトの三角形アイコンを消します */
@@ -86,12 +98,16 @@
         font-size: 2rem;
         font-weight: bold;
         border-bottom: 1px solid gray;
+        align-items: center;
       }
       summary::-webkit-details-marker {
         display: none;
       }
       footer {
         margin-top: 160px;
+      }
+      p {
+        margin: 0 0 0 15px;
       }
     </style>
   </head>
@@ -130,8 +146,10 @@
           </div>
         </details>
         <details class="details">
-          <summary class="summary"><div class="pm"></div>
-            <p>しつもんしつもんしつもん？？？</p></summary>
+          <summary class="summary">
+            <div class="pm"></div>
+            <p>しつもんしつもんしつもん？？？</p>
+          </summary>
           <div class="answer">
             <div class="answerInner">
               <p>とにかくここに回答を書く。</p>
