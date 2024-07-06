@@ -165,8 +165,10 @@ main > section {
   text-align: center;
   font-size: 4rem;
   font-weight: bold;
+  background-origin: border-box;
+  background-repeat: no-repeat;
   background-image: url("./assets/bg.jpeg");
-  background-position: center;
+  background-position: 70%;
   background-clip: text;
   color: transparent;
   line-height: 1.2;
@@ -355,7 +357,7 @@ main > section {
   transition: opacity ease 1s;
 }
 .light .flexChild {
-margin: 60px 0 0;
+  margin: 60px 0 0;
   padding: 15px;
   box-sizing: border-box;
 }
