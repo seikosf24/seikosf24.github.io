@@ -63,19 +63,26 @@
       details[open] summary {
         color: #725;
       }
-      details summary::before {
-        content: "（＋）";
+      details .pm {
         display: block;
         text-align: center;
-        width: 5rem;
-        float: left;
+        width: 30px;
+        height: 30px;
+        transition: all 0.5s;
+        position: relative;
       }
-      details[open] summary::before {
-        content: "（－）";
+      details .pm::after {
+        content: "";
+        width: 1px;
+        height: 16px;
+        border-top: 6px;
+      }
+      details[open] .pm {
+        transform: rotate(45deg);
       }
       summary {
         /* display: list-item;以外を指定してデフォルトの三角形アイコンを消します */
-        display: block;
+        display: flex;
         font-size: 2rem;
         font-weight: bold;
         border-bottom: 1px solid gray;
@@ -107,14 +114,15 @@
     <main class="arrow">
       <div class="h1Contain">
         <div class="h1Back">FAQ</div>
-        <h1 class="nohome" style="font-size:2.6rem">よくある質問</h1>
+        <h1 class="nohome" style="font-size: 2.6rem">よくある質問</h1>
       </div>
       <section>
-        <h2>
-          MONEY
-        </h2>
+        <h2>MONEY</h2>
         <details class="details">
-          <summary class="summary">しつもんしつもんしつもん？？？</summary>
+          <summary class="summary">
+            <div class="pm"></div>
+            <p>しつもんしつもんしつもん？？？</p>
+          </summary>
           <div class="answer">
             <div class="answerInner">
               <p>とにかくここに回答を書く。</p>
@@ -122,7 +130,8 @@
           </div>
         </details>
         <details class="details">
-          <summary class="summary">しつもんしつもんしつもん？？？</summary>
+          <summary class="summary"><div class="pm"></div>
+            <p>しつもんしつもんしつもん？？？</p></summary>
           <div class="answer">
             <div class="answerInner">
               <p>とにかくここに回答を書く。</p>
