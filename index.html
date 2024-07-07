@@ -119,7 +119,7 @@
       }
       h1.home span {
         font-size: calc(7vw + 20px);
-}
+      }
     </style>
   </head>
   <body>
@@ -140,11 +140,15 @@
     <div class="topImage" id="topImage2"></div>
     <div class="topImage" id="topImage3"></div>
     <div class="topImage" id="topImage4"></div>
-    <div id="topImage5"><h1 class="home"><span>“BE SEIKO”</span><br>Osaka Seiko Gakuin SF 2024</h1></div>
+    <div id="topImage5">
+      <h1 class="home">
+        <span>“BE SEIKO”</span><br />Osaka Seiko Gakuin SF 2024
+      </h1>
+    </div>
     <a href="/"><div id="cc1" style="color: var(--light)">BE SEIKO</div></a>
     <div id="headerBlack"></div>
     <main class="arrow">
-      <figure class="mother">
+      <figure id="colorText">
         <p>あと<span id="countDown">???</span>日</p>
       </figure>
       <section>
@@ -334,8 +338,13 @@
       let date = Math.floor(diffDate / (1000 * 60 * 60 * 24));
       CD.innerHTML = date;
       //ここまで
-      
-      let colorText =""
+
+      let colorText = document.getElementById(colorText);
+      window.addEventListener("scroll", function () {
+        let div_rect = colorText.getBoundingClientRect().top;
+        let per = div_rect / window.innerHeight;
+        console.log(div_rect);
+      });
     </script>
     <script type="text/javascript" src="./script.js" defer></script>
   </body>

@@ -159,7 +159,7 @@ main > section {
   margin: 60px auto;
   width: min(1000px, calc(100vw - 40px));
 }
-.mother {
+#colorText {
   width: 36rem;
   margin: 0 auto;
   text-align: center;
@@ -173,7 +173,7 @@ main > section {
   color: transparent;
   line-height: 1.2;
 }
-.mother span {
+#colorText span {
   font-size: 10rem;
   font-family: "oswald", sans-serif;
 }
