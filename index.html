@@ -343,7 +343,7 @@
         let div_rect = colorText.getBoundingClientRect().bottom;
         let per = div_rect / window.innerHeight;
         if (per > 0) {
-          let abc = Math.floor(per * 100) + "%";
+          let abc = "50% " + Math.floor(per * 100) + "%";
           console.log(abc);
           colorText.style.backgroundPosition = abc;
         }
