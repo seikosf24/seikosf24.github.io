@@ -274,7 +274,6 @@
       let a = document.getElementById("cc1");
       window.addEventListener("scroll", function () {
         let h1 = t2.offsetHeight - 50;
-        console.log(h1);
         let c = document.documentElement.scrollTop || document.body.scrollTop;
         if (c < h1) {
           a.style.color = "var(--light)";
@@ -339,9 +338,9 @@
       CD.innerHTML = date;
       //ここまで
 
-      let colorText = document.getElementById(colorText);
+      let colorText = document.getElementById("colorText");
       window.addEventListener("scroll", function () {
-        let div_rect = colorText.getBoundingClientRect().top;
+        let div_rect = colorText.getBoundingClientRect().bottom;
         let per = div_rect / window.innerHeight;
         console.log(div_rect);
       });
