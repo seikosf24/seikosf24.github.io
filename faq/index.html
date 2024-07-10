@@ -41,74 +41,7 @@
     <link rel="preload" as="font" href="../assets/Oswald-Regular.ttf" />
     <link rel="stylesheet" href="../style.css" />
     <style>
-      details {
-        background-color: #fcfafa;
-        border: 1px solid gray;
-        box-shadow: 1px 1px 10px var(--shadow);
-      }
-      details:last-child,
-      details:last-child summary {
-        border-bottom-left-radius: 10px;
-        border-bottom-right-radius: 10px;
-      }
-      details:first-of-type,
-      details:first-of-type summary {
-        border-top-left-radius: 10px;
-        border-top-right-radius: 10px;
-      }
-      summary,
-      .answerInner {
-        padding: 20px;
-      }
-      details[open] summary {
-        color: #725;
-      }
-      details .pm {
-        display: block;
-        text-align: center;
-        width: 30px;
-        height: 30px;
-        transition: all 0.5s;
-        position: relative;
-      }
-      details .pm::after {
-        content: "";
-        width: 20px;
-        height: 20px;
-        border-top: 4px solid var(--dark);
-        position: absolute;
-        top: 13px;
-        left: 5px;
-      }
-      details .pm::before {
-        content: "";
-        width: 20px;
-        height: 20px;
-        border-left: 4px solid var(--dark);
-        position: absolute;
-        left: 13px;
-        top: 5px;
-      }
-      details[open] .pm {
-        transform:  scale(1.2) rotate(135deg);
-      }
-      summary {
-        /* display: list-item;以外を指定してデフォルトの三角形アイコンを消します */
-        display: flex;
-        font-size: 2rem;
-        font-weight: bold;
-        border-bottom: 1px solid gray;
-        align-items: center;
-      }
-      summary::-webkit-details-marker {
-        display: none;
-      }
-      footer {
-        margin-top: 160px;
-      }
-      p {
-        margin: 0 0 0 15px;
-      }
+    
     </style>
   </head>
   <body>

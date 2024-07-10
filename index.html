@@ -339,15 +339,19 @@
       //ここまで
 
       let colorText = document.getElementById("colorText");
-      window.addEventListener("scroll", function () {
+      window.addEventListener("scroll", function() {
+changeBG();
+} );
+      function changeBG() {
         let div_rect = colorText.getBoundingClientRect().bottom;
         let per = (div_rect - 10) / window.innerHeight;
         if (per > 0) {
-          let abc = "50% " + (per * 100) + "%";
+          let abc = "50% " + per * 100 + "%";
           console.log(abc);
           colorText.style.backgroundPosition = abc;
         }
-      });
+      }
+      changeBG();
     </script>
     <script type="text/javascript" src="./script.js" defer></script>
   </body>

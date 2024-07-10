@@ -41,46 +41,6 @@
     <link rel="preload" as="font" href="../assets/Oswald-Regular.ttf" />
     <link rel="stylesheet" href="../style.css" />
     <style>
-      details {
-        background-color: #fcfafa;
-        border: 1px solid gray;
-        box-shadow: 1px 1px 10px var(--shadow);
-      }
-      details:last-child,
-      details:last-child summary {
-        border-radius: 0 0 10px 10px;
-      }
-      details:first-child,
-      details:first-child summary {
-        border-radius: 10px 10px 0 0;
-      }
-      summary,
-      .answerInner {
-        padding: 20px;
-      }
-      details[open] summary {
-        color: #725;
-      }
-      details summary::before {
-        content: "（＋）";
-        display: block;
-        text-align: center;
-        width: 5rem;
-        float: left;
-      }
-      details[open] summary::before {
-        content: "（－）";
-      }
-      summary {
-        /* display: list-item;以外を指定してデフォルトの三角形アイコンを消します */
-        display: block;
-        font-size: 2rem;
-        font-weight: bold;
-        border-bottom: 1px solid gray;
-      }
-      summary::-webkit-details-marker {
-        display: none;
-      }
       .answerInner img {
         margin: 10px;
         box-shadow: 0 0 10px var(--shadow);
@@ -126,7 +86,10 @@
         </div>
         <div class="cells">
           <details class="details">
-            <summary class="summary">企画名</summary>
+            <summary class="summary">
+            <div class="pm"></div>
+            <p>企画名</p>
+            </summary>
             <div class="answer">
               <div class="answerInner">
                 <img
@@ -143,7 +106,10 @@
             </div>
           </details>
           <details class="details">
-            <summary class="summary">企画名</summary>
+            <summary class="summary">
+            <div class="pm"></div>
+            <p>企画名</p>
+            </summary>
             <div class="answer">
               <div class="answerInner">
                 <img
@@ -160,7 +126,10 @@
             </div>
           </details>
           <details class="details">
-            <summary class="summary">企画名</summary>
+            <summary class="summary">
+            <div class="pm"></div>
+            <p>企画名</p>
+            </summary>
             <div class="answer">
               <div class="answerInner">
                 <img
@@ -192,7 +161,10 @@
         </div>
         <div class="cells">
           <details class="details">
-            <summary class="summary">企画名</summary>
+            <summary class="summary">
+            <div class="pm"></div>
+            <p>企画名</p>
+            </summary>
             <div class="answer">
               <div class="answerInner">
                 <img
@@ -209,7 +181,10 @@
             </div>
           </details>
           <details class="details">
-            <summary class="summary">企画名</summary>
+            <summary class="summary">
+            <div class="pm"></div>
+            <p>企画名</p>
+            </summary>
             <div class="answer">
               <div class="answerInner">
                 <img
@@ -226,7 +201,10 @@
             </div>
           </details>
           <details class="details">
-            <summary class="summary">企画名</summary>
+            <summary class="summary">
+            <div class="pm"></div>
+            <p>企画名</p>
+            </summary>
             <div class="answer">
               <div class="answerInner">
                 <img
