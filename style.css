@@ -34,7 +34,7 @@ body {
 /*リンク色、下線を消す*/
 a {
   text-decoration: none;
-  color: #4444dd;
+  color: #3333aa;
 }
 /*上のメニュー*/
 header {
@@ -393,6 +393,9 @@ footer {
   padding: 15px;
   color: #ddf;
   text-decoration: underline;
+}
+#footerLink a {
+  
 }
 #footerLink a::before {
   content: "> ";
