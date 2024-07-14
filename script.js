@@ -15,7 +15,7 @@ footer.innerHTML = `<div id="footerLink">
         <a href="/stage">STAGE</a>
         <a href="/blog">BLOG</a>
         <a href="/faq">FAQ</a><br>
-        <a href=
+        <a href="http://www.osakaseiko.ac.jp/">大阪星光学院公式ホームページ</a>
       </div>
       &copy; School Fair Steering Committee
       <div id="footerCoolLogo">SEIKO SF '24</div>`;
