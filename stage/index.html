@@ -122,12 +122,14 @@
     <script>
       const container = document.getElementById("flame");
       const children = container.children;
-      console.log(children[2].innerHTML);
       const start = [9, 10.25];
       const long = [1.25, 0.25];
-      for (i = 0; i++; i < start.length) {
-        children[i + 1].style.top = 400 * (start[i] - 9) + 5;
-        children[i + 1].style.height = 400 * start[i] - 10;
+      for (let i = 0; i < start.length - 1; i++) { {
+        let top = 400 * (start[i] - 9) + 5;
+        let height = 400 * start[i] - 10;
+        children[i + 1].style.top = top + "px";
+        children[i + 1].style.height = height + "px";
+        console.log(long[0]);
       }
     </script>
     <script type="text/javascript" src="../script.js"></script>
