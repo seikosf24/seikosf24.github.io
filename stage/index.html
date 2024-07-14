@@ -124,12 +124,12 @@
       const children = container.children;
       const start = [9, 10.25];
       const long = [1.25, 0.25];
-      for (let i = 0; i < start.length - 1; i++) { {
-        let top = 400 * (start[i] - 9) + 5;
-        let height = 400 * start[i] - 10;
+      for (let i = 0; i < start.length - 1; i++) {
+        let top = (400 * start[i]) - 3595;
+        let height = 400 * long[i] - 10;
         children[i + 1].style.top = top + "px";
         children[i + 1].style.height = height + "px";
-        console.log(long[0]);
+        console.log("00");
       }
     </script>
     <script type="text/javascript" src="../script.js"></script>
