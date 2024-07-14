@@ -41,53 +41,15 @@
     <link rel="preload" as="font" href="../assets/Oswald-Regular.ttf" />
     <link rel="stylesheet" href="../style.css" />
     <style>
-      details {
-        background-color: #fcfafa;
-        border: 1px solid gray;
-        box-shadow: 1px 1px 10px var(--shadow);
+      table,tr {
+        width: 100%;
+        border-collapse: collapse;
       }
-      details:last-child,
-      details:last-child summary {
-        border-radius: 0 0 10px 10px;
-      }
-      details:first-child,
-      details:first-child summary {
-        border-radius: 10px 10px 0 0;
-      }
-      summary,
-      .answerInner {
-        padding: 20px;
-      }
-      details[open] summary {
-        color: #725;
-      }
-      details summary::before {
-        content: "（＋）";
-        display: block;
-        text-align: center;
-        width: 5rem;
-        float: left;
-      }
-      details[open] summary::before {
-        content: "（－）";
-      }
-      summary {
-        /* display: list-item;以外を指定してデフォルトの三角形アイコンを消します */
-        display: block;
-        font-size: 2rem;
-        font-weight: bold;
-        border-bottom: 1px solid gray;
-      }
-      summary::-webkit-details-marker {
-        display: none;
-      }
-      .answerInner img {
-        margin: 10px;
-        box-shadow: 0 0 10px var(--shadow);
-        position: relative;
-      }
-      footer {
-        margin-top: 160px;
+      td {
+        border: 2px solid gray;
+        height: 399px;
+        width: 100%;
+        background: #fafaff;
       }
     </style>
   </head>
@@ -114,9 +76,12 @@
       </div>
       <section class="container">
         <table>
-          <tr>
-            <td>9:00</td>
-          </tr>
+          <tr><td>9:00</td></tr>
+          <tr><td>10:00</td></tr>
+          <tr><td>11:00</td></tr>
+          <tr><td>12:00</td></tr>
+          <tr><td>13:00</td></tr>
+          <tr><td>14:00</td></tr>
         </table>
       </section>
     </main>
