@@ -6,6 +6,18 @@ document.getElementById("openbtn").addEventListener("click", function () {
   document.getElementById("g-nav").classList.toggle("panelactive");
 });
 
+//スクロールに応じて
+let scrollY = window.scrollY;
+let elements = document.getElementsByTagName('header');
+let element = element[0];
+console.log(element.innerHTML);
+window.addEventListener("scroll", (event) => {
+  if (scrollY > window.scrollY) {
+  } else if (scrollY < window.scrollY) {
+  }
+  let scrollY = window.scrollY;
+});
+
 //フッター
 let footer = document.getElementsByTagName("footer")[0];
 footer.innerHTML = `<div id="footerLink">
@@ -20,8 +32,7 @@ footer.innerHTML = `<div id="footerLink">
       &copy; School Fair Steering Committee
       <div id="footerCoolLogo">SEIKO SF '24</div>`;
 
-
-
+//アコーディオンパネル
 document.addEventListener("DOMContentLoaded", () => {
   document.querySelectorAll(".details").forEach(function (el) {
     const summary = el.querySelector(".summary");
