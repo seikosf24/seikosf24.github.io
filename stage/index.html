@@ -48,7 +48,7 @@
       }
       td {
         border: 2px solid gray;
-        height: 399px;
+        height: 299px;
         width: 100%;
         background: #ddddffaa;
         font-family: "oswald", sans-serif;
@@ -69,8 +69,14 @@
         top: 0;
         right: calc(15% - 40px);
         border-radius: 10px;
+      }
+      .kikaku
+      .kikaku a {
         color: var(--light);
         font-size: 2.5rem;
+        display: block;
+        width: 100%;
+        height: 100%;
       }
     </style>
   </head>
@@ -118,23 +124,19 @@
               <td>14:00</td>
             </tr>
           </table>
-          <div class="kikaku">合唱</div>
-          <div class="kikaku">合唱</div>
+          <div class="kikaku"><a href="#d0">合唱</a></div>
+          <div class="kikaku"><a href="#d1">バンド</a></div>
         </div>
       </section>
       <section class="arrow">
         <h2>DETAILS</h2>
         <div class="flexChild" id="d0">
           <h3>合唱</h3>
-          <p>
-            中身中身。中身を書いてください
-          </p>
+          <p>中身中身。中身を書いてください</p>
         </div>
         <div class="flexChild" id="d1">
-          <h3>合唱</h3>
-          <p>
-            中身中身。中身を書いてください
-          </p>
+          <h3>バンド</h3>
+          <p>中身中身。中身を書いてください</p>
         </div>
       </section>
     </main>
@@ -145,8 +147,8 @@
       const start = [9, 10.25];
       const long = [1.25, 0.25];
       for (let i = 0; i < start.length; i++) {
-        let top = (400 * start[i]) - 3585;
-        let height = 400 * long[i] - 15;
+        let top = 300 * start[i] - 2685;
+        let height = 300 * long[i] - 15;
         children[i + 1].style.top = top + "px";
         children[i + 1].style.height = height + "px";
       }
