@@ -8,14 +8,14 @@ document.getElementById("openbtn").addEventListener("click", function () {
 
 //スクロールに応じて
 let scrollY = window.scrollY;
-let elements = document.getElementsByTagName('header');
-let element = element[0];
-console.log(element.innerHTML);
+let headerObject = document.getElementsByTagName("header").item(0);
 window.addEventListener("scroll", (event) => {
   if (scrollY > window.scrollY) {
+    headerObject.style.transform = "translateY(0px)";
   } else if (scrollY < window.scrollY) {
+    headerObject.style.transform = "translateY(-50px)";
   }
-  let scrollY = window.scrollY;
+  scrollY = window.scrollY;
 });
 
 //フッター
