@@ -7,18 +7,20 @@ document.getElementById("openbtn").addEventListener("click", function () {
 });
 
 //スクロールに応じて
-let scrollY = window.scrollY;
-let headerObject = document.getElementsByClassName("tops");
-window.addEventListener("scroll", (event) => {
-  for (let i = 0; i < headerObject.length; i++) {
-  if (scrollY + 1 > window.scrollY) {
-    headerObject[i].style.transform = "translateY(0px)";
-  } else if (scrollY + 1 < window.scrollY) {
-    headerObject[i].style.transform = "translateY(-60px)";
-  }
-  }
-  scrollY = window.scrollY;
-});
+window.onload = (event) => {
+  let scrollY = window.scrollY;
+  let headerObject = document.getElementsByClassName("tops");
+  window.addEventListener("scroll", (event) => {
+    for (let i = 0; i < headerObject.length; i++) {
+      if (scrollY >= window.scrollY) {
+        headerObject[i].style.transform = "translateY(0px)";
+      } else if (scrollY > 999 && scrollY < window.scrollY) {
+        headerObject[i].style.transform = "translateY(-60px)";
+      }
+    }
+    scrollY = window.scrollY;
+  });
+};
 
 //フッター
 let footer = document.getElementsByTagName("footer")[0];
