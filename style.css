@@ -318,7 +318,7 @@ main > section {
 .flexChild {
   background-color: var(--light);
   border-radius: 10px;
-  margin: 10px;
+  margin: 20px 10px 0;
   padding: 10px;
   box-shadow: inset 1px 1px 5px var(--shadow);
 }
