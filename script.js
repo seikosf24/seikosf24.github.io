@@ -8,12 +8,14 @@ document.getElementById("openbtn").addEventListener("click", function () {
 
 //スクロールに応じて
 let scrollY = window.scrollY;
-let headerObject = document.getElementsByTagName("header").item(0);
+let headerObject = document.getElementsByClassName("tops");
 window.addEventListener("scroll", (event) => {
-  if (scrollY > window.scrollY) {
-    headerObject.style.transform = "translateY(0px)";
-  } else if (scrollY < window.scrollY) {
-    headerObject.style.transform = "translateY(-50px)";
+  for (let i = 0; i < headerObject.length; i++) {
+  if (scrollY + 1 > window.scrollY) {
+    headerObject[i].style.transform = "translateY(0px)";
+  } else if (scrollY + 1 < window.scrollY) {
+    headerObject[i].style.transform = "translateY(-60px)";
+  }
   }
   scrollY = window.scrollY;
 });

@@ -37,6 +37,9 @@ a {
   color: #3333aa;
 }
 /*上のメニュー*/
+.tops {
+transition: all 0.5s ease;
+}
 header {
   margin: 0;
   width: min(1000px, 100vw);
