@@ -38,7 +38,7 @@ a {
 }
 /*上のメニュー*/
 .tops {
-transition: all 0.3s;
+transition: transform 0.3s;
 }
 header {
   margin: 0;

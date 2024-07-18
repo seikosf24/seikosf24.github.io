@@ -12,9 +12,9 @@ window.onload = (event) => {
   let headerObject = document.getElementsByClassName("tops");
   window.addEventListener("scroll", (event) => {
     for (let i = 0; i < headerObject.length; i++) {
-      if (scrollY >= window.scrollY) {
+      if (scrollY > window.scrollY + 3) {
         headerObject[i].style.transform = "translateY(0px)";
-      } else if (scrollY > 999 && scrollY < window.scrollY) {
+      } else if (scrollY > 999 && scrollY + 3 < window.scrollY) {
         headerObject[i].style.transform = "translateY(-60px)";
       }
     }
