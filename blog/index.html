@@ -43,6 +43,11 @@
     <style>
       .flexChild {
         min-height: 180px;
+        transition: filter 0.3s;
+        color: #333333;
+      }
+      .flexChild:hover {
+        filter: brightness(80%);
       }
       img {
         float: left;
@@ -73,17 +78,19 @@
       </div>
       <section>
         <h2>AUGUST</h2>
-        <div class="flexChild">
-          <img
-            src="../images/icon512x512.png"
-            width="160"
-            height="160"
-            alt="icon"
-          />
-          <h3>タイトル！</h3>
-          <p>8/18</p>
-          <p>なかみなかみなかみなかみ！なかみなかみなかみ！</p>
-        </div>
+        <a href="./blog/article/01.html">
+          <div class="flexChild">
+            <img
+              src="../images/icon512x512.png"
+              width="160"
+              height="160"
+              alt="icon"
+            />
+            <h3>タイトル！</h3>
+            <p>8/18</p>
+            <p>なかみなかみなかみなかみ！なかみなかみなかみ！</p>
+          </div>
+        </a>
       </section>
     </main>
     <footer></footer>
