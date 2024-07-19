@@ -7,8 +7,19 @@
   box-shadow: 0px 2px 20px silver;
 }
 #channel {
-border-bottom: 1px solid #444444;
+  width: min(100%, 600px);
+  margin: 0 auto;
+  border-bottom: 1px solid #444444;
+  display: flex;
 }
-#channel:nth-child(1) {
-border-
+#channel a {
+  text-align: center;
+color: #555588;
+  display: block;
+  width: 33%;
+  margin: 5px 0;
+}
+#channel a:nth-child(2) {
+  border-left: 1px solid #444444;
+  border-right: 1px solid #444444;
 }
