@@ -120,6 +120,24 @@
       h1.home span {
         font-size: calc(7vw + 20px);
       }
+      #colorText {
+        width: 36rem;
+        margin: 0 auto;
+        text-align: center;
+        font-size: 4rem;
+        font-weight: bold;
+        background-origin: border-box;
+        background-repeat: no-repeat;
+        background-image: url("https://cdn.glitch.global/6b229fd4-b092-4044-9cc2-0b306f76df3b/IMG_8463.jpeg?v=1720323873302");
+        background-position: 70%;
+        background-clip: text;
+        color: transparent;
+        line-height: 1.2;
+      }
+      #colorText span {
+        font-size: 10rem;
+        font-family: "oswald", sans-serif;
+      }
     </style>
   </head>
   <body>
@@ -145,7 +163,9 @@
         <span>“BE SEIKO”</span><br />Osaka Seiko Gakuin SF 2024
       </h1>
     </div>
-    <a href="#"><div id="cc1" class="tops" style="color: var(--light)">BE SEIKO</div></a>
+    <a href="#"
+      ><div id="cc1" class="tops" style="color: var(--light)">BE SEIKO</div></a
+    >
     <div id="headerBlack" class="tops"></div>
     <main class="arrow">
       <figure id="colorText">
@@ -339,9 +359,9 @@
       //ここまで
 
       let colorText = document.getElementById("colorText");
-      window.addEventListener("scroll", function() {
-changeBG();
-} );
+      window.addEventListener("scroll", function () {
+        changeBG();
+      });
       function changeBG() {
         let div_rect = colorText.getBoundingClientRect().bottom;
         let per = (div_rect - 10) / window.innerHeight;

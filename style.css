@@ -93,12 +93,7 @@ header {
 #g-nav a:hover::after {
   transform: scale(1, 1); /*ホバー後、x軸方向に1（相対値）伸長*/
 }
-/*使わない*/
-header .hide {
-  transform: translateY(-60px);
-  opacity: 0.5;
-}
-/*メニューのSEIKOの文字*/
+/*ヘッダーここまで、以下メニューのSEIKOの文字*/
 #cc1 {
   display: block;
   position: fixed;
@@ -111,7 +106,7 @@ header .hide {
   z-index: 84;
   opacity: 1;
 }
-/*メイン見出し*/
+/*ホーム画面以外のページの見出し*/
 h1.nohome {
   margin: 0;
   padding: 0px 15px;
@@ -147,6 +142,7 @@ h1.nohome {
   position: relative;
   overflow: hidden;
 }
+/*ヘッダーの青白*/
 #headerBlack {
   width: 100vw;
   height: 60px;
@@ -163,24 +159,6 @@ h1.nohome {
 main > section {
   margin: 60px auto;
   width: min(1000px, calc(100vw - 40px));
-}
-#colorText {
-  width: 36rem;
-  margin: 0 auto;
-  text-align: center;
-  font-size: 4rem;
-  font-weight: bold;
-  background-origin: border-box;
-  background-repeat: no-repeat;
-  background-image: url("https://cdn.glitch.global/6b229fd4-b092-4044-9cc2-0b306f76df3b/IMG_8463.jpeg?v=1720323873302");
-  background-position: 70%;
-  background-clip: text;
-  color: transparent;
-  line-height: 1.2;
-}
-#colorText span {
-  font-size: 10rem;
-  font-family: "oswald", sans-serif;
 }
 .container {
   display: flex;
@@ -275,7 +253,7 @@ main > section {
 .news td:nth-child(2) {
   width: 70%;
 }
-/*情報*/
+/*ホーム画面の「〜はこちら」*/
 .infoflex {
   display: flex;
   flex-wrap: wrap;
@@ -413,7 +391,7 @@ footer {
   line-height: 1.3;
   transform: scale(1.25, 1.5);
 }
-
+/*BOOTHとかでのアコーディオン*/
 details {
   background-color: #fcfafa;
   border: 1px solid gray;
@@ -466,7 +444,6 @@ details[open] .pm {
   transform: scale(1.2) rotate(135deg);
 }
 summary {
-  /* display: list-item;以外を指定してデフォルトの三角形アイコンを消します */
   display: flex;
   font-size: 2rem;
   font-weight: bold;
@@ -475,9 +452,6 @@ summary {
 }
 summary::-webkit-details-marker {
   display: none;
-}
-footer {
-  margin-top: 160px;
 }
 details p {
   margin: 0 0 0 15px;
