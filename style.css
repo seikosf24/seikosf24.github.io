@@ -41,7 +41,7 @@ a {
 }
 /*上のメニュー*/
 .tops {
-transition: transform 0.3s;
+transition: transform 0.3s, color 0.3s;
 }
 header {
   margin: 0;
