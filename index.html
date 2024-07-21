@@ -120,13 +120,19 @@
       h1.home span {
         font-size: calc(7vw + 20px);
       }
+      .fusen-m {
+        display: grid;
+        place-items: center;
+        height: 150px;
+}
       .fusen-2 {
         display: inline-block;
         position: relative;
-        padding: 0.5em 1em;
+        padding: 10px;
         border-right: 27px solid #2589d0;
         background-color: #f5f5f5;
         color: #333333;
+        font-family: "oswald", sans-serif;
       }
       .fusen-2::before {
         position: absolute;
@@ -188,7 +194,9 @@
     >
     <div id="headerBlack" class="tops"></div>
     <main class="arrow">
-      <div class="fusen-2">11月3日</div>
+      <div class="fusen-m">
+        <div class="fusen-2">3rd Norvember 2024</div>
+      </div>
       <figure id="colorText">
         <p>あと<span id="countDown">???</span>日</p>
       </figure>
