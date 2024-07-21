@@ -412,7 +412,7 @@ summary,
   padding: 20px;
 }
 details[open] summary {
-  color: #725;
+  background-color: #fcfefe;
 }
 details .pm {
   display: block;
@@ -426,7 +426,7 @@ details .pm::after {
   content: "";
   width: 20px;
   height: 20px;
-  border-top: 4px solid var(--dark);
+  border-top: 4px solid var(--text);
   position: absolute;
   top: 13px;
   left: 5px;
@@ -435,7 +435,7 @@ details .pm::before {
   content: "";
   width: 20px;
   height: 20px;
-  border-left: 4px solid var(--dark);
+  border-left: 4px solid var(--text);
   position: absolute;
   left: 13px;
   top: 5px;
@@ -456,7 +456,7 @@ summary::-webkit-details-marker {
 details p {
   margin: 0 0 0 15px;
 }
-
+/*ここまで*/
 @media screen and (max-width: 700px) {
   /*ヘッダー*/
   #g-nav {
