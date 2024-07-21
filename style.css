@@ -158,7 +158,7 @@ h1.nohome {
 /*メイン要素*/
 main > section {
   margin: 60px auto;
-  width: min(1000px, calc(100vw - 40px));
+  width: min(1300px, calc(100vw - 40px));
 }
 .container {
   display: flex;
@@ -308,7 +308,7 @@ main > section {
   box-shadow: inset 1px 1px 5px var(--shadow);
 }
 .message {
-  width: min(calc(100% - 30px), 700px);
+  width: min(calc(100% - 30px), 1000px);
   margin: 0 auto;
   padding: 40px 15px;
 }
