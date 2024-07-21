@@ -14,6 +14,7 @@ html {
 :root {
   --light: #fafafc;
   --dark: #112244;
+  --accent: #88888888;
   --shadow: #88888888;
 }
 body {
