@@ -250,6 +250,10 @@ main > section {
   width: calc(30% - 30px);
   padding: 15px;
 }
+.news td:nth-child(1) {
+  font-family: "oswald", sans-serif;
+  font-size: 2rem;
+}
 .news td:nth-child(2) {
   width: 70%;
 }
