@@ -326,15 +326,14 @@ main > section {
 .ap {
   opacity: 0;
 }
-.cells {
-  width: 50%;
-  min-height: 200px;
-}
 .cells:nth-child(odd) {
   text-align: center;
+  width: 400px;
+  min-height: 200px;
 }
 .cells:nth-child(even) {
   margin-top: 60px;
+  width: calc(100% - 400px);
 }
 .cellsImage {
   border: 2px solid var(--light);
@@ -562,6 +561,6 @@ details p {
     display: block;
   }
   .cells {
-    width: 100%;
+    width: 100% !important;
   }
 }
