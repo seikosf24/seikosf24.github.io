@@ -62,6 +62,7 @@ header {
   flex-wrap: nowrap;
   overflow-x: scroll;
   float: right;
+  scrollbar-width: none; 
 }
 #g-nav li {
   display: block;
@@ -103,7 +104,7 @@ header {
   font-size: 40px;
   line-height: 1.2;
   font-family: "oswald", sans-serif;
-  z-index: 84;
+  z-index: 100;
   opacity: 1;
 }
 /*ホーム画面以外のページの見出し*/
