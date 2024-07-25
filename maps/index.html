@@ -2,7 +2,7 @@
 <html lang="ja">
   <head>
     <meta charset="utf-8" />
-    <title>ブログ || 2024年大阪星光学院スクールフェア(SF)</title>
+    <title>講堂企画 || 2024年大阪星光学院スクールフェア(SF)</title>
     <meta
       name="viewport"
       content="width=device-width, initial-scale=1, viewport-fit=cover, shrink-to-fit=no"
@@ -19,18 +19,18 @@
     <meta name="apple-mobile-web-app-title" content="Seiko SF '24" />
     <meta
       name="application-name"
-      content="ブログ || 2024年大阪星光学院スクールフェア(SF)特設サイト"
+      content="講堂企画 || 2024年大阪星光学院スクールフェア(SF)特設サイト"
     />
     <!-- ogp -->
     <meta
       property="og:site_name"
       content="BE SEIKO || 2024年大阪星光学院スクールフェア(SF)"
     />
-    <meta property="og:url" content="https://sf24.glitch.me/blog" />
+    <meta property="og:url" content="https://sf24.glitch.me/stage" />
     <meta property="og:type" content="website" />
     <meta
       property="og:title"
-      content="ブログ || 2024年大阪星光学院スクールフェア(SF)"
+      content="講堂企画 || 2024年大阪星光学院スクールフェア(SF)"
     />
     <meta
       property="og:description"
@@ -41,17 +41,47 @@
     <link rel="preload" as="font" href="/assets/Oswald-Regular.ttf" />
     <link rel="stylesheet" href="/style.css" />
     <style>
-      .flexChild {
-        min-height: 180px;
-        transition: filter 0.3s;
-        color: #333333;
+      table,
+      tr {
+        width: 100%;
+        border-collapse: collapse;
       }
-      .flexChild:hover {
-        filter: brightness(80%);
+      td {
+        border: 2px solid gray;
+        height: 299px;
+        width: 100%;
+        background: #ddddffaa;
+        font-family: "oswald", sans-serif;
+        font-size: 4rem;
+        text-align: left;
+        vertical-align: top;
       }
-      img {
-        float: left;
-        margin: 10px;
+      #flame {
+        position: relative;
+        width: 100%;
+      }
+      .kikaku {
+        box-sizing: border-box;
+        padding: 5px 10px;
+        position: absolute;
+        width: 70%;
+        background-color: #222222cc;
+        top: 0;
+        right: calc(15% - 40px);
+        border-radius: 10px;
+transition: all 0.5s;
+      }
+      .kikaku:hover {
+transform: scale(0.95);
+        background-color: #222222aa;
+}
+      .kikaku a {
+        color: var(--light);
+        font-size: 2.5rem;
+        display: block;
+        width: 100%;
+        height: 100%;
+        cursor: pointer;
       }
     </style>
   </head>
@@ -63,8 +93,8 @@
           <li><a href="/">HOME</a></li>
           <li><a href="/info">INFO</a></li>
           <li><a href="/booth">BOOTH</a></li>
-          <li><a href="/stage">STAGE</a></li>
-          <li><a href="#">BLOG</a></li>
+          <li><a href="#">STAGE</a></li>
+          <li><a href="/blog">BLOG</a></li>
           <li><a href="/faq">FAQ</a></li>
         </ul>
       </div>
@@ -72,25 +102,11 @@
     <a href="/"><div id="cc1" class="tops">BE SEIKO</div></a>
     <div id="headerBlack" class="tops"></div>
     <main class="arrow">
-      <div class="h1Contain">
-        <div class="h1Back">BLOG</div>
-        <h1 class="nohome">ブログ</h1>
-      </div>
-      <section>
-        <h2>AUGUST</h2>
-        <a href="article/01.html">
-          <div class="flexChild">
-            <img
-              src="/images/icon512x512.png"
-              width="160"
-              height="160"
-              alt="icon"
-            />
-            <h3>タイトル！</h3>
-            <p>8/18</p>
-            <p>なかみなかみなかみなかみ！なかみなかみなかみ！</p>
-          </div>
-        </a>
+        <div class="h1Contain">
+          <div class="h1Back">Maps</div>
+          <h1 class="nohome">學校案内</h1>
+        </div>
+      <section class="arrow">
       </section>
     </main>
     <footer></footer>
