@@ -30,7 +30,7 @@ footer.innerHTML = `<div id="footerLink">
         <a href="/booth">BOOTH</a>
         <a href="/stage">STAGE</a>
         <a href="/blog">BLOG</a>
-        <a href="/faq">FAQ</a>
+        <a href="/maps">MAPS</a>
         <a href="http://www.osakaseiko.ac.jp/">大阪星光学院公式ホームページ</a>
       </div>
       &copy; School Fair Steering Committee
