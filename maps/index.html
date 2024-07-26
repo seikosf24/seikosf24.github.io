@@ -50,11 +50,19 @@
       }
       .search_box{
         width: 100%;
-        display: flex;
+        display: flex;    
         justify-content: center;
+        flex-direction: column;
+        align-content: center;
+        align-items: center;
         #search_input{
           width:200px;
           height:50px;
+        }
+        #result{
+          width:500px;
+          min-height: 100px;
+          background-color: gray;
         }
       }
     </style>
@@ -67,7 +75,7 @@
           <li><a href="/">HOME</a></li>
           <li><a href="/info">INFO</a></li>
           <li><a href="/booth">BOOTH</a></li>
-          <li><a href="#">STAGE</a></li>
+          <li><a href="/stage">STAGE</a></li>
           <li><a href="/blog">BLOG</a></li>
           <li><a href="/maps">MAPS</a></li>
         </ul>
@@ -83,10 +91,14 @@
       <section class="arrow">
         <div class="search_box">
           <input id="search_input" placeholder="input">
-          <button onclick="search()">submit</button>
+          <div id="result">
+
+          </div>
         </div>
         <div class="mapContain">
-          <div id="mapContain_floor2"></div>
+          <div id="mapContain_floor2">
+
+          </div>
         </div>
       </section>
     </main>
@@ -95,15 +107,90 @@
   </body>
 </html>
 <script>
-  let defoSVG
-  fetch("./f2.svg").then(res=>res.text()).then(res=>{defoSVG = res;document.getElementById("mapContain_floor2").innerHTML = res})
-  const search = ()=>{
-    const input = document.getElementById("search_input").value
-    if(document.getElementById(input)){
-      document.getElementById("mapContain_floor2").innerHTML = defoSVG
-      document.getElementById(input).setAttribute("fill","yellow")
-    }else{
-      alert("doesnt exist")
-    }
+  //分けて書くのは見やすくするためだにょ
+  const Full2Half = (input)=>{ //全角文字を半角にする
+    return input.replace(/[Ａ-Ｚａ-ｚ０-９]/g, function(char) {
+        return String.fromCharCode(char.charCodeAt(0) - 0xFEE0);
+    });
   }
+  const makeLower = (input)=>{
+    let answer = ""
+    for(var i = 0;i < input.length;i++){
+      if(lowerDataSet[input[i]]){
+        answer += lowerDataSet[input[i]]
+      }else{
+        answer += Full2Half(input[i]).toLowerCase()
+      }
+    }
+    return answer
+  }  
+  const lowerDataSet={
+    "ア": "あ", "イ": "い", "ウ": "う", "エ": "え", "オ": "お",
+    "カ": "か", "キ": "き", "ク": "く", "ケ": "け", "コ": "こ",
+    "サ": "さ", "シ": "し", "ス": "す", "セ": "せ", "ソ": "そ",
+    "タ": "た", "チ": "ち", "ツ": "つ", "テ": "て", "ト": "と",
+    "ナ": "な", "ニ": "に", "ヌ": "ぬ", "ネ": "ね", "ノ": "の",
+    "ハ": "は", "ヒ": "ひ", "フ": "ふ", "ヘ": "へ", "ホ": "ほ",
+    "マ": "ま", "ミ": "み", "ム": "む", "メ": "め", "モ": "も",
+    "ヤ": "や", "ユ": "ゆ", "ヨ": "よ",
+    "ラ": "ら", "リ": "り", "ル": "る", "レ": "れ", "ロ": "ろ",
+    "ワ": "わ", "ヲ": "を", "ン": "ん",
+    "ガ": "が", "ギ": "ぎ", "グ": "ぐ", "ゲ": "げ", "ゴ": "ご",
+    "ザ": "ざ", "ジ": "じ", "ズ": "ず", "ゼ": "ぜ", "ゾ": "ぞ",
+    "ダ": "だ", "ヂ": "ぢ", "ヅ": "づ", "デ": "で", "ド": "ど",
+    "バ": "ば", "ビ": "び", "ブ": "ぶ", "ベ": "べ", "ボ": "ぼ",
+    "パ": "ぱ", "ピ": "ぴ", "プ": "ぷ", "ペ": "ぺ", "ポ": "ぽ"
+  }
+</script>
+<script>
+  let defoSVG;
+  fetch("./f2.svg").then(res=>res.text()).then(res=>{defoSVG = res;document.getElementById("mapContain_floor2").innerHTML = res;showplace(window.location.hash.substring(1))})
+  /* しばし解説を 
+    #datasetについて
+    d:表示される名前（実際の企画名）
+    s:検索エンジンに引っ掛けるための名前。日本語、ローマ字をぶちこむ
+    i:目的の企画の<path>のid 要はdocument.getElementById()で取得するときのidってわけ
+      =>maps_は抜いてます。全部ついてるので後から += でいい
+  */
+  const dataset=[
+    {d:"H1A",i:"H1A",s:"h1a高校一年a組こうこういちねんaぐみ"},
+    {d:"H1B",i:"H1B",s:"h1b高校一年b組こうこういちねんbぐみ"},
+    {d:"H1C",i:"H1C",s:"h1c高校一年c組こうこういちねんcぐみ"},
+    {d:"H1D",i:"H1D",s:"h1d高校一年d組こうこういちねんdぐみ"},
+    {d:"H1E",i:"H1E",s:"h1e高校一年e組こうこういちねんeぐみ"}
+  ];
+  const search = ()=>{
+    const input = makeLower(document.getElementById("search_input").value);
+    if(!input){
+      return document.getElementById("result").innerHTML = "";
+    };
+    let obj = [];//サジェストに表示するやつをまとめとくリスト
+    dataset.forEach((elem,index)=>{
+      if(elem.s.includes(input)){
+        obj.push(index);
+      };
+    });
+    console.log(obj);
+    let ans = "";
+    obj.forEach((index)=>{
+      ans += `<a href="#maps_${dataset[index].i}" class="result_items">${dataset[index].d}</a><br>`;
+    });
+    document.getElementById("result").innerHTML = ans;
+    Array.from(document.querySelectorAll(".result_items")).forEach((elem)=>{
+      elem.addEventListener("click",(elem)=>{
+        showplace(elem.target.hash.substring(1))
+      });
+    });
+  };
+  document.getElementById("search_input").addEventListener("input",search);
+
+  /*ここからは目的の場所を強調表示させつやつ。*/
+  const showplace = (hash)=>{
+    if(!hash){
+      return;
+    };
+    document.getElementById("mapContain_floor2").innerHTML = defoSVG;
+    console.log(document.getElementById(hash),hash);
+    document.getElementById(hash).setAttribute("fill","yellow");
+  };
 </script>
