@@ -157,7 +157,15 @@
     {d:"H1B",i:"H1B",s:"h1b高校一年b組こうこういちねんbぐみ"},
     {d:"H1C",i:"H1C",s:"h1c高校一年c組こうこういちねんcぐみ"},
     {d:"H1D",i:"H1D",s:"h1d高校一年d組こうこういちねんdぐみ"},
-    {d:"H1E",i:"H1E",s:"h1e高校一年e組こうこういちねんeぐみ"}
+    {d:"H1E",i:"H1E",s:"h1e高校一年e組こうこういちねんeぐみ"},
+    {d:"M1A",i:"M1A",s:"m1a中学一年a組ちゅうがくいちねんaぐみ"},
+    {d:"M1B",i:"M1B",s:"m1b中学一年b組ちゅうがくいちねんbぐみ"},
+    {d:"M1C",i:"M1C",s:"m1c中学一年c組ちゅうがくいちねんcぐみ"},
+    {d:"M1D",i:"M1D",s:"m1d中学一年d組ちゅうがくいちねんdぐみ"},
+    {d:"M1E",i:"M1E",s:"m1e中学一年e組ちゅうがくいちねんeぐみ"},
+    {d:"視聴覚室",i:"AVRoom",s:"audiovisualroomavroom視聴覚室しちょうかくしつ"},
+    {d:"技術室",i:"TechRoom",s:"techroomtechnicaldepartment技術室ぎじゅつしつ"},
+    {d:"美術室",i:"ArtRoom",s:"artroom美術室びじゅつしつ"}
   ];
   const search = ()=>{
     const input = makeLower(document.getElementById("search_input").value);
@@ -191,6 +199,6 @@
     };
     document.getElementById("mapContain_floor2").innerHTML = defoSVG;
     console.log(document.getElementById(hash),hash);
-    document.getElementById(hash).setAttribute("fill","yellow");
+    document.getElementById(hash).setAttribute("fill","orange");
   };
 </script>
