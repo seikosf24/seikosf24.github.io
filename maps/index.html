@@ -41,13 +41,22 @@
     <link rel="preload" as="font" href="/assets/Oswald-Regular.ttf" />
     <link rel="stylesheet" href="/style.css" />
     <style>
-        .mapContain{
-            width:100%;
-            height:auto
+      .mapContain {
+        width: 100%;
+        height: auto;
+      }
+      .mapContain svg {
+        width: 100%;
+      }
+      .search_box{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        #search_input{
+          width:200px;
+          height:50px;
         }
-        .mapContain svg{
-            width:100%
-        }
+      }
     </style>
   </head>
   <body>
@@ -67,180 +76,34 @@
     <a href="/"><div id="cc1" class="tops">BE SEIKO</div></a>
     <div id="headerBlack" class="tops"></div>
     <main class="arrow">
-        <div class="h1Contain">
-          <div class="h1Back">Maps</div>
-          <h1 class="nohome">學校案内</h1>
-        </div>
+      <div class="h1Contain">
+        <div class="h1Back">Maps</div>
+        <h1 class="nohome">學校案内</h1>
+      </div>
       <section class="arrow">
+        <div class="search_box">
+          <input id="search_input" placeholder="input">
+          <button onclick="search()">submit</button>
+        </div>
         <div class="mapContain">
-            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="isolation:isolate" viewBox="0 0 800 1000" width="800pt" height="1000pt" id="maps_floor1">
-                <defs>
-                    <clipPath id="_clipPath_wCls0egDns5bRyHN5mWHqbleuuqBbrmC">
-                    <rect width="800" height="1000"/>
-                    </clipPath>
-                    <style>
-                        /* on要素がついたやつだけ光るみたいなやつを後で入れる-多分 */
-                        .maps_blank{
-                            fill:rgba(0,0,0,0)
-                        }
-                        .maps_booth{
-                            fill:gray
-                        }
-                        .maps_booth .on{
-                            fill:rgba(0,0,0,1)
-                        }
-                        .maps_special{
-                            fill:rgba(0,0,0,0)
-                        }
-                        .maps_special .on{
-                            fill:rgba(0,0,0,0)
-                        }
-                        .maps_outerline{
-                            fill:rgba(0,0,0,0)
-                        }
-                    </style>
-                </defs>
-                <g clip-path="url(#_clipPath_wCls0egDns5bRyHN5mWHqbleuuqBbrmC)">
-                    <g style="isolation:isolate" class="maps_outerline">
-                        <path d=" M 20 740 L 20 940 L 420 940 L 420 900 L 600 900 L 600 940 L 710 940 L 710 910 L 720 910" fill="none" vector-effect="non-scaling-stroke" stroke-width="2" stroke="rgb(0,0,0)" stroke-linejoin="miter" stroke-linecap="square" stroke-miterlimit="3"/>
-                        <path d=" M 720 910 C 725 918.5 740.125 920.375 750 920 C 780.25 919.75 790.172 890.297 790 840 C 790 810.125 784.667 781.667 770 770 L 770 740 L 790 740 L 790 110 L 760 110 L 760 80 L 650 80 L 650 740 C 638.624 740 621.999 740 600.125 740 C 600.094 740.109 600.047 750.234 600 750 C 600 750.141 484.918 750 417 750 C 416.977 749.988 417.012 740.004 417 740 Q 273.68 740 20 740" fill="none" vector-effect="non-scaling-stroke" stroke-width="2" stroke="rgb(0,0,0)" stroke-linejoin="miter" stroke-linecap="square" stroke-miterlimit="3"/>
-                        <path d=" M 770 770 L 710 770 L 710 910" fill="none" vector-effect="non-scaling-stroke" stroke-width="2" stroke="rgb(0,0,0)" stroke-linejoin="miter" stroke-linecap="square" stroke-miterlimit="3"/>
-                    </g>
-                    <g style="isolation:isolate" class="maps_booth">
-                        <path d=" M 20 740 L 90 740 L 90 830 L 20 830 L 20 740 Z "  vector-effect="non-scaling-stroke" stroke-width="1" stroke="rgb(0,0,0)" stroke-linejoin="miter" stroke-linecap="square" stroke-miterlimit="3"/>
-                        <path d=" M 90 740 L 154 740 L 154 830 L 90 830 L 90 740 Z "  vector-effect="non-scaling-stroke" stroke-width="1" stroke="rgb(0,0,0)" stroke-linejoin="miter" stroke-linecap="square" stroke-miterlimit="3"/>
-                        <path d=" M 154 740 L 218 740 L 218 830 L 154 830 L 154 740 Z "  vector-effect="non-scaling-stroke" stroke-width="1" stroke="rgb(0,0,0)" stroke-linejoin="miter" stroke-linecap="square" stroke-miterlimit="3"/>
-                        <path d=" M 218 740 L 283 740 L 283 830 L 218 830 L 218 740 Z "  vector-effect="non-scaling-stroke" stroke-width="1" stroke="rgb(0,0,0)" stroke-linejoin="miter" stroke-linecap="square" stroke-miterlimit="3"/>
-                        <path d=" M 283 740 L 347 740 L 347 830 L 283 830 L 283 740 Z "  vector-effect="non-scaling-stroke" stroke-width="1" stroke="rgb(0,0,0)" stroke-linejoin="miter" stroke-linecap="square" stroke-miterlimit="3"/>
-                        <path d=" M 730 675 L 730 606 L 650 606 L 650 675 L 730 675 Z "  vector-effect="non-scaling-stroke" stroke-width="1" stroke="rgb(0,0,0)" stroke-linejoin="miter" stroke-linecap="square" stroke-miterlimit="3"/>
-                        <path d=" M 650 540 L 650 472 L 730 472 L 730 540 L 650 540 Z "  vector-effect="non-scaling-stroke" stroke-width="1" stroke="rgb(0,0,0)" stroke-linejoin="miter" stroke-linecap="square" stroke-miterlimit="3"/>
-                        <path d=" M 650 606 L 650 540 L 730 540 L 730 606 L 650 606 Z "  vector-effect="non-scaling-stroke" stroke-width="1" stroke="rgb(0,0,0)" stroke-linejoin="miter" stroke-linecap="square" stroke-miterlimit="3"/>
-                        <path d=" M 650 472 L 650 407 L 730 407 L 730 472 L 650 472 Z "  vector-effect="non-scaling-stroke" stroke-width="1" stroke="rgb(0,0,0)" stroke-linejoin="miter" stroke-linecap="square" stroke-miterlimit="3"/>
-                        <path d=" M 650 381 L 650 280 L 730 280 L 730 381 L 650 381 Z "  vector-effect="non-scaling-stroke" stroke-width="1" stroke="rgb(0,0,0)" stroke-linejoin="miter" stroke-linecap="square" stroke-miterlimit="3"/>
-                        <path d=" M 650 407 L 650 381 L 730 381 L 730 407 L 650 407 Z "  vector-effect="non-scaling-stroke" stroke-width="1" stroke="rgb(0,0,0)" stroke-linejoin="miter" stroke-linecap="square" stroke-miterlimit="3"/>
-                        <path d=" M 650 280 L 650 176 L 730 176 L 730 280 L 650 280 Z "  vector-effect="non-scaling-stroke" stroke-width="1" stroke="rgb(0,0,0)" stroke-linejoin="miter" stroke-linecap="square" stroke-miterlimit="3"/>
-                        <path d=" M 650 176 L 650 80 L 730 80 L 730 176 L 650 176 Z "  vector-effect="non-scaling-stroke" stroke-width="1" stroke="rgb(0,0,0)" stroke-linejoin="miter" stroke-linecap="square" stroke-miterlimit="3"/>
-                        <path d=" M 154 860 L 250 860 L 250 940 L 154 940 L 154 860 Z "  vector-effect="non-scaling-stroke" stroke-width="1" stroke="rgb(0,0,0)" stroke-linejoin="miter" stroke-linecap="square" stroke-miterlimit="3"/>
-                        <path d=" M 250 860 L 318 860 L 318 940 L 250 940 L 250 860 Z "  vector-effect="non-scaling-stroke" stroke-width="1" stroke="rgb(0,0,0)" stroke-linejoin="miter" stroke-linecap="square" stroke-miterlimit="3"/>
-                    </g>
-                    <g style="isolation:isolate" class="maps_blank">
-                        <path d=" M 650 740 L 717.5 740 L 730 740 L 730 675 L 650 675 L 650 740 Z "  vector-effect="non-scaling-stroke" stroke-width="1" stroke="rgb(0,0,0)" stroke-linejoin="miter" stroke-linecap="square" stroke-miterlimit="3"/>
-                        <path d=" M 704 740 L 704 752 L 730 752 L 730 740 L 704 740 Z "  vector-effect="non-scaling-stroke" stroke-width="1" stroke="rgb(0,0,0)" stroke-linejoin="miter" stroke-linecap="square" stroke-miterlimit="3"/>
-                        <path d=" M 380 807.5 L 380 785 L 380 740 L 417 740 L 417 830 L 380 830 L 380 807.5 Z "  vector-effect="non-scaling-stroke" stroke-width="1" stroke="rgb(0,0,0)" stroke-linejoin="miter" stroke-linecap="square" stroke-miterlimit="3"/>
-                        <path d=" M 347 740 L 380 740 L 380 830 L 347 830 L 347 740 Z "  vector-effect="non-scaling-stroke" stroke-width="1" stroke="rgb(0,0,0)" stroke-linejoin="miter" stroke-linecap="square" stroke-miterlimit="3"/>
-                        <path d=" M 750 280 L 750 310 L 790 310 L 790 280 L 750 280 Z "  vector-effect="non-scaling-stroke" stroke-width="1" stroke="rgb(0,0,0)" stroke-linejoin="miter" stroke-linecap="square" stroke-miterlimit="3"/>
-                        <path d=" M 750 176 L 750 280 L 790 280 L 790 176 L 750 176 Z "  vector-effect="non-scaling-stroke" stroke-width="1" stroke="rgb(0,0,0)" stroke-linejoin="miter" stroke-linecap="square" stroke-miterlimit="3"/>
-                        <path d=" M 750 110 L 750 176 L 790 176 L 790 110 L 750 110 Z "  vector-effect="non-scaling-stroke" stroke-width="1" stroke="rgb(0,0,0)" stroke-linejoin="miter" stroke-linecap="square" stroke-miterlimit="3"/>
-                        <path d=" M 750 310 L 750 340 L 790 340 L 790 310 L 750 310 Z "  vector-effect="non-scaling-stroke" stroke-width="1" stroke="rgb(0,0,0)" stroke-linejoin="miter" stroke-linecap="square" stroke-miterlimit="3"/>
-                        <path d=" M 750 340 L 750 370 L 790 370 L 790 340 L 750 340 Z "  vector-effect="non-scaling-stroke" stroke-width="1" stroke="rgb(0,0,0)" stroke-linejoin="miter" stroke-linecap="square" stroke-miterlimit="3"/>
-                        <path d=" M 750 708 L 750 675 L 790 675 L 790 708 L 750 708 Z "  vector-effect="non-scaling-stroke" stroke-width="1" stroke="rgb(0,0,0)" stroke-linejoin="miter" stroke-linecap="square" stroke-miterlimit="3"/>
-                        <path d=" M 790 740 L 750 740 L 750 708 L 790 708 L 790 740 Z "  vector-effect="non-scaling-stroke" stroke-width="1" stroke="rgb(0,0,0)" stroke-linejoin="miter" stroke-linecap="square" stroke-miterlimit="3"/>
-                        <path d=" M 750 675 L 750 606 L 790 606 L 790 675 L 750 675 Z "  vector-effect="non-scaling-stroke" stroke-width="1" stroke="rgb(0,0,0)" stroke-linejoin="miter" stroke-linecap="square" stroke-miterlimit="3"/>
-                        <path d=" M 600 830 L 660 830 L 660 740 L 600 740 L 600 830 Z "  vector-effect="non-scaling-stroke" stroke-width="1" stroke="rgb(0,0,0)" stroke-linejoin="miter" stroke-linecap="square" stroke-miterlimit="3"/>
-                        <path d=" M 90 860 L 55 860 L 55 940 L 90 940 L 90 860 Z "  vector-effect="non-scaling-stroke" stroke-width="1" stroke="rgb(0,0,0)" stroke-linejoin="miter" stroke-linecap="square" stroke-miterlimit="3"/>
-                        <path d=" M 20 860 L 20 940 L 55 940 L 55 860 L 20 860 Z "  vector-effect="non-scaling-stroke" stroke-width="1" stroke="rgb(0,0,0)" stroke-linejoin="miter" stroke-linecap="square" stroke-miterlimit="3"/>
-                        <path d=" M 90 860 L 122 860 L 122 940 L 90 940 L 90 860 Z "  vector-effect="non-scaling-stroke" stroke-width="1" stroke="rgb(0,0,0)" stroke-linejoin="miter" stroke-linecap="square" stroke-miterlimit="3"/>
-                        <path d=" M 750 110 L 750 80 L 760 80 L 760 110 L 750 110 Z "  vector-effect="non-scaling-stroke" stroke-width="1" stroke="rgb(0,0,0)" stroke-linejoin="miter" stroke-linecap="square" stroke-miterlimit="3"/>
-                        <path d=" M 154 860 L 154 940 L 122 940 L 122 860 L 154 860 Z "  vector-effect="non-scaling-stroke" stroke-width="1" stroke="rgb(0,0,0)" stroke-linejoin="miter" stroke-linecap="square" stroke-miterlimit="3"/>
-                    </g>
-                    <g style="isolation:isolate" class="maps_special">
-                        <path d=" M 417 749 L 600 750 L 600 860 L 417 860 L 417 749 Z "  vector-effect="non-scaling-stroke" stroke-width="1" stroke="rgb(0,0,0)" stroke-linejoin="miter" stroke-linecap="square" stroke-miterlimit="3"/>
-                        <path d=" M 750 407 L 790 407 L 790 480 L 750 480 L 750 407 Z "  vector-effect="non-scaling-stroke" stroke-width="1" stroke="rgb(0,0,0)" stroke-linejoin="miter" stroke-linecap="square" stroke-miterlimit="3"/>
-                        <path d=" M 750 480 L 750 540 L 790 540 L 790 480 L 750 480 Z "  vector-effect="non-scaling-stroke" stroke-width="1" stroke="rgb(0,0,0)" stroke-linejoin="miter" stroke-linecap="square" stroke-miterlimit="3"/>
-                        <path d=" M 660 860 L 660 940 L 710 940 L 710 860 L 660 860 Z "  vector-effect="non-scaling-stroke" stroke-width="1" stroke="rgb(0,0,0)" stroke-linejoin="miter" stroke-linecap="square" stroke-miterlimit="3"/>
-                        <path d=" M 600 900 L 660 900 L 660 940 L 600 940 L 600 900 Z "  vector-effect="non-scaling-stroke" stroke-width="1" stroke="rgb(0,0,0)" stroke-linejoin="miter" stroke-linecap="square" stroke-miterlimit="3"/>
-                        <path d=" M 350 860 L 350 940 L 318 940 L 318 860 L 350 860 Z "  vector-effect="non-scaling-stroke" stroke-width="1" stroke="rgb(0,0,0)" stroke-linejoin="miter" stroke-linecap="square" stroke-miterlimit="3"/>
-                        <path d=" M 420 940 L 350 940 L 350 890 L 420 890 L 420 940 Z "  vector-effect="non-scaling-stroke" stroke-width="1" stroke="rgb(0,0,0)" stroke-linejoin="miter" stroke-linecap="square" stroke-miterlimit="3"/>
-                    </g>
-                </g>
-            </svg>
-            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="isolation:isolate" viewBox="0 0 800 1000" width="800pt" height="1000pt" id="maps_floor1">
-              <defs>
-                  <clipPath id="_clipPath_Ohx0jSFesYw8vSAIJrauoCfNO4Ikv1ah">
-                      <rect width="800" height="1000"/>
-                  </clipPath>
-                  <style>
-                      /* on要素がついたやつだけ光るみたいなやつを後で入れる　多分 */
-                      .maps_blank{
-                          fill:rgba(0,0,0,0)
-                      }
-                      .maps_booth{
-                          fill:rgba(0,0,0,0.4)
-                      }
-                      .maps_booth .on{
-                          fill:rgba(0,0,0,1)
-                      }
-                      .maps_special{
-                          fill:rgba(0,0,0,0)
-                      }
-                      .maps_special .on{
-                          fill:rgba(0,0,0,0)
-                      }
-                      .maps_outerline{
-                          fill:rgba(0,0,0,0)
-                      }
-                  </style>
-              </defs>
-              <g clip-path="url(#_clipPath_Ohx0jSFesYw8vSAIJrauoCfNO4Ikv1ah)">
-                  <g style="isolation:isolate" class="maps_outerline">
-                      <path d=" M 20 740 L 20 940 L 420 940 L 420 860 L 600 860 L 600 940 L 710 940 L 710 910 L 720 910" fill="none" vector-effect="non-scaling-stroke" stroke-width="1" stroke="rgb(0,0,0)" stroke-linejoin="miter" stroke-linecap="square" stroke-miterlimit="3"/>
-                      <path d=" M 720 910 C 725 918.5 740.125 920.375 750 920 C 780.25 919.75 790.172 890.297 790 840 C 790 810.125 784.667 781.667 770 770 L 770 740 L 790 740 L 790 110 L 760 110 L 760 80 L 650 80 L 650 740 C 638.624 740 621.999 740 600.125 740 C 600.094 740.109 600.047 830.234 600 830 C 600 830.141 484.918 830 417 830 C 416.977 829.988 417.012 740.004 417 740 Q 273.68 740 20 740" fill="none" vector-effect="non-scaling-stroke" stroke-width="1" stroke="rgb(0,0,0)" stroke-linejoin="miter" stroke-linecap="square" stroke-miterlimit="3"/>
-                      <path d=" M 770 770 L 710 770 L 710 910" fill="none" vector-effect="non-scaling-stroke" stroke-width="1" stroke="rgb(0,0,0)" stroke-linejoin="miter" stroke-linecap="square" stroke-miterlimit="3"/>
-                  </g>
-                  <g style="isolation:isolate" class="maps_booth" class="maps_booth">
-                      <path d=" M 20 740 L 90 740 L 90 830 L 20 830 L 20 740 Z " vector-effect="non-scaling-stroke" stroke-width="1" stroke="rgb(0,0,0)" stroke-linejoin="miter" stroke-linecap="square" stroke-miterlimit="3"/>
-                      <path d=" M 90 740 L 154 740 L 154 830 L 90 830 L 90 740 Z " vector-effect="non-scaling-stroke" stroke-width="1" stroke="rgb(0,0,0)" stroke-linejoin="miter" stroke-linecap="square" stroke-miterlimit="3"/>
-                      <path d=" M 154 740 L 218 740 L 218 830 L 154 830 L 154 740 Z " vector-effect="non-scaling-stroke" stroke-width="1" stroke="rgb(0,0,0)" stroke-linejoin="miter" stroke-linecap="square" stroke-miterlimit="3"/>
-                      <path d=" M 218 740 L 283 740 L 283 830 L 218 830 L 218 740 Z " vector-effect="non-scaling-stroke" stroke-width="1" stroke="rgb(0,0,0)" stroke-linejoin="miter" stroke-linecap="square" stroke-miterlimit="3"/>
-                      <path d=" M 283 740 L 347 740 L 347 830 L 283 830 L 283 740 Z " vector-effect="non-scaling-stroke" stroke-width="1" stroke="rgb(0,0,0)" stroke-linejoin="miter" stroke-linecap="square" stroke-miterlimit="3"/>
-                      <path d=" M 730 675 L 730 606 L 650 606 L 650 675 L 730 675 Z " vector-effect="non-scaling-stroke" stroke-width="1" stroke="rgb(0,0,0)" stroke-linejoin="miter" stroke-linecap="square" stroke-miterlimit="3"/>
-                      <path d=" M 650 540 L 650 472 L 730 472 L 730 540 L 650 540 Z " vector-effect="non-scaling-stroke" stroke-width="1" stroke="rgb(0,0,0)" stroke-linejoin="miter" stroke-linecap="square" stroke-miterlimit="3"/>
-                      <path d=" M 650 606 L 650 540 L 730 540 L 730 606 L 650 606 Z " vector-effect="non-scaling-stroke" stroke-width="1" stroke="rgb(0,0,0)" stroke-linejoin="miter" stroke-linecap="square" stroke-miterlimit="3"/>
-                      <path d=" M 650 472 L 650 407 L 730 407 L 730 472 L 650 472 Z " vector-effect="non-scaling-stroke" stroke-width="1" stroke="rgb(0,0,0)" stroke-linejoin="miter" stroke-linecap="square" stroke-miterlimit="3"/>
-                      <path d=" M 650 407 L 650 340 L 730 340 L 730 407 L 650 407 Z " vector-effect="non-scaling-stroke" stroke-width="1" stroke="rgb(0,0,0)" stroke-linejoin="miter" stroke-linecap="square" stroke-miterlimit="3"/>
-                      <path d=" M 650 310 L 650 206 L 730 206 L 730 310 L 650 310 Z " vector-effect="non-scaling-stroke" stroke-width="1" stroke="rgb(0,0,0)" stroke-linejoin="miter" stroke-linecap="square" stroke-miterlimit="3"/>
-                      <path d=" M 650 176 L 650 80 L 730 80 L 730 176 L 650 176 Z " vector-effect="non-scaling-stroke" stroke-width="1" stroke="rgb(0,0,0)" stroke-linejoin="miter" stroke-linecap="square" stroke-miterlimit="3"/>
-                      <path d=" M 650 740 L 717.5 740 L 730 740 L 730 675 L 650 675 L 650 740 Z " vector-effect="non-scaling-stroke" stroke-width="1" stroke="rgb(0,0,0)" stroke-linejoin="miter" stroke-linecap="square" stroke-miterlimit="3"/>
-                      <path d=" M 55 860 L 155 860 L 155 940 L 55 940 L 55 860 Z " vector-effect="non-scaling-stroke" stroke-width="1" stroke="rgb(0,0,0)" stroke-linejoin="miter" stroke-linecap="square" stroke-miterlimit="3"/>
-                  </g>
-                  <g style="isolation:isolate" class="maps_blank">
-                      <path d=" M 704 740 L 704 752 L 730 752 L 730 740 L 704 740 Z " vector-effect="non-scaling-stroke" stroke-width="1" stroke="rgb(0,0,0)" stroke-linejoin="miter" stroke-linecap="square" stroke-miterlimit="3"/>
-                      <path d=" M 380 807.5 L 380 785 L 380 740 L 420 740 L 420 830 L 380 830 L 380 807.5 Z " vector-effect="non-scaling-stroke" stroke-width="1" stroke="rgb(0,0,0)" stroke-linejoin="miter" stroke-linecap="square" stroke-miterlimit="3"/>
-                      <path d=" M 347 740 L 380 740 L 380 830 L 347 830 L 347 740 Z " vector-effect="non-scaling-stroke" stroke-width="1" stroke="rgb(0,0,0)" stroke-linejoin="miter" stroke-linecap="square" stroke-miterlimit="3"/>
-                      <path d=" M 750 280 L 750 310 L 790 310 L 790 280 L 750 280 Z " vector-effect="non-scaling-stroke" stroke-width="1" stroke="rgb(0,0,0)" stroke-linejoin="miter" stroke-linecap="square" stroke-miterlimit="3"/>
-                      <path d=" M 750 220 L 750 250 L 790 250 L 790 220 L 750 220 Z " vector-effect="non-scaling-stroke" stroke-width="1" stroke="rgb(0,0,0)" stroke-linejoin="miter" stroke-linecap="square" stroke-miterlimit="3"/>
-                      <path d=" M 750 250 L 750 280 L 790 280 L 790 250 L 750 250 Z " vector-effect="non-scaling-stroke" stroke-width="1" stroke="rgb(0,0,0)" stroke-linejoin="miter" stroke-linecap="square" stroke-miterlimit="3"/>
-                      <path d=" M 750 176 L 750 220 L 790 220 L 790 176 L 750 176 Z " vector-effect="non-scaling-stroke" stroke-width="1" stroke="rgb(0,0,0)" stroke-linejoin="miter" stroke-linecap="square" stroke-miterlimit="3"/>
-                      <path d=" M 750 110 L 750 176 L 790 176 L 790 110 L 750 110 Z " vector-effect="non-scaling-stroke" stroke-width="1" stroke="rgb(0,0,0)" stroke-linejoin="miter" stroke-linecap="square" stroke-miterlimit="3"/>
-                      <path d=" M 750 310 L 750 340 L 790 340 L 790 310 L 750 310 Z " vector-effect="non-scaling-stroke" stroke-width="1" stroke="rgb(0,0,0)" stroke-linejoin="miter" stroke-linecap="square" stroke-miterlimit="3"/>
-                      <path d=" M 750 740 L 750 675 L 790 675 L 790 740 L 750 740 Z " vector-effect="non-scaling-stroke" stroke-width="1" stroke="rgb(0,0,0)" stroke-linejoin="miter" stroke-linecap="square" stroke-miterlimit="3"/>
-                      <path d=" M 750 675 L 750 606 L 790 606 L 790 675 L 750 675 Z " vector-effect="non-scaling-stroke" stroke-width="1" stroke="rgb(0,0,0)" stroke-linejoin="miter" stroke-linecap="square" stroke-miterlimit="3"/>
-                      <path d=" M 600 830 L 640 830 L 640 780 L 600 780 L 600 830 Z " vector-effect="non-scaling-stroke" stroke-width="1" stroke="rgb(0,0,0)" stroke-linejoin="miter" stroke-linecap="square" stroke-miterlimit="3"/>
-                      <path d=" M 20 860 L 20 940 L 55 940 L 55 860 L 20 860 Z " vector-effect="non-scaling-stroke" stroke-width="1" stroke="rgb(0,0,0)" stroke-linejoin="miter" stroke-linecap="square" stroke-miterlimit="3"/>
-                      <path d=" M 185 860 L 186 940 L 155 940 L 155 860 L 185 860 Z " vector-effect="non-scaling-stroke" stroke-width="1" stroke="rgb(0,0,0)" stroke-linejoin="miter" stroke-linecap="square" stroke-miterlimit="3"/>
-                      <path d=" M 640 830 L 660 830 L 660 740 L 600 740 L 600 780 L 640 780 L 640 830 Z " vector-effect="non-scaling-stroke" stroke-width="1" stroke="rgb(0,0,0)" stroke-linejoin="miter" stroke-linecap="square" stroke-miterlimit="3"/>
-                      <path d=" M 650 206 L 650 176 L 730 176 L 730 206 L 650 206 Z " vector-effect="non-scaling-stroke" stroke-width="1" stroke="rgb(0,0,0)" stroke-linejoin="miter" stroke-linecap="square" stroke-miterlimit="3"/>
-                      <path d=" M 650 340 L 650 310 L 730 310 L 730 340 L 650 340 Z " vector-effect="non-scaling-stroke" stroke-width="1" stroke="rgb(0,0,0)" stroke-linejoin="miter" stroke-linecap="square" stroke-miterlimit="3"/>
-                      <path d=" M 750 110 L 750 80 L 760 80 L 760 110 L 750 110 Z " vector-effect="non-scaling-stroke" stroke-width="1" stroke="rgb(0,0,0)" stroke-linejoin="miter" stroke-linecap="square" stroke-miterlimit="3"/>
-                      <path d=" M 218 860 L 318 860 L 318 940 L 218 940 L 218 860 Z " vector-effect="non-scaling-stroke" stroke-width="1" stroke="rgb(0,0,0)" stroke-linejoin="miter" stroke-linecap="square" stroke-miterlimit="3"/>
-                      <path d=" M 185 860 L 218 860 L 218 940 L 186 940 L 185 860 Z " vector-effect="non-scaling-stroke" stroke-width="1" stroke="rgb(0,0,0)" stroke-linejoin="miter" stroke-linecap="square" stroke-miterlimit="3"/>
-                      <path d=" M 600 860 L 660 860 L 660 940 L 600 940 L 600 860 Z " vector-effect="non-scaling-stroke" stroke-width="1" stroke="rgb(0,0,0)" stroke-linejoin="miter" stroke-linecap="square" stroke-miterlimit="3"/>
-                      <path d=" M 660 860 L 660 940 L 710 940 L 710 860 L 660 860 Z " vector-effect="non-scaling-stroke" stroke-width="1" stroke="rgb(0,0,0)" stroke-linejoin="miter" stroke-linecap="square" stroke-miterlimit="3"/>
-                  </g>
-                  <g style="isolation:isolate" class="maps_special">
-                      <path d=" M 750 407 L 790 407 L 790 480 L 750 480 L 750 407 Z " vector-effect="non-scaling-stroke" stroke-width="1" stroke="rgb(0,0,0)" stroke-linejoin="miter" stroke-linecap="square" stroke-miterlimit="3"/>
-                      <path d=" M 350 860 L 350 940 L 318 940 L 318 860 L 350 860 Z " vector-effect="non-scaling-stroke" stroke-width="1" stroke="rgb(0,0,0)" stroke-linejoin="miter" stroke-linecap="square" stroke-miterlimit="3"/>
-                      <path d=" M 710 770 L 710 910 L 720 910 Q 726.281 920.453 750 920 C 773.719 919.547 790.109 899.844 790 850 C 789.891 800.156 782 782 770 770 C 769.744 769.744 712.75 770.25 710 770 Z " vector-effect="non-scaling-stroke" stroke-width="1" stroke="rgb(0,0,0)" stroke-linejoin="miter" stroke-linecap="square" stroke-miterlimit="3"/>
-                      <path d=" M 750 540 L 750 606 L 790 606 L 790 540" fill="none" vector-effect="non-scaling-stroke" stroke-width="1" stroke="rgb(0,0,0)" stroke-linejoin="miter" stroke-linecap="square" stroke-miterlimit="3"/>
-                      <path d=" M 750 520 L 750 480 L 790 480 L 790 520" fill="none" vector-effect="non-scaling-stroke" stroke-width="1" stroke="rgb(0,0,0)" stroke-linejoin="miter" stroke-linecap="square" stroke-miterlimit="3"/>
-                      <path d=" M 420 890 L 420 940 L 350 940 L 350 890" fill="none" vector-effect="non-scaling-stroke" stroke-width="1" stroke="rgb(0,0,0)" stroke-linejoin="miter" stroke-linecap="square" stroke-miterlimit="3"/>
-                  </g>
-              </g>
-          </svg>
-          </div>
+          <div id="mapContain_floor2"></div>
+        </div>
       </section>
     </main>
     <footer></footer>
     <script type="text/javascript" src="/script.js"></script>
   </body>
 </html>
+<script>
+  let defoSVG
+  fetch("./f2.svg").then(res=>res.text()).then(res=>{defoSVG = res;document.getElementById("mapContain_floor2").innerHTML = res})
+  const search = ()=>{
+    const input = document.getElementById("search_input").value
+    if(document.getElementById(input)){
+      document.getElementById("mapContain_floor2").innerHTML = defoSVG
+      document.getElementById(input).setAttribute("fill","yellow")
+    }else{
+      alert("doesnt exist")
+    }
+  }
+</script>

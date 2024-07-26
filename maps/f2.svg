@@ -1,0 +1,1114 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Generator: Gravit.io -->
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  style="isolation: isolate"
+  viewBox="0 0 800 1000"
+  width="800pt"
+  height="1000pt"
+>
+  <defs>
+    <clipPath id="_clipPath_8A7Nr3wBp6e8UmWADGhfXG8fmeokVlyc">
+      <rect width="800" height="1000" />
+    </clipPath>
+  </defs>
+  <g clip-path="url(#_clipPath_8A7Nr3wBp6e8UmWADGhfXG8fmeokVlyc)">
+    <g style="isolation: isolate" class="maps_outer">
+      <path
+        d=" M 20 740 L 20 940 L 420 940 L 420 860 L 600 860 L 600 940 L 710 940 L 710 910 L 720 910"
+        fill="none"
+        vector-effect="non-scaling-stroke"
+        stroke-width="2"
+        stroke="rgb(0,0,0)"
+        stroke-linejoin="miter"
+        stroke-linecap="square"
+        stroke-miterlimit="3"
+      />
+      <path
+        d=" M 720 910 C 725 918.5 740.125 920.375 750 920 C 780.25 919.75 790.172 890.297 790 840 C 790 810.125 784.667 781.667 770 770 L 770 740 L 790 740 L 790 110 L 760 110 L 760 80 L 650 80 L 650 740 C 638.624 740 621.999 740 600.125 740 C 600.094 740.109 600.047 830.234 600 830 C 600 830.141 484.918 830 417 830 C 416.977 829.988 417.012 740.004 417 740 Q 273.68 740 20 740"
+        fill="none"
+        vector-effect="non-scaling-stroke"
+        stroke-width="2"
+        stroke="rgb(0,0,0)"
+        stroke-linejoin="miter"
+        stroke-linecap="square"
+        stroke-miterlimit="3"
+      />
+      <path
+        d=" M 770 770 L 710 770 L 710 910"
+        fill="none"
+        vector-effect="non-scaling-stroke"
+        stroke-width="2"
+        stroke="rgb(0,0,0)"
+        stroke-linejoin="miter"
+        stroke-linecap="square"
+        stroke-miterlimit="3"
+      />
+    </g>
+    <g style="isolation: isolate" class="maps_booth">
+      <path
+        d=" M 20 740 L 90 740 L 90 830 L 20 830 L 20 740 Z "
+        fill="rgb(139,139,139)"
+        vector-effect="non-scaling-stroke"
+        stroke-width="2"
+        stroke="rgb(0,0,0)"
+        stroke-linejoin="miter"
+        stroke-linecap="square"
+        stroke-miterlimit="3"
+        id="maps_H1A"
+      />
+      <path
+        d=" M 90 740 L 156 740 L 156 830 L 90 830 L 90 740 Z "
+        fill="rgb(139,139,139)"
+        vector-effect="non-scaling-stroke"
+        stroke-width="2"
+        stroke="rgb(0,0,0)"
+        stroke-linejoin="miter"
+        stroke-linecap="square"
+        stroke-miterlimit="3"
+        id="maps_H1B"
+      />
+      <path
+        d=" M 156 740 L 218 740 L 218 830 L 156 830 L 156 740 Z "
+        fill="rgb(139,139,139)"
+        vector-effect="non-scaling-stroke"
+        stroke-width="2"
+        stroke="rgb(0,0,0)"
+        stroke-linejoin="miter"
+        stroke-linecap="square"
+        stroke-miterlimit="3"
+        id="maps_H1C"
+      />
+      <path
+        d=" M 218 740 L 283 740 L 283 830 L 218 830 L 218 740 Z "
+        fill="rgb(139,139,139)"
+        vector-effect="non-scaling-stroke"
+        stroke-width="2"
+        stroke="rgb(0,0,0)"
+        stroke-linejoin="miter"
+        stroke-linecap="square"
+        stroke-miterlimit="3"
+        id="maps_H1D"
+      />
+      <path
+        d=" M 283 740 L 347 740 L 347 830 L 283 830 L 283 740 Z "
+        fill="rgb(139,139,139)"
+        vector-effect="non-scaling-stroke"
+        stroke-width="2"
+        stroke="rgb(0,0,0)"
+        stroke-linejoin="miter"
+        stroke-linecap="square"
+        stroke-miterlimit="3"
+        id="maps_H1E"
+      />
+      <path
+        d=" M 730 675 L 730 606 L 650 606 L 650 675 L 730 675 Z "
+        fill="rgb(139,139,139)"
+        vector-effect="non-scaling-stroke"
+        stroke-width="2"
+        stroke="rgb(0,0,0)"
+        stroke-linejoin="miter"
+        stroke-linecap="square"
+        stroke-miterlimit="3"
+        id="maps_M1E"
+      />
+      <path
+        d=" M 650 540 L 650 472 L 730 472 L 730 540 L 650 540 Z "
+        fill="rgb(139,139,139)"
+        vector-effect="non-scaling-stroke"
+        stroke-width="2"
+        stroke="rgb(0,0,0)"
+        stroke-linejoin="miter"
+        stroke-linecap="square"
+        stroke-miterlimit="3"
+        id="maps_M1C"
+      />
+      <path
+        d=" M 650 606 L 650 540 L 730 540 L 730 606 L 650 606 Z "
+        fill="rgb(139,139,139)"
+        vector-effect="non-scaling-stroke"
+        stroke-width="2"
+        stroke="rgb(0,0,0)"
+        stroke-linejoin="miter"
+        stroke-linecap="square"
+        stroke-miterlimit="3"
+        id="maps_M1D"
+      />
+      <path
+        d=" M 650 472 L 650 407 L 730 407 L 730 472 L 650 472 Z "
+        fill="rgb(139,139,139)"
+        vector-effect="non-scaling-stroke"
+        stroke-width="2"
+        stroke="rgb(0,0,0)"
+        stroke-linejoin="miter"
+        stroke-linecap="square"
+        stroke-miterlimit="3"
+        id="maps_M1B"
+      />
+      <path
+        d=" M 650 407 L 650 340 L 730 340 L 730 407 L 650 407 Z "
+        fill="rgb(139,139,139)"
+        vector-effect="non-scaling-stroke"
+        stroke-width="2"
+        stroke="rgb(0,0,0)"
+        stroke-linejoin="miter"
+        stroke-linecap="square"
+        stroke-miterlimit="3"
+        id="maps_M1A"
+      />
+      <path
+        d=" M 650 310 L 650 206 L 730 206 L 730 310 L 650 310 Z "
+        fill="rgb(139,139,139)"
+        vector-effect="non-scaling-stroke"
+        stroke-width="2"
+        stroke="rgb(0,0,0)"
+        stroke-linejoin="miter"
+        stroke-linecap="square"
+        stroke-miterlimit="3"
+        id="maps_ArtRoom"
+      />
+      <path
+        d=" M 650 176 L 650 80 L 730 80 L 730 176 L 650 176 Z "
+        fill="rgb(139,139,139)"
+        vector-effect="non-scaling-stroke"
+        stroke-width="2"
+        stroke="rgb(0,0,0)"
+        stroke-linejoin="miter"
+        stroke-linecap="square"
+        stroke-miterlimit="3"
+        id="maps_TechRoom"
+      />
+      <path
+        d=" M 650 740 L 717.5 740 L 730 740 L 730 675 L 650 675 L 650 740 Z "
+        fill="rgb(139,139,139)"
+        vector-effect="non-scaling-stroke"
+        stroke-width="2"
+        stroke="rgb(0,0,0)"
+        stroke-linejoin="miter"
+        stroke-linecap="square"
+        stroke-miterlimit="3"
+        id="maps_CatholicRoom"
+      />
+      <path
+        d=" M 55 860 L 155 860 L 155 940 L 55 940 L 55 860 Z "
+        fill="rgb(139,139,139)"
+        vector-effect="non-scaling-stroke"
+        stroke-width="2"
+        stroke="rgb(0,0,0)"
+        stroke-linejoin="miter"
+        stroke-linecap="square"
+        stroke-miterlimit="3"
+        id="maps_AVRoom"
+      />
+    </g>
+    <g style="isolation: isolate" class="maps_blank">
+      <path
+        d=" M 704 740 L 704 752 L 730 752 L 730 740 L 704 740 Z "
+        fill="none"
+        vector-effect="non-scaling-stroke"
+        stroke-width="2"
+        stroke="rgb(0,0,0)"
+        stroke-linejoin="miter"
+        stroke-linecap="square"
+        stroke-miterlimit="3"
+      />
+      <path
+        d=" M 380 807.5 L 380 785 L 380 740 L 420 740 L 420 830 L 380 830 L 380 807.5 Z "
+        fill="rgb(139,139,139)"
+        vector-effect="non-scaling-stroke"
+        stroke-width="2"
+        stroke="rgb(0,0,0)"
+        stroke-linejoin="miter"
+        stroke-linecap="square"
+        stroke-miterlimit="3"
+      />
+      <path
+        d=" M 347 740 L 380 740 L 380 830 L 347 830 L 347 740 Z "
+        fill="none"
+        vector-effect="non-scaling-stroke"
+        stroke-width="2"
+        stroke="rgb(0,0,0)"
+        stroke-linejoin="miter"
+        stroke-linecap="square"
+        stroke-miterlimit="3"
+      />
+      <path
+        d=" M 750 280 L 750 310 L 790 310 L 790 280 L 750 280 Z "
+        fill="none"
+        vector-effect="non-scaling-stroke"
+        stroke-width="2"
+        stroke="rgb(0,0,0)"
+        stroke-linejoin="miter"
+        stroke-linecap="square"
+        stroke-miterlimit="3"
+      />
+      <path
+        d=" M 750 220 L 750 250 L 790 250 L 790 220 L 750 220 Z "
+        fill="none"
+        vector-effect="non-scaling-stroke"
+        stroke-width="2"
+        stroke="rgb(0,0,0)"
+        stroke-linejoin="miter"
+        stroke-linecap="square"
+        stroke-miterlimit="3"
+      />
+      <path
+        d=" M 750 250 L 750 280 L 790 280 L 790 250 L 750 250 Z "
+        fill="none"
+        vector-effect="non-scaling-stroke"
+        stroke-width="2"
+        stroke="rgb(0,0,0)"
+        stroke-linejoin="miter"
+        stroke-linecap="square"
+        stroke-miterlimit="3"
+      />
+      <path
+        d=" M 750 176 L 750 220 L 790 220 L 790 176 L 750 176 Z "
+        fill="none"
+        vector-effect="non-scaling-stroke"
+        stroke-width="2"
+        stroke="rgb(0,0,0)"
+        stroke-linejoin="miter"
+        stroke-linecap="square"
+        stroke-miterlimit="3"
+      />
+      <path
+        d=" M 750 110 L 750 176 L 790 176 L 790 110 L 750 110 Z "
+        fill="none"
+        vector-effect="non-scaling-stroke"
+        stroke-width="2"
+        stroke="rgb(0,0,0)"
+        stroke-linejoin="miter"
+        stroke-linecap="square"
+        stroke-miterlimit="3"
+      />
+      <path
+        d=" M 750 310 L 750 340 L 790 340 L 790 310 L 750 310 Z "
+        fill="none"
+        vector-effect="non-scaling-stroke"
+        stroke-width="2"
+        stroke="rgb(0,0,0)"
+        stroke-linejoin="miter"
+        stroke-linecap="square"
+        stroke-miterlimit="3"
+      />
+      <path
+        d=" M 750 740 L 750 675 L 790 675 L 790 740 L 750 740 Z "
+        fill="none"
+        vector-effect="non-scaling-stroke"
+        stroke-width="2"
+        stroke="rgb(0,0,0)"
+        stroke-linejoin="miter"
+        stroke-linecap="square"
+        stroke-miterlimit="3"
+      />
+      <path
+        d=" M 750 675 L 750 606 L 790 606 L 790 675 L 750 675 Z "
+        fill="none"
+        vector-effect="non-scaling-stroke"
+        stroke-width="2"
+        stroke="rgb(0,0,0)"
+        stroke-linejoin="miter"
+        stroke-linecap="square"
+        stroke-miterlimit="3"
+      />
+      <path
+        d=" M 600 830 L 650 830 L 650 770 L 600 770 L 600 830 Z "
+        fill="rgb(139,139,139)"
+        vector-effect="non-scaling-stroke"
+        stroke-width="2"
+        stroke="rgb(0,0,0)"
+        stroke-linejoin="miter"
+        stroke-linecap="square"
+        stroke-miterlimit="3"
+      />
+      <path
+        d=" M 20 860 L 20 940 L 55 940 L 55 860 L 20 860 Z "
+        fill="none"
+        vector-effect="non-scaling-stroke"
+        stroke-width="2"
+        stroke="rgb(0,0,0)"
+        stroke-linejoin="miter"
+        stroke-linecap="square"
+        stroke-miterlimit="3"
+      />
+      <path
+        d=" M 185 860 L 186 940 L 155 940 L 155 860 L 185 860 Z "
+        fill="none"
+        vector-effect="non-scaling-stroke"
+        stroke-width="2"
+        stroke="rgb(0,0,0)"
+        stroke-linejoin="miter"
+        stroke-linecap="square"
+        stroke-miterlimit="3"
+      />
+      <path
+        d=" M 650 830 L 660 830 L 660 740 L 600 740 L 600 770 L 650 770 L 650 830 Z "
+        fill="none"
+        vector-effect="non-scaling-stroke"
+        stroke-width="2"
+        stroke="rgb(0,0,0)"
+        stroke-linejoin="miter"
+        stroke-linecap="square"
+        stroke-miterlimit="3"
+      />
+      <path
+        d=" M 650 206 L 650 176 L 730 176 L 730 206 L 650 206 Z "
+        fill="none"
+        vector-effect="non-scaling-stroke"
+        stroke-width="2"
+        stroke="rgb(0,0,0)"
+        stroke-linejoin="miter"
+        stroke-linecap="square"
+        stroke-miterlimit="3"
+      />
+      <path
+        d=" M 650 340 L 650 310 L 730 310 L 730 340 L 650 340 Z "
+        fill="none"
+        vector-effect="non-scaling-stroke"
+        stroke-width="2"
+        stroke="rgb(0,0,0)"
+        stroke-linejoin="miter"
+        stroke-linecap="square"
+        stroke-miterlimit="3"
+      />
+      <path
+        d=" M 750 110 L 750 80 L 760 80 L 760 110 L 750 110 Z "
+        fill="none"
+        vector-effect="non-scaling-stroke"
+        stroke-width="2"
+        stroke="rgb(0,0,0)"
+        stroke-linejoin="miter"
+        stroke-linecap="square"
+        stroke-miterlimit="3"
+      />
+      <path
+        d=" M 218 860 L 318 860 L 318 940 L 218 940 L 218 860 Z "
+        fill="none"
+        vector-effect="non-scaling-stroke"
+        stroke-width="2"
+        stroke="rgb(0,0,0)"
+        stroke-linejoin="miter"
+        stroke-linecap="square"
+        stroke-miterlimit="3"
+      />
+      <path
+        d=" M 185 860 L 218 860 L 218 940 L 186 940 L 185 860 Z "
+        fill="none"
+        vector-effect="non-scaling-stroke"
+        stroke-width="2"
+        stroke="rgb(0,0,0)"
+        stroke-linejoin="miter"
+        stroke-linecap="square"
+        stroke-miterlimit="3"
+      />
+      <path
+        d=" M 600 860 L 660 860 L 660 940 L 600 940 L 600 860 Z "
+        fill="none"
+        vector-effect="non-scaling-stroke"
+        stroke-width="2"
+        stroke="rgb(0,0,0)"
+        stroke-linejoin="miter"
+        stroke-linecap="square"
+        stroke-miterlimit="3"
+      />
+      <path
+        d=" M 660 860 L 660 940 L 710 940 L 710 860 L 660 860 Z "
+        fill-rule="evenodd"
+        fill="none"
+        vector-effect="non-scaling-stroke"
+        stroke-width="2"
+        stroke="rgb(0,0,0)"
+        stroke-linejoin="miter"
+        stroke-linecap="square"
+        stroke-miterlimit="3"
+      />
+    </g>
+    <g style="isolation: isolate" class="maps_special">
+      <path
+        d=" M 750 407 L 790 407 L 790 480 L 750 480 L 750 407 Z "
+        fill="rgb(37,37,198)"
+        vector-effect="non-scaling-stroke"
+        stroke-width="2"
+        stroke="rgb(0,0,0)"
+        stroke-linejoin="miter"
+        stroke-linecap="square"
+        stroke-miterlimit="3"
+      />
+      <path
+        d=" M 350 860 L 350 940 L 318 940 L 318 860 L 350 860 Z "
+        fill="rgb(37,37,198)"
+        vector-effect="non-scaling-stroke"
+        stroke-width="2"
+        stroke="rgb(0,0,0)"
+        stroke-linejoin="miter"
+        stroke-linecap="square"
+        stroke-miterlimit="3"
+      />
+      <path
+        d=" M 710 770 L 710 910 L 720 910 Q 726.281 920.453 750 920 C 773.719 919.547 790.109 899.844 790 850 C 789.891 800.156 782 782 770 770 C 769.744 769.744 712.75 770.25 710 770 Z "
+        fill="rgb(139,139,139)"
+        vector-effect="non-scaling-stroke"
+        stroke-width="2"
+        stroke="rgb(0,0,0)"
+        stroke-linejoin="miter"
+        stroke-linecap="square"
+        stroke-miterlimit="3"
+      />
+      <path
+        d=" M 750 540 L 750 606 L 790 606 L 790 540"
+        fill="none"
+        vector-effect="non-scaling-stroke"
+        stroke-width="2"
+        stroke="rgb(0,0,0)"
+        stroke-linejoin="miter"
+        stroke-linecap="square"
+        stroke-miterlimit="3"
+      />
+      <path
+        d=" M 750 520 L 750 480 L 790 480 L 790 520"
+        fill="none"
+        vector-effect="non-scaling-stroke"
+        stroke-width="2"
+        stroke="rgb(0,0,0)"
+        stroke-linejoin="miter"
+        stroke-linecap="square"
+        stroke-miterlimit="3"
+      />
+      <path
+        d=" M 420 890 L 420 940 L 350 940 L 350 890"
+        fill="none"
+        vector-effect="non-scaling-stroke"
+        stroke-width="2"
+        stroke="rgb(0,0,0)"
+        stroke-linejoin="miter"
+        stroke-linecap="square"
+        stroke-miterlimit="3"
+      />
+    </g>
+    <g style="isolation: isolate" class="maps_decorations">
+      <g style="isolation: isolate" class="maps_stairB">
+        <path
+          d=" M 790 490.5 L 750 490.5 M 750 505 L 770 505 M 750 495 L 770 495 M 750 510 L 770 510 M 750 500 L 770 500 M 750 516 L 770 516 M 770 520 Q 770 502.318 770 491"
+          fill-rule="evenodd"
+          fill="none"
+          vector-effect="non-scaling-stroke"
+          stroke-width="1"
+          stroke="rgb(0,0,0)"
+          stroke-linejoin="miter"
+          stroke-linecap="square"
+          stroke-miterlimit="3"
+        />
+        <path
+          d=" M 750 600 L 790 600 L 790 595 L 750 595 L 750 590 L 790 590 L 790 585 L 750 585 L 750 580 L 790 580 L 790 575 L 750 575 L 750 570 L 790 570 L 790 565 L 750 565 L 750 560 L 790 560 L 790 555 L 750 555 L 750 550 L 790 550"
+          fill="none"
+          vector-effect="non-scaling-stroke"
+          stroke-width="1"
+          stroke="rgb(0,0,0)"
+          stroke-linejoin="miter"
+          stroke-linecap="square"
+          stroke-miterlimit="3"
+        />
+      </g>
+      <g style="isolation: isolate" class="maps_stairC">
+        <path
+          d=" M 685 920 L 660 920 L 660 915 L 685 915 L 685 910 L 660 910 L 660 905 L 685 905 L 685 900 L 660 900 L 660 895 L 685 895 L 685 890 L 660 890 L 660 885 L 685 885 L 685 880 L   660 880"
+          fill="none"
+          vector-effect="non-scaling-stroke"
+          stroke-width="1"
+          stroke="rgb(0,0,0)"
+          stroke-linejoin="miter"
+          stroke-linecap="square"
+          stroke-miterlimit="3"
+        />
+        <path
+          d=" M 685 924 L 685 880 L 685 880 L 710 880 L 710 885 L 685 885 L 685 890 L 710 890 L 710 895 L 685 895 L 685 900 L 710 900 L 710 905 L 685 905 L 685 910 L 710 910 L 710 915 L 685 915 L 685 920 L 710 920"
+          fill="none"
+          vector-effect="non-scaling-stroke"
+          stroke-width="1"
+          stroke="rgb(0,0,0)"
+          stroke-linejoin="miter"
+          stroke-linecap="square"
+          stroke-miterlimit="3"
+        />
+      </g>
+      <g style="isolation: isolate" class="maps_stairD">
+        <path
+          d=" M 370 888 L 350 888 L 350 892 L 370 892 L 370 896 L 350 896 L 350 900 L 370 900 L 370 904 L 350 904"
+          fill="none"
+          vector-effect="non-scaling-stroke"
+          stroke-width="1"
+          stroke="rgb(0,0,0)"
+          stroke-linejoin="miter"
+          stroke-linecap="square"
+          stroke-miterlimit="3"
+        />
+        <path
+          d=" M 380 872 L 420 872 L 420 877 L 380 877 L 380 882 L 420 882 L 420 887 L 380 887 L 380 892 L 420 892 L 420 897 L 380 897 L 380 902 L 420 902"
+          fill="none"
+          vector-effect="non-scaling-stroke"
+          stroke-width="1"
+          stroke="rgb(0,0,0)"
+          stroke-linejoin="miter"
+          stroke-linecap="square"
+          stroke-miterlimit="3"
+        />
+        <line
+          x1="390"
+          y1="940"
+          x2="379"
+          y2="910"
+          vector-effect="non-scaling-stroke"
+          stroke-width="1"
+          stroke="rgb(0,0,0)"
+          stroke-linejoin="miter"
+          stroke-linecap="square"
+          stroke-miterlimit="3"
+        />
+        <path
+          d=" M 371 910 L 371 940 L 375 940 L 375 910 L 379 910 L 379 940 L 383 940 L 383 921"
+          fill="none"
+          vector-effect="non-scaling-stroke"
+          stroke-width="1"
+          stroke="rgb(0,0,0)"
+          stroke-linejoin="miter"
+          stroke-linecap="square"
+          stroke-miterlimit="3"
+        />
+        <path
+          d=" M 370 870 L 380 870 L 380 910 L 370 910 L 370 870 Z "
+          fill="none"
+          vector-effect="non-scaling-stroke"
+          stroke-width="2"
+          stroke="rgb(0,0,0)"
+          stroke-linejoin="miter"
+          stroke-linecap="square"
+          stroke-miterlimit="3"
+        />
+      </g>
+      <path
+        d=" M 330 892 C 330 889.24 332.24 887 335 887 C 337.76 887 340 889.24 340 892 C 340 894.76 337.76 897 335 897 C 332.24 897 330 894.76 330 892 Z  M 335 912 L 330 899 L 340 899 L 335 912 Z "
+        fill-rule="evenodd"
+        fill="rgb(255,255,255)"
+      />
+      <path
+        d=" M 765 435 C 765 432.24 767.24 430 770 430 C 772.76 430 775 432.24 775 435 C 775 437.76 772.76 440 770 440 C 767.24 440 765 437.76 765 435 Z  M 770 455 L 765 442 L 775 442 L 770 455 Z "
+        fill-rule="evenodd"
+        fill="rgb(255,255,255)"
+      />
+      <g style="isolation: isolate" class="maps_texts">
+        <g clip-path="url(#_clipPath_N68G5ownJEF6puYKhaYeXMOxq0AeRKRE)">
+          <text
+            transform="matrix(1,0,0,1,30,801.755)"
+            style="
+              font-family: 'Oswald';
+              font-weight: 400;
+              font-size: 35px;
+              font-style: normal;
+              fill: #ffffff;
+              stroke: none;
+            "
+          >
+            H1A
+          </text>
+        </g>
+        <defs>
+          <clipPath id="_clipPath_N68G5ownJEF6puYKhaYeXMOxq0AeRKRE">
+            <rect
+              x="0"
+              y="0"
+              width="54"
+              height="50"
+              transform="matrix(1,0,0,1,30,760)"
+            />
+          </clipPath>
+        </defs>
+        <g clip-path="url(#_clipPath_Yc06h9yTC7Fn7Vt1BUUAHAcBeR7V3zBD)">
+          <text
+            transform="matrix(1,0,0,1,286,801.755)"
+            style="
+              font-family: 'Oswald';
+              font-weight: 400;
+              font-size: 35px;
+              font-style: normal;
+              fill: #ffffff;
+              stroke: none;
+            "
+          >
+            H1E
+          </text>
+        </g>
+        <defs>
+          <clipPath id="_clipPath_Yc06h9yTC7Fn7Vt1BUUAHAcBeR7V3zBD">
+            <rect
+              x="0"
+              y="0"
+              width="58"
+              height="49.87"
+              transform="matrix(1,0,0,1,286,760)"
+            />
+          </clipPath>
+        </defs>
+        <g clip-path="url(#_clipPath_BO0vXTFWT9FrIJ9OuoLtXLkcVagCmSFo)">
+          <text
+            transform="matrix(1,0,0,1,222,801.885)"
+            style="
+              font-family: 'Oswald';
+              font-weight: 400;
+              font-size: 35px;
+              font-style: normal;
+              fill: #ffffff;
+              stroke: none;
+            "
+          >
+            H1D
+          </text>
+        </g>
+        <defs>
+          <clipPath id="_clipPath_BO0vXTFWT9FrIJ9OuoLtXLkcVagCmSFo">
+            <rect
+              x="0"
+              y="0"
+              width="58"
+              height="49.87"
+              transform="matrix(1,0,0,1,222,760.13)"
+            />
+          </clipPath>
+        </defs>
+        <g clip-path="url(#_clipPath_tlanVwnL4YgwdwZqVRwLWFoLUQMJI3Mj)">
+          <text
+            transform="matrix(1,0,0,1,162,801.755)"
+            style="
+              font-family: 'Oswald';
+              font-weight: 400;
+              font-size: 35px;
+              font-style: normal;
+              fill: #ffffff;
+              stroke: none;
+            "
+          >
+            H1C
+          </text>
+        </g>
+        <defs>
+          <clipPath id="_clipPath_tlanVwnL4YgwdwZqVRwLWFoLUQMJI3Mj">
+            <rect
+              x="0"
+              y="0"
+              width="58"
+              height="50"
+              transform="matrix(1,0,0,1,162,760)"
+            />
+          </clipPath>
+        </defs>
+        <g clip-path="url(#_clipPath_GQjLsMhOQqqNp9gnxrkUYdfYkGJRLyOU)">
+          <text
+            transform="matrix(1,0,0,1,98,801.885)"
+            style="
+              font-family: 'Oswald';
+              font-weight: 400;
+              font-size: 35px;
+              font-style: normal;
+              fill: #ffffff;
+              stroke: none;
+            "
+          >
+            H1B
+          </text>
+        </g>
+        <defs>
+          <clipPath id="_clipPath_GQjLsMhOQqqNp9gnxrkUYdfYkGJRLyOU">
+            <rect
+              x="0"
+              y="0"
+              width="55"
+              height="51.87"
+              transform="matrix(1,0,0,1,98,760.13)"
+            />
+          </clipPath>
+        </defs>
+        <g clip-path="url(#_clipPath_UneuxEowIvnw6dManq0ueNt1Jvr3LuoA)">
+          <text
+            transform="matrix(1,0,0,1,386,771.8)"
+            style="
+              font-family: 'Noto Sans CJK JP';
+              font-weight: 400;
+              font-size: 24px;
+              font-style: normal;
+              letter-spacing: -1;
+              fill: #ffffff;
+              stroke: none;
+            "
+          >
+            放
+          </text>
+          <text
+            transform="matrix(1,0,0,1,386,795.92)"
+            style="
+              font-family: 'Noto Sans CJK JP';
+              font-weight: 400;
+              font-size: 24px;
+              font-style: normal;
+              letter-spacing: -1;
+              fill: #ffffff;
+              stroke: none;
+            "
+          >
+            送
+          </text>
+          <text
+            transform="matrix(1,0,0,1,386,820.784)"
+            style="
+              font-family: 'Noto Sans CJK JP';
+              font-weight: 400;
+              font-size: 24px;
+              font-style: normal;
+              letter-spacing: -1;
+              fill: #ffffff;
+              stroke: none;
+            "
+          >
+            室
+          </text>
+        </g>
+        <defs>
+          <clipPath id="_clipPath_UneuxEowIvnw6dManq0ueNt1Jvr3LuoA">
+            <rect
+              x="0"
+              y="0"
+              width="36"
+              height="91"
+              transform="matrix(1,0,0,1,386,737)"
+            />
+          </clipPath>
+        </defs>
+        <g clip-path="url(#_clipPath_jJM2dktOWkOfvpPtZOEUWXK1vz7TLrd4)">
+          <text
+            transform="matrix(1,0,0,1,64,903.2)"
+            style="
+              font-family: 'Noto Sans CJK JP';
+              font-weight: 400;
+              font-size: 20px;
+              font-style: normal;
+              fill: #ffffff;
+              stroke: none;
+            "
+          >
+            視聴覚室
+          </text>
+        </g>
+        <defs>
+          <clipPath id="_clipPath_jJM2dktOWkOfvpPtZOEUWXK1vz7TLrd4">
+            <rect
+              x="0"
+              y="0"
+              width="93"
+              height="60"
+              transform="matrix(1,0,0,1,64,880)"
+            />
+          </clipPath>
+        </defs>
+        <g clip-path="url(#_clipPath_Tv1weWSQw52gx3wHbpNsuOdnGdjq1eEv)">
+          <text
+            transform="matrix(1,0,0,1,604.48,798.176)"
+            style="
+              font-family: 'Noto Sans CJK JP';
+              font-weight: 400;
+              font-size: 10px;
+              font-style: normal;
+              fill: #ffffff;
+              stroke: none;
+            "
+          >
+            インフォ
+          </text>
+          <text
+            transform="matrix(1,0,0,1,600,808.536)"
+            style="
+              font-family: 'Noto Sans CJK JP';
+              font-weight: 400;
+              font-size: 10px;
+              font-style: normal;
+              fill: #ffffff;
+              stroke: none;
+            "
+          >
+            メーション
+          </text>
+        </g>
+        <defs>
+          <clipPath id="_clipPath_Tv1weWSQw52gx3wHbpNsuOdnGdjq1eEv">
+            <rect
+              x="0"
+              y="0"
+              width="60"
+              height="40"
+              transform="matrix(1,0,0,1,600,770)"
+            />
+          </clipPath>
+        </defs>
+        <g clip-path="url(#_clipPath_SlxeYNpM6hseH66L20Gv9Hkboyqhww4g)">
+          <text
+            transform="matrix(1,0,0,1,721.96,832.2)"
+            style="
+              font-family: 'Noto Sans CJK SC';
+              font-weight: 400;
+              font-size: 18px;
+              font-style: normal;
+              fill: #ffffff;
+              stroke: none;
+            "
+          >
+            受験生
+          </text>
+          <text
+            transform="matrix(1,0,0,1,713,861.8)"
+            style="
+              font-family: 'Noto Sans CJK SC';
+              font-weight: 400;
+              font-size: 18px;
+              font-style: normal;
+              fill: #ffffff;
+              stroke: none;
+            "
+          >
+            相談窓口
+          </text>
+        </g>
+        <defs>
+          <clipPath id="_clipPath_SlxeYNpM6hseH66L20Gv9Hkboyqhww4g">
+            <rect
+              x="0"
+              y="0"
+              width="100"
+              height="70"
+              transform="matrix(1,0,0,1,713,809)"
+            />
+          </clipPath>
+        </defs>
+        <g clip-path="url(#_clipPath_YKNrWj3bT4DcOyuiBseK9u8PQzVjhrFE)">
+          <text
+            transform="matrix(1,0,0,1,650,701.2)"
+            style="
+              font-family: 'Noto Sans CJK JP';
+              font-weight: 400;
+              font-size: 16px;
+              font-style: normal;
+              fill: #ffffff;
+              stroke: none;
+            "
+          >
+            カトリック
+          </text>
+          <text
+            transform="matrix(1,0,0,1,660.752,724.88)"
+            style="
+              font-family: 'Noto Sans CJK JP';
+              font-weight: 400;
+              font-size: 16px;
+              font-style: normal;
+              fill: #ffffff;
+              stroke: none;
+            "
+          >
+            センター
+          </text>
+        </g>
+        <defs>
+          <clipPath id="_clipPath_YKNrWj3bT4DcOyuiBseK9u8PQzVjhrFE">
+            <rect
+              x="0"
+              y="0"
+              width="97"
+              height="47.36"
+              transform="matrix(1,0,0,1,650,682.64)"
+            />
+          </clipPath>
+        </defs>
+        <g clip-path="url(#_clipPath_TmF2Xcx0nwqdfUSpqVqhICIwDXthvB7N)">
+          <text
+            transform="matrix(1,0,0,1,663,651.755)"
+            style="
+              font-family: 'Oswald';
+              font-weight: 400;
+              font-size: 35px;
+              font-style: normal;
+              fill: #ffffff;
+              stroke: none;
+            "
+          >
+            M1E
+          </text>
+        </g>
+        <defs>
+          <clipPath id="_clipPath_TmF2Xcx0nwqdfUSpqVqhICIwDXthvB7N">
+            <rect
+              x="0"
+              y="0"
+              width="57"
+              height="51.87"
+              transform="matrix(1,0,0,1,663,610)"
+            />
+          </clipPath>
+        </defs>
+        <g clip-path="url(#_clipPath_Ifiz28akEQ5qSJmcM7pT0xAdGEmiAYgP)">
+          <text
+            transform="matrix(1,0,0,1,663,589.885)"
+            style="
+              font-family: 'Oswald';
+              font-weight: 400;
+              font-size: 35px;
+              font-style: normal;
+              fill: #ffffff;
+              stroke: none;
+            "
+          >
+            M1D
+          </text>
+        </g>
+        <defs>
+          <clipPath id="_clipPath_Ifiz28akEQ5qSJmcM7pT0xAdGEmiAYgP">
+            <rect
+              x="0"
+              y="0"
+              width="58"
+              height="51.87"
+              transform="matrix(1,0,0,1,663,548.13)"
+            />
+          </clipPath>
+        </defs>
+        <g clip-path="url(#_clipPath_6J3wqDRwkIavZ4vw08digsRJwMRK4FXA)">
+          <text
+            transform="matrix(1,0,0,1,663,521.755)"
+            style="
+              font-family: 'Oswald';
+              font-weight: 400;
+              font-size: 35px;
+              font-style: normal;
+              fill: #ffffff;
+              stroke: none;
+            "
+          >
+            M1C
+          </text>
+        </g>
+        <defs>
+          <clipPath id="_clipPath_6J3wqDRwkIavZ4vw08digsRJwMRK4FXA">
+            <rect
+              x="0"
+              y="0"
+              width="57"
+              height="51.87"
+              transform="matrix(1,0,0,1,663,480)"
+            />
+          </clipPath>
+        </defs>
+        <g clip-path="url(#_clipPath_57PM5vTPSXDoRQoKSF4gDYpE45sMPcjZ)">
+          <text
+            transform="matrix(1,0,0,1,663,453.625)"
+            style="
+              font-family: 'Oswald';
+              font-weight: 400;
+              font-size: 35px;
+              font-style: normal;
+              fill: #ffffff;
+              stroke: none;
+            "
+          >
+            M1B
+          </text>
+        </g>
+        <defs>
+          <clipPath id="_clipPath_57PM5vTPSXDoRQoKSF4gDYpE45sMPcjZ">
+            <rect
+              x="0"
+              y="0"
+              width="57"
+              height="51.87"
+              transform="matrix(1,0,0,1,663,411.87)"
+            />
+          </clipPath>
+        </defs>
+        <g clip-path="url(#_clipPath_BFJpGNYU8wJAtwI69fhDXz1jmluDPXZo)">
+          <text
+            transform="matrix(1,0,0,1,662,391.755)"
+            style="
+              font-family: 'Oswald';
+              font-weight: 400;
+              font-size: 35px;
+              font-style: normal;
+              fill: #ffffff;
+              stroke: none;
+            "
+          >
+            M1A
+          </text>
+        </g>
+        <defs>
+          <clipPath id="_clipPath_BFJpGNYU8wJAtwI69fhDXz1jmluDPXZo">
+            <rect
+              x="0"
+              y="0"
+              width="57"
+              height="51.87"
+              transform="matrix(1,0,0,1,662,350)"
+            />
+          </clipPath>
+        </defs>
+        <g clip-path="url(#_clipPath_9TZFYuM9J2kuPAgFzBxXvQvaV5tEJBkp)">
+          <text
+            transform="matrix(1,0,0,1,653,265.32)"
+            style="
+              font-family: 'Noto Sans CJK JP';
+              font-weight: 400;
+              font-size: 24px;
+              font-style: normal;
+              fill: #ffffff;
+              stroke: none;
+            "
+          >
+            美術室
+          </text>
+        </g>
+        <defs>
+          <clipPath id="_clipPath_9TZFYuM9J2kuPAgFzBxXvQvaV5tEJBkp">
+            <rect
+              x="0"
+              y="0"
+              width="77"
+              height="35.52"
+              transform="matrix(1,0,0,1,653,237.48)"
+            />
+          </clipPath>
+        </defs>
+        <g clip-path="url(#_clipPath_9qKfZw5pwh8nKTSVkV6svss8h2j5PZpo)">
+          <text
+            transform="matrix(1,0,0,1,652,137.84)"
+            style="
+              font-family: 'Noto Sans CJK JP';
+              font-weight: 400;
+              font-size: 24px;
+              font-style: normal;
+              fill: #ffffff;
+              stroke: none;
+            "
+          >
+            技術室
+          </text>
+        </g>
+        <defs>
+          <clipPath id="_clipPath_9qKfZw5pwh8nKTSVkV6svss8h2j5PZpo">
+            <rect
+              x="0"
+              y="0"
+              width="77"
+              height="35.52"
+              transform="matrix(1,0,0,1,652,110)"
+            />
+          </clipPath>
+        </defs>
+      </g>
+    </g>
+  </g>
+</svg>
