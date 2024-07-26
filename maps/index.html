@@ -99,6 +99,9 @@
           <div id="mapContain_floor2">
 
           </div>
+          <div id="mapContain_floor3">
+
+          </div>
         </div>
       </section>
     </main>
@@ -139,12 +142,14 @@
     "ザ": "ざ", "ジ": "じ", "ズ": "ず", "ゼ": "ぜ", "ゾ": "ぞ",
     "ダ": "だ", "ヂ": "ぢ", "ヅ": "づ", "デ": "で", "ド": "ど",
     "バ": "ば", "ビ": "び", "ブ": "ぶ", "ベ": "べ", "ボ": "ぼ",
-    "パ": "ぱ", "ピ": "ぴ", "プ": "ぷ", "ペ": "ぺ", "ポ": "ぽ"
+    "パ": "ぱ", "ピ": "ぴ", "プ": "ぷ", "ペ": "ぺ", "ポ": "ぽ",
+    "一":"1","二":"2","三":"3","四":"4","五":"5","六":"6","七":"7","八":"8","九":"9","十":"10"
   }
 </script>
 <script>
-  let defoSVG;
-  fetch("./f2.svg").then(res=>res.text()).then(res=>{defoSVG = res;document.getElementById("mapContain_floor2").innerHTML = res;showplace(window.location.hash.substring(1))})
+  let defoSVG = {};
+  fetch("./f2.svg").then(res=>res.text()).then(res=>{defoSVG.f2 = res;document.getElementById("mapContain_floor2").innerHTML = res;showplace(window.location.hash.substring(1))})
+  fetch("./f3.svg").then(res=>res.text()).then(res=>{defoSVG.f3 = res;document.getElementById("mapContain_floor3").innerHTML = res;showplace(window.location.hash.substring(1))})
   /* しばし解説を 
     #datasetについて
     d:表示される名前（実際の企画名）
@@ -153,20 +158,37 @@
       =>maps_は抜いてます。全部ついてるので後から += でいい
   */
   const dataset=[
-    {d:"H1A",i:"H1A",s:"h1a高校一年a組こうこういちねんaぐみ"},
-    {d:"H1B",i:"H1B",s:"h1b高校一年b組こうこういちねんbぐみ"},
-    {d:"H1C",i:"H1C",s:"h1c高校一年c組こうこういちねんcぐみ"},
-    {d:"H1D",i:"H1D",s:"h1d高校一年d組こうこういちねんdぐみ"},
-    {d:"H1E",i:"H1E",s:"h1e高校一年e組こうこういちねんeぐみ"},
-    {d:"M1A",i:"M1A",s:"m1a中学一年a組ちゅうがくいちねんaぐみ"},
-    {d:"M1B",i:"M1B",s:"m1b中学一年b組ちゅうがくいちねんbぐみ"},
-    {d:"M1C",i:"M1C",s:"m1c中学一年c組ちゅうがくいちねんcぐみ"},
-    {d:"M1D",i:"M1D",s:"m1d中学一年d組ちゅうがくいちねんdぐみ"},
-    {d:"M1E",i:"M1E",s:"m1e中学一年e組ちゅうがくいちねんeぐみ"},
-    {d:"視聴覚室",i:"AVRoom",s:"audiovisualroomavroom視聴覚室しちょうかくしつ"},
-    {d:"技術室",i:"TechRoom",s:"techroomtechnicaldepartment技術室ぎじゅつしつ"},
-    {d:"美術室",i:"ArtRoom",s:"artroom美術室びじゅつしつ"}
+    //f2
+    {d:"H1A",i:"H1A",s:"h1a;高校1年a組;こうこういちねんaぐみ"},
+    {d:"H1B",i:"H1B",s:"h1b;高校1年b組;こうこういちねんbぐみ"},
+    {d:"H1C",i:"H1C",s:"h1c;高校1年c組;こうこういちねんcぐみ"},
+    {d:"H1D",i:"H1D",s:"h1d;高校1年d組;こうこういちねんdぐみ"},
+    {d:"H1E",i:"H1E",s:"h1e;高校1年e組;こうこういちねんeぐみ"},
+    {d:"M1A",i:"M1A",s:"m1a;中学1年a組;ちゅうがくいちねんaぐみ"},
+    {d:"M1B",i:"M1B",s:"m1b;中学1年b組;ちゅうがくいちねんbぐみ"},
+    {d:"M1C",i:"M1C",s:"m1c;中学1年c組;ちゅうがくいちねんcぐみ"},
+    {d:"M1D",i:"M1D",s:"m1d;中学1年d組ちゅうがくいちねんdぐみ"},
+    {d:"M1E",i:"M1E",s:"m1e;中学1年e組;ちゅうがくいちねんeぐみ"},
+    {d:"視聴覚室",i:"AVRoom",s:"audiovisualroomavroom;視聴覚室;しちょうかくしつ"},
+    {d:"技術室",i:"TechRoom",s:"techroomtechnicaldepartment;技術室;ぎじゅつしつ"},
+    {d:"美術室",i:"ArtRoom",s:"artroom;美術室;びじゅつしつ"},
+    //f3
+    {d:"H2A",i:"H2A",s:"h2a;高校2年a組;こうこうにねんaぐみ"},
+    {d:"H2B",i:"H2B",s:"h2b;高校2年b組;こうこうにねんbぐみ"},
+    {d:"H2C",i:"H2C",s:"h2c;高校2年c組;こうこうにねんcぐみ"},
+    {d:"H2D",i:"H2D",s:"h2d;高校2年d組;こうこうにねんdぐみ"},
+    {d:"H2E",i:"H2E",s:"h2e;高校2年e組;こうこうにねんeぐみ"},
+    {d:"M2A",i:"M2A",s:"m2a;中学2年a組;ちゅうがくにねんaぐみ"},
+    {d:"M2B",i:"M2B",s:"m2b;中学2年b組;ちゅうがくにねんbぐみ"},
+    {d:"M2C",i:"M2C",s:"m2c;中学2年c組;ちゅうがくにねんcぐみ"},
+    {d:"M2D",i:"M2D",s:"m2d;中学2年d組;ちゅうがくにねんdぐみ"},
+    {d:"M2E",i:"M2E",s:"m2e;中学2年e組;ちゅうがくにねんeぐみ"},
+    {d:"化学室",i:"ScienceLab",s:"sciencelabo;科学室;かがくしつ"},
+    {d:"生物室",i:"BiologyLab",s:"biologylab;biologyroom;生物室;せいぶつしつ"},
+    {d:"特別第三教室",i:"SRno3",s:"specialclassroomno3;specialroomno3;特別第3教室;とくべつだいさんきょうしつ"},
+    {d:"特別第四教室",i:"SRno4",s:"specialclassroomno4;specialroomno4;特別第4教室;とくべつだいよんきょうしつ"}
   ];
+  
   const search = ()=>{
     const input = makeLower(document.getElementById("search_input").value);
     if(!input){
@@ -192,12 +214,17 @@
   };
   document.getElementById("search_input").addEventListener("input",search);
 
+  const initialize = ()=>{
+    document.getElementById("mapContain_floor2").innerHTML = defoSVG.f2;
+    document.getElementById("mapContain_floor3").innerHTML = defoSVG.f3;
+  }
+
   /*ここからは目的の場所を強調表示させつやつ。*/
   const showplace = (hash)=>{
     if(!hash){
       return;
     };
-    document.getElementById("mapContain_floor2").innerHTML = defoSVG;
+    initialize()
     console.log(document.getElementById(hash),hash);
     document.getElementById(hash).setAttribute("fill","orange");
   };
