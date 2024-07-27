@@ -10,13 +10,22 @@ document.getElementById("openbtn").addEventListener("click", function () {
 window.onload = (event) => {
   let scrollY = window.scrollY;
   let headerObject = Array.from(document.getElementsByClassName("tops"));
-  headerObject = [...headerObject,...Array.from(document.getElementById("g-nav").querySelector("ul").querySelectorAll("li"))]
+  let gnavObject = Array.from(document.getElementById("g-nav").querySelector("ul").querySelectorAll("li"))
   window.addEventListener("scroll", (event) => {
     for (let i = 0; i < headerObject.length; i++) {
       if (scrollY > window.scrollY + 3) {
         headerObject[i].style.transform = "translateY(0px)";
       } else if (scrollY > 999 && scrollY + 3 < window.scrollY) {
         headerObject[i].style.transform = "translateY(-60px)";
+      }
+    }
+    if(window.innerWidth >= 700){
+      for (let i = 0; i < gnavObject.length; i++) {
+        if (scrollY > window.scrollY + 3) {
+          gnavObject[i].style.transform = "translateY(0px)";
+        } else if (scrollY > 999 && scrollY + 3 < window.scrollY) {
+          gnavObject[i].style.transform = "translateY(-60px)";
+        }
       }
     }
     scrollY = window.scrollY;
