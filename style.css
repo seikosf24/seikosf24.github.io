@@ -66,6 +66,7 @@ header {
 }
 #g-nav li {
   display: block;
+  transition:transform 0.3s;
 }
 #g-nav a {
   position: relative;

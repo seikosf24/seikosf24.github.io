@@ -9,7 +9,8 @@ document.getElementById("openbtn").addEventListener("click", function () {
 //スクロールに応じて
 window.onload = (event) => {
   let scrollY = window.scrollY;
-  let headerObject = document.getElementsByClassName("tops");
+  let headerObject = Array.from(document.getElementsByClassName("tops"));
+  headerObject = [...headerObject,...Array.from(document.getElementById("g-nav").querySelector("ul").querySelectorAll("li"))]
   window.addEventListener("scroll", (event) => {
     for (let i = 0; i < headerObject.length; i++) {
       if (scrollY > window.scrollY + 3) {

@@ -2,7 +2,7 @@
 <html lang="ja">
   <head>
     <meta charset="utf-8" />
-    <title>講堂企画 || 2024年大阪星光学院スクールフェア(SF)</title>
+    <title>学校案内 || 2024年大阪星光学院スクールフェア(SF)</title>
     <meta
       name="viewport"
       content="width=device-width, initial-scale=1, viewport-fit=cover, shrink-to-fit=no"
@@ -19,7 +19,7 @@
     <meta name="apple-mobile-web-app-title" content="Seiko SF '24" />
     <meta
       name="application-name"
-      content="講堂企画 || 2024年大阪星光学院スクールフェア(SF)特設サイト"
+      content="学校案内 || 2024年大阪星光学院スクールフェア(SF)特設サイト"
     />
     <!-- ogp -->
     <meta
@@ -30,7 +30,7 @@
     <meta property="og:type" content="website" />
     <meta
       property="og:title"
-      content="講堂企画 || 2024年大阪星光学院スクールフェア(SF)"
+      content="学校案内 || 2024年大阪星光学院スクールフェア(SF)"
     />
     <meta
       property="og:description"
@@ -42,8 +42,10 @@
     <link rel="stylesheet" href="/style.css" />
     <style>
       .mapContain {
-        width: 100%;
+        left:10%;
+        width: 80%;
         height: auto;
+        position:relative
       }
       .mapContain svg {
         width: 100%;
@@ -148,8 +150,12 @@
 </script>
 <script>
   let defoSVG = {};
-  fetch("./f2.svg").then(res=>res.text()).then(res=>{defoSVG.f2 = res;document.getElementById("mapContain_floor2").innerHTML = res;showplace(window.location.hash.substring(1))})
-  fetch("./f3.svg").then(res=>res.text()).then(res=>{defoSVG.f3 = res;document.getElementById("mapContain_floor3").innerHTML = res;showplace(window.location.hash.substring(1))})
+  Promise.all([
+      fetch("./f2.svg").then(res=>res.text()).then(res=>{defoSVG.f2 = res;document.getElementById("mapContain_floor2").innerHTML = res;}),
+      fetch("./f3.svg").then(res=>res.text()).then(res=>{defoSVG.f3 = res;document.getElementById("mapContain_floor3").innerHTML = res;})
+  ]).then(()=>{
+    showplace(window.location.hash.substring(1))
+  })
   /* しばし解説を 
     #datasetについて
     d:表示される名前（実際の企画名）
@@ -202,7 +208,10 @@
     });
     console.log(obj);
     let ans = "";
+    let num = 0
     obj.forEach((index)=>{
+      if(num >= 10)return
+      num += 1
       ans += `<a href="#maps_${dataset[index].i}" class="result_items">${dataset[index].d}</a><br>`;
     });
     document.getElementById("result").innerHTML = ans;
@@ -224,7 +233,7 @@
     if(!hash){
       return;
     };
-    initialize()
+    initialize();
     console.log(document.getElementById(hash),hash);
     document.getElementById(hash).setAttribute("fill","orange");
   };
