@@ -85,7 +85,7 @@
       title:title,
       date:date,
       content:{
-        body:`<p>${body}<p>`.replace("\n","<br>")
+        body:`<p>${body}<p>`.replace("/\n/g","<br>")
       }
     }
     fetch("/blog/post", {
