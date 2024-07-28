@@ -65,15 +65,15 @@
           <a href="../">ブログトップ</a>
           <a href="./02.html">次のブログ</a>
         </div>
+        <button onclick="post()">POST</button>
         <h1>
-          ブログタイトル
+          <input placeholder="title" id="title">
         </h1>
         <div id="date">
-          8月20日(土) 16時20分
+          <input placeholder="date" id="date">
         </div>
         <p>
-          ここにいろいろかきましょうか。<br>
-          <img>
+          <textarea style="width:100%;height:auto;min-height: 400px;" id="body"></textarea>
         </p>
       </section>
     </main>
@@ -81,3 +81,37 @@
     <script type="text/javascript" src="/script.js"></script>
   </body>
 </html>
+<script>
+  const post = ()=>{
+    const title = document.getElementById("title").value
+    const date = document.getElementById("date").value
+    const body = document.getElementById("body").value
+    const data = {
+      title:title,
+      date:date,
+      content:{
+        body:`<p>${body}<p>`.replace("\n","<br>")
+      }
+    }
+    fetch("/blog/post", {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+                'Authorization': 'Basic ' + btoa('yourusername:yourpassword') // ベーシック認証用のヘッダー
+            },
+            body: JSON.stringify(data)
+        })
+        .then(response => {
+            if (!response.ok) {
+                throw new Error('Network response was not ok ' + response.statusText);
+            }
+            return response.json();
+        })
+        .then(data => {
+            console.log('Success:', data);
+        })
+        .catch(error => {
+            console.error('Error:', error);
+        });
+  }
+</script>
