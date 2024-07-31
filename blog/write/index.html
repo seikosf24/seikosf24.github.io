@@ -41,6 +41,35 @@
     <link rel="preload" as="font" href="/assets/Oswald-Regular.ttf" />
     <link rel="stylesheet" href="/style.css" />
     <link rel="stylesheet" href="/blog/style.css" />
+    <style>
+      p#prev{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        width:100%;
+      }
+      imgbo{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding:6px;
+        margin:6px;
+        border-radius: 10px;
+        background-color: gray;
+        border:solid 2px black;
+        img{
+          border:solid 1px black;
+        }
+        button{
+          bottom:0px;
+          text-align: center;
+          width:100px;
+          height:30px;
+          margin-top:6px;
+        }
+      }
+    </style>
   </head>
   <body>
     <header>
@@ -61,15 +90,31 @@
     <main>
       <section id="letter">
         <button onclick="post()">POST</button>
+        <button onclick="readImg.prev()">PREVIEW</button>
         <h1>
-          <input placeholder="title" id="title">
+          <input placeholder="title" id="title" />
         </h1>
         <div id="date">
-          <input placeholder="date" id="Idate">
+          <input placeholder="date" id="Idate"/>
         </div>
         <p>
-          <textarea style="width:100%;height:auto;min-height: 400px;" id="body"></textarea>
+          <textarea
+            style="width: 100%; height: auto; min-height: 400px"
+            id="body"
+          >
+          </textarea>
         </p>
+        <br/>
+        <form>
+          <input type="file" id="input_img" multiple>
+          <p id="prev">
+          </p>
+        </form>
+      </section>
+      <section id="letter">
+        <sub id="html_prev">
+
+        </sub>
       </section>
     </main>
     <footer></footer>
@@ -77,37 +122,113 @@
   </body>
 </html>
 <script>
-  const post = ()=>{
-    const title = document.getElementById("title").value
-    const date = document.getElementById("Idate").value
-    const body = document.getElementById("body").value
+  const post = () => {
+    const title = document.getElementById("title").value;
+    const date = document.getElementById("Idate").value;
+    const body = document.getElementById("body").value;
     const data = {
-      title:title,
-      date:date,
-      content:{
-        body:`<p>${body}<p>`.replace(/\n/g,"<br>")
-      }
-    }
+      title: title,
+      date: date,
+      content: {
+        body: `<p>${body}<p>`.replace(/\n/g, "<br>"),
+      },
+    };
     fetch("/blog/post", {
-            method: 'POST',
-            headers: {
-                'Content-Type': 'application/json',
-                'Authorization': 'Basic ' + btoa('yourusername:yourpassword') // ベーシック認証用のヘッダー
-            },
-            body: JSON.stringify(data)
-        })
-        .then(response => {
-            if (!response.ok) {
-                throw new Error('Network response was not ok ' + response.statusText);
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+        Authorization: "Basic " + btoa("yourusername:yourpassword"), // ベーシック認証用のヘッダー
+      },
+      body: JSON.stringify(data),
+    })
+      .then((response) => {
+        if (!response.ok) {
+          throw new Error("Network response was not ok " + response.statusText);
+        }
+        return response.json();
+      })
+      .then((data) => {
+        console.log("Success:", data);
+        alert(`on ${data.location}`);
+      })
+      .catch((error) => {
+        console.error("Error:", error);
+      });
+  };
+</script>
+<script>
+  class readImgClass{
+    constructor(){
+      document
+        .getElementById("input_img")
+        .addEventListener("change", async (event) => {
+          const img_box = document.getElementById("prev");
+          img_box.innerHTML = "";
+          Array.from(event.target.files).forEach(async(f,i)=>{
+            console.log(f,i)
+            if (f.type.startsWith("image/")) {
+              const reader = new FileReader();
+              reader.onload = (e) => {
+                img_box.innerHTML += this.makeImg(e,i)
+              };
+              await reader.readAsDataURL(f);
             }
-            return response.json();
-        })
-        .then(data => {
-            console.log('Success:', data);
-            alert(`on ${data.location}`)
-        })
-        .catch(error => {
-            console.error('Error:', error);
+          })
         });
+    }
+    makeImg(e,i){
+      return `<imgbo id="${i}"><h2>${i}</h2><img src="${e.target.result}" id="s${i}"><button onclick="readImg.add(${i})" type="button">add to article</button></imgbo>`
+    }
+    add(i){
+      const area = document.getElementById("body")
+      area.value += `{img#${i}}` 
+      console.log("why_")
+      return null
+    }
+    prev(){
+      const d = document.getElementById("html_prev")
+      const title = document.getElementById("title").value;
+      const date = document.getElementById("Idate").value;
+      var body = document.getElementById("body").value.replace(/\n/g, "<br>");
+      //convert # img into prev
+      /*
+      const imgs = body.match(/{img#.*?}/g)
+      console.log(imgs)
+      if(imgs){
+        for(const i of imgs){
+          const index = parseInt(i.slice(5, -1))
+          console.log(body,i,i.slice(5, -1))
+          const src = document.getElementById(`s${index}`).src
+          body.replace(i,`
+            <img id="1" src=${src}>
+          `)
+        }
+      } */
+
+      body = body.replace(/{img#.*?}/g,(i,p1)=>{
+        const index = parseInt(i.slice(5, -1))
+        console.log(body,i,i.slice(5, -1))
+        const src = document.getElementById(`s${index}`).src
+        return `
+            <br><img id=p${index} src=${src}>
+          `
+      })
+
+      //why u can do this?
+      d.innerHTML = 
+      `
+        <h1>
+          ${title}
+        </h1>
+        <div id="date">
+          ${date}
+        </div>
+        <p style="font-size:16px">
+          ${body}
+        </p>
+      `          
+      return location.href = "#html_prev"
+    }
   }
+  const readImg = new readImgClass()
 </script>
