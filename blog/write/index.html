@@ -42,31 +42,31 @@
     <link rel="stylesheet" href="/style.css" />
     <link rel="stylesheet" href="/blog/style.css" />
     <style>
-      p#prev{
+      p#prev {
         display: flex;
         flex-wrap: wrap;
         flex-direction: row;
-        width:100%;
+        width: 100%;
       }
-      imgbo{
+      imgbo {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        padding:6px;
-        margin:6px;
+        padding: 6px;
+        margin: 6px;
         border-radius: 10px;
         background-color: gray;
-        border:solid 2px black;
-        img{
-          border:solid 1px black;
+        border: solid 2px black;
+        img {
+          border: solid 1px black;
         }
-        button{
-          bottom:0px;
+        button {
+          bottom: 0px;
           text-align: center;
-          width:100px;
-          height:30px;
-          margin-top:6px;
+          width: 100px;
+          height: 30px;
+          margin-top: 6px;
         }
       }
     </style>
@@ -95,7 +95,7 @@
           <input placeholder="title" id="title" />
         </h1>
         <div id="date">
-          <input placeholder="date" id="Idate"/>
+          <input placeholder="date" id="Idate" />
         </div>
         <p>
           <textarea
@@ -104,17 +104,14 @@
           >
           </textarea>
         </p>
-        <br/>
+        <br />
         <form>
-          <input type="file" id="input_img" multiple>
-          <p id="prev">
-          </p>
+          <input type="file" id="input_img" multiple />
+          <p id="prev"></p>
         </form>
       </section>
       <section id="letter">
-        <sub id="html_prev">
-
-        </sub>
+        <sub id="html_prev"> </sub>
       </section>
     </main>
     <footer></footer>
@@ -125,12 +122,22 @@
   const post = () => {
     const title = document.getElementById("title").value;
     const date = document.getElementById("Idate").value;
-    const body = document.getElementById("body").value;
+    var body = document.getElementById("body").value.replace(/\n/g, "<br>");
+
+    body = body.replace(/{img#.*?}/g, (i, p1) => {
+      const index = parseInt(i.slice(5, -1));
+      console.log(body, i, i.slice(5, -1));
+      const src = document.getElementById(`s${index}`).src;
+      return `
+            <br><img id=p${index} src=${src}>
+          `;
+    });
+
     const data = {
       title: title,
       date: date,
       content: {
-        body: `<p>${body}<p>`.replace(/\n/g, "<br>"),
+        body: `<p>${body}</p>`
       },
     };
     fetch("/blog/post", {
@@ -157,66 +164,51 @@
   };
 </script>
 <script>
-  class readImgClass{
-    constructor(){
+  class readImgClass {
+    constructor() {
       document
         .getElementById("input_img")
         .addEventListener("change", async (event) => {
           const img_box = document.getElementById("prev");
-          img_box.innerHTML = "";
-          Array.from(event.target.files).forEach(async(f,i)=>{
-            console.log(f,i)
+          const starti = Array.from(document.querySelectorAll("imgbo")).length
+          Array.from(event.target.files).forEach(async (f, i) => {
+            console.log(f, starti + i);
             if (f.type.startsWith("image/")) {
               const reader = new FileReader();
               reader.onload = (e) => {
-                img_box.innerHTML += this.makeImg(e,i)
+                img_box.innerHTML += this.makeImg(e, starti + i);
               };
               await reader.readAsDataURL(f);
             }
-          })
+          });
         });
     }
-    makeImg(e,i){
-      return `<imgbo id="${i}"><h2>${i}</h2><img src="${e.target.result}" id="s${i}"><button onclick="readImg.add(${i})" type="button">add to article</button></imgbo>`
+    makeImg(e, i) {
+      return `<imgbo id="${i}"><h2>${i}</h2><img src="${e.target.result}" id="s${i}"><button onclick="readImg.add(${i})" type="button">add to article</button></imgbo>`;
     }
-    add(i){
-      const area = document.getElementById("body")
-      area.value += `{img#${i}}` 
-      console.log("why_")
-      return null
+    add(i) {
+      const area = document.getElementById("body");
+      area.value += `{img#${i}}`;
+      console.log("why_");
+      return null;
     }
-    prev(){
-      const d = document.getElementById("html_prev")
+    prev() {
+      const d = document.getElementById("html_prev");
       const title = document.getElementById("title").value;
       const date = document.getElementById("Idate").value;
       var body = document.getElementById("body").value.replace(/\n/g, "<br>");
-      //convert # img into prev
-      /*
-      const imgs = body.match(/{img#.*?}/g)
-      console.log(imgs)
-      if(imgs){
-        for(const i of imgs){
-          const index = parseInt(i.slice(5, -1))
-          console.log(body,i,i.slice(5, -1))
-          const src = document.getElementById(`s${index}`).src
-          body.replace(i,`
-            <img id="1" src=${src}>
-          `)
-        }
-      } */
 
-      body = body.replace(/{img#.*?}/g,(i,p1)=>{
-        const index = parseInt(i.slice(5, -1))
-        console.log(body,i,i.slice(5, -1))
-        const src = document.getElementById(`s${index}`).src
+      body = body.replace(/{img#.*?}/g, (i, p1) => {
+        const index = parseInt(i.slice(5, -1));
+        console.log(body, i, i.slice(5, -1));
+        const src = document.getElementById(`s${index}`).src;
         return `
             <br><img id=p${index} src=${src}>
-          `
-      })
+          `;
+      });
 
       //why u can do this?
-      d.innerHTML = 
-      `
+      d.innerHTML = `
         <h1>
           ${title}
         </h1>
@@ -226,9 +218,9 @@
         <p style="font-size:16px">
           ${body}
         </p>
-      `          
-      return location.href = "#html_prev"
+      `;
+      return (location.href = "#html_prev");
     }
   }
-  const readImg = new readImgClass()
+  const readImg = new readImgClass();
 </script>
