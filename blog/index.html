@@ -78,19 +78,6 @@
       </div>
       <section>
         <h2>AUGUST</h2>
-        <a href="article/1">
-          <div class="flexChild">
-            <img
-              src="/images/icon512x512.png"
-              width="160"
-              height="160"
-              alt="icon"
-            />
-            <h3>タイトル！</h3>
-            <p>8/18</p>
-            <p>なかみなかみなかみなかみ！なかみなかみなかみ！</p>
-          </div>
-        </a>
       </section>
     </main>
     <footer></footer>
@@ -99,19 +86,27 @@
 </html>
 <script>
   //Gen
-  content = `
-        <a href="article/${dir}">
-          <div class="flexChild">
-            <img
-              src="${icon}"
-              width="160"
-              height="160"
-              alt="icon"
-            />
-            <h3>${title}</h3>
-            <p>${date}</p>
-            <p>${summary}...</p>
-          </div>
-        </a>
-  `
+  fetch("/api/article")
+    .then((r) => r.json())
+    .then((res) => {
+      content = ""
+      for(const r of res){
+        content += `
+          <a href="article/${r.dir}">
+            <div class="flexChild">
+              <img
+                src="${r.icon}"
+                width="160"
+                height="160"
+                alt="icon"
+              />
+              <h3>${r.title}</h3>
+              <p>${r.date}</p>
+              <p>${r.summary}...</p>
+            </div>
+          </a>
+        `;
+      };
+      document.querySelector("section").innerHTML += content
+    });
 </script>
