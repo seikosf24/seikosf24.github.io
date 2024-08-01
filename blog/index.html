@@ -78,7 +78,7 @@
       </div>
       <section>
         <h2>AUGUST</h2>
-        <a href="article/1.html">
+        <a href="article/1">
           <div class="flexChild">
             <img
               src="/images/icon512x512.png"
@@ -97,3 +97,21 @@
     <script type="text/javascript" src="/script.js"></script>
   </body>
 </html>
+<script>
+  //Gen
+  content = `
+        <a href="article/${dir}">
+          <div class="flexChild">
+            <img
+              src="${icon}"
+              width="160"
+              height="160"
+              alt="icon"
+            />
+            <h3>${title}</h3>
+            <p>${date}</p>
+            <p>${body}...</p>
+          </div>
+        </a>
+  `
+</script>
