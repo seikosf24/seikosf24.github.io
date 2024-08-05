@@ -128,27 +128,34 @@
 
     body = body.replace(/{img#.*?}/g, (i, p1) => {
       const index = parseInt(i.slice(5, -1));
-      console.log(body, i, i.slice(5, -1));
-      const src = document.getElementById(`s${index}`).src;
+      const ext =document.querySelector("input[type='file']").files[index].name.split(".")[1]
       return `
-            <br><img id=p${index} src=${src}>
+            <img id=p${index} src="${index}.${ext}">
           `;
     });
 
-    const data = {
-      title: title,
-      date: date,
-      content: {
-        body: `<p>${body}</p>`
-      },
+    const formData = new FormData();
+
+    const settingData = {
+        title:title,
+        date:date,
+        body:`<p>${body}</p>`
     };
+
+    const settingBlob = new Blob([JSON.stringify(settingData)], { type: 'application/json' });
+    formData.append('setting', settingBlob, 'setting.json');
+
+    const fileInput = document.querySelector('input[type="file"]');
+    for (let i = 0; i < fileInput.files.length; i++) {
+      formData.append('files', fileInput.files[i]);
+    }
+    
     fetch("/api/post", {
       method: "POST",
       headers: {
-        "Content-Type": "application/json",
-        Authorization: "Basic " + btoa("yourusername:yourpassword"), // ベーシック認証用のヘッダー
+        Authorization: "Basic " + btoa("yourusername:yourpassword"),
       },
-      body: JSON.stringify(data),
+      body: formData,
     })
       .then((response) => {
         if (!response.ok) {
@@ -171,6 +178,7 @@
       document
         .getElementById("input_img")
         .addEventListener("change", async (event) => {
+          document.getElementById("prev").innerHTML = ""
           const img_box = document.getElementById("prev");
           const starti = Array.from(document.querySelectorAll("imgbo")).length
           Array.from(event.target.files).forEach(async (f, i) => {
