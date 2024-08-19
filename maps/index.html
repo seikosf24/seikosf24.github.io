@@ -40,34 +40,7 @@
     <meta property="og:locale" content="ja_JP" />
     <link rel="preload" as="font" href="/assets/Oswald-Regular.ttf" />
     <link rel="stylesheet" href="/style.css" />
-    <style>
-      .mapContain {
-        left:10%;
-        width: 80%;
-        height: auto;
-        position:relative
-      }
-      .mapContain svg {
-        width: 100%;
-      }
-      .search_box{
-        width: 100%;
-        display: flex;    
-        justify-content: center;
-        flex-direction: column;
-        align-content: center;
-        align-items: center;
-        #search_input{
-          width:200px;
-          height:50px;
-        }
-        #result{
-          width:500px;
-          min-height: 100px;
-          background-color: gray;
-        }
-      }
-    </style>
+    <link rel="stylesheet" href="maps.css">
   </head>
   <body>
     <header>
@@ -91,17 +64,42 @@
         <h1 class="nohome">學校案内</h1>
       </div>
       <section class="arrow">
-        <div class="search_box">
-          <input id="search_input" placeholder="input">
-          <div id="result">
+        <div id="search_box">
+          <div id="search_con">
+            <div id="input_box">
+              <img src="search.svg">
+              <textarea id="search_input" title="検索" rows="1" maxlength="100"></textarea>
+            </div>
+            <div id="suggest_box">
+              <ul id="suggest_ul">
 
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="buttonContain">
+          <div id="bb">
+            <span id="bf1" class="bbb active"><p>1F</p></span>
+            <span id="bf2" class="bbb"><p>2F</p></span>
+            <span id="bf3" class="bbb"><p>3F</p></span>
+            <span id="bf4" class="bbb"><p>4F</p></span>
+            <span id="bf5" class="bbb"><p>5F</p></span>
           </div>
         </div>
         <div class="mapContain">
-          <div id="mapContain_floor2">
+          <div id="mapContain_f1" role="mapContain"> 
 
           </div>
-          <div id="mapContain_floor3">
+          <div id="mapContain_f2" role="mapContain"> 
+
+          </div>
+          <div id="mapContain_f3" role="mapContain">
+
+          </div>
+          <div id="mapContain_f4" role="mapContain">
+
+          </div>
+          <div id="mapContain_f5" role="mapContain">
 
           </div>
         </div>
@@ -111,7 +109,30 @@
     <script type="text/javascript" src="/script.js"></script>
   </body>
 </html>
-<script>
+<script role="searchboxCSS">
+  const par = document.getElementById('search_input');
+  const child = document.getElementById('suggest_box');
+
+  window.addEventListener("click",(event)=>{
+    if(event.target.role == "suggest_items"){
+      child.classList.remove("active")
+    }else if(hasParentWithId(event.target,"search_box")){
+      child.classList.add("active")
+    }else{
+      child.classList.remove("active")
+    }
+  })
+</script>
+<script role="dataFORsearch">
+  function hasParentWithId(target, id) {
+            while (target) {
+                if (target.id === id) {
+                    return true;
+                }
+                target = target.parentElement;
+            }
+            return false;
+        }
   //分けて書くのは見やすくするためだにょ
   const Full2Half = (input)=>{ //全角文字を半角にする
     return input.replace(/[Ａ-Ｚａ-ｚ０-９]/g, function(char) {
@@ -148,11 +169,14 @@
     "一":"1","二":"2","三":"3","四":"4","五":"5","六":"6","七":"7","八":"8","九":"9","十":"10"
   }
 </script>
-<script>
+<script role="searchEngine">
   let defoSVG = {};
   Promise.all([
-      fetch("./f2.svg").then(res=>res.text()).then(res=>{defoSVG.f2 = res;document.getElementById("mapContain_floor2").innerHTML = res;}),
-      fetch("./f3.svg").then(res=>res.text()).then(res=>{defoSVG.f3 = res;document.getElementById("mapContain_floor3").innerHTML = res;})
+    fetch("./svg/f1.svg").then(res=>res.text()).then(res=>{defoSVG.f1 = res;document.getElementById("mapContain_f1").innerHTML = res;}),
+    fetch("./svg/f2.svg").then(res=>res.text()).then(res=>{defoSVG.f2 = res;document.getElementById("mapContain_f2").innerHTML = res;}),
+    fetch("./svg/f3.svg").then(res=>res.text()).then(res=>{defoSVG.f3 = res;document.getElementById("mapContain_f3").innerHTML = res;}),
+    fetch("./svg/f4.svg").then(res=>res.text()).then(res=>{defoSVG.f4 = res;document.getElementById("mapContain_f4").innerHTML = res;}),
+    fetch("./svg/f5.svg").then(res=>res.text()).then(res=>{defoSVG.f5 = res;document.getElementById("mapContain_f5").innerHTML = res;})
   ]).then(()=>{
     showplace(window.location.hash.substring(1))
   })
@@ -164,35 +188,39 @@
       =>maps_は抜いてます。全部ついてるので後から += でいい
   */
   const dataset=[
+    //f1
+    {f:1,d:"食堂",i:"dining",s:"dining;食堂;しょくどう"},
+    {f:1,d:"保健室",i:"hoken",s:"nurse office;保健室;ほけんしつ"},
+    {f:1,d:"図書室",i:"tosyo",s:"library;図書館;図書室;としょかん;としょしつ;"},
     //f2
-    {d:"H1A",i:"H1A",s:"h1a;高校1年a組;こうこういちねんaぐみ"},
-    {d:"H1B",i:"H1B",s:"h1b;高校1年b組;こうこういちねんbぐみ"},
-    {d:"H1C",i:"H1C",s:"h1c;高校1年c組;こうこういちねんcぐみ"},
-    {d:"H1D",i:"H1D",s:"h1d;高校1年d組;こうこういちねんdぐみ"},
-    {d:"H1E",i:"H1E",s:"h1e;高校1年e組;こうこういちねんeぐみ"},
-    {d:"M1A",i:"M1A",s:"m1a;中学1年a組;ちゅうがくいちねんaぐみ"},
-    {d:"M1B",i:"M1B",s:"m1b;中学1年b組;ちゅうがくいちねんbぐみ"},
-    {d:"M1C",i:"M1C",s:"m1c;中学1年c組;ちゅうがくいちねんcぐみ"},
-    {d:"M1D",i:"M1D",s:"m1d;中学1年d組ちゅうがくいちねんdぐみ"},
-    {d:"M1E",i:"M1E",s:"m1e;中学1年e組;ちゅうがくいちねんeぐみ"},
-    {d:"視聴覚室",i:"AVRoom",s:"audiovisualroomavroom;視聴覚室;しちょうかくしつ"},
-    {d:"技術室",i:"TechRoom",s:"techroomtechnicaldepartment;技術室;ぎじゅつしつ"},
-    {d:"美術室",i:"ArtRoom",s:"artroom;美術室;びじゅつしつ"},
+    {f:2,d:"H1A",i:"H1A",s:"h1a;高校1年a組;こうこういちねんaぐみ"},
+    {f:2,d:"H1B",i:"H1B",s:"h1b;高校1年b組;こうこういちねんbぐみ"},
+    {f:2,d:"H1C",i:"H1C",s:"h1c;高校1年c組;こうこういちねんcぐみ"},
+    {f:2,d:"H1D",i:"H1D",s:"h1d;高校1年d組;こうこういちねんdぐみ"},
+    {f:2,d:"H1E",i:"H1E",s:"h1e;高校1年e組;こうこういちねんeぐみ"},
+    {f:2,d:"M1A",i:"M1A",s:"m1a;中学1年a組;ちゅうがくいちねんaぐみ"},
+    {f:2,d:"M1B",i:"M1B",s:"m1b;中学1年b組;ちゅうがくいちねんbぐみ"},
+    {f:2,d:"M1C",i:"M1C",s:"m1c;中学1年c組;ちゅうがくいちねんcぐみ"},
+    {f:2,d:"M1D",i:"M1D",s:"m1d;中学1年d組ちゅうがくいちねんdぐみ"},
+    {f:2,d:"M1E",i:"M1E",s:"m1e;中学1年e組;ちゅうがくいちねんeぐみ"},
+    {f:2,d:"視聴覚室",i:"AVRoom",s:"audiovisualroomavroom;視聴覚室;しちょうかくしつ"},
+    {f:2,d:"技術室",i:"TechRoom",s:"techroomtechnicaldepartment;技術室;ぎじゅつしつ"},
+    {f:2,d:"美術室",i:"ArtRoom",s:"artroom;美術室;びじゅつしつ"},
     //f3
-    {d:"H2A",i:"H2A",s:"h2a;高校2年a組;こうこうにねんaぐみ"},
-    {d:"H2B",i:"H2B",s:"h2b;高校2年b組;こうこうにねんbぐみ"},
-    {d:"H2C",i:"H2C",s:"h2c;高校2年c組;こうこうにねんcぐみ"},
-    {d:"H2D",i:"H2D",s:"h2d;高校2年d組;こうこうにねんdぐみ"},
-    {d:"H2E",i:"H2E",s:"h2e;高校2年e組;こうこうにねんeぐみ"},
-    {d:"M2A",i:"M2A",s:"m2a;中学2年a組;ちゅうがくにねんaぐみ"},
-    {d:"M2B",i:"M2B",s:"m2b;中学2年b組;ちゅうがくにねんbぐみ"},
-    {d:"M2C",i:"M2C",s:"m2c;中学2年c組;ちゅうがくにねんcぐみ"},
-    {d:"M2D",i:"M2D",s:"m2d;中学2年d組;ちゅうがくにねんdぐみ"},
-    {d:"M2E",i:"M2E",s:"m2e;中学2年e組;ちゅうがくにねんeぐみ"},
-    {d:"化学室",i:"ScienceLab",s:"sciencelabo;科学室;かがくしつ"},
-    {d:"生物室",i:"BiologyLab",s:"biologylab;biologyroom;生物室;せいぶつしつ"},
-    {d:"特別第三教室",i:"SRno3",s:"specialclassroomno3;specialroomno3;特別第3教室;とくべつだいさんきょうしつ"},
-    {d:"特別第四教室",i:"SRno4",s:"specialclassroomno4;specialroomno4;特別第4教室;とくべつだいよんきょうしつ"}
+    {f:3,d:"H2A",i:"H2A",s:"h2a;高校2年a組;こうこうにねんaぐみ"},
+    {f:3,d:"H2B",i:"H2B",s:"h2b;高校2年b組;こうこうにねんbぐみ"},
+    {f:3,d:"H2C",i:"H2C",s:"h2c;高校2年c組;こうこうにねんcぐみ"},
+    {f:3,d:"H2D",i:"H2D",s:"h2d;高校2年d組;こうこうにねんdぐみ"},
+    {f:3,d:"H2E",i:"H2E",s:"h2e;高校2年e組;こうこうにねんeぐみ"},
+    {f:3,d:"M2A",i:"M2A",s:"m2a;中学2年a組;ちゅうがくにねんaぐみ"},
+    {f:3,d:"M2B",i:"M2B",s:"m2b;中学2年b組;ちゅうがくにねんbぐみ"},
+    {f:3,d:"M2C",i:"M2C",s:"m2c;中学2年c組;ちゅうがくにねんcぐみ"},
+    {f:3,d:"M2D",i:"M2D",s:"m2d;中学2年d組;ちゅうがくにねんdぐみ"},
+    {f:3,d:"M2E",i:"M2E",s:"m2e;中学2年e組;ちゅうがくにねんeぐみ"},
+    {f:3,d:"化学室",i:"ScienceLab",s:"sciencelabo;科学室;かがくしつ"},
+    {f:3,d:"生物室",i:"BiologyLab",s:"biologylab;biologyroom;生物室;せいぶつしつ"},
+    {f:3,d:"特別第三教室",i:"SRNo3",s:"specialclassroomno3;specialroomno3;特別第3教室;とくべつだいさんきょうしつ"},
+    {f:3,d:"特別第四教室",i:"SRNo4",s:"specialclassroomno4;specialroomno4;特別第4教室;とくべつだいよんきょうしつ"}
   ];
   
   const search = ()=>{
@@ -206,26 +234,42 @@
         obj.push(index);
       };
     });
-    console.log(obj);
     let ans = "";
     let num = 0
     obj.forEach((index)=>{
       if(num >= 10)return
       num += 1
-      ans += `<a href="#maps_${dataset[index].i}" class="result_items">${dataset[index].d}</a><br>`;
+      //#maps_${dataset[index].i
+      ans += `
+        <li class="result_items"  role="suggest_items" data-target="maps_${dataset[index].i}" data-floor="${dataset[index].f}">
+          <img src="${dataset[index].i}.svg">
+          <div id="result_a_con">
+            <span>${dataset[index].d}</span>
+          </div>
+        </li>
+      `;
     });
-    document.getElementById("result").innerHTML = ans;
+    document.getElementById("suggest_ul").innerHTML = ans;
+    //ココが検索結果表示、忘れないように
     Array.from(document.querySelectorAll(".result_items")).forEach((elem)=>{
       elem.addEventListener("click",(elem)=>{
-        showplace(elem.target.hash.substring(1))
+        Array.from(document.querySelectorAll("div[role=mapContain]")).forEach(e=>{
+          e.style.display = "none"
+        })
+        selectSVGbutton(elem.currentTarget.dataset.floor)
+        showplace(elem.currentTarget.dataset.target)
+        window.location.href="#"+elem.currentTarget.dataset.target
       });
     });
   };
   document.getElementById("search_input").addEventListener("input",search);
 
   const initialize = ()=>{
-    document.getElementById("mapContain_floor2").innerHTML = defoSVG.f2;
-    document.getElementById("mapContain_floor3").innerHTML = defoSVG.f3;
+    document.getElementById("mapContain_f1").innerHTML = defoSVG.f1;
+    document.getElementById("mapContain_f2").innerHTML = defoSVG.f2;
+    document.getElementById("mapContain_f3").innerHTML = defoSVG.f3;
+    document.getElementById("mapContain_f4").innerHTML = defoSVG.f4;
+    document.getElementById("mapContain_f5").innerHTML = defoSVG.f5;
   }
 
   /*ここからは目的の場所を強調表示させつやつ。*/
@@ -234,7 +278,25 @@
       return;
     };
     initialize();
-    console.log(document.getElementById(hash),hash);
     document.getElementById(hash).setAttribute("fill","orange");
   };
+</script>
+<script role="selectSVG">
+  const selectSVGbutton = (f)=>{
+      document.querySelector("span.active").classList.remove("active")
+      document.querySelector(`#bf${f}`).classList.add("active")
+      Array.from(document.querySelectorAll("div[role=mapContain]")).forEach(e=>{
+        e.style.display = "none"
+      })
+      document.querySelector(`#mapContain_f${f}`).style.display = "block"
+  }
+  Array.from(document.querySelectorAll("span.bbb")).forEach(el=>{
+    el.addEventListener("click",(ev)=>{
+      floor = ev.currentTarget.id.slice(2,3)
+      selectSVGbutton(floor)
+    })
+  })
+  window.addEventListener("DOMContentLoaded",(e)=>{
+    selectSVGbutton(1)
+  })
 </script>
