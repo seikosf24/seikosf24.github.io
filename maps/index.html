@@ -41,17 +41,6 @@
     <link rel="preload" as="font" href="/assets/Oswald-Regular.ttf" />
     <link rel="stylesheet" href="/style.css" />
     <link rel="stylesheet" href="maps.css">
-    <style>
-      .mapContain {
-        left:10%;
-        width: 80%;
-        height: auto;
-        position:relative
-      }
-      .mapContain svg {
-        width: 100%;
-      }
-    </style>
   </head>
   <body>
     <header>
@@ -90,17 +79,27 @@
         </div>
         <div class="buttonContain">
           <div id="bb">
-            <span id="bb1"></span>
-            <span id="bb2"></span>
-            <span id="bb3"></span>
-            <span id="bb4"></span>
+            <span id="bf1" class="bbb active"><p>1F</p></span>
+            <span id="bf2" class="bbb"><p>2F</p></span>
+            <span id="bf3" class="bbb"><p>3F</p></span>
+            <span id="bf4" class="bbb"><p>4F</p></span>
+            <span id="bf5" class="bbb"><p>5F</p></span>
           </div>
         </div>
         <div class="mapContain">
-          <div id="mapContain_floor2">
+          <div id="mapContain_f1" role="mapContain"> 
 
           </div>
-          <div id="mapContain_floor3">
+          <div id="mapContain_f2" role="mapContain"> 
+
+          </div>
+          <div id="mapContain_f3" role="mapContain">
+
+          </div>
+          <div id="mapContain_f4" role="mapContain">
+
+          </div>
+          <div id="mapContain_f5" role="mapContain">
 
           </div>
         </div>
@@ -173,8 +172,11 @@
 <script role="searchEngine">
   let defoSVG = {};
   Promise.all([
-      fetch("./f2.svg").then(res=>res.text()).then(res=>{defoSVG.f2 = res;document.getElementById("mapContain_floor2").innerHTML = res;}),
-      fetch("./f3.svg").then(res=>res.text()).then(res=>{defoSVG.f3 = res;document.getElementById("mapContain_floor3").innerHTML = res;})
+    fetch("./svg/f1.svg").then(res=>res.text()).then(res=>{defoSVG.f1 = res;document.getElementById("mapContain_f1").innerHTML = res;}),
+    fetch("./svg/f2.svg").then(res=>res.text()).then(res=>{defoSVG.f2 = res;document.getElementById("mapContain_f2").innerHTML = res;}),
+    fetch("./svg/f3.svg").then(res=>res.text()).then(res=>{defoSVG.f3 = res;document.getElementById("mapContain_f3").innerHTML = res;}),
+    fetch("./svg/f4.svg").then(res=>res.text()).then(res=>{defoSVG.f4 = res;document.getElementById("mapContain_f4").innerHTML = res;}),
+    fetch("./svg/f5.svg").then(res=>res.text()).then(res=>{defoSVG.f5 = res;document.getElementById("mapContain_f5").innerHTML = res;})
   ]).then(()=>{
     showplace(window.location.hash.substring(1))
   })
@@ -186,6 +188,10 @@
       =>maps_は抜いてます。全部ついてるので後から += でいい
   */
   const dataset=[
+    //f1
+    {f:1,d:"食堂",i:"dining",s:"dining;食堂;しょくどう"},
+    {f:1,d:"保健室",i:"hoken",s:"nurse office;保健室;ほけんしつ"},
+    {f:1,d:"図書室",i:"tosyo",s:"library;図書館;図書室;としょかん;としょしつ;"},
     //f2
     {f:2,d:"H1A",i:"H1A",s:"h1a;高校1年a組;こうこういちねんaぐみ"},
     {f:2,d:"H1B",i:"H1B",s:"h1b;高校1年b組;こうこういちねんbぐみ"},
@@ -213,8 +219,8 @@
     {f:3,d:"M2E",i:"M2E",s:"m2e;中学2年e組;ちゅうがくにねんeぐみ"},
     {f:3,d:"化学室",i:"ScienceLab",s:"sciencelabo;科学室;かがくしつ"},
     {f:3,d:"生物室",i:"BiologyLab",s:"biologylab;biologyroom;生物室;せいぶつしつ"},
-    {f:3,d:"特別第三教室",i:"SRno3",s:"specialclassroomno3;specialroomno3;特別第3教室;とくべつだいさんきょうしつ"},
-    {f:3,d:"特別第四教室",i:"SRno4",s:"specialclassroomno4;specialroomno4;特別第4教室;とくべつだいよんきょうしつ"}
+    {f:3,d:"特別第三教室",i:"SRNo3",s:"specialclassroomno3;specialroomno3;特別第3教室;とくべつだいさんきょうしつ"},
+    {f:3,d:"特別第四教室",i:"SRNo4",s:"specialclassroomno4;specialroomno4;特別第4教室;とくべつだいよんきょうしつ"}
   ];
   
   const search = ()=>{
@@ -228,7 +234,6 @@
         obj.push(index);
       };
     });
-    console.log(obj);
     let ans = "";
     let num = 0
     obj.forEach((index)=>{
@@ -236,7 +241,7 @@
       num += 1
       //#maps_${dataset[index].i
       ans += `
-        <li class="result_items"  role="suggest_items" data-target="maps_${dataset[index].i}">
+        <li class="result_items"  role="suggest_items" data-target="maps_${dataset[index].i}" data-floor="${dataset[index].f}">
           <img src="${dataset[index].i}.svg">
           <div id="result_a_con">
             <span>${dataset[index].d}</span>
@@ -245,18 +250,26 @@
       `;
     });
     document.getElementById("suggest_ul").innerHTML = ans;
+    //ココが検索結果表示、忘れないように
     Array.from(document.querySelectorAll(".result_items")).forEach((elem)=>{
       elem.addEventListener("click",(elem)=>{
-        showplace(elem.target.dataset.target)
-        window.location.href="#"+elem.target.dataset.target
+        Array.from(document.querySelectorAll("div[role=mapContain]")).forEach(e=>{
+          e.style.display = "none"
+        })
+        selectSVGbutton(elem.currentTarget.dataset.floor)
+        showplace(elem.currentTarget.dataset.target)
+        window.location.href="#"+elem.currentTarget.dataset.target
       });
     });
   };
   document.getElementById("search_input").addEventListener("input",search);
 
   const initialize = ()=>{
-    document.getElementById("mapContain_floor2").innerHTML = defoSVG.f2;
-    document.getElementById("mapContain_floor3").innerHTML = defoSVG.f3;
+    document.getElementById("mapContain_f1").innerHTML = defoSVG.f1;
+    document.getElementById("mapContain_f2").innerHTML = defoSVG.f2;
+    document.getElementById("mapContain_f3").innerHTML = defoSVG.f3;
+    document.getElementById("mapContain_f4").innerHTML = defoSVG.f4;
+    document.getElementById("mapContain_f5").innerHTML = defoSVG.f5;
   }
 
   /*ここからは目的の場所を強調表示させつやつ。*/
@@ -265,7 +278,25 @@
       return;
     };
     initialize();
-    console.log(document.getElementById(hash),hash);
     document.getElementById(hash).setAttribute("fill","orange");
   };
+</script>
+<script role="selectSVG">
+  const selectSVGbutton = (f)=>{
+      document.querySelector("span.active").classList.remove("active")
+      document.querySelector(`#bf${f}`).classList.add("active")
+      Array.from(document.querySelectorAll("div[role=mapContain]")).forEach(e=>{
+        e.style.display = "none"
+      })
+      document.querySelector(`#mapContain_f${f}`).style.display = "block"
+  }
+  Array.from(document.querySelectorAll("span.bbb")).forEach(el=>{
+    el.addEventListener("click",(ev)=>{
+      floor = ev.currentTarget.id.slice(2,3)
+      selectSVGbutton(floor)
+    })
+  })
+  window.addEventListener("DOMContentLoaded",(e)=>{
+    selectSVGbutton(1)
+  })
 </script>
