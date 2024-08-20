@@ -144,7 +144,7 @@
 
     body = body.replace(/{img#.*?}/g, (i, p1) => {
       const index = parseInt(i.slice(5, -1));
-      const ext =document.querySelector("input[type='file']").files[index].name.split(".")[1]
+      const ext =document.querySelector("#img_input").files[index].name.split(".")[1]
       return `
             <img id=p${index} src="${index}.${ext}">
           `;
@@ -161,7 +161,7 @@
     const settingBlob = new Blob([JSON.stringify(settingData)], { type: 'application/json' });
     formData.append('setting', settingBlob, 'setting.json');
 
-    const fileInput = document.querySelector('input[type="file"]');
+    const fileInput = document.querySelector('#img_input');
     for (let i = 0; i < fileInput.files.length; i++) {
       formData.append('files', fileInput.files[i]);
     }
