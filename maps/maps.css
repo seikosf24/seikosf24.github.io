@@ -140,5 +140,8 @@
   svg {
     width: 100%;
     height:auto;
+    .active{
+      fill:orange;
+    }
   }
 }
