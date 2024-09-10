@@ -1,3 +1,3 @@
 rm -r blog
-git reset --hard origin/AWSdeploy
 git fetch origin
+git reset --hard origin/main

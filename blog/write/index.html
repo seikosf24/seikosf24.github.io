@@ -42,6 +42,17 @@
     <link rel="stylesheet" href="/style.css" />
     <link rel="stylesheet" href="/blog/style.css" />
     <style>
+      #iconBox {
+        background-color:gray;
+        width:300px;
+        height:auto;
+        padding:10px;
+        border-radius:10px;
+        img{
+          width:200px;
+          height:auto;
+        }
+      }
       p#prev {
         display: flex;
         flex-wrap: wrap;
@@ -91,6 +102,11 @@
     <div id="headerBlack" class="tops"></div>
     <main>
       <section id="letter">
+        <div id="iconBox">
+          <label for="iconInput">アイコンを選択</label>
+          <input id="iconInput" type="file" accept="image/*">
+          <img id="iconPreview">
+        </div>
         <button onclick="post()">POST</button>
         <button onclick="readImg.prev()">PREVIEW</button>
         <h1>
@@ -128,7 +144,7 @@
 
     body = body.replace(/{img#.*?}/g, (i, p1) => {
       const index = parseInt(i.slice(5, -1));
-      const ext =document.querySelector("input[type='file']").files[index].name.split(".")[1]
+      const ext =document.querySelector("#input_img").files[index].name.split(".")[1]
       return `
             <img id=p${index} src="${index}.${ext}">
           `;
@@ -145,10 +161,13 @@
     const settingBlob = new Blob([JSON.stringify(settingData)], { type: 'application/json' });
     formData.append('setting', settingBlob, 'setting.json');
 
-    const fileInput = document.querySelector('input[type="file"]');
+    const fileInput = document.querySelector('#input_img');
     for (let i = 0; i < fileInput.files.length; i++) {
       formData.append('files', fileInput.files[i]);
     }
+
+    const iconInput = document.querySelector('#iconInput');
+    formData.append('icon', iconInput.files[0]);
     
     fetch("/api/post", {
       method: "POST",
@@ -233,4 +252,13 @@
     }
   }
   const readImg = new readImgClass();
+</script>
+<script>
+  document.getElementById("iconInput").addEventListener("change", (event) => {
+    const reader = new FileReader();
+    reader.onload = (e) => {
+      document.getElementById("iconPreview").src = e.target.result;
+    };
+    reader.readAsDataURL(event.target.files[0]);
+  });
 </script>
