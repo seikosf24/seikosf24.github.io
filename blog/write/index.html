@@ -43,15 +43,15 @@
     <link rel="stylesheet" href="/blog/style.css" />
     <style>
       #iconBox {
-        background-color:gray;
-        width:300px;
-        height:auto;
-        padding:10px;
-        border-radius:10px;
-        img{
-          width:200px;
-          height:auto;
-        }
+        background-color: gray;
+        width: 300px;
+        height: auto;
+        padding: 10px;
+        border-radius: 10px;
+      }
+      #iconBox img {
+        width: 200px;
+        height: auto;
       }
       p#prev {
         display: flex;
@@ -60,7 +60,7 @@
         width: 100%;
       }
       imgbo {
-        width:22%;
+        width: 22%;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -70,17 +70,17 @@
         border-radius: 10px;
         background-color: gray;
         border: solid 2px black;
-        img {
-          width:100%;
-          border: solid 1px black;
-        }
-        button {
-          bottom: 0px;
-          text-align: center;
-          width: 100px;
-          height: 30px;
-          margin-top: 6px;
-        }
+      }
+      imgbo img {
+        width: 100%;
+        border: solid 1px black;
+      }
+      imgbo button {
+        bottom: 0px;
+        text-align: center;
+        width: 100px;
+        height: 30px;
+        margin-top: 6px;
       }
     </style>
   </head>
@@ -104,8 +104,8 @@
       <section id="letter">
         <div id="iconBox">
           <label for="iconInput">アイコンを選択</label>
-          <input id="iconInput" type="file" accept="image/*">
-          <img id="iconPreview">
+          <input id="iconInput" type="file" accept="image/*" />
+          <img id="iconPreview" />
         </div>
         <button onclick="post()">POST</button>
         <button onclick="readImg.prev()">PREVIEW</button>
@@ -144,7 +144,9 @@
 
     body = body.replace(/{img#.*?}/g, (i, p1) => {
       const index = parseInt(i.slice(5, -1));
-      const ext =document.querySelector("#input_img").files[index].name.split(".")[1]
+      const ext = document
+        .querySelector("#input_img")
+        .files[index].name.split(".")[1];
       return `
             <img id=p${index} src="${index}.${ext}">
           `;
@@ -153,22 +155,24 @@
     const formData = new FormData();
 
     const settingData = {
-        title:title,
-        date:date,
-        body:`<p>${body}</p>`
+      title: title,
+      date: date,
+      body: `<p>${body}</p>`,
     };
 
-    const settingBlob = new Blob([JSON.stringify(settingData)], { type: 'application/json' });
-    formData.append('setting', settingBlob, 'setting.json');
+    const settingBlob = new Blob([JSON.stringify(settingData)], {
+      type: "application/json",
+    });
+    formData.append("setting", settingBlob, "setting.json");
 
-    const fileInput = document.querySelector('#input_img');
+    const fileInput = document.querySelector("#input_img");
     for (let i = 0; i < fileInput.files.length; i++) {
-      formData.append('files', fileInput.files[i]);
+      formData.append("files", fileInput.files[i]);
     }
 
-    const iconInput = document.querySelector('#iconInput');
-    formData.append('icon', iconInput.files[0]);
-    
+    const iconInput = document.querySelector("#iconInput");
+    formData.append("icon", iconInput.files[0]);
+
     fetch("/api/post", {
       method: "POST",
       headers: {
@@ -197,9 +201,9 @@
       document
         .getElementById("input_img")
         .addEventListener("change", async (event) => {
-          document.getElementById("prev").innerHTML = ""
+          document.getElementById("prev").innerHTML = "";
           const img_box = document.getElementById("prev");
-          const starti = Array.from(document.querySelectorAll("imgbo")).length
+          const starti = Array.from(document.querySelectorAll("imgbo")).length;
           Array.from(event.target.files).forEach(async (f, i) => {
             console.log(f, starti + i);
             if (f.type.startsWith("image/")) {
