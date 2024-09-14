@@ -68,10 +68,13 @@
         </div>
         <button onclick="post()">POST</button>
         <button onclick="readImg.prev()">PREVIEW</button>
-        <form>
-          <input type="file" id="input_img" multiple />
+      </section>
+      <section id="imgappend">
+        <form id="i_form">
+          <input type="file" id="input_img" accept="image/*" multiple />
           <p id="prev"></p>
         </form>
+        <button onclick="ico()">I/O</button>
       </section>
       <section id="letter">
         <div class="p_" id="m_title" contenteditable="true" data-line="single" data-n="1">
