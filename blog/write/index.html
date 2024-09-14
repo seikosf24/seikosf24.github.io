@@ -41,48 +41,7 @@
     <link rel="preload" as="font" href="/assets/Oswald-Regular.ttf" />
     <link rel="stylesheet" href="/style.css" />
     <link rel="stylesheet" href="/blog/style.css" />
-    <style>
-      #iconBox {
-        background-color: gray;
-        width: 300px;
-        height: auto;
-        padding: 10px;
-        border-radius: 10px;
-      }
-      #iconBox img {
-        width: 200px;
-        height: auto;
-      }
-      p#prev {
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: row;
-        width: 100%;
-      }
-      imgbo {
-        width: 22%;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        padding: 6px;
-        margin: 6px;
-        border-radius: 10px;
-        background-color: gray;
-        border: solid 2px black;
-      }
-      imgbo img {
-        width: 100%;
-        border: solid 1px black;
-      }
-      imgbo button {
-        bottom: 0px;
-        text-align: center;
-        width: 100px;
-        height: 30px;
-        margin-top: 6px;
-      }
-    </style>
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
     <header>
@@ -101,7 +60,7 @@
     <a href="/"><div id="cc1" class="tops">BE SEIKO</div></a>
     <div id="headerBlack" class="tops"></div>
     <main>
-      <section id="letter">
+      <section id="settings">
         <div id="iconBox">
           <label for="iconInput">アイコンを選択</label>
           <input id="iconInput" type="file" accept="image/*" />
@@ -109,160 +68,27 @@
         </div>
         <button onclick="post()">POST</button>
         <button onclick="readImg.prev()">PREVIEW</button>
-        <h1>
-          <input placeholder="title" id="title" />
-        </h1>
-        <div id="date">
-          <input placeholder="date" id="Idate" />
-        </div>
-        <p>
-          <textarea
-            style="width: 100%; height: auto; min-height: 400px"
-            id="body"
-          >
-          </textarea>
-        </p>
-        <br />
         <form>
           <input type="file" id="input_img" multiple />
           <p id="prev"></p>
         </form>
       </section>
       <section id="letter">
-        <sub id="html_prev"> </sub>
+        <div class="p_" id="m_title" contenteditable="true" data-line="single" data-n="1">
+            ブログタイトル
+        </div>
+        <div class="p_"  id="m_date" contenteditable="true" data-line="single" data-n="2">
+          日にち
+        </div>
+        <div class="p_"  id="paragraph" contenteditable="true" data-n="3">
+          本文ここから
+          <div>改行もおけ</div>
+        </div>
+        <br />
       </section>
     </main>
     <footer></footer>
     <script type="text/javascript" src="/script.js"></script>
   </body>
 </html>
-<script>
-  const post = () => {
-    const title = document.getElementById("title").value;
-    const date = document.getElementById("Idate").value;
-    var body = document.getElementById("body").value.replace(/\n/g, "<br>");
-
-    body = body.replace(/{img#.*?}/g, (i, p1) => {
-      const index = parseInt(i.slice(5, -1));
-      const ext = document
-        .querySelector("#input_img")
-        .files[index].name.split(".")[1];
-      return `
-            <img id=p${index} src="${index}.${ext}">
-          `;
-    });
-
-    const formData = new FormData();
-
-    const settingData = {
-      title: title,
-      date: date,
-      body: `<p>${body}</p>`,
-    };
-
-    const settingBlob = new Blob([JSON.stringify(settingData)], {
-      type: "application/json",
-    });
-    formData.append("setting", settingBlob, "setting.json");
-
-    const fileInput = document.querySelector("#input_img");
-    for (let i = 0; i < fileInput.files.length; i++) {
-      formData.append("files", fileInput.files[i]);
-    }
-
-    const iconInput = document.querySelector("#iconInput");
-    formData.append("icon", iconInput.files[0]);
-
-    fetch("/api/post", {
-      method: "POST",
-      headers: {
-        Authorization: "Basic " + btoa("yourusername:yourpassword"),
-      },
-      body: formData,
-    })
-      .then((response) => {
-        if (!response.ok) {
-          throw new Error("Network response was not ok " + response.statusText);
-        }
-        return response.json();
-      })
-      .then((data) => {
-        console.log("Success:", data);
-        alert(`on ${data.location}`);
-      })
-      .catch((error) => {
-        console.error("Error:", error);
-      });
-  };
-</script>
-<script>
-  class readImgClass {
-    constructor() {
-      document
-        .getElementById("input_img")
-        .addEventListener("change", async (event) => {
-          document.getElementById("prev").innerHTML = "";
-          const img_box = document.getElementById("prev");
-          const starti = Array.from(document.querySelectorAll("imgbo")).length;
-          Array.from(event.target.files).forEach(async (f, i) => {
-            console.log(f, starti + i);
-            if (f.type.startsWith("image/")) {
-              const reader = new FileReader();
-              reader.onload = (e) => {
-                img_box.innerHTML += this.makeImg(e, starti + i);
-              };
-              await reader.readAsDataURL(f);
-            }
-          });
-        });
-    }
-    makeImg(e, i) {
-      return `<imgbo id="${i}"><h2>${i}</h2><img src="${e.target.result}" id="s${i}"><button onclick="readImg.add(${i})" type="button">add to article</button></imgbo>`;
-    }
-    add(i) {
-      const area = document.getElementById("body");
-      area.value += `{img#${i}}`;
-      console.log("why_");
-      return null;
-    }
-    prev() {
-      const d = document.getElementById("html_prev");
-      const title = document.getElementById("title").value;
-      const date = document.getElementById("Idate").value;
-      var body = document.getElementById("body").value.replace(/\n/g, "<br>");
-
-      body = body.replace(/{img#.*?}/g, (i, p1) => {
-        const index = parseInt(i.slice(5, -1));
-        console.log(body, i, i.slice(5, -1));
-        const src = document.getElementById(`s${index}`).src;
-        return `
-            <br><img id=p${index} src=${src}>
-          `;
-      });
-
-      //why u can do this?
-      d.innerHTML = `
-        <h1>
-          ${title}
-        </h1>
-        <div id="date">
-          ${date}
-        </div>
-        <p style="font-size:16px">
-          ${body}
-        </p>
-      `;
-      return (location.href = "#html_prev");
-    }
-  }
-  const readImg = new readImgClass();
-</script>
-<script>
-  document.getElementById("iconInput").addEventListener("change", (event) => {
-    const reader = new FileReader();
-    reader.onload = (e) => {
-      document.getElementById("iconPreview").src = e.target.result;
-    };
-    reader.readAsDataURL(event.target.files[0]);
-  });
-</script>
+<script src="script.js"></script>
