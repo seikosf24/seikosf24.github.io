@@ -149,25 +149,10 @@ Array.from(document.querySelectorAll("div[data-line=single]")).forEach(div=>{
 
 //入力機構
 
-//選択
-/*
-window.addEventListener("click",(event)=>{
-    console.log(event.target)
-    if(event.target.dataset.activebar == "1"){
-        if(document.querySelector("activebar")){
-            document.querySelector("activebar").remove()
-        }
-        document.querySelectorAll("div[data-active=t]").forEach(e=>e.dataset.active="f")
-        event.target.innerHTML += "<activebar></activebar>"
-        event.target.dataset.active = "t"
+const ico = ()=>{
+    if(document.getElementById("i_form").style.display != "block"){
+        document.getElementById("i_form").style.display = "block"
+    }else{
+        document.getElementById("i_form").style.display = "none"
     }
-})
-
-window.addEventListener("keypress",(e)=>{
-    if(document.querySelector("activebar")){
-        const parent = document.querySelector("activebar").parentElement
-
-    }
-})
-
-*/
+}
