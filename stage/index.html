@@ -128,10 +128,26 @@ transform: scale(0.95);
             <tr>
               <td>14:00</td>
             </tr>
+            <tr>
+              <td>15:00</td>
+            </tr>
           </table>
-          <div class="kikaku"><a href="#d0">合唱</a></div>
-          <div class="kikaku"><a href="#d1">バンド</a></div>
-        </div>
+          <div class="kikaku"><a href="#d0">中1合唱</a></div>
+          <div class="kikaku"><a href="#d1">合唱部</a></div>
+          <div class="kikaku"><a href="#d2">漫才Ⅱ</a></div>
+          <div class="kikaku"><a href="#d3">静寂の森</a></div>
+          <div class="kikaku"><a href="#d4">ゴスペラーズ</a></div>
+          <div class="kikaku"><a href="#d5">未定(雪定)</a></div>
+          <div class="kikaku"><a href="#d6">エスコートキッズ</a></div>
+          <div class="kikaku"><a href="#d7">Optimistic</a></div>
+          <div class="kikaku"><a href="#d8">KANI-BOOM</a></div>
+          <div class="kikaku"><a href="#d9">赤点バンド</a></div>
+          <div class="kikaku"><a href="#d10">土曜日の放課後みたいな</a></div>
+          <div class="kikaku"><a href="#d11">未定(松澤)</a></div>
+          <div class="kikaku"><a href="#d12">さうしーきゃっと</a></div>
+          <div class="kikaku"><a href="#d13">未定(花谷)</a></div>
+          <div class="kikaku"><a href="#d14">Les Misérables</a></div>
+</div>
       </section>
       <section class="arrow">
         <h2>DETAILS</h2>
@@ -149,11 +165,11 @@ transform: scale(0.95);
     <script>
       const container = document.getElementById("flame");
       const children = container.children;
-      const start = [9, 10.25];
-      const long = [1.25, 0.25];
+      const start = [9, 10.15, 11, 11.20, 11.35, 11.50, 12.05, 12.30, 12.40, 12.50, 13.10, 13.30, 13.45, 14.05, 14.20];
+      const long = [1.15, 0.45, 0.20, 0.15, 0.15, 0.15, 0.25, 0.10, 0.10, 0.20, 0.20, 0.15, 0.20, 0.15, 0.50];
       for (let i = 0; i < start.length; i++) {
-        let top = 300 * start[i] - 2685;
-        let height = 300 * long[i] - 15;
+        let top = 300 * (Math.floor(start[i]) + (start[i] % 1) * 1.666) - 2685;
+        let height = 300 * (Math.floor(long[i]) + (long[i] % 1) * 1.666) - 15;
         children[i + 1].style.top = top + "px";
         children[i + 1].style.height = height + "px";
       }
