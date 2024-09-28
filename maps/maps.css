@@ -111,7 +111,7 @@
   height: 20px;
 }
         
-#suggest_ul li img:hover{
+#suggest_ul li:hover{
   background-color: rgba(0,0,0,0.1);
 }
 
