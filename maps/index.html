@@ -240,7 +240,18 @@
     };
     initialize();
     document.getElementById(hash).classList.add("active");
+    const targetF = getf(hash.substring(5))
+    selectSVGbutton(targetF)
   };
+
+  const getf = (id)=>{
+    for(var i = 0 ; i < dataset.length; i++){
+      if(dataset[i].i == id){
+        return dataset[i].f
+      }
+    }
+    return null
+  }
 </script>
 <script role="selectSVG">
   const selectSVGbutton = (f)=>{
