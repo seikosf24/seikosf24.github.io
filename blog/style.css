@@ -14,7 +14,7 @@
 }
 #channel a {
   text-align: center;
-color: #555588;
+  color: #555588;
   display: block;
   width: 33%;
   margin: 5px 0;
@@ -33,4 +33,8 @@ font-size: 2.1rem;
 }
 p {
   margin: 10px;
+}
+#letter img{
+  max-width:100%;
+  height: auto;
 }

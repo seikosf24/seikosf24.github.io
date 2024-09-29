@@ -10,6 +10,14 @@ html {
   font-style: normal;
   font-display: swap;
 }
+/* Yu Gothic Ui */
+@font-face {
+  font-family: "Yu Gothic UI";
+  src: url("./assets/YuGothicUI-Light-02.ttf"); 
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
 /*CSS変数*/
 :root {
   --light: #fafafc;
