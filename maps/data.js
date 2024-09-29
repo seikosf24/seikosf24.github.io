@@ -45,7 +45,7 @@ const dataset = [
     d: "星光満天宮",
     i: "H1E",
     s: "星光満天宮;せいこうまんてんぐう;seikoumantengu;文芸部;ぶんげいぶ;bungeibu;",
-    l: "v/BGB",
+    l: "b/BGB",
   },
   {
     f: 2,
