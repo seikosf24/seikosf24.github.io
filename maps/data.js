@@ -218,14 +218,14 @@ const dataset = [
   {
     f: 4,
     d: "メリーゴーランド",
-    i: "SRNo1",
+    i: "SNo1",
     s: "めりーごーらんど;merry go round;merry-go-round;merrygoround;specialclassroomno1;specialroomno1;特別第1教室;とくべつだいいちきょうしつ",
     l: "c/H1A",
   },
   {
     f: 4,
     d: "星光王",
-    i: "SRNo2",
+    i: "SNo2",
     s: "星光王;せいこうおう;seikouking;くいず研究会;くいずけんきゅうかい;specialclassroomno2;specialroomno2;特別第2教室;とくべつだいにきょうしつ",
     l: undefined,
   },
