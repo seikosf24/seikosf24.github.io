@@ -164,7 +164,7 @@ const dataset = [
     d: "解体新書",
     i: "BiologyLab",
     s: "解体新書;かいたいしんしょ;biologylab;biologyroom;生物室;せいぶつしつ",
-    l: undefined,
+    l: "LSC",
   },
   {
     f: 3,
