@@ -170,7 +170,7 @@
     position: relative;
     left:calc(50% - 75px);
     top:400px;
-    z-index: 21301;
+    z-index: 14;
     pointer-events: none;
     transition: opacity 0.5s;
     opacity: 100;
