@@ -274,7 +274,11 @@
   })
 </script>
 <script>
-  document.querySelector("div.mapContain").addEventListener("scroll",()=>{
-    document.getElementById("scrollable_img").style.opacity = 0
+  Array.from(document.querySelectorAll("div.map")).forEach((e)=>{
+    e.addEventListener("scroll",()=>{
+      document.getElementById("scrollable_img").style.opacity = 0
+      console.log("a")
+    })
+    console.log(e)
   })
 </script>
