@@ -86,20 +86,21 @@
             <span id="bf5" class="bbb"><p>5F</p></span>
           </div>
         </div>
+        <img id="scrollable_img" class="scrollable_img" src="/assets/scrollable.svg">
         <div class="mapContain">
-          <div id="mapContain_f1" role="mapContain"> 
+          <div id="mapContain_f1" role="mapContain" class="map"> 
 
           </div>
-          <div id="mapContain_f2" role="mapContain"> 
+          <div id="mapContain_f2" role="mapContain" class="map"> 
 
           </div>
-          <div id="mapContain_f3" role="mapContain">
+          <div id="mapContain_f3" role="mapContain" class="map">
 
           </div>
-          <div id="mapContain_f4" role="mapContain">
+          <div id="mapContain_f4" role="mapContain" class="map">
 
           </div>
-          <div id="mapContain_f5" role="mapContain">
+          <div id="mapContain_f5" role="mapContain" class="map">
 
           </div>
         </div>
@@ -270,5 +271,10 @@
   })
   window.addEventListener("DOMContentLoaded",(e)=>{
     selectSVGbutton(1)
+  })
+</script>
+<script>
+  document.querySelector("div.mapContain").addEventListener("scroll",()=>{
+    document.getElementById("scrollable_img").style.opacity = 0
   })
 </script>
