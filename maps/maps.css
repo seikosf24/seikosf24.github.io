@@ -162,6 +162,7 @@
   top:0px;
   display: none;
   transition: opacity 0.2s;
+  z-index: 10123;
 }
 
 #note_desc{
@@ -174,7 +175,7 @@
 #note img {
   width:60px;
   max-height: 60px;
-  width:auto;
+  height:auto;
   position:absolute;
   top:5px;
   left:5px;
@@ -189,12 +190,12 @@
   right: 5px;
   margin:0px;
   padding:0px;
-  font-size: large;
+  font-size: 1vw;
 }
 
 #note_p2{
   position: absolute;
-  top:30px;
+  top:43px;
   width:120px;
   right: 5px;
   margin:0px;
@@ -209,7 +210,7 @@
   right: 5px;
   margin:0px;
   padding:0px;
-  font-size: normal;
+  font-size: small;
 }
 
 #note_warp{

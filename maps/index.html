@@ -109,11 +109,11 @@
         <div id="hukidasi">
         </div>
         <div id="note_desc">
-          <img src="/images/icon192x192.png">
+          <img id="note_img" src="/images/icon192x192.png">
           <p id="note_p1">企画名</p>
           <p id="note_p2">場所</p>
           <p id="note_p3">企画説明？</p>
-          <a href="" id="note_warp">ここ推せばそこに</a>
+          <a href="" id="note_warp">詳細を見る</a>
         </div>
       </div>
     </main>
@@ -297,6 +297,12 @@
     document.getElementById("note").style.display = "none"
   })
 
+  document.addEventListener("click",()=>{
+    document.getElementById("note").style.opacity = 0
+    document.getElementById("note").style.display = "none"
+
+  })
+
   const shownote = (target)=>{
     const noteE = document.getElementById("note")
     const hukiE = document.getElementById("hukidasi")
@@ -326,9 +332,6 @@
       cy = y - 220
     }
 
-    console.log(x,y)
-    console.log(dx,dy)
-
     noteE.style.left = cx + "px"
     hukiE.style.left = 90 + dx + "px"
     if(bottomY){
@@ -354,11 +357,21 @@
     }
   }
 
+  const makenote = (target)=>{
+    document.querySelector("#note_img").src = "/assets/logo/" +  notedata[target][0] + ".png"
+    document.querySelector("#note_p1").innerText = notedata[target][1]
+    document.querySelector("#note_p2").innerText = notedata[target][2]
+    document.querySelector("#note_p3").innerText = notedata[target][3]
+    document.querySelector("#note_warp").src = notedata[target][4]
+  }
+
   document.addEventListener("click",(e)=>{
-    console.log(e)
+    console.log(e.target.id)
     if(!e.target.id){return}
+    if(!notedata[e.target.id.substring(5)]){return}
     if(!e.target.id.includes("maps_") && !e.target.id.includes("text_")){return}
     const target = e.target.id.substring(5)
     shownote(document.querySelector(`#maps_${target}`))
+    makenote(target)
   })
 </script>
