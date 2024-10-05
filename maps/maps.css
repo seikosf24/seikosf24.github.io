@@ -154,9 +154,10 @@
 
 @media screen and (max-width: 700px) {
   .mapContain{
-    width: 80%;
+    left: 0%;
+    width: 100%;
     overflow: auto;
-    border:var(--dark) solid 2px;
+    border-top: 2px solid var(--dark);
   }
   .map{
     width:100%;
