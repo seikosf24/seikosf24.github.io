@@ -105,6 +105,17 @@
           </div>
         </div>
       </section>
+      <div id="note">
+        <div id="hukidasi">
+        </div>
+        <div id="note_desc">
+          <img src="/images/icon192x192.png">
+          <p id="note_p1">企画名</p>
+          <p id="note_p2">場所</p>
+          <p id="note_p3">企画説明？</p>
+          <a href="" id="note_warp">ここ推せばそこに</a>
+        </div>
+      </div>
     </main>
     <footer></footer>
     <script type="text/javascript" src="/script.js"></script>
@@ -277,10 +288,77 @@
   Array.from(document.querySelectorAll("div.map")).forEach((e)=>{
     e.addEventListener("scroll",()=>{
       document.getElementById("scrollable_img").style.opacity = 0
-      console.log("a")
+      document.getElementById("note").style.opacity = 0
     })
   })
+
+  document.addEventListener("scroll",()=>{
+    document.getElementById("note").style.opacity = 0
+    document.getElementById("note").style.display = "none"
+  })
+
+  const shownote = (target)=>{
+    const noteE = document.getElementById("note")
+    const hukiE = document.getElementById("hukidasi")
+    noteE.style.opacity = 100
+    noteE.style.display = "block"
+
+    var {x,width,y,height} = target.getBoundingClientRect()
+    var dx = 0
+    var dy = 0
+
+    if((x - 100 + width/2) < 0){
+      cx = 10
+      dx = (x - 100 + width/2) - 10
+    }else if((x - 100 + width/2 + 200) > window.innerWidth){
+      cx = window.innerWidth - 210
+      dx = (x - 100 + width/2 + 190) - window.innerWidth
+    }else{
+      cx = x - 100 + width/2
+    }
+
+    var bottomY = false
+
+    if((y - 220) < 0){
+      cy = y + height + 20
+      bottomY = true
+    }else{
+      cy = y - 220
+    }
+
+    console.log(x,y)
+    console.log(dx,dy)
+
+    noteE.style.left = cx + "px"
+    hukiE.style.left = 90 + dx + "px"
+    if(bottomY){
+      noteE.style.top = cy + "px"
+
+      hukiE.style.borderTop="2px solid var(--dark)"
+      hukiE.style.borderLeft="2px solid var(--dark)"
+
+      hukiE.style.borderRight=""
+      hukiE.style.borderBottom=""
+
+      hukiE.style.top = "-12px"
+    }else{
+      noteE.style.top = cy + "px"
+      
+      hukiE.style.borderRight="2px solid var(--dark)"
+      hukiE.style.borderBottom="2px solid var(--dark)"
+
+      hukiE.style.borderTop=""
+      hukiE.style.borderLeft=""
+
+      hukiE.style.top = "190px"
+    }
+  }
+
   document.addEventListener("click",(e)=>{
-    console.log(e.target)
+    console.log(e)
+    if(!e.target.id){return}
+    if(!e.target.id.includes("maps_") && !e.target.id.includes("text_")){return}
+    const target = e.target.id.substring(5)
+    shownote(document.querySelector(`#maps_${target}`))
   })
 </script>
