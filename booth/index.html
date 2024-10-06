@@ -41,6 +41,9 @@
     <link rel="preload" as="font" href="/assets/Oswald-Regular.ttf" />
     <link rel="stylesheet" href="/style.css" />
     <style>
+      .answerInner{
+        display: flex;
+      }
       .answerInner img {
         margin: 10px;
         box-shadow: 0 0 10px var(--shadow);
@@ -53,11 +56,26 @@
         font-size: 0.7em;
         font-weight: normal;
       }
-      .answerInner p:last-child {
+      .answerInner{
         margin-top: 15px;
+        margin-bottom: 15px;
       }
-      .answerInner p:last-child::before {
+      .answerInner div{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+      }
+      .answerInner div p:last-child {
+        margin-top: 15px;
+        bottom:0px;
+      }
+      .answerInner div p:last-child::before {
         content: "@";
+      }
+      @media screen and (max-width: 700px) {
+        .answerInner{
+          display: block;
+        }
       }
     </style>
   </head>
@@ -189,10 +207,12 @@
                   height="160"
                   alt="icon"
                 />
-                <p>
-                  入学試験を受けに来たあなた。しかし、試験は突然乗っ取られてしまう！試験時間は３０分。果たしてあなたは合格できるのか！
-                </p>
-                <p><a href="/maps#maps_H1A">高校棟二階 高一A教室</a></p>
+                <div>
+                  <p>
+                    入学試験を受けに来たあなた。しかし、試験は突然乗っ取られてしまう！試験時間は３０分。果たしてあなたは合格できるのか！
+                  </p>
+                  <p><a href="/maps#maps_H1A">高校棟二階 高一A教室</a></p>
+                </div>
               </div>
             </div>
           </details>
