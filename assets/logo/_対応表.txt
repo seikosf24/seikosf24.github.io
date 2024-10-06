@@ -48,6 +48,8 @@ ISS:石原慎也親衛隊Ex.
 RVV:revive(バンド)
 SHO:渉外広報
 
+QUI:quiet fairies
+
 
 まだ(pdf)：
 
@@ -62,7 +64,6 @@ H2D
 くいけん
 
 Mrs.pineapple
-quiet fairy
 生徒協議会
 *中学美術展示
 
