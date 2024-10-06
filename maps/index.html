@@ -298,9 +298,10 @@
   })
 
   document.addEventListener("click",()=>{
-    document.getElementById("note").style.opacity = 0
-    document.getElementById("note").style.display = "none"
-
+    if(window.innerWidth >= 700){
+      document.getElementById("note").style.opacity = 0
+      document.getElementById("note").style.display = "none"
+    }
   })
 
   const shownote = (target)=>{
