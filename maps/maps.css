@@ -163,6 +163,7 @@
   display: none;
   transition: opacity 0.2s;
   z-index: 10123;
+  animation: slide-rotate-hor-b-bck 0.2s cubic-bezier(0.455, 0.030, 0.515, 0.955) reverse both;
 }
 
 #note_desc{
@@ -257,5 +258,17 @@
     pointer-events: none;
     transition: opacity 0.5s;
     opacity: 100;
+  }
+}
+
+
+@keyframes slide-rotate-hor-b-bck {
+  0% {
+    transform: translateY(0) translateZ(0) rotateX(0deg);
+    transform-origin: bottom center;
+  }
+  100% {
+    transform: translateY(0) translateZ(-230px) rotateX(90deg);
+    transform-origin: bottom center;
   }
 }
