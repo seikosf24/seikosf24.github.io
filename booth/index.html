@@ -41,7 +41,7 @@
     <link rel="preload" as="font" href="/assets/Oswald-Regular.ttf" />
     <link rel="stylesheet" href="/style.css" />
     <style>
-      .answerInner{
+      .answerInner {
         display: flex;
       }
       .answerInner img {
@@ -56,24 +56,24 @@
         font-size: 0.7em;
         font-weight: normal;
       }
-      .answerInner{
+      .answerInner {
         margin-top: 15px;
         margin-bottom: 15px;
       }
-      .answerInner div{
+      .answerInner div {
         display: flex;
         justify-content: space-between;
         flex-direction: column;
       }
       .answerInner div p:last-child {
         margin-top: 15px;
-        bottom:0px;
+        bottom: 0px;
       }
       .answerInner div p:last-child::before {
         content: "@";
       }
       @media screen and (max-width: 700px) {
-        .answerInner{
+        .answerInner {
           display: block;
         }
       }
@@ -128,10 +128,12 @@
                   height="160"
                   alt="icon"
                 />
-                <p>
-                  ここにあなたのクラス、クラブ、有志企画の説明を入れてください。読む人が不快にならない表現を心がけること。
-                </p>
-                <p>@どこかの場所</p>
+                <div>
+                  <p>
+                    ここにあなたのクラス、クラブ、有志企画の説明を入れてください。読む人が不快にならない表現を心がけること。
+                  </p>
+                  <p>@どこかの場所</p>
+                </div>
               </div>
             </div>
           </details>
@@ -149,10 +151,12 @@
                   height="160"
                   alt="icon"
                 />
-                <p>
-                  ここにあなたのクラス、クラブ、有志企画の説明を入れてください。読む人が不快にならない表現を心がけること。
-                </p>
-                <p>@どこかの場所</p>
+                <div>
+                  <p>
+                    ここにあなたのクラス、クラブ、有志企画の説明を入れてください。読む人が不快にならない表現を心がけること。
+                  </p>
+                  <p>@どこかの場所</p>
+                </div>
               </div>
             </div>
           </details>
@@ -170,10 +174,12 @@
                   height="160"
                   alt="icon"
                 />
-                <p>
-                  ここにあなたのクラス、クラブ、有志企画の説明を入れてください。読む人が不快にならない表現を心がけること。
-                </p>
-                <p>@どこかの場所</p>
+                <div>
+                  <p>
+                    ここにあなたのクラス、クラブ、有志企画の説明を入れてください。読む人が不快にならない表現を心がけること。
+                  </p>
+                  <p>@どこかの場所</p>
+                </div>
               </div>
             </div>
           </details>
@@ -183,6 +189,91 @@
       <section class="container">
         <div class="cells">
           <h2>1F</h2>
+          <img
+            src="/images/snapshots/04.jpeg"
+            alt="sf1"
+            width="320"
+            height="240"
+            class="cellsImage"
+            loading="lazy"
+          />
+        </div>
+        <div class="cells">
+          <details class="details">
+            <summary class="summary">
+              <div class="pm"></div>
+              <p>企画名</p>
+              <p>団体</p>
+            </summary>
+            <div class="answer">
+              <div class="answerInner">
+                <img
+                  src="/images/icon512x512.png"
+                  width="160"
+                  height="160"
+                  alt="icon"
+                />
+                <div>
+                  <p>
+                    ここにあなたのクラス、クラブ、有志企画の説明を入れてください。読む人が不快にならない表現を心がけること。
+                  </p>
+                  <p>@どこかの場所</p>
+                </div>
+              </div>
+            </div>
+          </details>
+          <details class="details">
+            <summary class="summary">
+              <div class="pm"></div>
+              <p>企画名</p>
+              <p>団体</p>
+            </summary>
+            <div class="answer">
+              <div class="answerInner">
+                <img
+                  src="/images/icon512x512.png"
+                  width="160"
+                  height="160"
+                  alt="icon"
+                />
+                <div>
+                  <p>
+                    ここにあなたのクラス、クラブ、有志企画の説明を入れてください。読む人が不快にならない表現を心がけること。
+                  </p>
+                  <p>@どこかの場所</p>
+                </div>
+              </div>
+            </div>
+          </details>
+          <details class="details">
+            <summary class="summary">
+              <div class="pm"></div>
+              <p>企画名</p>
+              <p>団体</p>
+            </summary>
+            <div class="answer">
+              <div class="answerInner">
+                <img
+                  src="/images/icon512x512.png"
+                  width="160"
+                  height="160"
+                  alt="icon"
+                />
+                <div>
+                  <p>
+                    ここにあなたのクラス、クラブ、有志企画の説明を入れてください。読む人が不快にならない表現を心がけること。
+                  </p>
+                  <p>@どこかの場所</p>
+                </div>
+              </div>
+            </div>
+          </details>
+        </div>
+      </section>
+      <!-- ここから2F -->
+      <section class="container">
+        <div class="cells">
+          <h2>2F</h2>
           <img
             src="/images/snapshots/04.jpeg"
             alt="sf1"
@@ -219,121 +310,206 @@
           <details class="details">
             <summary class="summary">
               <div class="pm"></div>
-              <p>企画名</p>
-              <p>団体</p>
+              <p>大阪将棋所</p>
+              <p>囲碁将棋部</p>
             </summary>
-            <div class="answer">
+            <div class="answer" id="SHO">
               <div class="answerInner">
                 <img
-                  src="/images/icon512x512.png"
+                  src="/assets/logo/b/SHO.png"
                   width="160"
                   height="160"
                   alt="icon"
                 />
-                <p>
-                  ここにあなたのクラス、クラブ、有志企画の説明を入れてください。読む人が不快にならない表現を心がけること。
-                </p>
-                <p>@どこかの場所</p>
+                <div>
+                  <p>
+                    将棋をやっています。部誌の販売、部員との対局、盤貸し等を行っているので、興味のある方はぜひお越しください！
+                  </p>
+                  <p><a href="/maps#maps_H1C">高一C教室</a></p>
+                </div>
               </div>
             </div>
           </details>
           <details class="details">
             <summary class="summary">
               <div class="pm"></div>
-              <p>企画名</p>
-              <p>団体</p>
+              <p>星光満天宮</p>
+              <p>文芸部</p>
             </summary>
-            <div class="answer">
+            <div class="answer" id="BGB">
               <div class="answerInner">
                 <img
-                  src="/images/icon512x512.png"
+                  src="/assets/logo/b/BGB.png"
                   width="160"
                   height="160"
                   alt="icon"
                 />
-                <p>
-                  ここにあなたのクラス、クラブ、有志企画の説明を入れてください。読む人が不快にならない表現を心がけること。
-                </p>
-                <p>@どこかの場所</p>
-              </div>
-            </div>
-          </details>
-        </div>
-      </section>
-      <!-- ここから2F -->
-      <section class="container">
-        <div class="cells">
-          <h2>2F</h2>
-          <img
-            src="/images/snapshots/04.jpeg"
-            alt="sf1"
-            width="320"
-            height="240"
-            class="cellsImage"
-            loading="lazy"
-          />
-        </div>
-        <div class="cells">
-          <details class="details">
-            <summary class="summary">
-              <div class="pm"></div>
-              <p>企画名</p>
-              <p>団体</p>
-            </summary>
-            <div class="answer">
-              <div class="answerInner">
-                <img
-                  src="/images/icon512x512.png"
-                  width="160"
-                  height="160"
-                  alt="icon"
-                />
-                <p>
-                  ここにあなたのクラス、クラブ、有志企画の説明を入れてください。読む人が不快にならない表現を心がけること。
-                </p>
-                <p>中一A</p>
+                <div>
+                  <p>
+                    大阪星光に受かりたい小学生も在校生も大歓迎！私たち文芸部は皆さんの願いが叶う様にと神社を作りました！是非来て下さい！
+                  </p>
+                  <p><a href="/maps#maps_H1D">高一D教室</a></p>
+                </div>
               </div>
             </div>
           </details>
           <details class="details">
             <summary class="summary">
               <div class="pm"></div>
-              <p>企画名</p>
-              <p>団体</p>
+              <p>ROUND-C</p>
+              <p>中三C</p>
             </summary>
-            <div class="answer">
+            <div class="answer" id="M3C">
               <div class="answerInner">
                 <img
-                  src="/images/icon512x512.png"
+                  src="/assets/logo/c/M3C.png"
                   width="160"
                   height="160"
                   alt="icon"
                 />
-                <p>
-                  ここにあなたのクラス、クラブ、有志企画の説明を入れてください。読む人が不快にならない表現を心がけること。
-                </p>
-                <p>@どこかの場所</p>
+                <div>
+                  <p>
+                    普通のボウリングに飽きてませんか？そんなあなた是非このROUNDーCにお越しください。素敵な体験があなたを待っています。
+                  </p>
+                  <p><a href="/maps#maps_H1E">高一E教室</a></p>
+                </div>
               </div>
             </div>
           </details>
           <details class="details">
             <summary class="summary">
               <div class="pm"></div>
-              <p>企画名</p>
-              <p>団体</p>
+              <p>同人雑誌即売</p>
+              <p>ガネー社</p>
             </summary>
-            <div class="answer">
+            <div class="answer" id="GNS">
               <div class="answerInner">
                 <img
-                  src="/images/icon512x512.png"
+                  src="/assets/logo/v/GNS.png"
                   width="160"
                   height="160"
                   alt="icon"
                 />
-                <p>
-                  ここにあなたのクラス、クラブ、有志企画の説明を入れてください。読む人が不快にならない表現を心がけること。
-                </p>
-                <p>@どこかの場所</p>
+                <div>
+                  <p>
+                    同人誌を販売します。完全自由で書きました。テーマなし、熱意のみ、勝者あり。星光の原液をあなたに。（インドは関係ありません。
+                  </p>
+                  <p><a href="/maps#maps_sp1">放送室前</a></p>
+                </div>
+              </div>
+            </div>
+          </details>
+          <details class="details">
+            <summary class="summary">
+              <div class="pm"></div>
+              <p>神戸・高槻お遍路レポート</p>
+              <p>カトリック研究会</p>
+            </summary>
+            <div class="answer" id="CRC">
+              <div class="answerInner">
+                <img
+                  src="/assets/logo/b/CRC.png"
+                  width="160"
+                  height="160"
+                  alt="icon"
+                />
+                <div>
+                  <p>
+                    星光の顔である我らが行ったキリスト教の研究、とくとご覧あれ<br />
+                    入場料は無料だよ!!
+                  </p>
+                  <p><a href="/maps#maps_catho">カトリックセンター</a></p>
+                </div>
+              </div>
+            </div>
+          </details>
+          <details class="details">
+            <summary class="summary">
+              <div class="pm"></div>
+              <p>チャリティーバザー＆グッズ販売</p>
+              <p>中学一年</p>
+            </summary>
+            <div class="answer" id="M1C">
+              <div class="answerInner">
+                <img
+                  src="/assets/logo/c/M1.png"
+                  width="160"
+                  height="160"
+                  alt="icon"
+                />
+                <div>
+                  <p>
+                    毎年恒例のチャリティバザー＆星光グッズ販売を行います。僕たちの星光での成長をみてください。
+                  </p>
+                  <p><a href="/maps#maps_M1D">中一D、中一C教室</a></p>
+                </div>
+              </div>
+            </div>
+          </details>
+          <details class="details">
+            <summary class="summary">
+              <div class="pm"></div>
+              <p>ないが</p>
+              <p>中学一年</p>
+            </summary>
+            <div class="answer" id="M1B">
+              <div class="answerInner">
+                <img
+                  src="/assets/logo/c/M1.png"
+                  width="160"
+                  height="160"
+                  alt="icon"
+                />
+                <div>
+                  <p>ないが</p>
+                  <p><a href="/maps#maps_M1B">ないが</a></p>
+                </div>
+              </div>
+            </div>
+          </details>
+          <details class="details">
+            <summary class="summary">
+              <div class="pm"></div>
+              <p>ビ。</p>
+              <p>美術部</p>
+            </summary>
+            <div class="answer" id="ART">
+              <div class="answerInner">
+                <img
+                  src="/assets/logo/b/ART.png"
+                  width="160"
+                  height="160"
+                  alt="icon"
+                />
+                <div>
+                  <p>
+                    美術部員それぞれの”好き“を表現し展示しています。部誌等の販売も行っているので是非見に来てください！
+                  </p>
+                  <p><a href="/maps#maps_M1A">中一A教室</a></p>
+                </div>
+              </div>
+            </div>
+          </details>
+          <details class="details">
+            <summary class="summary">
+              <div class="pm"></div>
+              <p>お化け屋敷</p>
+              <p>柔道部</p>
+            </summary>
+            <div class="answer" id="JUD">
+              <div class="answerInner">
+                <img
+                  src="/assets/logo/b/JUD.png"
+                  width="160"
+                  height="160"
+                  alt="icon"
+                />
+                <div>
+                  <p>
+                    柔道部伝統のお化け屋敷です。理性が吹き飛ぶ程の怖さを目指して頑張ります。ぜひ来てみてください。
+                  </p>
+                  <p><a href="/maps#maps_TechRoom">技術室</a></p>
+                </div>
               </div>
             </div>
           </details>
@@ -356,63 +532,232 @@
           <details class="details">
             <summary class="summary">
               <div class="pm"></div>
-              <p>企画名</p>
-              <p>団体</p>
+              <p>おばべやしき</p>
+              <p>高校二年C組</p>
             </summary>
-            <div class="answer">
+            <div class="answer" id="H2C">
               <div class="answerInner">
                 <img
-                  src="/images/icon512x512.png"
+                  src="/assets/logo/c/H2C.png"
                   width="160"
                   height="160"
                   alt="icon"
                 />
-                <p>
-                  ここにあなたのクラス、クラブ、有志企画の説明を入れてください。読む人が不快にならない表現を心がけること。
-                </p>
-                <p>@どこかの場所</p>
+                <div>
+                  <p>
+                    おばべ屋敷は怖くて、楽しいです。間違い探しもあってとてもいいですね。楽しんでね
+                  </p>
+                  <p><a href="/maps#maps_H2A">高二A、B教室</a></p>
+                </div>
               </div>
             </div>
           </details>
           <details class="details">
             <summary class="summary">
               <div class="pm"></div>
-              <p>企画名</p>
-              <p>団体</p>
+              <p>Gun Bosco</p>
+              <p>中学三年A組</p>
             </summary>
-            <div class="answer">
+            <div class="answer" id="M3A">
               <div class="answerInner">
                 <img
-                  src="/images/icon512x512.png"
+                  src="/assets/logo/c/M3A.png"
                   width="160"
                   height="160"
                   alt="icon"
                 />
-                <p>
-                  ここにあなたのクラス、クラブ、有志企画の説明を入れてください。読む人が不快にならない表現を心がけること。
-                </p>
-                <p>@どこかの場所</p>
+                <div>
+                  <p>
+                    今年の中三Aは射的を開催します！クリアしてとても豪華な賞品をゲットしよう!!<br />
+                    (参加賞もあるよ）
+                  </p>
+                  <p><a href="/maps#maps_H2C">高二C、D教室</a></p>
+                </div>
               </div>
             </div>
           </details>
           <details class="details">
             <summary class="summary">
               <div class="pm"></div>
-              <p>企画名</p>
-              <p>団体</p>
+              <p>けん玉教室</p>
+              <p>けん玉同好会</p>
             </summary>
-            <div class="answer">
+            <div class="answer" id="KDD">
               <div class="answerInner">
                 <img
-                  src="/images/icon512x512.png"
+                  src="/assets/logo/b/KDD.png"
                   width="160"
                   height="160"
                   alt="icon"
                 />
-                <p>
-                  ここにあなたのクラス、クラブ、有志企画の説明を入れてください。読む人が不快にならない表現を心がけること。
-                </p>
-                <p>@どこかの場所</p>
+                <div>
+                  <p>
+                    けん玉同好会主催の星光らしいけん玉教室です。未経験でも大丈夫、安心して来てください。myけん玉があるなら忘れずに。
+                  </p>
+                  <p><a href="/maps#maps_H2E">高二E教室</a></p>
+                </div>
+              </div>
+            </div>
+          </details>
+          <details class="details">
+            <summary class="summary">
+              <div class="pm"></div>
+              <p>鉄道研究会</p>
+              <p>鉄道研究会</p>
+            </summary>
+            <div class="answer" id="TKN">
+              <div class="answerInner">
+                <img
+                  src="/assets/logo/v/TKN.png"
+                  width="160"
+                  height="160"
+                  alt="icon"
+                />
+                <div>
+                  <p>
+                    毎年大盛況のNゲージ運転体験！今回は線路も増やし回転率がアップ！新たな試み、プラレールタワーも！是非お越しください
+                  </p>
+                  <p><a href="/maps#maps_SRNo3">特別第三教室</a></p>
+                </div>
+              </div>
+            </div>
+          </details>
+          <details class="details">
+            <summary class="summary">
+              <div class="pm"></div>
+              <p>ROUND2</p>
+              <p>中学二年D組</p>
+            </summary>
+            <div class="answer" id="M2D">
+              <div class="answerInner">
+                <img
+                  src="/assets/logo/c/M2D.png"
+                  width="160"
+                  height="160"
+                  alt="icon"
+                />
+                <div>
+                  <p>
+                    某アミューズメント施設のオマージュです。様々な難易度のコースと豪華な景品があるので、ぜひお越しを!!
+                  </p>
+                  <p><a href="/maps#maps_M2D">中二D教室</a></p>
+                </div>
+              </div>
+            </div>
+          </details>
+          <details class="details">
+            <summary class="summary">
+              <div class="pm"></div>
+              <p>HANTER×HANTER</p>
+              <p>中学二年C組</p>
+            </summary>
+            <div class="answer" id="M2C">
+              <div class="answerInner">
+                <img
+                  src="/assets/logo/c/M2C.png"
+                  width="160"
+                  height="160"
+                  alt="icon"
+                />
+                <div>
+                  <p>
+                    「HANTER×HANTER」は、校内にいる隠れた星光生を見つけて、景品を獲得するゲームです。ぜひ、遊びに来てください!!
+                  </p>
+                  <p><a href="/maps#maps_M2C_1">中二C教室</a></p>
+                </div>
+              </div>
+            </div>
+          </details>
+          <details class="details">
+            <summary class="summary">
+              <div class="pm"></div>
+              <p>飲料販売</p>
+              <p>剣道部有志</p>
+            </summary>
+            <div class="answer" id="KDY">
+              <div class="answerInner">
+                <img
+                  src="/assets/logo/v/KDY.png"
+                  width="160"
+                  height="160"
+                  alt="icon"
+                />
+                <div>
+                  <p>
+                    たくさん食べて遊んだ後に美味しいジュースはいかがですか？お得な割引きも用意してます！
+                  </p>
+                  <p><a href="/maps#maps_M2C_2">中二C教室</a></p>
+                </div>
+              </div>
+            </div>
+          </details>
+          <details class="details">
+            <summary class="summary">
+              <div class="pm"></div>
+              <p>ご注文は射的ですか?</p>
+              <p>中学二年B組</p>
+            </summary>
+            <div class="answer" id="M2B">
+              <div class="answerInner">
+                <img
+                  src="/assets/logo/c/M2B.png"
+                  width="160"
+                  height="160"
+                  alt="icon"
+                />
+                <div>
+                  <p>
+                    人が動かす的を撃つ射的です！当たった人限定で特別プレゼントが手に入る！動く的に君たちは当てられるか？ぜひ、来てください!
+                  </p>
+                  <p><a href="/maps#maps_M2B">中二B教室</a></p>
+                </div>
+              </div>
+            </div>
+          </details>
+          <details class="details">
+            <summary class="summary">
+              <div class="pm"></div>
+              <p>かがくのとも</p>
+              <p>科学部</p>
+            </summary>
+            <div class="answer" id="ScienceLab">
+              <div class="answerInner">
+                <img
+                  src="/assets/logo/b/CHE.png"
+                  width="160"
+                  height="160"
+                  alt="icon"
+                />
+                <div>
+                  <p>
+                    部員こだわりのキーホルダー、ビスマス、部誌などいいものそろえて待ってるよ<br />
+                    体験展示もあるからぜひ来てね
+                  </p>
+                  <p><a href="/maps#maps_ScienceLab">科学実験室</a></p>
+                </div>
+              </div>
+            </div>
+          </details>
+          <details class="details">
+            <summary class="summary">
+              <div class="pm"></div>
+              <p>解体新書</p>
+              <p>ライフサイエンス</p>
+            </summary>
+            <div class="answer" id="LSC">
+              <div class="answerInner">
+                <img
+                  src="/assets/logo/b/LSC.png"
+                  width="160"
+                  height="160"
+                  alt="icon"
+                />
+                <div>
+                  <p>
+                    ライサイエンス部では、ウシガエルの解剖や、アジの解剖体験、苔テラリウムの制作体験などを3階生物室で行っています
+                  </p>
+                  <p><a href="/maps#maps_BiologyLab">生物実験室</a></p>
+                </div>
               </div>
             </div>
           </details>
@@ -435,63 +780,252 @@
           <details class="details">
             <summary class="summary">
               <div class="pm"></div>
-              <p>企画名</p>
-              <p>団体</p>
+              <p>愛有～る</p>
+              <p>中学三年D組</p>
             </summary>
-            <div class="answer">
+            <div class="answer" id="M3D">
               <div class="answerInner">
                 <img
-                  src="/images/icon512x512.png"
+                  src="/assets/logo/c/M3D.png"
                   width="160"
                   height="160"
                   alt="icon"
                 />
-                <p>
-                  ここにあなたのクラス、クラブ、有志企画の説明を入れてください。読む人が不快にならない表現を心がけること。
-                </p>
-                <p>@どこかの場所</p>
+                <div>
+                  <p>
+                    俺ら財宝か、欲しけりゃくれてやる。探せ、の世の「愛」全てを中学棟4階に置いてきた。
+                  </p>
+                  <p><a href="/maps#maps_M3D">高三A教室</a></p>
+                </div>
               </div>
             </div>
           </details>
           <details class="details">
             <summary class="summary">
               <div class="pm"></div>
-              <p>企画名</p>
-              <p>団体</p>
+              <p>関西の港町と交易</p>
+              <p>地歴部</p>
             </summary>
-            <div class="answer">
+            <div class="answer" id="GRD">
               <div class="answerInner">
                 <img
-                  src="/images/icon512x512.png"
+                  src="/assets/logo/b/GRD.png"
                   width="160"
                   height="160"
                   alt="icon"
                 />
-                <p>
-                  ここにあなたのクラス、クラブ、有志企画の説明を入れてください。読む人が不快にならない表現を心がけること。
-                </p>
-                <p>@どこかの場所</p>
+                <div>
+                  <p>
+                    毎年恒例の地歴部の研究発表。今年のテーマは港町。クイズや景品も用意しているのでぜひ一度足を運んでみてください！
+                  </p>
+                  <p><a href="/maps#maps_GRD">高三C教室</a></p>
+                </div>
               </div>
             </div>
           </details>
           <details class="details">
             <summary class="summary">
               <div class="pm"></div>
-              <p>企画名</p>
-              <p>団体</p>
+              <p>社会科展示</p>
+              <p>社会科</p>
             </summary>
-            <div class="answer">
+            <div class="answer" id="SHA">
               <div class="answerInner">
                 <img
-                  src="/images/icon512x512.png"
+                  src="/assets/logo/v/SHA.png"
                   width="160"
                   height="160"
                   alt="icon"
                 />
-                <p>
-                  ここにあなたのクラス、クラブ、有志企画の説明を入れてください。読む人が不快にならない表現を心がけること。
-                </p>
-                <p>@どこかの場所</p>
+                <div>
+                  <p>レポートなどの展示・掲示を行います</p>
+                  <p><a href="/maps#maps_SHA">高三D教室</a></p>
+                </div>
+              </div>
+            </div>
+          </details>
+          <details class="details">
+            <summary class="summary">
+              <div class="pm"></div>
+              <p>コーヒーカップ</p>
+              <p>星光アミューズメント課</p>
+            </summary>
+            <div class="answer" id="AMU1">
+              <div class="answerInner">
+                <img
+                  src="/assets/logo/v/AMU.png"
+                  width="160"
+                  height="160"
+                  alt="icon"
+                />
+                <div>
+                  <p>
+                    文化祭のレヴェルの高さって、ジェットコースターとかコーヒーカップがあるかどうかで決まると思うんですよね…
+                  </p>
+                  <p><a href="/maps#maps_AMU">特別第五教室</a></p>
+                </div>
+              </div>
+            </div>
+          </details>
+          <details class="details">
+            <summary class="summary">
+              <div class="pm"></div>
+              <p>メリーゴーランド</p>
+              <p>高校一年A組</p>
+            </summary>
+            <div class="answer" id="H1A">
+              <div class="answerInner">
+                <img
+                  src="/assets/logo/c/H1A.png"
+                  width="160"
+                  height="160"
+                  alt="icon"
+                />
+                <div>
+                  <p>
+                    僕達が全力で作ったメリーゴーランドは迫力満点の傑作です！みんなも乗車してぜひこの‘スリル‘を味わってみよ！！
+                  </p>
+                  <p><a href="/maps#maps_H1A">特別第一教室</a></p>
+                </div>
+              </div>
+            </div>
+          </details>
+          <details class="details">
+            <summary class="summary">
+              <div class="pm"></div>
+              <p>ほしのこのこのこまとばんばん</p>
+              <p>中学三年B組</p>
+            </summary>
+            <div class="answer" id="M3B">
+              <div class="answerInner">
+                <img
+                  src="/assets/logo/c/M3B.png"
+                  width="160"
+                  height="160"
+                  alt="icon"
+                />
+                <div>
+                  <p>
+                    虎視眈々と射抜くチャンスを見極めろ！でもノコノコしてたら君のハートを射抜いちゃうぞ💘<br />
+                    人類よ、的を目指せ!!
+                  </p>
+                  <p><a href="/maps#maps_M3B">特別第二教室</a></p>
+                </div>
+              </div>
+            </div>
+          </details>
+          <details class="details">
+            <summary class="summary">
+              <div class="pm"></div>
+              <p>ジェットコースター</p>
+              <p>星光アミューズメント課</p>
+            </summary>
+            <div class="answer" id="AMU2">
+              <div class="answerInner">
+                <img
+                  src="/assets/logo/v/AMU.png"
+                  width="160"
+                  height="160"
+                  alt="icon"
+                />
+                <div>
+                  <p>
+                    文化祭のレヴェルの高さって、ジェットコースターとかコーヒーカップがあるかどうかで決まると思うんですよね…
+                  </p>
+                  <p><a href="/maps#maps_AMU">大教室</a></p>
+                </div>
+              </div>
+            </div>
+          </details>
+          <details class="details">
+            <summary class="summary">
+              <div class="pm"></div>
+              <p>AOPIΣTOZ展示</p>
+              <p>AOPIΣTOZ</p>
+            </summary>
+            <div class="answer" id="AOR">
+              <div class="answerInner">
+                <img
+                  src="/assets/logo/v/AOR.png"
+                  width="160"
+                  height="160"
+                  alt="icon"
+                />
+                <div>
+                  <p>
+                    メンバーが今まで自主的に学んできた事を展示します。化学、情報、数学、歴史、言語などに興味のある方はぜひきてください
+                  </p>
+                  <p><a href="/maps#maps_AOR">四階特別教室</a></p>
+                </div>
+              </div>
+            </div>
+          </details>
+          <details class="details">
+            <summary class="summary">
+              <div class="pm"></div>
+              <p>スターライトプラネタリウム</p>
+              <p>天文部</p>
+            </summary>
+            <div class="answer" id="AST">
+              <div class="answerInner">
+                <img
+                  src="/assets/logo/b/AST.png"
+                  width="160"
+                  height="160"
+                  alt="icon"
+                />
+                <div>
+                  <p>
+                    星を見てほしいから，プラネタリウムしてます！天文部は宇宙のことに夢中です。南部でスターを見てきますたー。
+                  </p>
+                  <p><a href="/maps#maps_AST">中三C、D教室</a></p>
+                </div>
+              </div>
+            </div>
+          </details>
+          <details class="details">
+            <summary class="summary">
+              <div class="pm"></div>
+              <p>んけうすProject2024</p>
+              <p>数学研究部</p>
+            </summary>
+            <div class="answer" id="SKN">
+              <div class="answerInner">
+                <img
+                  src="/assets/logo/b/SKN.png"
+                  width="160"
+                  height="160"
+                  alt="icon"
+                />
+                <div>
+                  <p>
+                    数学研究部では制作したゲームの販売を行います。無料で遊ぶこともできます。今年もよろしくお願いします。
+                  </p>
+                  <p><a href="/maps#maps_SKN">中三B教室</a></p>
+                </div>
+              </div>
+            </div>
+          </details>
+          <details class="details">
+            <summary class="summary">
+              <div class="pm"></div>
+              <p>写真部</p>
+              <p>写真部</p>
+            </summary>
+            <div class="answer" id="PHO">
+              <div class="answerInner">
+                <img
+                  src="/assets/logo/b/PHO.png"
+                  width="160"
+                  height="160"
+                  alt="icon"
+                />
+                <div>
+                  <p>
+                    部員が撮影会や個人で撮影した写真を展示しています。しおりの販売等もしているので是非きてください。
+                  </p>
+                  <p><a href="/maps#maps_PHO">中三A教室</a></p>
+                </div>
               </div>
             </div>
           </details>
@@ -515,20 +1049,22 @@
             <summary class="summary">
               <div class="pm"></div>
               <p>占いの館</p>
-              <p>サッカー部有志</p>
+              <p>サッカー部他</p>
             </summary>
-            <div class="answer">
+            <div class="answer" id="URN">
               <div class="answerInner">
                 <img
-                  src="/images/icon512x512.png"
-                  width="160"
+                  src="/assets/logo/v/URN.png"
                   height="160"
                   alt="icon"
                 />
-                <p>
-                  ここにあなたのクラス、クラブ、有志企画の説明を入れてください。読む人が不快にならない表現を心がけること。
-                </p>
-                <p>第二体育館</p>
+                <div>
+                  <p>
+                    タロットで貴方の人生占います！私たちに人生を委ねてください。<br>
+                    ※イラストの水晶は関係ございません
+                  </p>
+                  <p><a href="/maps#maps_URN">第二体育館</a></p>
+                </div>
               </div>
             </div>
           </details>
