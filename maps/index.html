@@ -302,6 +302,13 @@
           </div>`
     initialize(true)
     }
+    Array.from(document.querySelectorAll("div.map")).forEach((e)=>{
+      e.addEventListener("scroll",()=>{
+        document.getElementById("scrollable_img").style.opacity = 0
+        document.getElementById("note").style.opacity = 0
+        setTimeout(()=>{document.getElementById("note").style.display = "none"},500)
+      })
+    })
       document.getElementById("note").style.display = "none"
       document.querySelector("span.active").classList.remove("active")
       document.querySelector(`#bf${f}`).classList.add("active")
