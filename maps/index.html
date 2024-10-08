@@ -104,9 +104,6 @@
           <div id="mapContain_f5" role="mapContain" class="map">
 
           </div>
-          <div id="mapContain_f0" role="mapContain" class="map"> 
-
-          </div>
         </div>
       </section>
       <div id="note">
@@ -189,7 +186,7 @@
 <script role="searchEngine">
   let defoSVG = {};
   Promise.all([
-    fetch("./svg/fullmap.svg").then(res=>res.text()).then(res=>{defoSVG.f0 = res;document.getElementById("mapContain_f0").innerHTML = res;}),
+    fetch("./svg/fullmap.svg").then(res=>res.text()).then(res=>{defoSVG.f0 = res;}),
     fetch("./svg/f1.svg").then(res=>res.text()).then(res=>{defoSVG.f1 = res;document.getElementById("mapContain_f1").innerHTML = res;}),
     fetch("./svg/f2.svg").then(res=>res.text()).then(res=>{defoSVG.f2 = res;document.getElementById("mapContain_f2").innerHTML = res;}),
     fetch("./svg/f3.svg").then(res=>res.text()).then(res=>{defoSVG.f3 = res;document.getElementById("mapContain_f3").innerHTML = res;}),
@@ -202,6 +199,9 @@
   
   
   const search = ()=>{
+    if(document.getElementById("mapContain_f0")){
+      selectSVGbutton(1)
+    }
     const input = makeLower(document.getElementById("search_input").value);
     if(!input){
       return document.getElementById("result").innerHTML = "";
@@ -242,13 +242,17 @@
   };
   document.getElementById("search_input").addEventListener("input",search);
 
-  const initialize = ()=>{
-    document.getElementById("mapContain_f0").innerHTML = defoSVG.f0;
-    document.getElementById("mapContain_f1").innerHTML = defoSVG.f1;
-    document.getElementById("mapContain_f2").innerHTML = defoSVG.f2;
-    document.getElementById("mapContain_f3").innerHTML = defoSVG.f3;
-    document.getElementById("mapContain_f4").innerHTML = defoSVG.f4;
-    document.getElementById("mapContain_f5").innerHTML = defoSVG.f5;
+  const initialize = (bool)=>{
+    if(bool){
+      document.getElementById("mapContain_f0").innerHTML = defoSVG.f0;
+      return
+    }else{
+      document.getElementById("mapContain_f1").innerHTML = defoSVG.f1;
+      document.getElementById("mapContain_f2").innerHTML = defoSVG.f2;
+      document.getElementById("mapContain_f3").innerHTML = defoSVG.f3;
+      document.getElementById("mapContain_f4").innerHTML = defoSVG.f4;
+      document.getElementById("mapContain_f5").innerHTML = defoSVG.f5;
+    }
   }
 
   /*ここからは目的の場所を強調表示させつやつ。*/
@@ -256,10 +260,10 @@
     if(!hash){
       return;
     };
-    initialize();
+    initialize(false);
+    console.log(hash)
     document.getElementById(hash).classList.add("active");
     const targetF = getf(hash.substring(5))
-    selectSVGbutton(targetF)
   };
 
   const getf = (id)=>{
@@ -273,6 +277,31 @@
 </script>
 <script role="selectSVG">
   const selectSVGbutton = (f)=>{
+    if(f != 0){
+      document.querySelector("div.mapContain").innerHTML=`
+          <div id="mapContain_f1" role="mapContain" class="map"> 
+
+          </div>
+          <div id="mapContain_f2" role="mapContain" class="map"> 
+
+          </div>
+          <div id="mapContain_f3" role="mapContain" class="map">
+
+          </div>
+          <div id="mapContain_f4" role="mapContain" class="map">
+
+          </div>
+          <div id="mapContain_f5" role="mapContain" class="map">
+
+          </div>`
+    initialize(false)
+    }else{
+      document.querySelector("div.mapContain").innerHTML=`
+          <div id="mapContain_f0" role="mapContain" class="map"> 
+
+          </div>`
+    initialize(true)
+    }
       document.getElementById("note").style.display = "none"
       document.querySelector("span.active").classList.remove("active")
       document.querySelector(`#bf${f}`).classList.add("active")
