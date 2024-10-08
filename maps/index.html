@@ -79,6 +79,7 @@
         </div>
         <div class="buttonContain">
           <div id="bb">
+            <span id="bf0" class="bbb"><p>Full</p></span>
             <span id="bf1" class="bbb active"><p>1F</p></span>
             <span id="bf2" class="bbb"><p>2F</p></span>
             <span id="bf3" class="bbb"><p>3F</p></span>
@@ -101,6 +102,9 @@
 
           </div>
           <div id="mapContain_f5" role="mapContain" class="map">
+
+          </div>
+          <div id="mapContain_f0" role="mapContain" class="map"> 
 
           </div>
         </div>
@@ -185,6 +189,7 @@
 <script role="searchEngine">
   let defoSVG = {};
   Promise.all([
+    fetch("./svg/fullmap.svg").then(res=>res.text()).then(res=>{defoSVG.f0 = res;document.getElementById("mapContain_f0").innerHTML = res;}),
     fetch("./svg/f1.svg").then(res=>res.text()).then(res=>{defoSVG.f1 = res;document.getElementById("mapContain_f1").innerHTML = res;}),
     fetch("./svg/f2.svg").then(res=>res.text()).then(res=>{defoSVG.f2 = res;document.getElementById("mapContain_f2").innerHTML = res;}),
     fetch("./svg/f3.svg").then(res=>res.text()).then(res=>{defoSVG.f3 = res;document.getElementById("mapContain_f3").innerHTML = res;}),
@@ -238,6 +243,7 @@
   document.getElementById("search_input").addEventListener("input",search);
 
   const initialize = ()=>{
+    document.getElementById("mapContain_f0").innerHTML = defoSVG.f0;
     document.getElementById("mapContain_f1").innerHTML = defoSVG.f1;
     document.getElementById("mapContain_f2").innerHTML = defoSVG.f2;
     document.getElementById("mapContain_f3").innerHTML = defoSVG.f3;
@@ -267,6 +273,7 @@
 </script>
 <script role="selectSVG">
   const selectSVGbutton = (f)=>{
+      document.getElementById("note").style.display = "none"
       document.querySelector("span.active").classList.remove("active")
       document.querySelector(`#bf${f}`).classList.add("active")
       Array.from(document.querySelectorAll("div[role=mapContain]")).forEach(e=>{

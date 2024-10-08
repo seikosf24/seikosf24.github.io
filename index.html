@@ -411,6 +411,26 @@
         }
       }
       changeBG();
+
+      //ここからお知らせノやつ表示する
+      const loadNews = ()=>{
+        const newsdata = fetch("/api/articles")
+        var content = ""
+        for(var i = 0; i<3; i++){
+          if(!newsdata[i]){
+            continue
+          }
+          date = newsdata[i].date
+          title = newsdata[i].title
+          location = newsdata[i].location
+          content += `
+            <tr>
+              <td>${date}</td>
+              <td><a href="${location}">${title}</a></td>
+            </tr>
+          `
+        }
+      }
     </script>
     <script type="text/javascript" src="./script.js" defer></script>
   </body>
