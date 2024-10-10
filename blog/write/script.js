@@ -1,3 +1,19 @@
+window.onload = function() {
+        var now = new Date();
+        var month = now.getMonth() + 1; // 月は0から始まるため1を足す
+        var day = now.getDate();
+        var hours = now.getHours();
+        var minutes = now.getMinutes();
+
+        // 二桁に揃えるための処理
+        if (minutes < 10) {
+            minutes = '0' + minutes;
+        }
+
+        var formattedTime = month + '月' + day + '日 ' + hours + ':' + minutes;
+        document.getElementById('m_date').innerText = formattedTime;
+    };
+
 const post = () => {
     const title = document.getElementById("m_title").innerText;
     const date = document.getElementById("m_date").innerText;
