@@ -11,7 +11,7 @@ window.onload = function() {
         }
 
         var formattedTime = month + '月' + day + '日 ' + hours + ':' + minutes;
-        document.getElementById('current-time').innerText = formattedTime;
+        document.getElementById('m_date').innerText = formattedTime;
     };
 
 const post = () => {
