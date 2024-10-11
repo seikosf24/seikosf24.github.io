@@ -162,6 +162,7 @@
         font-size: 4rem;
         font-weight: bold;
         background-origin: border-box;
+        background-size: auto: 100vh;
         background-repeat: no-repeat;
         background-image: url("./assets/bg.webp");
         background-position: 70%;
@@ -411,7 +412,7 @@
         }
       }
       changeBG();
-
+      
       //ここからお知らせノやつ表示する
       const loadNews = ()=>{
         const newsdata = fetch("/api/articles")
