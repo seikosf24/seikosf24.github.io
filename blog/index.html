@@ -72,6 +72,19 @@
         <h1 class="nohome">ブログ</h1>
       </div>
       <section>
+        <a href="/blog/article/1/">
+          <div class="flexChild">
+            <img
+              src="/assets/logo/null.png"
+              width="160"
+              height="160"
+              alt="icon"
+            />
+            <h3>タイトル</h3>
+            <p>2024-07-02</p>
+            <p>本文...</p>
+          </div>
+        </a>
       </section>
     </main>
     <footer></footer>
@@ -79,28 +92,30 @@
   </body>
 </html>
 <script>
-  //Gen
-  fetch("/api/articles")
-    .then((r) => r.json())
-    .then((res) => {
-      content = ""
-      for(const r of res){
-        content += `
-          <a href="${r.location}">
-            <div class="flexChild">
-              <img
-                src="${r.icon}"
-                width="160"
-                height="160"
-                alt="icon"
-              />
-              <h3>${r.title}</h3>
-              <p>${r.date}</p>
-              <p>${r.summary}...</p>
-            </div>
-          </a>
-        `;
-      };
-      document.querySelector("section").innerHTML += content
-    });
+  //Gen ただしもう使わないだろうと
+  const gen = ()=>{
+    fetch("/api/articles")
+      .then((r) => r.json())
+      .then((res) => {
+        content = ""
+        for(const r of res){
+          content += `
+            <a href="${r.location}">
+              <div class="flexChild">
+                <img
+                  src="${r.icon}"
+                  width="160"
+                  height="160"
+                  alt="icon"
+                />
+                <h3>${r.title}</h3>
+                <p>${r.date}</p>
+                <p>${r.summary}...</p>
+              </div>
+            </a>
+          `;
+        };
+        document.querySelector("section").innerHTML += content
+      });
+  }
 </script>
