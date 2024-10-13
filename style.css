@@ -21,9 +21,9 @@ html {
 /*CSS変数*/
 :root {
   --light: #fafafc;
-  --dark: #2a4073;/*こきはなだ色*/
-  --accent: #7a4171;/*えびぞめ色*/
-  --text: #1f3134;/*ももしおちゃ色*/
+  --dark: #023589;
+  --accent: #7a4171;
+  --text: #1f3134;
   --shadow: #88888888;
 }
 body {
