@@ -39,7 +39,7 @@ footer.innerHTML = `<div class="footerMom">
                            alt="SF 2024 Official Icon"
                            width="192"
                            height=192"
-                           style="box-shadow: 0 0 10px var(--shadow);margin: 15px;"
+                           style="margin: 15px;"
                            >
                     </div>
                     <div class="footerMom">
@@ -52,7 +52,8 @@ footer.innerHTML = `<div class="footerMom">
                         <a href="/maps">MAPS</a>
                       </div>
                     </div>
-                    <a href="http://www.osakaseiko.ac.jp/">大阪星光学院公式ホームページ</a>
+                    <br>
+                    <a href="http://www.osakaseiko.ac.jp/">大阪星光学院公式ホームページ</a><br>
                     &copy; School Fair Steering Committee
                     <div id="footerCoolLogo">SEIKO SF '24</div>`;
 
