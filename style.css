@@ -383,10 +383,10 @@ footer {
 .footerMom {
   display: inline-block;
 }
-.footerMom:first-child {
+.footerMom:first-of-child {
   width: 222px;
 }
-.footerMom:last-child {
+.footerMom:last-of-child {
   width:  calc(100% - 262px);
 }
 #footerLink {
