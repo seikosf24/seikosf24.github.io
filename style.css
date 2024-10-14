@@ -386,9 +386,11 @@ footer {
 .footerMom:first-child {
   width: 222px;
 }
+.footerMom:last-child {
+  width:  calc(100% - 262px);
+}
 #footerLink {
   margin: 20px auto;
-  width: calc(100% - 262px);
   text-align: center;
   display: flex;
   flex-wrap: wrap;
