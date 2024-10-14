@@ -374,11 +374,14 @@ footer {
   text-align: center;
   font-size: 1.8rem;
   /*font-family: "oswald", sans-serif;*/
-  color: var(--light);
-  background-color: var(--dark);
+  color: var(--dark);
+  background-color: #fffcf6;
+}
+.footerMom {
+  display: inline-block;
 }
 #footerLink {
-  margin: 30px auto;
+  margin: 20px auto;
   width: min(1000px, calc(100vw - 40px));
   display: flex;
   flex-wrap: wrap;
@@ -387,7 +390,7 @@ footer {
 #footerLink a {
   display: block;
   padding: 15px;
-  color: #ddf;
+  color: var(--dark);
   text-decoration: underline;
 }
 #footerLink a::before {
@@ -398,9 +401,9 @@ footer {
   margin-top: 30px;
   font-style: italic;
   font-size: max(12vw, calc(9vw + 20px));
-  color: var(--dark);
-  -webkit-text-stroke: 0.7px var(--light);
-  text-stroke: 0.7px var(--light);
+  color: #fffcf6;
+  -webkit-text-stroke: 0.7px var(--dark);
+  text-stroke: 0.7px var(--dark);
   line-height: 1.3;
   transform: scale(1.25, 1.5);
 }
