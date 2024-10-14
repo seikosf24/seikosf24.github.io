@@ -377,7 +377,7 @@ footer {
   background-color: #fffcf6;
 }
 .footerGM {
-  width: min(1300px, calc(100vw - 40px);
+  width: min(1300px, calc(100vw - 40px));
   margin: 0 auto;
 }
 .footerMom {
