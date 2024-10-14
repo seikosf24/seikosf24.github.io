@@ -378,18 +378,15 @@ footer {
   background-color: #fffcf6;
 }
 .footerGM {
-  width: min(1300px, calc(100vw - 40px));
+  width: min(800px, calc(100vw - 40px));
   margin: 0 auto;
 }
 .footerMom {
   display: inline-block;
   vertical-align: top;
 }
-.footerMom:nth-child(0) {
-  width: 222px;
-}
 .footerMom:nth-child(2) {
-  width:  calc(100% - 262px);
+  width: calc(100% - 262px);
 }
 #footerLink {
   margin: 20px auto;
