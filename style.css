@@ -170,6 +170,9 @@ main > section {
   margin: 60px auto;
   width: min(1300px, calc(100vw - 40px));
 }
+main > section:last-child {
+box-shadow: 0 15px 12px var(--shadow);
+}
 .container {
   display: flex;
 }
@@ -371,11 +374,11 @@ main > section {
 footer {
   overflow: hidden;
   padding-top: 20px;
-  text-align: center;
   font-size: 1.8rem;
   /*font-family: "oswald", sans-serif;*/
   color: var(--dark);
   background-color: #fffcf6;
+  box-shadow: inset 0 10px 
 }
 .footerMom {
   display: inline-block;
@@ -383,6 +386,7 @@ footer {
 #footerLink {
   margin: 20px auto;
   width: min(1000px, calc(100vw - 40px));
+  text-align: center;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
