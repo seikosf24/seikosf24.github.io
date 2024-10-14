@@ -35,7 +35,7 @@ window.onload = (event) => {
 //フッター
 let footer = document.getElementsByTagName("footer")[0];
 footer.innerHTML = 
-  `<div class="footerGM>
+  `<div class="footerGM">
   <div class="footerMom">
      <img src="/assets/icon/icon512.png"
        alt="SF 2024 Official Icon"
