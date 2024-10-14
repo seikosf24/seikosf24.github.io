@@ -382,6 +382,7 @@ footer {
 }
 .footerMom {
   display: inline-block;
+  vertical-align: top;
 }
 .footerMom:nth-child(0) {
   width: 222px;
@@ -391,7 +392,6 @@ footer {
 }
 #footerLink {
   margin: 20px auto;
-  text-align: center;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -401,9 +401,6 @@ footer {
   padding: 15px;
   color: var(--dark);
   text-decoration: underline;
-}
-#footerLink a::before {
-  content: "> ";
 }
 /*フッターの大きい文字*/
 #footerCoolLogo {
