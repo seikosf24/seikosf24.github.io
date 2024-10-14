@@ -34,17 +34,27 @@ window.onload = (event) => {
 
 //フッター
 let footer = document.getElementsByTagName("footer")[0];
-footer.innerHTML = `<div id="footerLink">
-        <a href="/">HOME</a>
-        <a href="/info">INFO</a>
-        <a href="/booth">BOOTH</a>
-        <a href="/stage">STAGE</a>
-        <a href="/blog">BLOG</a>
-        <a href="/maps">MAPS</a>
-        <a href="http://www.osakaseiko.ac.jp/">大阪星光学院公式ホームページ</a>
-      </div>
-      &copy; School Fair Steering Committee
-      <div id="footerCoolLogo">SEIKO SF '24</div>`;
+footer.innerHTML = `<div class="footerMom">
+                      <img src="/assets/icon/icon512.png"
+                           alt="SF 2024 Official Icon"
+                           width="192"
+                           height=192"
+                           style="box-shadow: 0 0 10px var(--shadow);margin: 15px;"
+                           >
+                    </div>
+                    <div class="footerMom">
+                      <div id="footerLink">
+                        <a href="/">HOME</a>
+                        <a href="/info">INFO</a>
+                        <a href="/booth">BOOTH</a>
+                        <a href="/stage">STAGE</a>
+                        <a href="/blog">BLOG</a>
+                        <a href="/maps">MAPS</a>
+                      </div>
+                    </div>
+                    <a href="http://www.osakaseiko.ac.jp/">大阪星光学院公式ホームページ</a>
+                    &copy; School Fair Steering Committee
+                    <div id="footerCoolLogo">SEIKO SF '24</div>`;
 
 //アコーディオンパネル
 document.addEventListener("DOMContentLoaded", () => {
