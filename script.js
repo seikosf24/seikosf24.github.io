@@ -54,9 +54,10 @@ footer.innerHTML =
           <a href="/maps">MAPS</a>
         </div>
       </div>
-      <br>
-      <a href="http://www.osakaseiko.ac.jp/">大阪星光学院公式ホームページ</a><br>
-      &copy; School Fair Steering Committee
+      <div class="footerMom">
+        <a href="http://www.osakaseiko.ac.jp/">大阪星光学院中学校・高等学校<br>公式サイト(保護されていません)</a><br>
+        &copy; 2024 SF運営委員会 All rights reserved.
+      </div>
     </div>
     <div id="footerBottom"></div>`;
 

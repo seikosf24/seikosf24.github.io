@@ -381,12 +381,16 @@ footer {
   width: min(800px, calc(100vw - 40px));
   margin: 0 auto;
 }
-.footerMom {
+.footerMom:nth-child(-n + 2) {
   display: inline-block;
   vertical-align: top;
 }
 .footerMom:nth-child(2) {
   width: calc(100% - 262px);
+}
+.footerMom:nth-child(3) {
+  max-width: 450px;
+  margin: 0 auto;
 }
 #footerLink {
   margin: 20px auto;
