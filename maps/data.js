@@ -295,7 +295,7 @@ const dataset = [
   },
   {
     f: 3,
-    d: "化学の友",
+    d: "かがくのとも",
     i: "ScienceLab",
     s: "化学の友;かがくのとも;kagakunotomo;science friend;sciencelabo;化学室;かがくしつ",
     l: "b/CHE",

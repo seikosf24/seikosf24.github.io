@@ -188,7 +188,11 @@
     fetch("./svg/f4.svg").then(res=>res.text()).then(res=>{defoSVG.f4 = res;document.getElementById("mapContain_f4").innerHTML = res;}),
     fetch("./svg/f5.svg").then(res=>res.text()).then(res=>{defoSVG.f5 = res;document.getElementById("mapContain_f5").innerHTML = res;})
   ]).then(()=>{
-    showplace(window.location.hash.substring(1))
+    if(window.location.hash.substring(1)){
+      showplace(window.location.hash.substring(1))
+    }else{
+      selectSVGbutton(1)
+    }
   })
 
   
