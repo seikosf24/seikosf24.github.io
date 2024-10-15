@@ -31,6 +31,9 @@ font-size: 2.1rem;
   font-size: 1.4rem;
   margin: 0 10px 20px;
 }
+h2, h3 {
+  margin: 10px;
+}
 p {
   margin: 10px;
 }
@@ -55,6 +58,9 @@ strong {
   line-height: 1.66;
   text-align: center;
   font-weight: bold;
+  color: var(--white);
+  background-color: teal;
+  border-radius: 25px;
 }
 .gapText {
   position: relative;
@@ -73,4 +79,7 @@ strong {
   top: 10px;
   left: -15px;
   border-right-color: #f1f1f1;
+}
+.profile {
+  background-color: #eeeeee;
 }
