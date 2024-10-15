@@ -10,8 +10,8 @@
   #bb{
     position:relative;
     left:50%;
-    transform:translateX(-175px);
-    width:350px;
+    transform:translateX(-50%);
+    width:320px;
     height:30px;
     border-radius: 20px;
     border:2px solid var(--dark);
@@ -26,7 +26,7 @@
       padding:0px;
       border-right:solid 2px var(--dark);
       border-left:solid 2px var(--dark);
-      width:60px;
+      width:55px;
       height:30px;
       background-color: white;
       text-align: center;
