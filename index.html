@@ -157,7 +157,7 @@
         font-size: 4rem;
         font-weight: bold;
         background-origin: border-box;
-        background-size: auto 100vh;
+        background-size: 36rem auto;
         background-repeat: no-repeat;
         background-image: url("./assets/bg.webp");
         background-position: 70%;
@@ -441,8 +441,8 @@
       });
       function changeBG() {
         let div_rect = colorText.getBoundingClientRect().bottom;
-        let per = (div_rect - 10) / window.innerHeight;
-        if (per > 0) {
+        let per = div_rect / (window.innerHeight + 100);
+        if (per > 0 && per < 1) {
           let abc = "50% " + per * 100 + "%";
           colorText.style.backgroundPosition = abc;
         }
