@@ -391,6 +391,7 @@ footer {
 .footerMom:nth-child(3) {
   max-width: 450px;
   margin: 0 auto;
+  font-size: 0.9em;
 }
 #footerLink {
   margin: 20px auto;
