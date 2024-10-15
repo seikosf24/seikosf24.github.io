@@ -11,7 +11,7 @@
   position:relative;
   left:50%;
   transform:translateX(-50%);
-  width: 380px;
+  width: 370px;
   height:30px;
   border-radius: 20px;
   border:2px solid var(--dark);
