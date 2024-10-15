@@ -5,8 +5,8 @@
   "scope": "/",
   "start_url": "/",
   "description": "2024年11月3日(日)に開催、大阪星光学院SF(スクールフェア)の公式webサイトです。'BE SEIKO'をテーマに、ミニゲームや軽食、バンドなどが盛りだくさんの特別な一日をお届けします。みんなが輝く星光の文化祭へぜひお越しください！",
-  "name": "BE SEIKO || 2024年大阪星光学院SF(スクールフェア)公式webサイト",
-  "short_name": "BE SEIKO",
+  "name": "2024年大阪星光学院SF(スクールフェア)「BE SEIKO」公式webサイト",
+  "short_name": "SF 2024",
   "icons": [
     {
       "src": "./assets/icon/icon192.png",
