@@ -58,7 +58,7 @@ footer.innerHTML =
       <a href="http://www.osakaseiko.ac.jp/">大阪星光学院公式ホームページ</a><br>
       &copy; School Fair Steering Committee
     </div>
-    <div id="footerCoolLogo"></div>`;
+    <div id="footerBottom"></div>`;
 
 //アコーディオンパネル
 document.addEventListener("DOMContentLoaded", () => {

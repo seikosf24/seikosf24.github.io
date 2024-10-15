@@ -401,11 +401,11 @@ footer {
   text-decoration: underline;
 }
 /*フッターの大きい文字*/
-#footerCoolLogo {
+#footerBottom {
   margin-top: 30px;
-  width: 100vh;
+  width: 100vw;
   height: 300px;
-  background-image: url("/assets/icon/borrom.webp");
+  background-image: url("/assets/icon/bottom.webp");
   background-position: bottom center;
   background-repeat: repeat-x;
   background-size: 1200px 300px;
