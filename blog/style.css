@@ -38,3 +38,39 @@ p {
   max-width:100%;
   height: auto;
 }
+/* ここからブログ本文の装飾 */
+strong {
+
+}
+.selif {
+  width: 100%;
+  margin-bottom: 20px;
+  display: flex;
+  gap: 20px;
+}
+.gapIcon {
+  width: 50px;
+  height: 50px;
+  font-size: 30px;
+  line-height: 1.66;
+  text-align: center;
+  font-weight: bold;
+}
+.gapText {
+  position: relative;
+  max-width: calc(100% - 80px);
+  padding: 10px;
+  border-radius: 8px;
+  background-color: #f1f1f1;
+  flex: 1;
+}
+.gapText::before {
+  content: "";
+  position:absolute;
+  width:0;
+  height: 0;
+  border:0.8rem solid transparent;
+  top: 10px;
+  left: -15px;
+  border-right-color: #f1f1f1;
+}
