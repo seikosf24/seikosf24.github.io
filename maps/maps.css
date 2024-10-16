@@ -4,7 +4,7 @@
 .buttonContain {
   top:100px;
   width: 100%;
-  height: calc(30px + 5vw);
+  height: 100px;
   position:relative;
 }
 #bb{
