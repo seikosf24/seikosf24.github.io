@@ -86,12 +86,13 @@ img{
 }
 /*マスキングテープ風*/
 .profile{
-	background-color: #F6EEEC;/*ボックス背景色*/
-	padding: 25px 20px 20px;/*ボックス内側余白*/
-	position:relative;/*配置(ここを基準に)*/
-  margin-bottom: 15px;
+	background-color: #F6EEEC;
+	padding: 25px 20px 20px;
+	position:relative;
+	margin-bottom: 15px;
 }
-.profile .box-title {
+.profile::before {
+	content: "";
 	background-image: repeating-linear-gradient(-45deg,#F6EEEC 0, #F6EEEC 3px,#fafafa 3px,#fafafa 6px);/*ストライプ*/
 	border-left: 2px dotted rgba(0,0,0,.1);/* ギザギザ左*/
 	border-right: 2px dotted rgba(0,0,0,.1);/* ギザギザ右*/
