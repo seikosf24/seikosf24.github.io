@@ -92,15 +92,15 @@ img{
 	margin-bottom: 15px;
 }
 .profile::before {
-	content: "";
-	background-image: repeating-linear-gradient(-45deg,#F6EEEC 0, #F6EEEC 3px,#fafafa 3px,#fafafa 6px);/*ストライプ*/
-	border-left: 2px dotted rgba(0,0,0,.1);/* ギザギザ左*/
-	border-right: 2px dotted rgba(0,0,0,.1);/* ギザギザ右*/
-	transform: rotate(-2deg);/*テープの傾き*/
-	font-size: 1em;/*タイトル文字の大きさ*/
-	padding: 10px 20px;/*タイトルの余白*/
-	line-height: 1;/*タイトルの行の高さ*/
-	position:absolute;/*配置(ここを動かす)*/
-	top: -15px; /*上からの距離*/
-	left: 20px; /*左からの距離*/
+	content: "Directory";
+	background-image: repeating-linear-gradient(-45deg,#F6EEEC 0, #F6EEEC 3px,#fafafa 3px,#fafafa 6px);
+	border-left: 2px dotted rgba(0,0,0,.1);
+	border-right: 2px dotted rgba(0,0,0,.1);
+	transform: rotate(-2deg);
+	font-size: 2rem;
+	padding: 10px 20px;
+	line-height: 1;
+	position:absolute;
+	top: -15px;
+	left: 20px;
 }
