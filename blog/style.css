@@ -3,7 +3,7 @@
   background-color: #fcfafa;
   color: #444444;
   border-radius: 20px;
-  padding: 10px;
+  padding: 20px;
   box-shadow: 0px 2px 20px silver;
 }
 #channel {
@@ -23,13 +23,14 @@
   border-left: 1px solid #444444;
   border-right: 1px solid #444444;
 }
+/* 本文装飾 */
 h1 {
 font-size: 2.1rem;
-  margin: 20px 10px 0;
+  margin: 20px 0;
 }
 #date {
   font-size: 1.4rem;
-  margin: 0 10px 20px;
+  margin-bottom: 30px;
 }
 h2, h3 {
   margin: 10px;
@@ -37,20 +38,16 @@ h2, h3 {
   padding: 5px;
 }
 h2 {
-  color:#444444;
   background-color: #f4faff;
-  border-left: 5px solid #58afff:
+  border-left: 5px solid #58afff;
 }
 p {
-  margin: 20px 10px;
+  margin: 20px 0;
 }
-#letter img{
-  max-width:100%;
+img{
+  width: min(500px, 100%);
   height: auto;
-}
-/* ここからブログ本文の装飾 */
-strong {
-
+  border-radius: 15px;
 }
 .selif {
   width: 100%;
@@ -87,8 +84,22 @@ strong {
   left: -15px;
   border-right-color: #f1f1f1;
 }
-.profile {
-  background-color: #eeeeee;
-  border-radius: 15px;
+/*マスキングテープ風*/
+.profile{
+	background-color: #F6EEEC;/*ボックス背景色*/
+	padding: 25px 20px 20px;/*ボックス内側余白*/
+	position:relative;/*配置(ここを基準に)*/
   margin-bottom: 15px;
+}
+.profile .box-title {
+	background-image: repeating-linear-gradient(-45deg,#F6EEEC 0, #F6EEEC 3px,#fafafa 3px,#fafafa 6px);/*ストライプ*/
+	border-left: 2px dotted rgba(0,0,0,.1);/* ギザギザ左*/
+	border-right: 2px dotted rgba(0,0,0,.1);/* ギザギザ右*/
+	transform: rotate(-2deg);/*テープの傾き*/
+	font-size: 1em;/*タイトル文字の大きさ*/
+	padding: 10px 20px;/*タイトルの余白*/
+	line-height: 1;/*タイトルの行の高さ*/
+	position:absolute;/*配置(ここを動かす)*/
+	top: -15px; /*上からの距離*/
+	left: 20px; /*左からの距離*/
 }
