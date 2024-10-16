@@ -55,13 +55,23 @@
         overflow: hidden;
         line-height: 1;
         margin: 10px;
+        animation: 0.5s forwards fadein;
+        transform: translateY(-100px);
+      }
+      @keyframes fadein {
+        0% {
+          transform: translateY(-100px);
+        }
+        100% {
+          transform: translateY(0px);
+        }
       }
       h2 {
         line-height: 1;
         margin: 10px 0;
       }
       p {
-        margin: 5px 0 0;
+        margin: 5px 0;
       }
     </style>
     <link
