@@ -47,7 +47,7 @@ p {
   margin: 40px 0;
 }
 #letter img{
-  width: min(500px, 100%);
+  width: min(400px, 100%);
   height: auto;
   border-radius: 15px;
 	margin: 20px 0;
@@ -89,8 +89,8 @@ p {
 }
 /*マスキングテープ風*/
 .profile{
-	background-color: #faf1ef;
-	padding: 25px 20px 20px;
+	background-color: #fcf3f0;
+	padding: 35px 20px 20px;
 	position:relative;
 	margin-bottom: 30px 0;
 	border: 1px solid #ddbbbb;
