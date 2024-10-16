@@ -84,20 +84,17 @@ p {
   left: -22px;
   border-right-color: #f1f1f1;
 }
-.hosoku {
-	margin: 20px 0;
-}
 /*マスキングテープ風*/
 .profile{
-	background-color: #f8f1ef;
+	background-color: #faf1ef;
 	padding: 25px 20px 20px;
 	position:relative;
-	margin-bottom: 15px;
-	border: 1px solid var(--light);
+	margin-bottom: 30px 0;
+	border: 1px solid #ddbbbb;
 	border-radius: 15px;
 }
 .profile::before {
-	content: "Directory";
+	content: "Profile";
 	background-image: repeating-linear-gradient(-45deg,#F6EEEC 0, #F6EEEC 3px,#fafafa 3px,#fafafa 6px);
 	border-left: 2px dotted rgba(0,0,0,.1);
 	border-right: 2px dotted rgba(0,0,0,.1);
