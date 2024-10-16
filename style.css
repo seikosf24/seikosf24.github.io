@@ -494,7 +494,7 @@ details p {
     background-color: #0b1f61cc;
     transition: ease 0.4s;
     padding: 0;
-    overflow: hidden;
+    overflow: auto;
     border-bottom: 2px solid var(--light);
   }
   /*アクティブクラスがついたら位置を0に*/
