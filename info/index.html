@@ -45,6 +45,7 @@
         flex: 1;
         min-width: 250px;
         height: 100px;
+        overflow: hidden;
       }
       .flexChild i {
         display: block;
@@ -55,7 +56,7 @@
         overflow: hidden;
         line-height: 1;
         margin: 10px;
-        animation: 0.5s forwards fadein;
+        animation: fadein 1s ease-out forwards;
         transform: translateY(-100px);
       }
       @keyframes fadein {
