@@ -1,6 +1,6 @@
 #letter {
   margin-top: 100px;
-  background-color: #fcfafa;
+  background-color: #fdfbfb;
   color: #444444;
   border-radius: 20px;
   padding: 20px;
@@ -43,11 +43,11 @@ h2 {
 p {
   margin: 40px 0;
 }
-img{
+#letter img{
   width: min(500px, 100%);
   height: auto;
   border-radius: 15px;
-	margin: 40px 0;
+	margin: 20px 0;
 }
 .selif {
   width: 100%;
@@ -81,19 +81,20 @@ img{
   height: 0;
   border: 12px solid transparent;
   top: 10px;
-  left: -20px;
+  left: -22px;
   border-right-color: #f1f1f1;
 }
-.hosoku li::before {
-content: "*";
+.hosoku {
+	margin: 20px 0;
 }
 /*マスキングテープ風*/
 .profile{
-	background-color: #F6EEEC;
+	background-color: #f8f1ef;
 	padding: 25px 20px 20px;
 	position:relative;
 	margin-bottom: 15px;
 	border: 1px solid var(--light);
+	border-radius: 15px;
 }
 .profile::before {
 	content: "Directory";
