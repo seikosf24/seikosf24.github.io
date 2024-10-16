@@ -44,9 +44,14 @@
       .flexChild:hover {
         filter: brightness(80%);
       }
-      img {
+      .flexChild img {
         float: left;
         margin: 10px;
+      }
+      @media screen and (max-width: 600px) {
+        .flexChild img {
+          flex: none;
+        }
       }
     </style>
   </head>
