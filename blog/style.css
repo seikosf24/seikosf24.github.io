@@ -32,12 +32,9 @@ font-size: 2.1rem;
   font-size: 1.4rem;
   margin-bottom: 30px;
 }
-h2, h3 {
-  margin: 10px;
-  box-sizing: border-box;
-  padding: 5px;
-}
 h2 {
+  margin: 10px 0;
+  padding: 5px;
   background-color: #f4faff;
   border-left: 5px solid #58afff;
 }
@@ -79,10 +76,13 @@ img{
   position:absolute;
   width:0;
   height: 0;
-  border:0.8rem solid transparent;
+  border: 12px solid transparent;
   top: 10px;
-  left: -15px;
+  left: -20px;
   border-right-color: #f1f1f1;
+}
+.hosoku li::before {
+content: "*";
 }
 /*マスキングテープ風*/
 .profile{
