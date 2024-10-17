@@ -39,7 +39,7 @@ body {
   background-color: var(--light);
   background-image: url("./assets/text.svg");
   background-repeat: repeat;
-  background-size: 100%;
+  background-size: 600px 600px;
   transition: background-color ease 0.5s;
 }
 /*リンク色、下線を消す*/
