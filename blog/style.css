@@ -5,13 +5,15 @@
   color: #444444;
   border-radius: 20px;
   box-shadow: 0px 2px 20px silver;
+	display: flex;
+	flex-direction: row-reverse;
 }
 #main {
 width: calc(70% - 40px);
 	padding: 20px;
 }
 #aside {
-widtg: calc(30% - 41px);
+width: calc(30% - 41px);
 	padding: 20px;
 	border-left: 1px solid #444444;
 }
