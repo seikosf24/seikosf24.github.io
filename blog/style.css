@@ -15,7 +15,8 @@ width: calc(70% - 40px);
 #aside {
 width: calc(30% - 41px);
 	padding: 20px;
-	border-left: 1px solid #444444;
+	margin-top: 60px;
+	border-right: 1px solid #444444;
 }
 #channel {
   width: min(100%, 500px);
@@ -132,5 +133,6 @@ p {
 	}
 	#aside {
 		border: none;
+		border-top: 1px solid #444444;
 	}
 }
