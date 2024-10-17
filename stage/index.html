@@ -66,6 +66,8 @@
       #name div {
         width: 30%;
         text-align: center;
+        font-size: 2rem;
+        font-weight: bold;
 
       }
       .kikaku {
@@ -377,9 +379,9 @@
         let top = 300 * (Math.floor(start[i]) + (start[i] % 1) * 1.666) - 2685;
         let height = 300 * (Math.floor(long[i]) + (long[i] % 1) * 1.666) - 15;
         let left = (place[i] * 30) - 20;
-        children[i + 1].style.top = top + "px";
-        children[i + 1].style.height = height + "px";
-        children[i + 1].style.left = "calc(" + left + "% + 10px)";
+        children[i + 2].style.top = top + "px";
+        children[i + 2].style.height = height + "px";
+        children[i + 2].style.left = "calc(" + left + "% + 10px)";
       }
     </script>
     <script type="text/javascript" src="/script.js"></script>
