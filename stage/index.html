@@ -56,6 +56,18 @@
         width: 100%;
         overflow-x: auto;
       }
+      #name {
+        display: flex;
+        justify-content: right;
+        position: absolute;
+        top: -50px;
+        left: 0;
+      }
+      #name div {
+        width: 30%;
+        text-align: center;
+
+      }
       .kikaku {
         box-sizing: border-box;
         padding: 5px 10px;
@@ -116,6 +128,11 @@
       </div>
       <section class="container">
         <div id="flame">
+          <div id="name">
+            <div>講堂</div>
+            <div>音楽室</div>
+            <div>視聴覚室</div>
+          </div>
           <table>
             <tr>
               <td>9:00</td>
@@ -359,7 +376,7 @@
       for (let i = 0; i < start.length; i++) {
         let top = 300 * (Math.floor(start[i]) + (start[i] % 1) * 1.666) - 2685;
         let height = 300 * (Math.floor(long[i]) + (long[i] % 1) * 1.666) - 15;
-        let left = (place[i] * 30) + 10;
+        let left = (place[i] * 30) - 20;
         children[i + 1].style.top = top + "px";
         children[i + 1].style.height = height + "px";
         children[i + 1].style.left = "calc(" + left + "% + 10px)";
