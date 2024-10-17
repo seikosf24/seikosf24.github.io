@@ -52,8 +52,10 @@
         vertical-align: top;
       }
       #flame {
-        position: relative;
-        width: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: max(100%, 600px);
         overflow-x: auto;
       }
       #name {
@@ -74,7 +76,7 @@
         box-sizing: border-box;
         padding: 5px 10px;
         position: absolute;
-        width: calc(30% - 40px);
+        width: calc(30% - 20px);
         background-color: #222222cc;
         top: 0;
         border-radius: 10px;
@@ -128,14 +130,8 @@
         <div class="h1Back">STAGE</div>
         <h1 class="nohome">講堂企画</h1>
       </div>
-      <section class="container">
-        <div id="flame">
-          <div id="name">
-            <div>講堂</div>
-            <div>音楽室</div>
-            <div>視聴覚室</div>
-          </div>
-          <table>
+      <section class="container" style="position: relative;>
+        <table>
             <tr>
               <td>9:00</td>
             </tr>
@@ -158,6 +154,12 @@
               <td>15:00</td>
             </tr>
           </table>
+        <div id="flame">
+          <div id="name">
+            <div>講堂</div>
+            <div>音楽室</div>
+            <div>視聴覚室</div>
+          </div>
           <div class="kikaku"><a href="#d0">合唱コンクール</a></div>
           <div class="kikaku"><a href="#d1">合唱部</a></div>
           <div class="kikaku"><a href="#d2">漫才Ⅱ</a></div>
@@ -379,9 +381,9 @@
         let top = 300 * (Math.floor(start[i]) + (start[i] % 1) * 1.666) - 2685;
         let height = 300 * (Math.floor(long[i]) + (long[i] % 1) * 1.666) - 15;
         let left = (place[i] * 30) - 20;
-        children[i + 2].style.top = top + "px";
-        children[i + 2].style.height = height + "px";
-        children[i + 2].style.left = "calc(" + left + "% + 10px)";
+        children[i + 1].style.top = top + "px";
+        children[i + 1].style.height = height + "px";
+        children[i + 1].style.left = "calc(" + left + "% + 10px)";
       }
     </script>
     <script type="text/javascript" src="/script.js"></script>
