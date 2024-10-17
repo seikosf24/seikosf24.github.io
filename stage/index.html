@@ -154,6 +154,12 @@
           <div class="kikaku"><a href="#d12">石原慎也親衛隊EX.</a></div>
           <div class="kikaku"><a href="#d13">quiet fairies</a></div>
           <div class="kikaku"><a href="#d14">Les Misérables</a></div>
+          <div class="kikaku"><a href="#d15">吹奏楽部</a></div>
+          <div class="kikaku"><a href="#d16">小島松村ウルトラバンド</a></div>
+          <div class="kikaku"><a href="#d17">ESS部</a></div>
+          <div class="kikaku"><a href="#d17">ESS部</a></div>
+          <div class="kikaku"><a href="#d17">ESS部</a></div>
+          <div class="kikaku"><a href="#d17">ESS部</a></div>
 </div>
       </section>
       <section class="arrow">
@@ -311,15 +317,45 @@
           <h3>Les Misérables</h3>
           <p>ミュージカル「レ・ミゼラブル」を1時間弱にリメイクして、40人以上の有志で上演します。ぜひ見に来てください！</p>
         </div>
+        <div class="flexChild" id="d15">
+          <img
+          src="../assets/logo/v/LMS.png"
+          width="160"
+          height="160"
+          alt="icon"
+          />
+          <h3>吹奏楽部</h3>
+          <p>説明文</p>
+        </div>
+        <div class="flexChild" id="d16">
+          <img
+          src="../assets/logo/v/LMS.png"
+          width="160"
+          height="160"
+          alt="icon"
+          />
+          <h3>小島松村ウルトラバンド</h3>
+          <p>説明文</p>
+        </div>
+        <div class="flexChild" id="d17">
+          <img
+          src="../assets/logo/v/LMS.png"
+          width="160"
+          height="160"
+          alt="icon"
+          />
+          <h3>ESS部</h3>
+          <p>説明文</p>
+        </div>
       </section>
     </main>
     <footer></footer>
     <script>
       const container = document.getElementById("flame");
       const children = container.children;
-      const start = [9, 10.30, 11, 11.20, 11.35, 11.50, 12.05, 12.30, 12.40, 12.50, 13.10, 13.30, 13.45, 14.05, 14.20];
-      const long = [1.30, 0.15, 0.20, 0.15, 0.15, 0.15, 0.25, 0.10, 0.10, 0.20, 0.20, 0.15, 0.20, 0.15, 0.50];
-      const place = [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1];
+      const start = [9, 10.30, 11, 11.20, 11.35, 11.50, 12.05, 12.30, 12.40, 12.50, 13.10, 13.30, 13.45, 14.05, 14.20, 10.15, 12, 9.30, 11, 12.30, 14];
+      const long = [1.30, 0.15, 0.20, 0.15, 0.15, 0.15, 0.25, 0.10, 0.10, 0.20, 0.20, 0.15, 0.20, 0.15, 0.50, 0.30, 0.30, 0.30, 0.30, 0.30, 0.30];
+      const place = [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 2, 2, 3, 3, 3, 3];
       for (let i = 0; i < start.length; i++) {
         let top = 300 * (Math.floor(start[i]) + (start[i] % 1) * 1.666) - 2685;
         let height = 300 * (Math.floor(long[i]) + (long[i] % 1) * 1.666) - 15;
