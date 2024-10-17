@@ -15,7 +15,7 @@ width: calc(70% - 40px);
 }
 #aside {
 width: calc(30% - 41px);
-	margin: 40px 20px 0;
+	margin: 40px 10px 0;
 	padding: 40px 10px 80px;
 	border-right: 1px solid var(--shadow);
 }
