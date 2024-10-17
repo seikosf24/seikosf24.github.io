@@ -52,9 +52,7 @@
         vertical-align: top;
       }
       #flame {
-        position: absolute;
-        top: 0;
-        left: 0;
+        position: relative;
         width: max(100%, 600px);
         overflow-x: auto;
       }
@@ -130,7 +128,8 @@
         <div class="h1Back">STAGE</div>
         <h1 class="nohome">講堂企画</h1>
       </div>
-      <section class="container" style="position: relative;>
+      <section class="container">
+        <div id="flame">
         <table>
             <tr>
               <td>9:00</td>
@@ -154,7 +153,6 @@
               <td>15:00</td>
             </tr>
           </table>
-        <div id="flame">
           <div id="name">
             <div>講堂</div>
             <div>音楽室</div>
