@@ -81,7 +81,6 @@
         box-sizing: border-box;
         padding: 5px 10px;
         position: absolute;
-        width: calc(30% - 20px);
         background-color: #041462cc;
         top: 0;
         border-radius: 10px;
@@ -390,9 +389,11 @@
         let top = 300 * (Math.floor(start[i]) + (start[i] % 1) * 1.666) - 2685;
         let height = 300 * (Math.floor(long[i]) + (long[i] % 1) * 1.666) - 15;
         let left = (yoko * (place[i] * 0.3)) - 20;
+        let width = (yoko * 0.3) - 20;
         children[i + 1].style.top = top + "px";
         children[i + 1].style.height = height + "px";
         children[i + 1].style.left = left + "px";
+        children[i + 1].style.width = width + "px";
         document.getElementById("name").style.width = yoko;
       }
     </script>
