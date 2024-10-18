@@ -88,7 +88,7 @@
       }
       .kikaku:hover {
        transform: scale(0.95);
-        background-color: #222222aa;
+        background-color: #2a40ad99;
      }
       .kikaku a {
         color: var(--light);
@@ -388,7 +388,7 @@
       for (let i = 0; i < start.length; i++) {
         let top = 300 * (Math.floor(start[i]) + (start[i] % 1) * 1.666) - 2685;
         let height = 300 * (Math.floor(long[i]) + (long[i] % 1) * 1.666) - 15;
-        let left = (yoko * (place[i] * 0.3)) - 20;
+        let left = yoko * (place[i] * 0.3 - 0.1) + 10;
         let width = (yoko * 0.3) - 20;
         children[i + 1].style.top = top + "px";
         children[i + 1].style.height = height + "px";
