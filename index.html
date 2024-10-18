@@ -1,225 +1,230 @@
 <!DOCTYPE html>
 <html lang="ja">
-  <head>
-    <meta charset="utf-8" />
-    <title>2024年大阪星光学院SF(スクールフェア)「BE SEIKO」公式webサイト</title>
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, viewport-fit=cover, shrink-to-fit=no"
-    />
-    <meta
-      name="description"
-      content="2024年11月3日(日)に開催、大阪星光学院SF(スクールフェア)の公式webサイトです。'BE SEIKO'をテーマに、ミニゲームや軽食、バンドなどが盛りだくさんの特別な一日をお届けします。みんなが輝く星光の文化祭へぜひお越しください！"
-    />
-    <!-- favicon/webclipicon -->
-    <link rel="icon" href="/assets/icon/favicon.ico" />
-    <link rel="icon" href="/assets/icon/icon256.png" type="image/png" />
-    <link rel="apple-touch-icon" href="/assets/icon/icon180.png" />
-    <link rel="manifest" href="/manifest.json" />
-    <!-- ogp -->
-    <meta
-      property="og:site_name"
-      content="2024年大阪星光学院SF(スクールフェア)「BE SEIKO」公式webサイト"
-    />
-    <meta property="og:url" content="https://sf24.glitch.me/" />
-    <meta property="og:type" content="website" />
-    <meta
-      property="og:title"
-      content="2024年大阪星光学院SF(スクールフェア)「BE SEIKO」公式webサイト"
-    />
-    <meta
-      property="og:description"
-      content="2024年11月3日(日)に開催、大阪星光学院SF(スクールフェア)の公式webサイトです。'BE SEIKO'をテーマに、ミニゲームや軽食、バンドなどが盛りだくさんの特別な一日をお届けします。みんなが輝く星光の文化祭へぜひお越しください！"
-    />
-    <meta property="og:image" content="/assets/icon/banner.png" />
-    <meta property="og:locale" content="ja_JP" />
-    <link rel="stylesheet" href="/style.css" />
-    <link rel="preload" href="/images/snapshots/01.webp" as="image" />
-    <link rel="preload" as="font" href="/assets/Oswald-Regular.ttf" />
-    <style>
-      /*フォント読み込み*/
-      @font-face {
-  font-family: "Klee One";
-  src: url("/assets/KleeOne-Regular.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
-      /*メイン画像*/
-      .topImage {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100vw;
-        height: min(100vw, 100vh);
-        background-size: cover;
-        background-position: center;
-        transition: opacity ease 1s;
-        opacity: 0;
-      }
-      #topImage1 {
-        position: relative;
-        background-image: url("./images/snapshots/01.webp");
-        z-index: 27;
-        opacity: 1;
-      }
-      #topImage2 {
-        background-image: url("./images/snapshots/02.webp");
-        z-index: 28;
-      }
-      #topImage3 {
-        background-image: url("./images/snapshots/03.webp");
-        z-index: 29;
-      }
-      #topImage4 {
-        background-image: url("./images/snapshots/04.jpeg");
-        z-index: 30;
-      }
-      #topImage5 {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100vw;
-        height: min(100vw, 100vh);
-        z-index: 40;
-      }
-      #topImage5::before {
-        content: "";
-        position: absolute;
-        bottom: 0;
-        left: 0;
-        border-bottom: 25vw solid #006ad2aa;
-        border-right: 75vw solid transparent;
-        z-index: 45;
-      }
-      #topImage5::after {
-        content: "";
-        display: block;
-        position: absolute;
-        top: 0;
-        right: 0;
-        width: 100vw;
-        height: min(100vw, 100vh);
-        background-color: rgba(0, 0, 0, 0.1);
-        background-image: radial-gradient(#444 30%, transparent 31%),
-          radial-gradient(#444 30%, transparent 31%);
-        background-size: 2px 2px;
-        background-position: 0 0, 2px 2px;
-        z-index: 40;
-      }
-      h1.home {
-        line-height: 1.2;
-        font-weight: normal;
-        font-family: serif;
-        margin: 0;
-        position: absolute;
-        bottom: 5px;
-        left: 5px;
-        color: var(--light);
-        font-size: calc(5vw + 7px);
-        z-index: 100;
-        text-shadow: 3px 3px 4px var(--shadow);
-      }
-      h1.home span {
-        font-size: calc(7vw + 20px);
-      }
-      .fusen-m {
-        display: grid;
-        place-items: center;
-        height: 150px;
-      }
-      .fusen-2 {
-        display: inline-block;
-        position: relative;
-        padding: 10px;
-        background-color: #ffa;
-        color: var(--accent);
-        font-family: "Klee One", serif;
-        font-size: 2rem;
-        box-shadow: 0px 1px 1px var(--shadow);
-      }
-      .fusen-2::before {
-        position: absolute;
-        bottom: -2px;
-        right: -10px;
-        z-index: -1;
-        transform: rotate(5deg);
-        width: 100%;
-        height: 75%;
-        background-color: #c0c0c0;
-        content: "";
-        filter: blur(4px);
-      }
-      #colorText {
-        width: 36rem;
-        margin: 0 auto;
-        text-align: center;
-        font-size: 4rem;
-        font-weight: bold;
-        background-origin: border-box;
-        background-size: 36rem auto;
-        background-repeat: no-repeat;
-        background-image: url("./assets/bg.webp");
-        background-position: 70%;
-        background-clip: text;
-        color: transparent;
-        line-height: 1.2;
-      }
-      #colorText span {
-        font-size: 10rem;
-        font-family: "oswald", sans-serif;
-      }
-      #pamphlet {
-        width: 100px;
-        height: 40px;
-        padding: 30px 0;
-        box-shadow: 2px 2px 15px var(--shadow);
-        border: 2px solid var(--light);
-        border-radius: 50%;
-        position: fixed;
-        bottom: 25px;
-        right: max(25px, calc(50vw - 625px));
-        font-size: 1rem;
-        color: var(--light);
-        background-color: #ed5205;
-        cursor: pointor;
-        transition: all 0.4s ease;
-        text-align: center;
-        font-weight: bold;
-      }
-      #pamphlet:hover {
-        transform: scale(0.9);
-      }
-    </style>
-  </head>
-  <body>
-    <header>
-      <div id="openbtn"><span></span><span></span><span></span></div>
-      <div id="g-nav">
-        <ul>
-          <li><a href="#">HOME</a></li>
-          <li><a href="./info">INFO</a></li>
-          <li><a href="./booth">BOOTH</a></li>
-          <li><a href="./stage">STAGE</a></li>
-          <li><a href="./blog">BLOG</a></li>
-          <li><a href="./maps">MAPS</a></li>
-        </ul>
-      </div>
-    </header>
-    <div class="topImage" id="topImage1"></div>
-    <div class="topImage" id="topImage2"></div>
-    <div class="topImage" id="topImage3"></div>
-    <div class="topImage" id="topImage4"></div>
-    <div id="topImage5">
-      <h1 class="home">
-        <span>“BE SEIKO”</span><br />Osaka Seiko Gakuin SF 2024
-      </h1>
+
+<head>
+  <meta charset="utf-8" />
+  <title>2024年大阪星光学院SF(スクールフェア)「BE SEIKO」公式webサイト</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, shrink-to-fit=no" />
+  <meta name="description"
+    content="2024年11月3日(日)に開催、大阪星光学院SF(スクールフェア)の公式webサイトです。'BE SEIKO'をテーマに、ミニゲームや軽食、バンドなどが盛りだくさんの特別な一日をお届けします。みんなが輝く星光の文化祭へぜひお越しください！" />
+  <!-- favicon/webclipicon -->
+  <link rel="icon" href="/assets/icon/favicon.ico" />
+  <link rel="icon" href="/assets/icon/icon256.png" type="image/png" />
+  <link rel="apple-touch-icon" href="/assets/icon/icon180.png" />
+  <link rel="manifest" href="/manifest.json" />
+  <!-- ogp -->
+  <meta property="og:site_name" content="2024年大阪星光学院SF(スクールフェア)「BE SEIKO」公式webサイト" />
+  <meta property="og:url" content="https://sf24.glitch.me/" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="2024年大阪星光学院SF(スクールフェア)「BE SEIKO」公式webサイト" />
+  <meta property="og:description"
+    content="2024年11月3日(日)に開催、大阪星光学院SF(スクールフェア)の公式webサイトです。'BE SEIKO'をテーマに、ミニゲームや軽食、バンドなどが盛りだくさんの特別な一日をお届けします。みんなが輝く星光の文化祭へぜひお越しください！" />
+  <meta property="og:image" content="/assets/icon/banner.png" />
+  <meta property="og:locale" content="ja_JP" />
+  <link rel="stylesheet" href="/style.css" />
+  <link rel="preload" href="/images/snapshots/01.webp" as="image" />
+  <link rel="preload" as="font" href="/assets/Oswald-Regular.ttf" />
+  <style>
+    /*フォント読み込み*/
+    @font-face {
+      font-family: "Klee One";
+      src: url("/assets/KleeOne-Regular.ttf") format("truetype");
+      font-weight: normal;
+      font-style: normal;
+      font-display: swap;
+    }
+
+    /*メイン画像*/
+    .topImage {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100vw;
+      height: min(100vw, 100vh);
+      background-size: cover;
+      background-position: center;
+      transition: opacity ease 1s;
+      opacity: 0;
+    }
+
+    #topImage1 {
+      position: relative;
+      background-image: url("./images/snapshots/01.webp");
+      z-index: 27;
+      opacity: 1;
+    }
+
+    #topImage2 {
+      background-image: url("./images/snapshots/02.webp");
+      z-index: 28;
+    }
+
+    #topImage3 {
+      background-image: url("./images/snapshots/03.webp");
+      z-index: 29;
+    }
+
+    #topImage4 {
+      background-image: url("./images/snapshots/04.jpeg");
+      z-index: 30;
+    }
+
+    #topImage5 {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100vw;
+      height: min(100vw, 100vh);
+      z-index: 40;
+    }
+
+    #topImage5::before {
+      content: "";
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      border-bottom: 25vw solid #006ad2aa;
+      border-right: 75vw solid transparent;
+      z-index: 45;
+    }
+
+    #topImage5::after {
+      content: "";
+      display: block;
+      position: absolute;
+      top: 0;
+      right: 0;
+      width: 100vw;
+      height: min(100vw, 100vh);
+      background-color: rgba(0, 0, 0, 0.1);
+      background-image: radial-gradient(#444 30%, transparent 31%),
+        radial-gradient(#444 30%, transparent 31%);
+      background-size: 2px 2px;
+      background-position: 0 0, 2px 2px;
+      z-index: 40;
+    }
+
+    h1.home {
+      line-height: 1.2;
+      font-weight: normal;
+      font-family: serif;
+      margin: 0;
+      position: absolute;
+      bottom: 5px;
+      left: 5px;
+      color: var(--light);
+      font-size: calc(5vw + 7px);
+      z-index: 100;
+      text-shadow: 3px 3px 4px var(--shadow);
+    }
+
+    h1.home span {
+      font-size: calc(7vw + 20px);
+    }
+
+    .fusen-m {
+      display: grid;
+      place-items: center;
+      height: 150px;
+    }
+
+    .fusen-2 {
+      display: inline-block;
+      position: relative;
+      padding: 10px;
+      background-color: #ffa;
+      color: var(--accent);
+      font-family: "Klee One", serif;
+      font-size: 2rem;
+      box-shadow: 0px 1px 1px var(--shadow);
+    }
+
+    .fusen-2::before {
+      position: absolute;
+      bottom: -2px;
+      right: -10px;
+      z-index: -1;
+      transform: rotate(5deg);
+      width: 100%;
+      height: 75%;
+      background-color: #c0c0c0;
+      content: "";
+      filter: blur(4px);
+    }
+
+    #colorText {
+      width: 36rem;
+      margin: 0 auto;
+      text-align: center;
+      font-size: 4rem;
+      font-weight: bold;
+      background-origin: border-box;
+      background-size: 36rem auto;
+      background-repeat: no-repeat;
+      background-image: url("./assets/bg.webp");
+      background-position: 70%;
+      background-clip: text;
+      color: transparent;
+      line-height: 1.2;
+    }
+
+    #colorText span {
+      font-size: 10rem;
+      font-family: "oswald", sans-serif;
+    }
+
+    #pamphlet {
+      width: 100px;
+      height: 40px;
+      padding: 30px 0;
+      box-shadow: 2px 2px 15px var(--shadow);
+      border: 2px solid var(--light);
+      border-radius: 50%;
+      position: fixed;
+      bottom: 25px;
+      right: max(25px, calc(50vw - 625px));
+      font-size: 1rem;
+      color: var(--light);
+      background-color: #ed5205;
+      cursor: pointor;
+      transition: all 0.4s ease;
+      text-align: center;
+      font-weight: bold;
+    }
+
+    #pamphlet:hover {
+      transform: scale(0.9);
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <div id="openbtn"><span></span><span></span><span></span></div>
+    <div id="g-nav">
+      <ul>
+        <li><a href="#">HOME</a></li>
+        <li><a href="./info">INFO</a></li>
+        <li><a href="./booth">BOOTH</a></li>
+        <li><a href="./stage">STAGE</a></li>
+        <li><a href="./blog">BLOG</a></li>
+        <li><a href="./maps">MAPS</a></li>
+      </ul>
     </div>
-    <div
-      ><a id="cc1" class="tops" style="color: var(--light)"  href="#">BE SEIKO</a></div
-    >
-    <div id="headerBlack" class="tops"></div>
-    <main class="arrow">
+  </header>
+  <div class="topImage" id="topImage1"></div>
+  <div class="topImage" id="topImage2"></div>
+  <div class="topImage" id="topImage3"></div>
+  <div class="topImage" id="topImage4"></div>
+  <div id="topImage5">
+    <h1 class="home">
+      <span>“BE SEIKO”</span><br />Osaka Seiko Gakuin SF 2024
+    </h1>
+  </div>
+  <div><a id="cc1" class="tops" style="color: var(--light)" href="#">BE SEIKO</a></div>
+  <div id="headerBlack" class="tops"></div>
+  <main class="arrow">
+    <div class="infoflex">
       <div class="fusen-m">
         <div class="fusen-2">
           2024年11月3日(日)<br>
@@ -230,7 +235,8 @@
       <figure id="colorText">
         <p>あと<span id="countDown">???</span>日</p>
       </figure>
-     <!-- <section>
+    </div>
+    <!-- <section>
         <h2>LATEST NEWS</h2>
         <table class="news">
           <tbody>
@@ -256,232 +262,220 @@
           </tfoot>
         </table>
       </section> -->
-      <section class="infoflex">
-        <a href="./info" class="info"> 開催情報はこちら </a>
-        <a href="./booth" class="info"> 各出し物はこちら </a>
-      </section>
-      <section>
-        <h2 id="colorChange">INTRODUCTION</h2>
-        <div class="flexChild message">
+    <section class="infoflex">
+      <a href="./info" class="info"> 開催情報はこちら </a>
+      <a href="./booth" class="info"> 各出し物はこちら </a>
+    </section>
+    <section>
+      <h2 id="colorChange">INTRODUCTION</h2>
+      <div class="flexChild message">
+        <p>
+          今年度SF運営委員長を務めさせていただいている武部光希と申します。<br>
+          2024年、辛いことや不安なことがいろいろありました。だからこそ、SFの間ぐらいは、SFのことを思い出す時ぐらいは、あなたに、笑顔になって欲しいんです！<br>
+          来ていただく方に楽しんでもらいたい。面白いものを作りたい。そんな思いで星光らしく楽しみながら準備しています。<br>
+          圧倒的熱量のSF2024が始まります。
+        </p>
+        <div>
           <p>
-            今年度SF運営委員長を務めさせていただいている武部光希と申します。<br>
-            2024年、辛いことや不安なことがいろいろありました。だからこそ、SFの間ぐらいは、SFのことを思い出す時ぐらいは、あなたに、笑顔になって欲しいんです！<br>
-            来ていただく方に楽しんでもらいたい。面白いものを作りたい。そんな思いで星光らしく楽しみながら準備しています。<br>
-            圧倒的熱量のSF2024が始まります。
+            10月3日<br />
+            2024年　SF運営委員長　武部光希
           </p>
-          <div>
-            <p>
-              10月3日<br />
-              2024年　SF運営委員長　武部光希
-            </p>
-          </div>
-          <br>
+        </div>
+        <br>
+        <p>
+          SF2024運営副委員長を務めさせていただいている田井健太郎です。<br>
+          星光生はSFに対する熱量が凄まじく、今年度もご来場になる方々に星光らしさを最大限感じてもらえるような企画を試行錯誤しながら準備しています。<br>
+          生徒たちの遊び心が詰まったSFを是非お楽しみください。
+        </p>
+        <div>
           <p>
-            SF2024運営副委員長を務めさせていただいている田井健太郎です。<br>
-            星光生はSFに対する熱量が凄まじく、今年度もご来場になる方々に星光らしさを最大限感じてもらえるような企画を試行錯誤しながら準備しています。<br>
-            生徒たちの遊び心が詰まったSFを是非お楽しみください。
+            10月13日<br />
+            2024年　SF運営副委員長　田井健太郎
           </p>
-          <div>
-            <p>
-              10月13日<br />
-              2024年　SF運営副委員長　田井健太郎
-            </p>
-          </div>
-          <br>
-          <p>
-            本日は大阪星光学院スクールフェアにご来場いただき誠にありがとうございます。スクールフェア委員長の松本拓也と申します。<br>
-            スクールフェアは１年間の中で最も生き生きとした星光生の姿が見られる行事となっております。これから「世の光」にならんとする生徒たちの温かさや輝き，本校の校風をたくさん感じ取っていただければ幸いです。<br>
-            さて，今年は昨年度の大規模開催復活に続いて，来場者数の制限もコロナ禍以前と同様の形に戻すことができました。生徒たちによってさらに「星光らしく」磨き上げられた，新しい風が吹くスクールフェアをぜひお楽しみ下さい。
+        </div>
+        <br>
+        <p>
+          本日は大阪星光学院スクールフェアにご来場いただき誠にありがとうございます。スクールフェア委員長の松本拓也と申します。<br>
+          スクールフェアは１年間の中で最も生き生きとした星光生の姿が見られる行事となっております。これから「世の光」にならんとする生徒たちの温かさや輝き，本校の校風をたくさん感じ取っていただければ幸いです。<br>
+          さて，今年は昨年度の大規模開催復活に続いて，来場者数の制限もコロナ禍以前と同様の形に戻すことができました。生徒たちによってさらに「星光らしく」磨き上げられた，新しい風が吹くスクールフェアをぜひお楽しみ下さい。
 
-          </p>
-          <div>
-            <p>
-              10月17日<br />
-              2024年　スクールフェア委員長　松本拓也 先生
-            </p>
-          </div>
-        </div>
-      </section>
-      <section class="container light">
-        <div class="cells">
-          <h2>What is "SF"?</h2>
-          <img
-            src="./images/snapshots/08.webp"
-            alt="sf1"
-            width="320"
-            height="240"
-            class="cellsImage ap"
-            loading="lazy"
-          />
-        </div>
-        <div class="cells flexChild">
+        </p>
+        <div>
           <p>
-            スクールフェア略してSFは大阪星光学院のいわゆる文化祭であり星光生がかなりガチになる行事である。<br>
-            毎年、定番の射的ゲームや食品の販売など様々なブースが準備されており、企画によっては1月から準備するものもある。<br>
-            ここ最近では木材を使った大型企画や有名ミュージカル作品を再現した演劇など、大掛かりな企画が多く見られる。<br>
-            それほどの情熱が注がれたSFが楽しくないわけないだろう。
+            10月17日<br />
+            2024年　スクールフェア委員長　松本拓也 先生
           </p>
         </div>
-      </section>
-      <section class="container light">
-        <div class="cells">
-          <h2>What is "Seiko"?</h2>
-          <img
-            src="./images/snapshots/03.webp"
-            alt="seiko"
-            width="320"
-            height="240"
-            class="cellsImage ap"
-            loading="lazy"
-          />
-        </div>
-        <div class="cells flexChild">
-          <p>
-            大阪星光学院は「世の光であれ」を校訓に約1000人の学生が共に学ぶ学舎(まなびや)である。<br>
-            南部合宿や黒姫山荘合宿を通じて一つ屋根の下で生活するため学生たちの絆は卒業後も強い。<br>
-            また男子校ということもあってか体育祭やSFなど、行事の時のエネルギーは凄まじい。<br>
-            先生方との距離も近く、生徒が気さくに話しかけることができる。先生方も行事には全力で取り組んでおり、生徒と同様に盛り上がっている様子が多く見られる。
-          </p>
-        </div>
-      </section>
-    </main>
-   <!-- <div id="pamphlet">
+      </div>
+    </section>
+    <section class="container light">
+      <div class="cells">
+        <h2>What is "SF"?</h2>
+        <img src="./images/snapshots/08.webp" alt="sf1" width="320" height="240" class="cellsImage ap" loading="lazy" />
+      </div>
+      <div class="cells flexChild">
+        <p>
+          スクールフェア略してSFは大阪星光学院のいわゆる文化祭であり星光生がかなりガチになる行事である。<br>
+          毎年、定番の射的ゲームや食品の販売など様々なブースが準備されており、企画によっては1月から準備するものもある。<br>
+          ここ最近では木材を使った大型企画や有名ミュージカル作品を再現した演劇など、大掛かりな企画が多く見られる。<br>
+          それほどの情熱が注がれたSFが楽しくないわけないだろう。
+        </p>
+      </div>
+    </section>
+    <section class="container light">
+      <div class="cells">
+        <h2>What is "Seiko"?</h2>
+        <img src="./images/snapshots/03.webp" alt="seiko" width="320" height="240" class="cellsImage ap"
+          loading="lazy" />
+      </div>
+      <div class="cells flexChild">
+        <p>
+          大阪星光学院は「世の光であれ」を校訓に約1000人の学生が共に学ぶ学舎(まなびや)である。<br>
+          南部合宿や黒姫山荘合宿を通じて一つ屋根の下で生活するため学生たちの絆は卒業後も強い。<br>
+          また男子校ということもあってか体育祭やSFなど、行事の時のエネルギーは凄まじい。<br>
+          先生方との距離も近く、生徒が気さくに話しかけることができる。先生方も行事には全力で取り組んでおり、生徒と同様に盛り上がっている様子が多く見られる。
+        </p>
+      </div>
+    </section>
+  </main>
+  <!-- <div id="pamphlet">
       パンフレットの<br>
       ダウンロードは<br>
       こちらから
     </div> -->
-    <footer></footer>
-    <script>
-      //手作りスライドショー(ガチで時間かかった)
-      let topImage = 0;
-      let t2 = document.getElementById("topImage2");
-      let t3 = document.getElementById("topImage3");
-      let t4 = document.getElementById("topImage4");
-      window.addEventListener("load", function () {
-        setInterval(function () {
-          topImage++;
-          if (topImage % 8 == 1) {
-            t2.style.opacity = 1;
-          }
-          if (topImage % 8 == 4) {
-            t2.style.opacity = 0;
-          }
-          if (topImage % 8 == 3) {
-            t3.style.opacity = 1;
-          }
-          if (topImage % 8 == 6) {
-            t3.style.opacity = 0;
-          }
-          if (topImage % 8 == 5) {
-            t4.style.opacity = 1;
-          }
-          if (topImage % 8 == 7) {
-            t4.style.opacity = 0;
-          }
-        }, 1500);
-      });
-      //Seikoの左上のやつ
-      let a = document.getElementById("cc1");
-      window.addEventListener("scroll", function () {
-        let h1 = t2.offsetHeight - 50;
-        let c = document.documentElement.scrollTop || document.body.scrollTop;
-        if (c < h1) {
-          a.style.color = "var(--light)";
-        } else {
-          a.style.color = "var(--dark)";
+  <footer></footer>
+  <script>
+    //手作りスライドショー(ガチで時間かかった)
+    let topImage = 0;
+    let t2 = document.getElementById("topImage2");
+    let t3 = document.getElementById("topImage3");
+    let t4 = document.getElementById("topImage4");
+    window.addEventListener("load", function () {
+      setInterval(function () {
+        topImage++;
+        if (topImage % 8 == 1) {
+          t2.style.opacity = 1;
         }
-      });
-
-      //背景変色
-      //高さで表示非表示
-      function backShift() {
-        let clientRect = document
-          .getElementById("colorChange")
-          .getBoundingClientRect();
-        if (clientRect.top < 0) {
-          document.body.style.backgroundColor = "var(--dark)";
-        } else {
-          document.body.style.backgroundColor = "var(--light)";
+        if (topImage % 8 == 4) {
+          t2.style.opacity = 0;
         }
+        if (topImage % 8 == 3) {
+          t3.style.opacity = 1;
+        }
+        if (topImage % 8 == 6) {
+          t3.style.opacity = 0;
+        }
+        if (topImage % 8 == 5) {
+          t4.style.opacity = 1;
+        }
+        if (topImage % 8 == 7) {
+          t4.style.opacity = 0;
+        }
+      }, 1500);
+    });
+    //Seikoの左上のやつ
+    let a = document.getElementById("cc1");
+    window.addEventListener("scroll", function () {
+      let h1 = t2.offsetHeight - 50;
+      let c = document.documentElement.scrollTop || document.body.scrollTop;
+      if (c < h1) {
+        a.style.color = "var(--light)";
+      } else {
+        a.style.color = "var(--dark)";
       }
-      window.addEventListener("scroll", function () {
-        backShift();
-      });
-      backShift;
+    });
 
-      //写真表示
-      let oElements = document.getElementsByClassName("cellsImage");
-      window.addEventListener("scroll", function () {
-        ap();
-      });
+    //背景変色
+    //高さで表示非表示
+    function backShift() {
+      let clientRect = document
+        .getElementById("colorChange")
+        .getBoundingClientRect();
+      if (clientRect.top < 0) {
+        document.body.style.backgroundColor = "var(--dark)";
+      } else {
+        document.body.style.backgroundColor = "var(--light)";
+      }
+    }
+    window.addEventListener("scroll", function () {
+      backShift();
+    });
+    backShift;
+
+    //写真表示
+    let oElements = document.getElementsByClassName("cellsImage");
+    window.addEventListener("scroll", function () {
       ap();
-      function ap() {
-        for (let i = 0; i < oElements.length; i++) {
-          var tag = oElements[i];
-          var scr = tag.getBoundingClientRect();
-          var y = window.innerHeight - scr.top;
-          if (y < window.innerHeight * 0.3) {
-            tag.classList.add("ap");
-          } else {
-            tag.classList.remove("ap");
-          }
+    });
+    ap();
+    function ap() {
+      for (let i = 0; i < oElements.length; i++) {
+        var tag = oElements[i];
+        var scr = tag.getBoundingClientRect();
+        var y = window.innerHeight - scr.top;
+        if (y < window.innerHeight * 0.3) {
+          tag.classList.add("ap");
+        } else {
+          tag.classList.remove("ap");
         }
       }
-      //カウントダウン
-      let CD = document.getElementById("countDown");
-      // 現在の「曜日 月 日 年 時 分 秒」を取得
-      let nowDate = new Date();
-      let tYear = nowDate.getFullYear();
-      let tMonth = nowDate.getMonth();
-      let tDate = nowDate.getDate();
-      let now = new Date(tYear, tMonth, tDate).getTime();
+    }
+    //カウントダウン
+    let CD = document.getElementById("countDown");
+    // 現在の「曜日 月 日 年 時 分 秒」を取得
+    let nowDate = new Date();
+    let tYear = nowDate.getFullYear();
+    let tMonth = nowDate.getMonth();
+    let tDate = nowDate.getDate();
+    let now = new Date(tYear, tMonth, tDate).getTime();
 
-      // 指定月日の年を指定
-      let nYear = tYear;
-      let nMonth = 11 - 1;
-      let nDate = 3;
-      let nTarget = new Date(nYear, nMonth, nDate).getTime();
+    // 指定月日の年を指定
+    let nYear = tYear;
+    let nMonth = 11 - 1;
+    let nDate = 3;
+    let nTarget = new Date(nYear, nMonth, nDate).getTime();
 
-      let diffDate = nTarget - now;
-      // 指定日までの日数 = 指定月日までのミリ秒 / ( 1000 * 60秒 * 60分 * 24時間 )
-      let date = Math.floor(diffDate / (1000 * 60 * 60 * 24));
-      CD.innerHTML = date;
-      //ここまで
+    let diffDate = nTarget - now;
+    // 指定日までの日数 = 指定月日までのミリ秒 / ( 1000 * 60秒 * 60分 * 24時間 )
+    let date = Math.floor(diffDate / (1000 * 60 * 60 * 24));
+    CD.innerHTML = date;
+    //ここまで
 
-      let colorText = document.getElementById("colorText");
-      window.addEventListener("scroll", function () {
-        changeBG();
-      });
-      function changeBG() {
-        let div_rect = colorText.getBoundingClientRect().bottom;
-        let per = div_rect / (window.innerHeight + 100);
-        if (per > 0 && per < 1) {
-          let abc = "50% " + per * 100 + "%";
-          colorText.style.backgroundPosition = abc;
-        }
-      }
+    let colorText = document.getElementById("colorText");
+    window.addEventListener("scroll", function () {
       changeBG();
-      
-      //ここからお知らせノやつ表示する
-      const loadNews = ()=>{
-        const newsdata = fetch("/api/articles")
-        var content = ""
-        for(var i = 0; i<3; i++){
-          if(!newsdata[i]){
-            continue
-          }
-          date = newsdata[i].date
-          title = newsdata[i].title
-          location = newsdata[i].location
-          content += `
+    });
+    function changeBG() {
+      let div_rect = colorText.getBoundingClientRect().bottom;
+      let per = div_rect / (window.innerHeight + 100);
+      if (per > 0 && per < 1) {
+        let abc = "50% " + per * 100 + "%";
+        colorText.style.backgroundPosition = abc;
+      }
+    }
+    changeBG();
+
+    //ここからお知らせノやつ表示する
+    const loadNews = () => {
+      const newsdata = fetch("/api/articles")
+      var content = ""
+      for (var i = 0; i < 3; i++) {
+        if (!newsdata[i]) {
+          continue
+        }
+        date = newsdata[i].date
+        title = newsdata[i].title
+        location = newsdata[i].location
+        content += `
             <tr>
               <td>${date}</td>
               <td><a href="${location}">${title}</a></td>
             </tr>
           `
-        }
       }
-    </script>
-    <script type="text/javascript" src="./script.js" defer></script>
-  </body>
+    }
+  </script>
+  <script type="text/javascript" src="./script.js" defer></script>
+</body>
+
 </html>
