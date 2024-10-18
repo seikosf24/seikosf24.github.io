@@ -70,6 +70,7 @@
         font-weight: bold;
       }
       #column {
+        width: 100%;
         overflow-x: auto;
         position: absolute;
         top: 0;
@@ -390,7 +391,7 @@
         let left = (yoko * (place[i] * 0.3)) - 20;
         children[i + 1].style.top = top + "px";
         children[i + 1].style.height = height + "px";
-        children[i + 1].style.left = yoko + "px";
+        children[i + 1].style.left = left + "px";
         document.getElementById("name").style.width = yoko;
       }
     </script>
