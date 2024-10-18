@@ -16,8 +16,6 @@
 }
 
 #aside {
-  position: sticky;
-  top: 70px;
   width: calc(30% - 41px);
   margin: 40px 10px 0;
   padding: 40px 10px 80px;
@@ -156,7 +154,6 @@ p {
   }
 
   #aside {
-    position: static;
     border: none;
     border-top: 1px solid #444444;
   }
