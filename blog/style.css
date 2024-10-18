@@ -17,7 +17,7 @@ width: calc(70% - 40px);
 width: calc(30% - 41px);
 	margin: 40px 10px 0;
 	padding: 40px 10px 80px;
-	border-right: 1px solid var(--shadow);
+	border-right: 1px solid #444444;
 }
 #channel {
   width: min(100%, 500px);
@@ -134,6 +134,6 @@ p {
 	}
 	#aside {
 		border: none;
-		border-top: 1px solid var(--shadow);
+		border-top: 1px solid #444444;
 	}
 }
