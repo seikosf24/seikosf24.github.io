@@ -270,7 +270,7 @@ const dataset = [
     s: "けん玉教室;けんだまきょうしつ;kendamakyousitu;",
     l: "b/KDD",
   },
-  { f: 3, d: "Round-A", i: "M2A", s: "round-a;rounda;", l: "c/M2A" },
+  { f: 3, d: "Round-2A", i: "M2A", s: "round-a;rounda;", l: "c/M2A" },
   {
     f: 3,
     d: "ご注文は射的ですか？",
@@ -445,6 +445,14 @@ const notedata = {
     "毎年恒例のチャリティバザー＆星光グッズ販売を行います。僕たちの星光での成長をみてください。",
     "中学一年",
     "M1C",
+  ],
+  M2A:[
+    "c/M2A",
+    "ROUND 2-A",
+    "中二A教室",
+    "ボウリングと射的が一度に楽しめる！参加賞もあるので是非来てください！",
+    "中学二年A組",
+    "M2A"
   ],
   M2B: [
     "c/M2B",
