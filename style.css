@@ -403,6 +403,9 @@ footer {
   display: block;
   padding: 15px;
   color: var(--dark);
+  text-decoration: none;
+}
+#footerLink a {
   text-decoration: underline;
 }
 /*フッターの大きい文字*/
