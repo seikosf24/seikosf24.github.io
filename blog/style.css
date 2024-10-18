@@ -1,30 +1,36 @@
 #letter {
-	max-width: 1000px;
+  max-width: 1000px;
   margin: 100px auto 50px;
   background-color: #fdfbfb;
   color: #444444;
   border-radius: 20px;
   box-shadow: 0px 2px 20px silver;
-	display: flex;
-	flex-direction: row-reverse;
-	align-items: flex-start;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: flex-start;
 }
+
 #main {
-width: calc(70% - 40px);
-	padding: 20px;
+  width: calc(70% - 40px);
+  padding: 20px;
 }
+
 #aside {
-width: calc(30% - 41px);
-	margin: 40px 10px 0;
-	padding: 40px 10px 80px;
-	border-right: 1px solid #444444;
+  position: sticky;
+  top: 70px;
+  width: calc(30% - 41px);
+  margin: 40px 10px 0;
+  padding: 40px 10px 80px;
+  border-right: 1px solid #444444;
 }
+
 #channel {
   width: min(100%, 500px);
   margin: 0 auto;
   border-bottom: 1px solid #444444;
   display: flex;
 }
+
 #channel a {
   text-align: center;
   color: #555588;
@@ -32,45 +38,55 @@ width: calc(30% - 41px);
   width: 33%;
   margin: 5px 0;
 }
+
 #channel a:nth-child(2) {
   border-left: 1px solid #444444;
   border-right: 1px solid #444444;
 }
+
 /* 本文装飾 */
 h1 {
-font-size: 2.2rem;
+  font-size: 2.2rem;
   margin: 20px 0;
 }
-#date, #tag{
+
+#date,
+#tag {
   font-size: 1.4rem;
 }
+
 #tag {
-margin-bottom: 30px;
-	color: var(--dark);
+  margin-bottom: 30px;
+  color: var(--dark);
 }
+
 h2 {
   margin: 10px 0;
   padding: 5px;
   background-color: #f4faff;
   border-left: 5px solid #58afff;
-	font-size: 2.2rem;
-	font-weight: normal;
+  font-size: 2.2rem;
+  font-weight: normal;
 }
+
 p {
   margin: 40px 0;
 }
-#letter img{
+
+#letter img {
   width: min(400px, 100%);
   height: auto;
   border-radius: 15px;
-	margin: 20px 0;
+  margin: 20px 0;
 }
+
 .selif {
   width: 100%;
   margin-bottom: 20px;
   display: flex;
   gap: 20px;
 }
+
 .selifIcon {
   width: 50px;
   height: 50px;
@@ -82,6 +98,7 @@ p {
   background-color: teal;
   border-radius: 25px;
 }
+
 .selifText {
   position: relative;
   max-width: calc(100% - 80px);
@@ -90,50 +107,57 @@ p {
   background-color: #f1f1f1;
   flex: 1;
 }
+
 .selifText::before {
   content: "";
-  position:absolute;
-  width:0;
+  position: absolute;
+  width: 0;
   height: 0;
   border: 12px solid transparent;
   top: 10px;
   left: -22px;
   border-right-color: #f1f1f1;
 }
+
 /*マスキングテープ風*/
-.profile{
-	background-color: #fcf3f0;
-	padding: 35px 20px 20px;
-	position:relative;
-	margin-bottom: 30px 0;
-	border: 1px solid #ddbbbb;
-	border-radius: 15px;
+.profile {
+  background-color: #fcf3f0;
+  padding: 35px 20px 20px;
+  position: relative;
+  margin-bottom: 30px 0;
+  border: 1px solid #ddbbbb;
+  border-radius: 15px;
 }
+
 .profile::before {
-	content: "Profile";
-	background-image: repeating-linear-gradient(-45deg,#F6EEEC 0, #F6EEEC 3px,#fafafa 3px,#fafafa 6px);
-	border-left: 2px dotted rgba(0,0,0,.1);
-	border-right: 2px dotted rgba(0,0,0,.1);
-	transform: rotate(-2deg);
-	font-size: 2rem;
-	font-weight: bold;
-	padding: 10px 20px;
-	line-height: 1;
-	position:absolute;
-	top: -15px;
-	left: 20px;
-	box-shadow: 1px 1px 2px var(--shadow);
+  content: "Profile";
+  background-image: repeating-linear-gradient(-45deg, #F6EEEC 0, #F6EEEC 3px, #fafafa 3px, #fafafa 6px);
+  border-left: 2px dotted rgba(0, 0, 0, .1);
+  border-right: 2px dotted rgba(0, 0, 0, .1);
+  transform: rotate(-2deg);
+  font-size: 2rem;
+  font-weight: bold;
+  padding: 10px 20px;
+  line-height: 1;
+  position: absolute;
+  top: -15px;
+  left: 20px;
+  box-shadow: 1px 1px 2px var(--shadow);
 }
 
 @media screen and (max-width: 700px) {
-	#letter {
-		display: block;
-	}
-	#main, #aside {
-		width: calc(100% - 40px);
-	}
-	#aside {
-		border: none;
-		border-top: 1px solid #444444;
-	}
+  #letter {
+    display: block;
+  }
+
+  #main,
+  #aside {
+    width: calc(100% - 40px);
+  }
+
+  #aside {
+    position: static;
+    border: none;
+    border-top: 1px solid #444444;
+  }
 }
