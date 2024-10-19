@@ -41,6 +41,7 @@ footer.innerHTML =
          alt="SF 2024 Official Icon"
            width="192"
          height=192"
+         loading="lazy"
          style="margin: 15px;"
         >
       </div>
