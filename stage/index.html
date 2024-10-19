@@ -42,6 +42,7 @@
     }
 
     #flame {
+      padding-top: 30px;
       position: relative;
       width: 100%;
     }
@@ -50,7 +51,7 @@
       display: flex;
       justify-content: right;
       position: relative;
-      top: 0;
+      top: -30px;
       left: 0;
     }
 
@@ -317,7 +318,7 @@
       const long = [1.30, 0.15, 0.20, 0.15, 0.15, 0.15, 0.25, 0.10, 0.10, 0.20, 0.20, 0.15, 0.20, 0.15, 0.50, 0.30, 0.30, 0.30, 0.40, 0.40, 0.40, 0.40];
       const place = [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 2, 2, 2, 3, 3, 3, 3];
       for (let i = 0; i < start.length; i++) {
-        let top = 300 * (Math.floor(start[i]) + (start[i] % 1) * (5 / 3)) - 2695;
+        let top = 300 * (Math.floor(start[i]) + (start[i] % 1) * (5 / 3)) - 2695 + 30;
         let height = 300 * (Math.floor(long[i]) + (long[i] % 1) * (5 / 3)) - 10;
         let left = yoko * (place[i] * 0.3 - 0.2) + 10;
         let width = (yoko * 0.3) - 20;
