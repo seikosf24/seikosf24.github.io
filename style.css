@@ -68,7 +68,7 @@ header {
   display: flex;
   justify-content: right;
   flex-wrap: nowrap;
-  overflow-x: scroll;
+  overflow-x: auto;
   float: right;
   scrollbar-width: none; 
 }
