@@ -476,7 +476,7 @@ summary {
   border-bottom: 1px solid gray;
   align-items: center;
   transition: all 0.5s;
-  cursor: pointor;
+  cursor: pointer;
 }
 summary::-webkit-details-marker {
   display: none;
