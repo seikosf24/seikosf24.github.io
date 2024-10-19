@@ -47,7 +47,6 @@
     }
 
     #name {
-      width: 100%;
       display: flex;
       justify-content: right;
       position: relative;
@@ -326,7 +325,7 @@
         children[i + 1].style.height = height + "px";
         children[i + 1].style.left = left + "px";
         children[i + 1].style.width = width + "px";
-        document.getElementById("name").style.width = yoko;
+        document.getElementById("name").style.width = yoko + "px";
       }
     }
     window.addEventListener('resize', () => {
