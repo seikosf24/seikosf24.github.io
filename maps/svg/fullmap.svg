@@ -776,15 +776,13 @@
       </g>
     </g>
     <g id="_レイヤー_47" data-name="レイヤー 47" class="cls-29">
-      <path id="_複合パス-4" data-name="複合パス" class="cls-51" d="M194.92,523.24c.41-1.52,2.98-2.75,5.74-2.75s4.67,1.23,4.26,2.75-2.98,2.75-5.74,2.75-4.67-1.23-4.26-2.75ZM198.89,527.09l-5.92,7.15h9l-3.08-7.15Z"/>
-      <path id="_複合パス-5" data-name="複合パス" class="cls-51" d="M698.27,271.89c.41-1.52,2.98-2.75,5.74-2.75s4.67,1.23,4.26,2.75c-.41,1.52-2.98,2.75-5.74,2.75s-4.67-1.23-4.26-2.75ZM702.24,275.74l-6.92,7.15h10l-3.08-7.15Z"/>
       <path id="_パス-26" data-name="パス" class="cls-10" d="M671.91,266.94l3.54-13.2h-4l-3.68,13.75h-4l3.68-13.75h-4l-3.68,13.75h-4l3.68-13.75h-4l-3.68,13.75h-4l3.68-13.75h-4l-3.68,13.75h-4l3.68-13.75h-21l-7.07,26.4.71,1.1h22l3.68-13.75h4l-3.68,13.75h4l3.68-13.75h4l-3.68,13.75" vector-effect="non-scaling-stroke"/>
       <line id="_パス-27" data-name="パス" class="cls-12" x1="638.76" y1="267.49" x2="672.76" y2="267.49" vector-effect="non-scaling-stroke"/>
       <line id="_パス-28" data-name="パス" class="cls-12" x1="615.08" y1="281.24" x2="660.08" y2="281.24" vector-effect="non-scaling-stroke"/>
       <path id="_パス-29" data-name="パス" class="cls-10" d="M355.09,262.54l-6.48,24.2h-25l.74-2.75h25l.74-2.75h-25l.74-2.75h25l.74-2.75h-25l.74-2.75h25l.74-2.75h-25l.74-2.75h25l.74-2.75h-25" vector-effect="non-scaling-stroke"/>
       <path id="_パス-30" data-name="パス" class="cls-10" d="M354.5,264.74h25l-.74,2.75h-25l-.74,2.75h25l-.74,2.75h-25l-.74,2.75h25l-.74,2.75h-25l-.74,2.75h25l-.74,2.75h-25l-.74,2.75h25" vector-effect="non-scaling-stroke"/>
       <path id="_パス-31" data-name="パス" class="cls-10" d="M186.87,498.49h20l.74-2.75h-20l.74-2.75h20l.74-2.75h-20l.88-3.3h20" vector-effect="non-scaling-stroke"/>
-      <path id="_複合パス-6" data-name="複合パス" class="cls-10" d="M186.2,500.97h40M228.34,492.99h-20M226.87,498.49h-20M229.08,490.24h-20M227.6,495.74h-20M229.96,486.94h-20M210.55,484.74c-1.74,6.48-3.16,11.8-4.27,15.95" vector-effect="non-scaling-stroke"/>
+      <path id="_複合パス-4" data-name="複合パス" class="cls-10" d="M186.2,500.97h40M228.34,492.99h-20M226.87,498.49h-20M229.08,490.24h-20M227.6,495.74h-20M229.96,486.94h-20M210.55,484.74c-1.74,6.48-3.16,11.8-4.27,15.95" vector-effect="non-scaling-stroke"/>
       <path id="_パス-32" data-name="パス" class="cls-12" d="M597.45,358.24l14.74-55h-183l-14.74,55h183Z" vector-effect="non-scaling-stroke"/>
       <path id="_パス-33" data-name="パス" class="cls-12" d="M615.08,281.24l7.37-27.5h70l-7.37,27.5" vector-effect="non-scaling-stroke"/>
       <path id="_パス-34" data-name="パス" class="cls-12" d="M230.55,484.74l-5.9,22h-40l5.9-22" vector-effect="non-scaling-stroke"/>
@@ -812,6 +810,8 @@
       <path id="_パス-45" data-name="パス" class="cls-18" d="M199.75,599.69l5.31-19.8h-40l-5.31,19.8h40Z" vector-effect="non-scaling-stroke"/>
       <path id="Labo_English-2" data-name="Labo English" class="cls-18" d="M665.97,363.74h-70l13.26-49.5h70l-13.26,49.5Z" vector-effect="non-scaling-stroke"/>
       <path id="_パス-46" data-name="パス" class="cls-18" d="M308.97,363.74l1.77-6.6h-26l-1.77,6.6h26Z" vector-effect="non-scaling-stroke"/>
+      <path id="_複合パス-5" data-name="複合パス" class="cls-51" d="M194.92,523.24c.41-1.52,2.98-2.75,5.74-2.75s4.67,1.23,4.26,2.75-2.98,2.75-5.74,2.75-4.67-1.23-4.26-2.75ZM198.89,527.09l-5.92,7.15h9l-3.08-7.15Z"/>
+      <path id="_複合パス-6" data-name="複合パス" class="cls-51" d="M698.27,271.89c.41-1.52,2.98-2.75,5.74-2.75s4.67,1.23,4.26,2.75c-.41,1.52-2.98,2.75-5.74,2.75s-4.67-1.23-4.26-2.75ZM702.24,275.74l-6.92,7.15h10l-3.08-7.15Z"/>
       <path id="maps_SRNo4" data-name="maps SRNo4" class="cls-16" d="M780.66,297.74h-68l11.79-44h68l-11.79,44Z" vector-effect="non-scaling-stroke"/>
       <path id="maps_SRNo3" data-name="maps SRNo3" class="cls-16" d="M878.66,297.74h-98.5l11.79-44h98.5l-11.79,44Z" vector-effect="non-scaling-stroke"/>
       <path id="maps_BiologyLab" data-name="maps BiologyLab" class="cls-16" d="M279.86,673.94l-14.15,52.8h-80l14.15-52.8h80Z" vector-effect="non-scaling-stroke"/>
@@ -1176,7 +1176,7 @@
       <text id="text_G18" data-name="text G18" class="cls-31" transform="translate(947.93 688.55)"><tspan x="0" y="0">G18</tspan></text>
     </g>
     <g class="cls-43">
-      <text id="text_G19" data-name="text G19" class="cls-31" transform="translate(1038.88 688.55)"><tspan x="0" y="0">G19</tspan></text>
+      <text id="text_G20" data-name="text G20" class="cls-31" transform="translate(1038.88 688.55)"><tspan x="0" y="0">G19</tspan></text>
     </g>
     <g class="cls-106">
       <text id="text_G22" data-name="text G22" class="cls-31" transform="translate(1071.37 974.55)"><tspan x="0" y="0">G20</tspan></text>
