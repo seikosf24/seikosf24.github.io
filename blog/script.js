@@ -16,7 +16,7 @@ document.getElementById("channel").innerHTML =
 document.getElementById("channel").innerHTML =
     `<a href='./${after}.html'>次のブログ</a>
     <a href = '../'> ブログトップ</a>
-    <a tabindex="-1"><u>前のブログ</u></a>`;
+    <a tabindex="-1"><s>前のブログ</s></a>`;
 }
 let data = document.getElementById("letter");
 let dataInside = data.innerHTML;
