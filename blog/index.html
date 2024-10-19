@@ -29,11 +29,13 @@
       transition: filter 0.3s;
       color: #333333;
     }
+
     .flexChild p {
       white-space: nowrap;
       overflow: hidden;
       text-overflow: ellipsis;
     }
+
     .flexChild:hover {
       filter: brightness(80%);
     }
@@ -47,6 +49,7 @@
     @media screen and (max-width: 600px) {
       .flexChild img {
         float: none;
+        display: inline;
         margin: 10px auto;
       }
     }
