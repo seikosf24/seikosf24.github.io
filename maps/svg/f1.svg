@@ -1,450 +1,452 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg id="_レイヤー_1" data-name="レイヤー_1" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1000 800">
-  <!-- Generator: Adobe Illustrator 29.0.0, SVG Export Plug-In . SVG Version: 2.1.0 Build 186)  -->
+<svg id="_レイヤー_1" data-name="レイヤー 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1000 841.83">
   <defs>
     <style>
-      .st0 {
+      .cls-1 {
         fill: red;
       }
 
-      .st0, .st1, .st2, .st3, .st4, .st5, .st6, .st7, .st8, .st9 {
+      .cls-1, .cls-2, .cls-3, .cls-4, .cls-5, .cls-6, .cls-7, .cls-8, .cls-9 {
         stroke: #000;
         stroke-linecap: square;
         stroke-miterlimit: 3;
       }
 
-      .st0, .st3 {
-        stroke-width: .9px;
+      .cls-1, .cls-3 {
+        stroke-width: .89px;
       }
 
-      .st10 {
+      .cls-10 {
         clip-path: url(#clippath-21);
       }
 
-      .st11 {
+      .cls-11 {
         clip-path: url(#clippath-6);
       }
 
-      .st12 {
+      .cls-12 {
         clip-path: url(#clippath-7);
       }
 
-      .st13 {
+      .cls-13 {
         clip-path: url(#clippath-17);
       }
 
-      .st14 {
+      .cls-14 {
         clip-path: url(#clippath-15);
       }
 
-      .st15 {
+      .cls-15 {
         clip-path: url(#clippath-18);
       }
 
-      .st16 {
+      .cls-16 {
         clip-path: url(#clippath-4);
       }
 
-      .st17 {
+      .cls-17 {
         clip-path: url(#clippath-22);
       }
 
-      .st18 {
+      .cls-18 {
         clip-path: url(#clippath-23);
       }
 
-      .st19 {
+      .cls-19 {
+        letter-spacing: -.1em;
+      }
+
+      .cls-20 {
         clip-path: url(#clippath-9);
       }
 
-      .st20 {
+      .cls-21 {
         clip-path: url(#clippath-10);
       }
 
-      .st21, .st22 {
+      .cls-22 {
+        letter-spacing: -.12em;
+      }
+
+      .cls-23, .cls-24 {
         fill: #fff;
       }
 
-      .st23 {
-        clip-path: url(#clippath-25);
-      }
-
-      .st22, .st24 {
+      .cls-24 {
         fill-rule: evenodd;
       }
 
-      .st25 {
+      .cls-25 {
         clip-path: url(#clippath-11);
       }
 
-      .st26, .st1, .st5, .st7 {
+      .cls-26, .cls-5, .cls-7 {
         fill: none;
       }
 
-      .st1 {
-        stroke-width: 2.7px;
+      .cls-27 {
+        letter-spacing: -.05em;
       }
 
-      .st27 {
+      .cls-28 {
         clip-path: url(#clippath-1);
       }
 
-      .st2 {
+      .cls-2 {
         fill: #b9b9b9;
       }
 
-      .st2, .st7, .st8 {
-        stroke-width: 1.5px;
+      .cls-2, .cls-7, .cls-8 {
+        stroke-width: 1.48px;
       }
 
-      .st28, .st29 {
+      .cls-29, .cls-30 {
         isolation: isolate;
       }
 
-      .st30 {
+      .cls-31 {
         clip-path: url(#clippath-5);
       }
 
-      .st31 {
+      .cls-32 {
         clip-path: url(#clippath-20);
       }
 
-      .st32 {
+      .cls-33 {
         clip-path: url(#clippath-8);
       }
 
-      .st3 {
+      .cls-3 {
         fill: blue;
       }
 
-      .st4 {
+      .cls-4 {
         fill: #5d5d5d;
       }
 
-      .st4, .st6 {
-        stroke-width: .9px;
+      .cls-4, .cls-6 {
+        stroke-width: .88px;
       }
 
-      .st5 {
-        stroke-width: .7px;
+      .cls-5 {
+        stroke-width: .74px;
       }
 
-      .st33 {
+      .cls-34 {
         clip-path: url(#clippath-3);
       }
 
-      .st29 {
+      .cls-30 {
         font-family: YuGothicUI-Bold, 'Yu Gothic UI';
         font-size: 14px;
         font-weight: 700;
       }
 
-      .st34 {
+      .cls-35 {
         clip-path: url(#clippath-12);
       }
 
-      .st35 {
+      .cls-36 {
         clip-path: url(#clippath-14);
       }
 
-      .st36 {
+      .cls-37 {
         clip-path: url(#clippath-19);
       }
 
-      .st6, .st9 {
+      .cls-38 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-6, .cls-9 {
         fill: #d1d1d1;
       }
 
-      .st37 {
+      .cls-39 {
+        letter-spacing: -.07em;
+      }
+
+      .cls-40 {
         clip-path: url(#clippath-16);
       }
 
-      .st8 {
+      .cls-8 {
         fill: #009688;
       }
 
-      .st38 {
+      .cls-41 {
         clip-path: url(#clippath-2);
       }
 
-      .st9 {
+      .cls-9 {
         stroke-width: .9px;
       }
 
-      .st39 {
+      .cls-42 {
         clip-path: url(#clippath-13);
       }
 
-      .st40 {
+      .cls-43 {
+        letter-spacing: -.04em;
+      }
+
+      .cls-44 {
         clip-path: url(#clippath-24);
       }
 
-      .st41 {
+      .cls-45 {
         clip-path: url(#clippath);
+      }
+
+      .cls-46 {
+        font-family: KozGoPr6N-Regular-90ms-RKSJ-H, 'Kozuka Gothic Pr6N';
+        font-size: 12px;
       }
     </style>
     <clipPath id="clippath">
-      <rect class="st26" y="0" width="1000" height="800"/>
+      <rect class="cls-26" y="41.83" width="1000" height="800"/>
     </clipPath>
     <clipPath id="clippath-1">
-      <rect class="st26" x="174.3" y="491.6" width="51.5" height="18.6"/>
+      <rect class="cls-26" x="174.25" y="533.47" width="51.5" height="18.62"/>
     </clipPath>
     <clipPath id="clippath-2">
-      <rect class="st26" x="182.3" y="470.6" width="51.5" height="18.6"/>
+      <rect class="cls-26" x="182.25" y="512.47" width="51.5" height="18.62"/>
     </clipPath>
     <clipPath id="clippath-3">
-      <rect class="st26" x="188.3" y="441.6" width="51.5" height="18.6"/>
+      <rect class="cls-26" x="188.25" y="483.47" width="51.5" height="18.62"/>
     </clipPath>
     <clipPath id="clippath-4">
-      <rect class="st26" x="194.3" y="425.6" width="51.5" height="18.6"/>
+      <rect class="cls-26" x="194.25" y="467.47" width="51.5" height="18.62"/>
     </clipPath>
     <clipPath id="clippath-5">
-      <rect class="st26" x="200.3" y="408.6" width="51.5" height="18.6"/>
+      <rect class="cls-26" x="200.25" y="450.47" width="51.5" height="18.62"/>
     </clipPath>
     <clipPath id="clippath-6">
-      <rect class="st26" x="206.3" y="381.6" width="51.5" height="18.6"/>
+      <rect class="cls-26" x="206.25" y="423.47" width="51.5" height="18.62"/>
     </clipPath>
     <clipPath id="clippath-7">
-      <rect class="st26" x="211.3" y="365.6" width="51.5" height="18.6"/>
+      <rect class="cls-26" x="211.25" y="407.47" width="51.5" height="18.62"/>
     </clipPath>
     <clipPath id="clippath-8">
-      <rect class="st26" x="215.3" y="348.6" width="51.5" height="18.6"/>
+      <rect class="cls-26" x="215.25" y="390.47" width="51.5" height="18.62"/>
     </clipPath>
     <clipPath id="clippath-9">
-      <rect class="st26" x="223.3" y="321.6" width="51.5" height="18.6"/>
+      <rect class="cls-26" x="223.25" y="363.47" width="51.5" height="18.62"/>
     </clipPath>
     <clipPath id="clippath-10">
-      <rect class="st26" x="228.3" y="304.6" width="51.5" height="18.6"/>
+      <rect class="cls-26" x="228.25" y="346.47" width="51.5" height="18.62"/>
     </clipPath>
     <clipPath id="clippath-11">
-      <rect class="st26" x="232.3" y="288.6" width="51.5" height="18.6"/>
+      <rect class="cls-26" x="232.25" y="330.47" width="51.5" height="18.62"/>
     </clipPath>
     <clipPath id="clippath-12">
-      <rect class="st26" x="240" y="258" width="51.5" height="18.6"/>
+      <rect class="cls-26" x="240" y="299.83" width="51.5" height="18.62"/>
     </clipPath>
     <clipPath id="clippath-13">
-      <rect class="st26" x="245" y="241" width="51.5" height="18.6"/>
+      <rect class="cls-26" x="245" y="282.83" width="51.5" height="18.62"/>
     </clipPath>
     <clipPath id="clippath-14">
-      <rect class="st26" x="249" y="225" width="51.5" height="18.6"/>
+      <rect class="cls-26" x="249" y="266.83" width="51.5" height="18.62"/>
     </clipPath>
     <clipPath id="clippath-15">
-      <rect class="st26" x="156.3" y="234.7" width="51.5" height="18.6"/>
+      <rect class="cls-26" x="156.25" y="276.51" width="51.5" height="18.62"/>
     </clipPath>
     <clipPath id="clippath-16">
-      <rect class="st26" x="704.3" y="101.4" width="51.5" height="18.6"/>
+      <rect class="cls-26" x="704.25" y="143.2" width="51.5" height="18.62"/>
     </clipPath>
     <clipPath id="clippath-17">
-      <rect class="st26" x="94.3" y="339.3" width="51.5" height="18.6"/>
+      <rect class="cls-26" x="94.25" y="381.15" width="51.5" height="18.62"/>
     </clipPath>
     <clipPath id="clippath-18">
-      <rect class="st26" x="256.5" y="196" width="51.5" height="18.6"/>
+      <rect class="cls-26" x="256.5" y="237.83" width="51.5" height="18.62"/>
     </clipPath>
     <clipPath id="clippath-19">
-      <rect class="st26" x="261.5" y="179" width="51.5" height="18.6"/>
+      <rect class="cls-26" x="261.5" y="220.83" width="51.5" height="18.62"/>
     </clipPath>
     <clipPath id="clippath-20">
-      <rect class="st26" x="428.6" y="167.7" width="76.9" height="18.6"/>
+      <rect class="cls-26" x="428.56" y="209.51" width="76.87" height="18.62"/>
     </clipPath>
     <clipPath id="clippath-21">
-      <rect class="st26" x="546.1" y="167.7" width="76.9" height="18.6"/>
+      <rect class="cls-26" x="546.07" y="209.51" width="76.87" height="18.62"/>
     </clipPath>
     <clipPath id="clippath-22">
-      <rect class="st26" x="638.1" y="167.7" width="76.9" height="18.6"/>
+      <rect class="cls-26" x="638.07" y="209.51" width="76.87" height="18.62"/>
     </clipPath>
     <clipPath id="clippath-23">
-      <rect class="st26" x="598.6" y="226.7" width="76.9" height="18.6"/>
+      <rect class="cls-26" x="670.56" y="495.51" width="76.87" height="18.62"/>
     </clipPath>
     <clipPath id="clippath-24">
-      <rect class="st26" x="670.6" y="453.7" width="76.9" height="18.6"/>
-    </clipPath>
-    <clipPath id="clippath-25">
-      <rect class="st26" x="452.6" y="404.7" width="51.4" height="18.6"/>
+      <rect class="cls-26" x="452.56" y="446.51" width="51.44" height="18.62"/>
     </clipPath>
   </defs>
-  <g class="st41">
+  <g class="cls-45">
     <g>
-      <g id="outer" class="st28">
+      <g id="outer" class="cls-29">
         <g id="_グループ" data-name="グループ">
-          <path id="_パス" data-name="パス" class="st7" d="M471.8,109h4l-2.9,11h400" vector-effect="non-scaling-stroke"/>
-          <path id="_パス1" data-name="パス" class="st7" d="M872.8,120l29.5-110h-400l-11.8,44-4.4,16.5h80-80l-4.4,16.5h-4" vector-effect="non-scaling-stroke"/>
+          <path id="_パス" data-name="パス" class="cls-7" d="M471.79,150.86h4l-2.95,11h400" vector-effect="non-scaling-stroke"/>
+          <path id="_パス-2" data-name="パス" class="cls-7" d="M872.84,161.86l29.47-110h-400l-11.79,44-4.42,16.5h80-80l-4.42,16.5h-4" vector-effect="non-scaling-stroke"/>
         </g>
-        <g id="_グループ1" data-name="グループ">
-          <path id="_パス2" data-name="パス" class="st7" d="M305.7,87h-4.1c13.8-51.4,20.7-77.1,20.7-77,0,0-36.7,0-110,0l-4.4,16.4" vector-effect="non-scaling-stroke"/>
-          <path id="_パス3" data-name="パス" class="st7" d="M207.9,26.5h-10c-3.7-4.7-18.6-5.7-28.5-5.5-30.3.1-44.5,16.3-51.8,44-4.4,16.4-3.3,32.1,9.7,38.5h-20l-4.4,16.5L10,466.5h30l-4.4,16.5h110L242.8,120h49.9l3.1-11h4" vector-effect="non-scaling-stroke"/>
-        </g>
-      </g>
-      <g id="booth" class="st28">
-        <path id="maps_dining" class="st2" d="M838,119.5h-225l17.5-65.4c22.3,0,59.7,0,60,0,0,0-.3,1.1-.3,1.1,0,0,31,0,93,0,0,0,.3-1.1.3-1.1,26.9,0,54.6,0,72,0l-17.5,65.4Z" vector-effect="non-scaling-stroke"/>
-        <path id="maps_tosyo" class="st2" d="M155.9,444.5H55.9l19.2-71.5h-40l18.4-68.8h40l4.4-16.5h45l-4.4,16.5h55l-37.6,140.2Z" vector-effect="non-scaling-stroke"/>
-        <path id="maps_hoken" class="st2" d="M152.5,252l15.6-58.3h54l-15.6,58.3h-54Z" vector-effect="non-scaling-stroke"/>
-        <g id="outside" class="st28">
-          <path id="maps_G1" class="st6" d="M309.4,196.5h-50l4.4-16.5h50l-4.4,16.5Z" vector-effect="non-scaling-stroke"/>
-          <path id="maps_G2" class="st6" d="M304.9,213h-50l4.4-16.5h50l-4.4,16.5Z" vector-effect="non-scaling-stroke"/>
-          <path id="maps_G3" class="st6" d="M297.1,242.1h-50l4.4-16.5h50l-4.4,16.5Z" vector-effect="non-scaling-stroke"/>
-          <path id="maps_G4" class="st6" d="M292.7,258.6h-50l4.4-16.5h50l-4.4,16.5Z" vector-effect="non-scaling-stroke"/>
-          <path id="maps_G5" class="st6" d="M288.3,275.1h-50l4.4-16.5h50l-4.4,16.5Z" vector-effect="non-scaling-stroke"/>
-          <path id="maps_G6" class="st6" d="M279.9,306.5h-50l4.4-16.5h50l-4.4,16.5Z" vector-effect="non-scaling-stroke"/>
-          <path id="maps_G7" class="st6" d="M275.5,323h-50l4.4-16.5h50l-4.4,16.5Z" vector-effect="non-scaling-stroke"/>
-          <path id="maps_G8" class="st6" d="M275.5,323h-50c-2.8,10.5-4.3,16-4.4,16.5h50l4.4-16.5Z" vector-effect="non-scaling-stroke"/>
-          <path id="maps_G9" class="st6" d="M268.2,349.9h-50l-4.4,16.5h50l4.4-16.5Z" vector-effect="non-scaling-stroke"/>
-          <path id="maps_G10" class="st6" d="M209.4,382.9h50l4.4-16.5h-50l-4.4,16.5Z" vector-effect="non-scaling-stroke"/>
-          <path id="maps_G11" class="st6" d="M254.8,400h-50l4.4-16.5h50l-4.4,16.5Z" vector-effect="non-scaling-stroke"/>
-          <path id="maps_G12" class="st6" d="M252.2,409.9h-50l-4.4,16.5h50l4.4-16.5Z" vector-effect="non-scaling-stroke"/>
-          <path id="maps_G13" class="st6" d="M243.3,442.9h-50l4.4-16.5h50l-4.4,16.5Z" vector-effect="non-scaling-stroke"/>
-          <path id="maps_G14" class="st9" d="M238.9,459.4h-50l4.4-16.5h50l-4.4,16.5Z" vector-effect="non-scaling-stroke"/>
-          <path id="maps_G15" class="st6" d="M231,489.1h-50l4.4-16.5h50l-4.4,16.5Z" vector-effect="non-scaling-stroke"/>
-          <path id="maps_G18" class="st6" d="M624.9,188.3h-80l10.3-38.5h80l-10.3,38.5Z" vector-effect="non-scaling-stroke"/>
-          <path id="maps_G19" class="st6" d="M716.9,188.3h-80l10.3-38.5h80l-10.3,38.5Z" vector-effect="non-scaling-stroke"/>
-          <path id="maps_G22" class="st6" d="M747.5,472h-80l26.5-99h80l-26.5,99Z" vector-effect="non-scaling-stroke"/>
-          <path id="maps_G16" class="st6" d="M231,489.1h-50l-5.7,21.5h50l5.7-21.5Z" vector-effect="non-scaling-stroke"/>
-          <path id="maps_G181" data-name="maps_G18" class="st6" d="M534.6,188.3h-80l10.3-38.5h80l-10.3,38.5Z" vector-effect="non-scaling-stroke"/>
+        <g id="_グループ-2" data-name="グループ">
+          <path id="_パス-3" data-name="パス" class="cls-7" d="M305.69,128.86h-4.08c13.8-51.38,20.71-77.05,20.71-77,.01-.05-36.65-.05-110,0l-4.4,16.43" vector-effect="non-scaling-stroke"/>
+          <path id="_パス-4" data-name="パス" class="cls-7" d="M207.9,68.36h-10c-3.75-4.67-18.6-5.71-28.53-5.5-30.29.14-44.55,16.34-51.79,44-4.4,16.43-3.26,32.08,9.68,38.5h-20l-4.42,16.5L10,508.36h30l-4.42,16.5h110l97.26-363h49.88l3.07-11h4" vector-effect="non-scaling-stroke"/>
         </g>
       </g>
-      <g id="blank" class="st28">
-        <path id="_パス4" data-name="パス" class="st4" d="M66.2,406l8.8-33h-40l-8.8,33h40Z" vector-effect="non-scaling-stroke"/>
-        <path id="_パス5" data-name="パス" class="st4" d="M59.7,430.2l6.5-24.2H26.2l-6.5,24.2h40Z" vector-effect="non-scaling-stroke"/>
-        <path id="_パス6" data-name="パス" class="st4" d="M50,466.5l9.7-36.3H19.7l-9.7,36.3h40Z" vector-effect="non-scaling-stroke"/>
-        <path id="_パス7" data-name="パス" class="st4" d="M162.8,120l-9.6,35.8h-60l9.6-35.8h60Z" vector-effect="non-scaling-stroke"/>
-        <path id="StairE" class="st4" d="M890.5,54l11.8-44h-35l-11.8,44h35Z" vector-effect="non-scaling-stroke"/>
-        <path id="Audiovisual_Preparation_Room" class="st4" d="M630.5,54l11.8-44h60l-11.8,44h-60Z" vector-effect="non-scaling-stroke"/>
-        <path id="_パス8" data-name="パス" class="st4" d="M50,466.5l-4.4,16.5h-10l4.4-16.5h10Z" vector-effect="non-scaling-stroke"/>
-        <path id="H1_StaffRoom" class="st4" d="M630.5,54h-36l11.8-44h36l-11.8,44Z" vector-effect="non-scaling-stroke"/>
-        <path id="Interview_Room" class="st4" d="M308.6,61.2h-60l13.7-51.1h60l-13.7,51.1Z" vector-effect="non-scaling-stroke"/>
-        <path id="StairC" class="st7" d="M225.5,54l11.8-44h-25,25l-11.8,44h0Z" vector-effect="non-scaling-stroke"/>
-        <path id="_パス9" data-name="パス" class="st4" d="M855.5,54l11.8-44h-72l-11.8,44h72Z" vector-effect="non-scaling-stroke"/>
-        <path id="_パス10" data-name="パス" class="st4" d="M795.3,10l-12.1,45.1h-93l12.1-45.1h93Z" vector-effect="non-scaling-stroke"/>
-        <path id="_パス11" data-name="パス" class="st4" d="M155.9,444.5l-10.3,38.5H45.6l10.3-38.5h100Z" vector-effect="non-scaling-stroke"/>
-        <path id="_パス12" data-name="パス" class="st4" d="M254.2,40.3h-25l8.1-30.3h25l-8.1,30.3Z" vector-effect="non-scaling-stroke"/>
-        <path id="_パス13" data-name="パス" class="st4" d="M93.5,304.3h-40l4.4-16.5h40l-4.4,16.5Z" vector-effect="non-scaling-stroke"/>
-        <path id="_パス14" data-name="パス" class="st3" d="M197.5,304.3h-59l4.4-16.5h59l-4.4,16.5Z" vector-effect="non-scaling-stroke"/>
-        <path id="_パス15" data-name="パス" class="st4" d="M197.9,287.8h-55l9.6-35.8h55l-9.6,35.8Z" vector-effect="non-scaling-stroke"/>
-        <line id="_パス16" data-name="パス" class="st7" x1="173.3" y1="155.8" x2="196.1" y2="70.5" vector-effect="non-scaling-stroke"/>
-        <path id="_パス17" data-name="パス" class="st4" d="M162.8,120l4.4-16.5h-60l-4.4,16.5h60Z" vector-effect="non-scaling-stroke"/>
-        <path id="_パス18" data-name="パス" class="st7" d="M268.5,61.7l-2.4,8.8h-50" vector-effect="non-scaling-stroke"/>
-        <path id="_パス19" data-name="パス" class="st4" d="M127.3,103.5h40l6.6-24.8h-58c-.6,8.9-1.7,11.7,11.4,24.8Z" vector-effect="non-scaling-stroke"/>
-        <path id="_パス20" data-name="パス" class="st4" d="M128.1,40.8l-4.1,7.7-1.5,5.5h18l7.7-28.6-5.6,2.2-6.2,4.4" vector-effect="non-scaling-stroke"/>
-        <path id="_パス21" data-name="パス" class="st4" d="M117,68l-1.1,10.8h58l6.6-24.8h-59l-4.5,14Z" vector-effect="non-scaling-stroke"/>
-        <path id="_パス22" data-name="パス" class="st4" d="M197.9,26.5h10l-7.4,27.5h-79.5c6.4-14.3,15.5-24,27.3-29.2,1.5-2.3,36.5-7.5,49.6,1.6Z" vector-effect="non-scaling-stroke"/>
-        <path id="mapsAudiovisual_Room" class="st4" d="M872.8,120h-35l17.7-66h35l-17.7,66Z" vector-effect="non-scaling-stroke"/>
-        <path id="_複合シェイプ" data-name="複合シェイプ" class="st5" d="M211.7,299.9l.6-2.2h-6l.3-1.1-4.6,2.2,3.4,2.2.3-1.1h6ZM205.7,292.2l-.6,2.2h6l-.3,1.1,4.6-2.2-3.4-2.2-.3,1.1h-6Z" vector-effect="non-scaling-stroke"/>
-      </g>
-      <g id="special" class="st28">
-        <path id="Toilet" class="st3" d="M562.5,54l11.8-44h32l-11.8,44h-32Z" vector-effect="non-scaling-stroke"/>
-        <path id="_パス23" data-name="パス" class="st7" d="M123.1,193.7l-9.7,36.3h-40l9.7-36.3" vector-effect="non-scaling-stroke"/>
-        <path id="_パス24" data-name="パス" class="st7" d="M539,37.5l7.4-27.5h28l-7.4,27.5" vector-effect="non-scaling-stroke"/>
-        <path id="S_F2_1" class="st8" d="M534.5,54h-44l11.8-44h44l-11.8,44Z" vector-effect="non-scaling-stroke"/>
-        <path id="toilet" class="st0" d="M113.4,230l-5,18.7h-40l5-18.7h40Z" vector-effect="non-scaling-stroke"/>
-        <path id="_パス25" data-name="パス" class="st3" d="M97.9,287.8l6.6-24.8h-40l-6.6,24.8h40Z" vector-effect="non-scaling-stroke"/>
-      </g>
-      <g id="Decorations" class="st28">
-        <g id="stairB" class="st28">
-          <path id="_パス26" data-name="パス" class="st5" d="M123.1,193.7l3.4-12.6h-40l-.3,1.1h38l-3.1,11.6h2l-.9,3.3h-40l-.7,2.8h40l-.7,2.8h-40l-.7,2.8h40l-.7,2.8h-40l-.7,2.8h40l-.7,2.8h-40l-.4,1.6,4.7,1.1h35l-.7,2.8h-23l11.3,2.8h11l-.7,2.8-37.5-9.4" vector-effect="non-scaling-stroke"/>
-        </g>
-        <g id="stairC" class="st28">
-          <path id="_パス27" data-name="パス" class="st5" d="M235,18.8l-6.5,24.2h-25l.7-2.8h25l.7-2.8h-25l.7-2.8h25l.7-2.8h-25l.7-2.8h25l.7-2.8h-25l.7-2.8h25l.7-2.8h-25" vector-effect="non-scaling-stroke"/>
-        </g>
-        <g id="stairD" class="st28">
-          <path id="_パス28" data-name="パス" class="st5" d="M534.5,54h28l.6-2.2h-28l.6-2.2h28l.6-2.2h-28l.6-2.2h28l.6-2.2h-28l.6-2.2h28l.7-2.8h-28l.9-3.3h28l.9-3.3h-28l31.4-12.6-1.3,4.9h-11l-5.6,2.2h16l-.7,2.8h-22" vector-effect="non-scaling-stroke"/>
-        </g>
-        <path id="_複合パス" data-name="複合パス" class="st22" d="M577.7,29.6c.4-1.5,3-2.8,5.7-2.8s4.7,1.2,4.3,2.8c-.4,1.5-3,2.8-5.7,2.8s-4.7-1.2-4.3-2.8ZM579.4,40l-2.5-5.8c-.2-.4,0-.7.4-.7h8.5c.4,0,.5.2.2.5l-5.9,6.1c-.3.3-.6.2-.8-.1Z"/>
-        <path id="_複合パス1" data-name="複合パス" class="st22" d="M163.2,292c.4-1.5,3-2.8,5.7-2.8s4.7,1.2,4.3,2.8c-.4,1.5-3,2.8-5.7,2.8s-4.7-1.2-4.3-2.8ZM164.9,302.3l-2.2-5.1c-.3-.8,0-1.4.9-1.4h7c.8,0,1,.5.5,1.1l-5.4,5.6c-.3.3-.6.2-.8-.1Z"/>
-        <path id="_複合パス2" data-name="複合パス" class="st22" d="M75.8,271.1c.4-1.5,3-2.8,5.7-2.8s4.7,1.2,4.3,2.8c-.4,1.5-3,2.8-5.7,2.8s-4.7-1.2-4.3-2.8ZM77.5,281.4l-2.2-5.1c-.3-.8,0-1.4.9-1.4h7c.8,0,1,.5.5,1.1l-5.4,5.6c-.3.3-.6.2-.8-.1Z"/>
-        <path id="_複合パス3" data-name="複合パス" class="st22" d="M86.1,236.1c.4-1.5,3-2.8,5.7-2.8s4.7,1.2,4.3,2.8c-.4,1.5-3,2.8-5.7,2.8s-4.7-1.2-4.3-2.8ZM89.5,240.5l-5.9,6.1c-.3.3-.2.5.2.5h8.5c.4,0,.6-.3.4-.7l-2.5-5.8c-.2-.4-.5-.4-.8-.1Z"/>
-        <path id="_パス29" data-name="パス" class="st7" d="M510.8,422.5h50l22.1-82.5h-50l-22.1,82.5Z" vector-effect="non-scaling-stroke"/>
-        <path id="_パス30" data-name="パス" class="st7" d="M477.2,510.5h-50l20.6-77h50l-20.6,77Z" vector-effect="non-scaling-stroke"/>
-        <path id="_パス31" data-name="パス" class="st7" d="M507.8,433.5h50l-20.6,77h-50l20.6-77Z" vector-effect="non-scaling-stroke"/>
-        <path id="_パス32" data-name="パス" class="st7" d="M500.8,422.5h-50l22.1-82.5h50l-22.1,82.5Z" vector-effect="non-scaling-stroke"/>
-      </g>
-      <path id="wheelchair" class="st21" d="M517.2,28c1.6,0,3-.7,3.2-1.5.2-.9-.8-1.5-2.4-1.5s-3,.7-3.2,1.5c-.2.9.8,1.5,2.4,1.5ZM511.7,32.9c.8-.2,1.3-.6,1.1-1-.2-.4-.9-.6-1.7-.5-3.7.7-6.8,2.6-7.4,4.8-.8,2.8,2.8,5.2,8,5.2s7-1.1,9-2.7c.5-.4.3-.8-.3-1-.6-.2-1.5,0-2,.3-1.4,1.1-3.8,1.9-6.3,1.9-3.6,0-6.1-1.6-5.6-3.6.4-1.5,2.5-2.9,5.2-3.4ZM520.5,30.6v-.3c0-.7-1.1-1.2-2.4-1.2s-3.3.9-3.2,1.8l.4,3.7c0,1,1.4,1.7,3.2,1.7h5.9c.4,0,.7.1.8.3l1.3,3.1c.2.5,1.2.8,2.2.6l3-.5c1-.2,1.7-.8,1.5-1.3-.2-.5-1.2-.8-2.2-.7l-1.1.2-.9-2.2c-.4-1-2-1.7-3.9-1.7h-4v-1.5c-.1,0,3.6,0,3.6,0,1,0,2-.5,2.2-1,.2-.6-.6-1-1.6-1h-4.5Z"/>
-      <g class="st27">
-        <text id="text_G16" class="st29" transform="translate(187.4 506.7)"><tspan x="0" y="0">G16</tspan></text>
-      </g>
-      <g class="st38">
-        <text id="text_G15" class="st29" transform="translate(195.4 485.7)"><tspan x="0" y="0">G15</tspan></text>
-      </g>
-      <g class="st33">
-        <text id="text_G14" class="st29" transform="translate(201.3 456.7)"><tspan x="0" y="0">G14</tspan></text>
-      </g>
-      <g class="st16">
-        <text id="text_G13" class="st29" transform="translate(207.4 440.7)"><tspan x="0" y="0">G13</tspan></text>
-      </g>
-      <g class="st30">
-        <text id="text_G12" class="st29" transform="translate(213.4 423.7)"><tspan x="0" y="0">G12</tspan></text>
-      </g>
-      <g class="st11">
-        <text id="text_G11" class="st29" transform="translate(220.5 396.7)"><tspan x="0" y="0">G11</tspan></text>
-      </g>
-      <g class="st12">
-        <text id="text_G10" class="st29" transform="translate(224.4 380.7)"><tspan x="0" y="0">G10</tspan></text>
-      </g>
-      <g class="st32">
-        <text id="text_G9" class="st29" transform="translate(231.2 363.7)"><tspan x="0" y="0">G9</tspan></text>
-      </g>
-      <g class="st19">
-        <text id="text_G8" class="st29" transform="translate(239.2 336.7)"><tspan x="0" y="0">G8</tspan></text>
-      </g>
-      <g class="st20">
-        <text id="text_G7" class="st29" transform="translate(244.4 319.7)"><tspan x="0" y="0">G7</tspan></text>
-      </g>
-      <g class="st25">
-        <text id="text_G6" class="st29" transform="translate(248.2 303.7)"><tspan x="0" y="0">G6</tspan></text>
-      </g>
-      <g class="st34">
-        <text id="text_G5" class="st29" transform="translate(256 273.1)"><tspan x="0" y="0">G5</tspan></text>
-      </g>
-      <g class="st39">
-        <text id="text_G4" class="st29" transform="translate(260.8 256.1)"><tspan x="0" y="0">G4</tspan></text>
-      </g>
-      <g class="st35">
-        <text id="text_G3" class="st29" transform="translate(265 240.1)"><tspan x="0" y="0">G3</tspan></text>
-      </g>
-      <g class="st14">
-        <text id="text_hoken" class="st29" transform="translate(160 249.8)"><tspan x="0" y="0">保健室</tspan></text>
-      </g>
-      <g class="st37">
-        <text id="text_dining" class="st29" transform="translate(708 116.5)"><tspan x="0" y="0">食堂</tspan></text>
-      </g>
-      <g class="st13">
-        <text id="text_tosyo" class="st29" transform="translate(98 354.4)"><tspan x="0" y="0">図書室</tspan></text>
-      </g>
-      <g class="st15">
-        <text id="text_G2" class="st29" transform="translate(272.5 211.1)"><tspan x="0" y="0">G2</tspan></text>
-      </g>
-      <g class="st36">
-        <text id="text_G1" class="st29" transform="translate(278.6 194.1)"><tspan x="0" y="0">G1</tspan></text>
-      </g>
-      <g class="st31">
-        <g>
-          <text id="text_G18" class="st29" transform="translate(479.9 182.8)"><tspan x="0" y="0">G17</tspan></text>
-          <text/>
-          <text/>
-          <text/>
-          <text/>
+      <g id="booth" class="cls-29">
+        <path id="maps_dining" data-name="maps dining" class="cls-2" d="M837.99,161.31h-225l17.53-65.42c22.29,0,59.72-.1,60.01-.03.03,0-.3,1.09-.3,1.11,0,0,31,0,93,0,0,0,.3-1.12.3-1.11,26.91,0,54.56.03,71.99.03l-17.53,65.42Z" vector-effect="non-scaling-stroke"/>
+        <path id="maps_tosyo" data-name="maps tosyo" class="cls-2" d="M155.9,486.36H55.9l19.16-71.5h-40l18.42-68.75h40l4.42-16.5h45l-4.42,16.5h55l-37.58,140.25Z" vector-effect="non-scaling-stroke"/>
+        <path id="maps_hoken" data-name="maps hoken" class="cls-2" d="M152.48,293.86l15.62-58.3h54l-15.62,58.3h-54Z" vector-effect="non-scaling-stroke"/>
+        <g id="outside" class="cls-29">
+          <path id="maps_G1" data-name="maps G1" class="cls-6" d="M309.36,238.31h-50l4.42-16.5h50l-4.42,16.5Z" vector-effect="non-scaling-stroke"/>
+          <path id="maps_G2" data-name="maps G2" class="cls-6" d="M304.94,254.81h-50l4.42-16.5h50l-4.42,16.5Z" vector-effect="non-scaling-stroke"/>
+          <path id="maps_G3" data-name="maps G3" class="cls-6" d="M297.13,283.96h-50l4.42-16.5h50l-4.42,16.5Z" vector-effect="non-scaling-stroke"/>
+          <path id="maps_G4" data-name="maps G4" class="cls-6" d="M292.71,300.46h-50l4.42-16.5h50l-4.42,16.5Z" vector-effect="non-scaling-stroke"/>
+          <path id="maps_G5" data-name="maps G5" class="cls-6" d="M288.29,316.96h-50l4.42-16.5h50l-4.42,16.5Z" vector-effect="non-scaling-stroke"/>
+          <path id="maps_G6" data-name="maps G6" class="cls-6" d="M279.89,348.31h-50l4.42-16.5h50l-4.42,16.5Z" vector-effect="non-scaling-stroke"/>
+          <path id="maps_G7" data-name="maps G7" class="cls-6" d="M275.46,364.81h-50l4.42-16.5h50l-4.42,16.5Z" vector-effect="non-scaling-stroke"/>
+          <path id="maps_G8" data-name="maps G8" class="cls-6" d="M275.46,364.81h-50c-2.82,10.52-4.29,16.02-4.42,16.5h50l4.42-16.5Z" vector-effect="non-scaling-stroke"/>
+          <path id="maps_G9" data-name="maps G9" class="cls-6" d="M268.24,391.76h-50l-4.42,16.5h50l4.42-16.5Z" vector-effect="non-scaling-stroke"/>
+          <path id="maps_G10" data-name="maps G10" class="cls-6" d="M209.4,424.76h50l4.42-16.5h-50l-4.42,16.5Z" vector-effect="non-scaling-stroke"/>
+          <path id="maps_G11" data-name="maps G11" class="cls-6" d="M254.83,441.81h-50l4.42-16.5h50l-4.42,16.5Z" vector-effect="non-scaling-stroke"/>
+          <path id="maps_G12" data-name="maps G12" class="cls-6" d="M252.18,451.71h-50l-4.42,16.5h50l4.42-16.5Z" vector-effect="non-scaling-stroke"/>
+          <path id="maps_G13" data-name="maps G13" class="cls-6" d="M243.34,484.71h-50l4.42-16.5h50l-4.42,16.5Z" vector-effect="non-scaling-stroke"/>
+          <path id="maps_G14" data-name="maps G14" class="cls-9" d="M238.92,501.21h-50l4.42-16.5h50l-4.42,16.5Z" vector-effect="non-scaling-stroke"/>
+          <path id="maps_G15" data-name="maps G15" class="cls-6" d="M230.96,530.91h-50l4.42-16.5h50l-4.42,16.5Z" vector-effect="non-scaling-stroke"/>
+          <path id="maps_G18" data-name="maps G18" class="cls-6" d="M624.93,230.16h-80l10.32-38.5h80l-10.32,38.5Z" vector-effect="non-scaling-stroke"/>
+          <path id="maps_G19" data-name="maps G19" class="cls-6" d="M716.93,230.16h-80l10.32-38.5h80l-10.32,38.5Z" vector-effect="non-scaling-stroke"/>
+          <path id="maps_G22" data-name="maps G22" class="cls-6" d="M747.53,513.86h-80l26.53-99h80l-26.53,99Z" vector-effect="non-scaling-stroke"/>
+          <path id="maps_G16" data-name="maps G16" class="cls-6" d="M230.96,530.91h-50l-5.75,21.45h50l5.75-21.45Z" vector-effect="non-scaling-stroke"/>
+          <path id="maps_G17" data-name="maps G17" class="cls-6" d="M534.61,230.16h-80l10.32-38.5h80l-10.32,38.5Z" vector-effect="non-scaling-stroke"/>
         </g>
       </g>
-      <g class="st10">
-        <text id="text_G19" class="st29" transform="translate(571.9 182.8)"><tspan x="0" y="0">G18</tspan></text>
+      <g id="blank" class="cls-29">
+        <path id="_パス-5" data-name="パス" class="cls-4" d="M66.21,447.86l8.84-33h-40l-8.84,33h40Z" vector-effect="non-scaling-stroke"/>
+        <path id="_パス-6" data-name="パス" class="cls-4" d="M59.73,472.06l6.48-24.2H26.21l-6.48,24.2h40Z" vector-effect="non-scaling-stroke"/>
+        <path id="_パス-7" data-name="パス" class="cls-4" d="M50,508.36l9.73-36.3H19.73l-9.73,36.3h40Z" vector-effect="non-scaling-stroke"/>
+        <path id="_パス-8" data-name="パス" class="cls-4" d="M162.84,161.86l-9.58,35.75h-60l9.58-35.75h60Z" vector-effect="non-scaling-stroke"/>
+        <path id="StairE" class="cls-4" d="M890.53,95.86l11.79-44h-35l-11.79,44h35Z" vector-effect="non-scaling-stroke"/>
+        <path id="Audiovisual_Preparation_Room" data-name="Audiovisual Preparation Room" class="cls-4" d="M630.53,95.86l11.79-44h60l-11.79,44h-60Z" vector-effect="non-scaling-stroke"/>
+        <path id="_パス-9" data-name="パス" class="cls-4" d="M50,508.36l-4.42,16.5h-10l4.42-16.5h10Z" vector-effect="non-scaling-stroke"/>
+        <path id="H1_StaffRoom" data-name="H1 StaffRoom" class="cls-4" d="M630.53,95.86h-36l11.79-44h36l-11.79,44Z" vector-effect="non-scaling-stroke"/>
+        <path id="Interview_Room" data-name="Interview Room" class="cls-4" d="M308.61,103.01h-60l13.71-51.15h60l-13.71,51.15Z" vector-effect="non-scaling-stroke"/>
+        <path id="StairC" class="cls-7" d="M225.53,95.86l11.79-44h-25,25l-11.79,44h0Z" vector-effect="non-scaling-stroke"/>
+        <path id="_パス-10" data-name="パス" class="cls-4" d="M855.53,95.86l11.79-44h-72l-11.79,44h72Z" vector-effect="non-scaling-stroke"/>
+        <path id="_パス-11" data-name="パス" class="cls-4" d="M795.32,51.86l-12.08,45.1h-93l12.08-45.1h93Z" vector-effect="non-scaling-stroke"/>
+        <path id="_パス-12" data-name="パス" class="cls-4" d="M155.9,486.36l-10.32,38.5H45.58l10.32-38.5h100Z" vector-effect="non-scaling-stroke"/>
+        <path id="_パス-13" data-name="パス" class="cls-4" d="M254.21,82.11h-25l8.11-30.25h25l-8.11,30.25Z" vector-effect="non-scaling-stroke"/>
+        <path id="_パス-14" data-name="パス" class="cls-4" d="M93.47,346.11h-40l4.42-16.5h40l-4.42,16.5Z" vector-effect="non-scaling-stroke"/>
+        <path id="_パス-15" data-name="パス" class="cls-3" d="M197.48,346.11h-59l4.42-16.5h59l-4.42,16.5Z" vector-effect="non-scaling-stroke"/>
+        <path id="_パス-16" data-name="パス" class="cls-4" d="M197.9,329.61h-55l9.58-35.75h55l-9.58,35.75Z" vector-effect="non-scaling-stroke"/>
+        <line id="_パス-17" data-name="パス" class="cls-7" x1="173.26" y1="197.61" x2="196.11" y2="112.36" vector-effect="non-scaling-stroke"/>
+        <path id="_パス-18" data-name="パス" class="cls-4" d="M162.84,161.86l4.42-16.5h-60l-4.42,16.5h60Z" vector-effect="non-scaling-stroke"/>
+        <path id="_パス-19" data-name="パス" class="cls-7" d="M268.47,103.56l-2.36,8.8h-50" vector-effect="non-scaling-stroke"/>
+        <path id="_パス-20" data-name="パス" class="cls-4" d="M127.27,145.36h40l6.63-24.75h-58c-.58,8.94-1.7,11.72,11.37,24.75Z" vector-effect="non-scaling-stroke"/>
+        <path id="_パス-21" data-name="パス" class="cls-4" d="M128.07,82.66l-4.06,7.7-1.47,5.5h18l7.66-28.6-5.59,2.2-6.18,4.4" vector-effect="non-scaling-stroke"/>
+        <path id="_パス-22" data-name="パス" class="cls-4" d="M117,109.83l-1.1,10.79h58l6.63-24.75h-59l-4.53,13.96Z" vector-effect="non-scaling-stroke"/>
+        <path id="_パス-23" data-name="パス" class="cls-4" d="M197.9,68.36h10l-7.37,27.5-79.53-.04c6.36-14.29,15.47-23.99,27.34-29.11,1.48-2.27,36.51-7.49,49.56,1.65Z" vector-effect="non-scaling-stroke"/>
+        <path id="mapsAudiovisual_Room" data-name="mapsAudiovisual Room" class="cls-4" d="M872.84,161.86h-35l17.68-66h35l-17.68,66Z" vector-effect="non-scaling-stroke"/>
+        <path id="_複合シェイプ" data-name="複合シェイプ" class="cls-5" d="M211.65,341.71l.59-2.2h-6l.29-1.1-4.59,2.2,3.41,2.2.3-1.1h6ZM205.72,334.01l-.59,2.2h6l-.29,1.1,4.59-2.2-3.41-2.2-.29,1.1h-6Z" vector-effect="non-scaling-stroke"/>
       </g>
-      <g class="st17">
-        <text id="text_G20" class="st29" transform="translate(662.9 182.8)"><tspan x="0" y="0">G19</tspan></text>
+      <g id="special" class="cls-29">
+        <path id="Toilet" class="cls-3" d="M562.53,95.86l11.79-44h32l-11.79,44h-32Z" vector-effect="non-scaling-stroke"/>
+        <path id="_パス-24" data-name="パス" class="cls-7" d="M123.1,235.56l-9.73,36.3h-40l9.73-36.3" vector-effect="non-scaling-stroke"/>
+        <path id="_パス-25" data-name="パス" class="cls-7" d="M538.95,79.36l7.37-27.5h28l-7.37,27.5" vector-effect="non-scaling-stroke"/>
+        <path id="S_F2_1" data-name="S F2 1" class="cls-8" d="M534.53,95.86h-44l11.79-44h44l-11.79,44Z" vector-effect="non-scaling-stroke"/>
+        <path id="toilet" class="cls-1" d="M113.37,271.86l-5.01,18.7h-40l5.01-18.7h40Z" vector-effect="non-scaling-stroke"/>
+        <path id="_パス-26" data-name="パス" class="cls-3" d="M97.9,329.61l6.63-24.75h-40l-6.63,24.75h40Z" vector-effect="non-scaling-stroke"/>
       </g>
-      <g class="st18">
-        <text id="text_G21"/>
+      <g id="Decorations" class="cls-29">
+        <g id="stairB" class="cls-29">
+          <path id="_パス-27" data-name="パス" class="cls-5" d="M123.1,235.56l3.39-12.65h-40l-.29,1.1h38l-3.09,11.55h2l-.89,3.3h-40l-.74,2.75h40l-.74,2.75h-40l-.74,2.75h40l-.74,2.75h-40l-.74,2.75h40l-.74,2.75h-40l-.44,1.65,4.71,1.1h35l-.74,2.75h-23l11.26,2.75h11l-.74,2.75-37.5-9.35" vector-effect="non-scaling-stroke"/>
+        </g>
+        <g id="stairC" class="cls-29">
+          <path id="_パス-28" data-name="パス" class="cls-5" d="M234.96,60.66l-6.49,24.2h-25l.74-2.75h25l.74-2.75h-25l.74-2.75h25l.74-2.75h-25l.74-2.75h25l.74-2.75h-25l.74-2.75h25l.74-2.75h-25" vector-effect="non-scaling-stroke"/>
+        </g>
+        <g id="stairD" class="cls-29">
+          <path id="_パス-29" data-name="パス" class="cls-5" d="M534.53,95.86h28l.59-2.2h-28l.59-2.2h28l.59-2.2h-28l.59-2.2h28l.59-2.2h-28l.59-2.2h28l.74-2.75h-28l.88-3.3h28l.88-3.3h-28l31.39-12.65-1.33,4.95h-11l-5.59,2.2h16l-.74,2.75h-22" vector-effect="non-scaling-stroke"/>
+        </g>
+        <path id="_複合パス" data-name="複合パス" class="cls-24" d="M577.69,71.46c.41-1.52,2.98-2.75,5.74-2.75s4.67,1.23,4.26,2.75c-.41,1.52-2.98,2.75-5.74,2.75s-4.67-1.23-4.26-2.75ZM579.45,81.78l-2.5-5.79c-.16-.38.04-.68.45-.68h8.52c.41,0,.51.24.23.53l-5.88,6.08c-.28.29-.65.23-.81-.15Z"/>
+        <path id="_複合パス-2" data-name="複合パス" class="cls-24" d="M163.16,333.81c.41-1.52,2.98-2.75,5.74-2.75s4.67,1.23,4.26,2.75c-.41,1.52-2.98,2.75-5.74,2.75s-4.67-1.23-4.26-2.75ZM164.91,344.13l-2.2-5.11c-.33-.75.08-1.36.89-1.36h7.03c.82,0,1.02.48.45,1.07l-5.37,5.55c-.29.29-.65.23-.81-.15Z"/>
+        <path id="_複合パス-3" data-name="複合パス" class="cls-24" d="M75.76,312.91c.41-1.52,2.98-2.75,5.74-2.75s4.67,1.23,4.26,2.75c-.41,1.52-2.98,2.75-5.74,2.75s-4.67-1.23-4.26-2.75ZM77.51,323.23l-2.2-5.11c-.32-.75.08-1.36.9-1.36h7.03c.82,0,1.02.48.45,1.07l-5.37,5.55c-.28.29-.65.23-.81-.15Z"/>
+        <path id="_複合パス-4" data-name="複合パス" class="cls-24" d="M86.08,277.91c.41-1.52,2.98-2.75,5.74-2.75s4.67,1.23,4.26,2.75c-.41,1.52-2.98,2.75-5.74,2.75s-4.67-1.23-4.26-2.75ZM89.53,282.3l-5.89,6.08c-.28.29-.18.53.23.53h8.52c.41,0,.61-.31.45-.68l-2.5-5.79c-.16-.38-.52-.44-.81-.15Z"/>
+        <path id="_パス-30" data-name="パス" class="cls-7" d="M510.79,464.36h50l22.11-82.5h-50l-22.11,82.5Z" vector-effect="non-scaling-stroke"/>
+        <path id="_パス-31" data-name="パス" class="cls-7" d="M477.21,552.36h-50l20.63-77h50l-20.63,77Z" vector-effect="non-scaling-stroke"/>
+        <path id="_パス-32" data-name="パス" class="cls-7" d="M507.84,475.36h50l-20.63,77h-50l20.63-77Z" vector-effect="non-scaling-stroke"/>
+        <path id="_パス-33" data-name="パス" class="cls-7" d="M500.79,464.36h-50l22.11-82.5h50l-22.11,82.5Z" vector-effect="non-scaling-stroke"/>
       </g>
-      <g class="st40">
-        <text id="text_G22" class="st29" transform="translate(695.3 468.8)"><tspan x="0" y="0">G20</tspan></text>
+      <path id="wheelchair" class="cls-23" d="M517.19,69.81c1.55,0,3-.69,3.23-1.55.23-.86-.84-1.55-2.4-1.55s-3,.69-3.23,1.55c-.23.85.84,1.55,2.4,1.55ZM511.7,74.68c.77-.15,1.26-.6,1.09-1-.17-.4-.92-.6-1.69-.45-3.74.74-6.77,2.62-7.36,4.82-.76,2.85,2.81,5.16,7.99,5.16,3.59,0,6.99-1.11,9.01-2.73.46-.38.33-.84-.3-1.05-.63-.2-1.52-.06-1.99.32-1.41,1.14-3.79,1.91-6.3,1.91-3.63,0-6.13-1.61-5.6-3.61.41-1.54,2.53-2.86,5.15-3.38ZM520.47,72.39l-.03-.31c-.07-.72-1.08-1.23-2.41-1.23-1.76,0-3.33.89-3.23,1.84l.36,3.72c.09.96,1.44,1.66,3.24,1.66h5.89c.39,0,.7.13.79.33l1.29,3.12c.21.52,1.18.79,2.18.62l2.95-.52c1.03-.18,1.72-.76,1.53-1.31-.18-.54-1.17-.83-2.2-.65l-1.15.2-.91-2.19c-.42-1.01-1.99-1.67-3.94-1.67h-4.01l-.15-1.55h3.72c1.04,0,2-.46,2.15-1.03.15-.57-.56-1.03-1.6-1.03h-4.47Z"/>
+      <g class="cls-28">
+        <text id="text_G16" data-name="text G16" class="cls-30" transform="translate(187.4 548.57)"><tspan x="0" y="0">G16</tspan></text>
       </g>
-      <g class="st23">
-        <text id="text_G211" data-name="text_G21" class="st29" transform="translate(456.3 419.8)"><tspan x="0" y="0">休憩所</tspan></text>
+      <g class="cls-41">
+        <text id="text_G15" data-name="text G15" class="cls-30" transform="translate(195.42 527.57)"><tspan x="0" y="0">G15</tspan></text>
       </g>
-      <g id="_レイヤー_40" data-name="レイヤー_40" class="st28">
-        <path id="_パス33" data-name="パス" class="st1" d="M113.1,59.7l-14.7-6,8.4-9-12-1.5,8.7-14.1-17.1,3.3,1.8-11.4-10.8,4.8-.3-15.6-12.3,12.3-5.7-9.6-6,9-10.2-12-1.8,16.5-11.1-5.4,2.4,11.7-15.9-3.9,8.4,13.8-12.3,3.9,8.1,9.3-13.8,5.4,14.1,5.1-8.4,9.3,12.3,1.2-8.4,14.4,15-3.9-1.5,11.4,10.5-4.8,1.2,16.2,10.8-12.3,5.4,9.9,6.9-10.2,11.1,11.7,1.5-15,9.6,5.1-.6-11.4,17.1,4.5-9.6-14.7,12.3-2.7-8.1-8.4,15-6.9Z" vector-effect="non-scaling-stroke"/>
-        <path id="north-arrow-n-svgrepo-com" class="st24" d="M27.8,64.9h12.3v-2.3h-8l8-5v-2.5h-12.3v2.3h8.2l-8.2,5v2.4ZM44.2,61.5l43,15.8c1.4.5,2.6-1,1.8-2.3l-9.5-15,9.5-15c.8-1.2-.5-2.8-1.8-2.3l-43,15.8c-.7.3-1,.8-1,1.5,0,.7.5,1.2,1,1.4h0ZM53.3,61.5h23.6l7.1,11.3-30.7-11.3Z"/>
+      <g class="cls-34">
+        <text id="text_G14" data-name="text G14" class="cls-30" transform="translate(201.27 498.57)"><tspan x="0" y="0">G14</tspan></text>
       </g>
-      <text/>
-      <text/>
-      <text/>
+      <g class="cls-16">
+        <text id="text_G13" data-name="text G13" class="cls-30" transform="translate(207.42 482.57)"><tspan x="0" y="0">G13</tspan></text>
+      </g>
+      <g class="cls-31">
+        <text id="text_G12" data-name="text G12" class="cls-30" transform="translate(213.42 465.57)"><tspan x="0" y="0">G12</tspan></text>
+      </g>
+      <g class="cls-11">
+        <text id="text_G11" data-name="text G11" class="cls-30" transform="translate(220.49 438.57)"><tspan x="0" y="0">G11</tspan></text>
+      </g>
+      <g class="cls-12">
+        <text id="text_G10" data-name="text G10" class="cls-30" transform="translate(224.42 422.57)"><tspan x="0" y="0">G10</tspan></text>
+      </g>
+      <g class="cls-33">
+        <text id="text_G9" data-name="text G9" class="cls-30" transform="translate(231.21 405.57)"><tspan x="0" y="0">G9</tspan></text>
+      </g>
+      <g class="cls-20">
+        <text id="text_G8" data-name="text G8" class="cls-30" transform="translate(239.23 378.57)"><tspan x="0" y="0">G8</tspan></text>
+      </g>
+      <g class="cls-21">
+        <text id="text_G7" data-name="text G7" class="cls-30" transform="translate(244.37 361.57)"><tspan x="0" y="0">G7</tspan></text>
+      </g>
+      <g class="cls-25">
+        <text id="text_G6" data-name="text G6" class="cls-30" transform="translate(248.21 345.57)"><tspan x="0" y="0">G6</tspan></text>
+      </g>
+      <g class="cls-35">
+        <text id="text_G5" data-name="text G5" class="cls-30" transform="translate(255.98 314.93)"><tspan x="0" y="0">G5</tspan></text>
+      </g>
+      <g class="cls-42">
+        <text id="text_G4" data-name="text G4" class="cls-30" transform="translate(260.83 297.93)"><tspan x="0" y="0">G4</tspan></text>
+      </g>
+      <g class="cls-36">
+        <text id="text_G3" data-name="text G3" class="cls-30" transform="translate(264.98 281.93)"><tspan x="0" y="0">G3</tspan></text>
+      </g>
+      <g class="cls-14">
+        <text id="text_hoken" data-name="text hoken" class="cls-30" transform="translate(160 291.62)"><tspan x="0" y="0">保健室</tspan></text>
+      </g>
+      <g class="cls-40">
+        <text id="text_dining" data-name="text dining" class="cls-30" transform="translate(708 158.31)"><tspan x="0" y="0">食堂</tspan></text>
+      </g>
+      <g class="cls-13">
+        <text id="text_tosyo" data-name="text tosyo" class="cls-30" transform="translate(98 396.26)"><tspan x="0" y="0">図書室</tspan></text>
+      </g>
+      <g class="cls-15">
+        <text id="text_G2" data-name="text G2" class="cls-30" transform="translate(272.48 252.93)"><tspan x="0" y="0">G2</tspan></text>
+      </g>
+      <g class="cls-37">
+        <text id="text_G1" data-name="text G1" class="cls-30" transform="translate(278.55 235.93)"><tspan x="0" y="0">G1</tspan></text>
+      </g>
+      <g class="cls-32">
+        <text id="text_G17" data-name="text G17" class="cls-30" transform="translate(479.93 224.62)"><tspan x="0" y="0">G17</tspan></text>
+      </g>
+      <g class="cls-10">
+        <text id="text_G18" data-name="text G18" class="cls-30" transform="translate(571.91 224.62)"><tspan x="0" y="0">G18</tspan></text>
+      </g>
+      <g class="cls-17">
+        <text id="text_G19" data-name="text G19" class="cls-30" transform="translate(662.86 224.62)"><tspan x="0" y="0">G19</tspan></text>
+      </g>
+      <g class="cls-18">
+        <text id="text_G22" data-name="text G22" class="cls-30" transform="translate(695.35 510.62)"><tspan x="0" y="0">G20</tspan></text>
+      </g>
+      <g class="cls-44">
+        <text id="text_G21" data-name="text G21" class="cls-30" transform="translate(456.28 461.62)"><tspan x="0" y="0">休憩所</tspan></text>
+      </g>
     </g>
   </g>
+  <text class="cls-46" transform="translate(349.13 109.65)"><tspan class="cls-19" x="0" y="0">キ</tspan><tspan class="cls-22" x="10.8" y="0">ャ</tspan><tspan class="cls-38" x="21.36" y="0">ン</tspan><tspan class="cls-43" x="33.12" y="0">パ</tspan><tspan class="cls-39" x="44.64" y="0">ス</tspan><tspan class="cls-27" x="55.8" y="0">プラ</tspan><tspan x="78.6" y="0">ザ</tspan></text>
 </svg>

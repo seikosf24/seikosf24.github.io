@@ -409,11 +409,25 @@
   }
 
   document.addEventListener("click",(e)=>{
+    let that
+    console.log(e.target)
+    if(e.target.id){
+      if(notedata[e.target.id.substring(5)]){
+        that = e.target.id.substring(5)
+      }else{
+        return
+      }
+    }else if(e.target.tagName == "tspan"){
+      if(notedata[e.target.parentElement.id.substring(5)]){
+        that = e.target.parentElement.id.substring(5)
+      }else{
+        return
+      }
+    }else{
+      return
+    }
+    const target = that
     console.log(e.target.id)
-    if(!e.target.id){return}
-    if(!notedata[e.target.id.substring(5)]){return}
-    if(!e.target.id.includes("maps_") && !e.target.id.includes("text_")){return}
-    const target = e.target.id.substring(5)
     shownote(document.querySelector(`#maps_${target}`))
     makenote(target)
   })
