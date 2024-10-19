@@ -70,7 +70,6 @@ header {
   flex-wrap: nowrap;
   overflow-x: auto;
   float: right;
-  scrollbar-width: none; 
 }
 #g-nav li {
   display: block;
