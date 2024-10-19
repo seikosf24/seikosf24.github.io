@@ -341,6 +341,28 @@
       box();
     });
     box();
+
+    //ここから上演中のやつの色変える cssのbackground-colorは勝手に変えてくれ
+    const init = ()=>{
+      try{
+        const socket = new WebSocket("wss://aws.t4mg.site/wss");
+        socket.onmessage = (event) => {
+          const data = JSON.parse(event.data)
+          if(data.now == 0){
+            return
+          }else{
+            document.querySelectorAll(".kikaku.active").forEach(e=>{
+              e.classList.remove("active")
+            })
+            const list = document.getElementById("column").children
+            list[data.now].classList.add("active")
+          }
+        };
+      }catch (err){
+        console.log(err)
+      }
+    }
+    init()
   </script>
   <script type="text/javascript" src="/script.js"></script>
 </body>
