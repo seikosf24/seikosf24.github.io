@@ -8,15 +8,29 @@ const blogUrl = Number(location.pathname.replace(/\/+$/, "").split('/').pop().sl
 let before = ("00" + (blogUrl - 1)).slice(-2);
 let after = ("00" + (blogUrl + 1)).slice(-2);
 if (before != "00") {
-document.getElementById("channel").innerHTML =
-    `<a href='./${after}.html'>次のブログ</a>
-    <a href = '../'> ブログトップ</a>
-    <a href='./${before}.html'>前のブログ</a>`;
+    //次の記事が公開されてるかチェック
+    fetch(`/blog/article/${after}.html`).then(r=>{
+        if(r.status == 200){
+            //ある場合
+            document.getElementById("channel").innerHTML =
+                `<a href='./${after}.html'>次のブログ</a>
+                <a href = '../'> ブログトップ</a>
+                <a href='./${before}.html'>前のブログ</a>`;
+        }else{
+            //ない場合
+            document.getElementById("channel").innerHTML =
+                `<a tabindex="-1"><s>次のブログ</s></a>
+                <a href = '../'> ブログトップ</a>
+                <a href='./${before}.html'>前のブログ</a>`;
+        }
+    }).catch(err=>{
+        console.log(err)
+    })
 } else {
-document.getElementById("channel").innerHTML =
-    `<a href='./${after}.html'>次のブログ</a>
-    <a href = '../'> ブログトップ</a>
-    <a tabindex="-1"><s>前のブログ</s></a>`;
+    document.getElementById("channel").innerHTML =
+        `<a href='./${after}.html'>次のブログ</a>
+        <a href = '../'> ブログトップ</a>
+        <a tabindex="-1"><s>前のブログ</s></a>`;
 }
 let data = document.getElementById("letter");
 let dataInside = data.innerHTML;
