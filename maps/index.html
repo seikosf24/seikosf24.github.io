@@ -245,6 +245,11 @@
           "behavior":"smooth",
           "block":"center"
         })
+        const timeoutFunc = ()=>{
+          shownote(document.querySelector(window.location.hash))
+          makenote(window.location.hash.substring(6))
+        }
+        setTimeout(timeoutFunc , 300)
       });
     });
   };
@@ -303,13 +308,13 @@
           <div id="mapContain_f5" role="mapContain" class="map">
 
           </div>`
-    initialize(false)
+      initialize(false)
     }else{
       document.querySelector("div.mapContain").innerHTML=`
           <div id="mapContain_f0" role="mapContain" class="map"> 
 
           </div>`
-    initialize(true)
+      initialize(true)  
     }
     Array.from(document.querySelectorAll("div.map")).forEach((e)=>{
       e.addEventListener("scroll",()=>{
