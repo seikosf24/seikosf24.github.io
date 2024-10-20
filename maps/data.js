@@ -358,9 +358,9 @@ const dataset = [
   },
   {
     f: 4,
-    d: "AOPIΣTOZ",
+    d: "AOPIΣTOΣ",
     i: "SF41",
-    s: "あおりすとす;aopiΣtoz;aorists;",
+    s: "あおりすとす;AOPIΣTOΣ;aorists;",
     l: "v/AOR",
   },
   {
@@ -776,10 +776,10 @@ const notedata = {
   ],
   SF41: [
     "v/AOR",
-    "AOPIΣTOZ展示",
+    "AOPIΣTOΣ展示",
     "四階特別教室",
     "メンバーが今まで自主的に学んできた事を展示します。化学、情報、数学、歴史、言語などに興味のある方はぜひきてください",
-    "AOPIΣTOZ",
+    "AOPIΣTOΣ",
     "AOR",
   ],
   sp1: [
