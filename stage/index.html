@@ -343,7 +343,9 @@
     box();
 
     //ここから上演中のやつの色変える cssのbackground-colorは勝手に変えてくれ
+    let failed = false
     const init = ()=>{
+      if(failed){return}
       try{
         const socket = new WebSocket("wss://aws.t4mg.site/wss");
         socket.onmessage = (event) => {
@@ -359,8 +361,11 @@
             }
           }
         };
+        socket.onclose = (event)=>{
+        }
       }catch (err){
         console.log(err)
+        failed = true
       }
     }
     init()
