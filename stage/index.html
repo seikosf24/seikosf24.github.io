@@ -348,14 +348,15 @@
         const socket = new WebSocket("wss://aws.t4mg.site/wss");
         socket.onmessage = (event) => {
           const data = JSON.parse(event.data)
-          if(data.now == 0){
-            return
-          }else{
-            document.querySelectorAll(".kikaku.active").forEach(e=>{
-              e.classList.remove("active")
-            })
-            const list = document.getElementById("column").children
-            list[data.now].classList.add("active")
+              document.querySelectorAll(".kikaku.active").forEach(e=>{
+                e.classList.remove("active")
+              })
+          for(var i = 0; i<3;i++){
+            const num = data.now[i]
+            if(num !== null && num !== 0){
+              const list = document.getElementById("column").children
+              list[num].classList.add("active")
+            }
           }
         };
       }catch (err){
