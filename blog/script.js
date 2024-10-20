@@ -1,8 +1,7 @@
 let aside = document.getElementById("aside");
 aside.innerHTML = `<h3>Article</h3>
-<a href="./01.html>Webサイト開設！</a><br>
-
-`;
+<a href="./02.html>ミュージカル「Les Misérables」インタビュー(前編)</a><br>
+<a href="./01.html>Webサイト開設！</a><br>`;
 
 const blogUrl = Number(location.pathname.replace(/\/+$/, "").split('/').pop().slice(0, 2));
 let before = ("00" + (blogUrl - 1)).slice(-2);
