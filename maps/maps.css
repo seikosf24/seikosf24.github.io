@@ -141,7 +141,7 @@
   left:calc(50vw - 25px);
   top:530px;
   cursor: pointer;
-  z-index: 1230;
+  z-index: 9;
 }
 
 #buttonDOWN img{
@@ -151,7 +151,7 @@
   transform: rotate(180deg);
   top:1100px;
   cursor: pointer;
-  z-index: 1230;
+  z-index: 9;
 }
 
 .mapContain{
@@ -163,13 +163,14 @@
   overflow: hidden;
   aspect-ratio: 1 / 0.8;
   margin-bottom: 100px;
+  
 }
 .mapContain div{
   position:relative;
   top:0px;
   width:100%;
   aspect-ratio: 1 / 1;
-  transition: transform 0.5s ease-in-out;
+  transition: transform 0.3s ease-in-out;
   overflow-y: hidden;
 }
 .mapContain svg {

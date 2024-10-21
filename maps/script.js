@@ -3,7 +3,7 @@ const par = document.getElementById('search_input');
 const child = document.getElementById('suggest_box');
 
 window.addEventListener("click",(event)=>{
-  if(event.target.role == "suggest_items"){
+  if(event.target.role == "suggest_items" || hasParentWithId(event.target,"result_a_con") || (event.target.parentElement.role == "suggest_items")){
     child.classList.remove("active")
   }else if(hasParentWithId(event.target,"search_box")){
     child.classList.add("active")
@@ -67,16 +67,30 @@ Promise.all([
   fetch("./svg/f5.svg").then(res=>res.text()).then(res=>{defoSVG.f5 = res;document.getElementById("mapContain_f5").innerHTML = res;})
 ]).then(()=>{
   if(window.location.hash.substring(1)){
+    const DATAID = window.location.hash.substring(6)
     showplace(window.location.hash.substring(1))
-    
-    document.getElementById(window.location.hash.substring(1)).scrollIntoView({
-        "behavior":"smooth",
-        "block":"center"
-      })
+    console.log(getf(DATAID))
+    Array.from(document.querySelectorAll(".map")).forEach(e=>{
+        e.style.display = "none"
+        const func = ()=>{
+            e.style.display="block"
+        }    
+        setTimeout(func,300);
+    })
   }else{
     arrowable(true,false)
     selectSVGbutton(1)
     initialize(false)
+  
+    Array.from(document.querySelectorAll(".map")).forEach(e=>{
+        if(e.id !== `mapContain_f1`){
+            e.style.display = "none"
+            const func = ()=>{
+                e.style.display="block"
+            }
+            setTimeout(func,400);
+        }
+    })
   }
 })
 
@@ -115,16 +129,10 @@ const search = ()=>{
   //MARK:ココが検索結果表示、忘れないように
   Array.from(document.querySelectorAll(".result_items")).forEach((elem)=>{
     elem.addEventListener("click",(elem)=>{
-      Array.from(document.querySelectorAll("div[role=mapContain]")).forEach(e=>{
-        e.style.display = "none"
-      })
+      initialize()
       selectSVGbutton(elem.currentTarget.dataset.floor)
       showplace(elem.currentTarget.dataset.target)
-      window.location.href="#"+elem.currentTarget.dataset.target
-      document.getElementById(elem.currentTarget.dataset.target).scrollIntoView({
-        "behavior":"smooth",
-        "block":"center"
-      })
+      history.replaceState(null, null, `#${elem.currentTarget.dataset.target}`);
       const timeoutFunc = ()=>{
         shownote(document.querySelector(window.location.hash))
         makenote(window.location.hash.substring(6))
@@ -198,14 +206,23 @@ const selectSVGbutton = (f)=>{
             </div>`
         initialize(false)
         document.getElementById("north").style.display = "block"
+        Array.from(document.querySelectorAll(".map")).forEach(e=>{
+            if(e.id !== `mapContain_f${f}`){
+                e.style.display = "none"
+                const func = ()=>{
+                    e.style.display="block"
+                }
+                setTimeout(func,400);
+            }
+        })
     }
     document.querySelector("div.mapContain").classList.remove("fullmap")
     const vw = document.getElementById("mapContain_f1").clientWidth
-    document.getElementById("mapContain_f1").style.transform = `translateY(${(1 - f)*vw}px)`
-    document.getElementById("mapContain_f2").style.transform = `translateY(${(1 - f)*vw}px)`
-    document.getElementById("mapContain_f3").style.transform = `translateY(${(1 - f)*vw}px)`
-    document.getElementById("mapContain_f4").style.transform = `translateY(${(1 - f)*vw}px)`
-    document.getElementById("mapContain_f5").style.transform = `translateY(${(1 - f)*vw}px)`
+    document.getElementById("mapContain_f1").style.transform = `translateY(${(f - 1)*vw}px)`
+    document.getElementById("mapContain_f2").style.transform = `translateY(${(f - 3)*vw}px)`
+    document.getElementById("mapContain_f3").style.transform = `translateY(${(f - 5)*vw}px)`
+    document.getElementById("mapContain_f4").style.transform = `translateY(${(f - 7)*vw}px)`
+    document.getElementById("mapContain_f5").style.transform = `translateY(${(f - 9)*vw}px)`
   }else{
     arrowable(false,false)
     document.getElementById("north").style.display = "none"
