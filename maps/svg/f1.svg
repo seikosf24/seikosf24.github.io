@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg id="_レイヤー_1" data-name="レイヤー 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1000 880.86">
+<svg id="_レイヤー_1" data-name="レイヤー 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 80 1000 880.86">
   <defs>
     <style>
       .cls-1 {
@@ -453,8 +453,4 @@
     </g>
   </g>
   <text class="cls-48" transform="translate(349.13 148.69)"><tspan class="cls-20" x="0" y="0">キ</tspan><tspan class="cls-23" x="10.8" y="0">ャ</tspan><tspan class="cls-40" x="21.36" y="0">ン</tspan><tspan class="cls-45" x="33.12" y="0">パ</tspan><tspan class="cls-41" x="44.64" y="0">ス</tspan><tspan class="cls-29" x="55.8" y="0">プラ</tspan><tspan x="78.6" y="0">ザ</tspan></text>
-  <g id="_レイヤー_40" data-name="レイヤー 40" class="cls-31">
-    <path id="_パス-34" data-name="パス" class="cls-2" d="M114.73,137.83l-14.7-6,8.4-9-12-1.5,8.7-14.1-17.1,3.3,1.8-11.4-10.8,4.8-.3-15.6-12.3,12.3-5.7-9.6-6,9-10.2-12-1.8,16.5-11.1-5.4,2.4,11.7-15.9-3.9,8.4,13.8-12.3,3.9,8.1,9.3-13.8,5.4,14.1,5.1-8.4,9.3,12.3,1.2-8.4,14.4,15-3.9-1.5,11.4,10.5-4.8,1.2,16.2,10.8-12.3,5.4,9.9,6.9-10.2,11.1,11.7,1.5-15,9.6,5.1-.6-11.4,17.1,4.5-9.6-14.7,12.3-2.7-8.1-8.4,15-6.9Z" vector-effect="non-scaling-stroke"/>
-    <path id="north-arrow-n-svgrepo-com" class="cls-26" d="M29.41,143h12.29v-2.3h-8.01l8.01-4.95v-2.49h-12.29v2.31h8.2l-8.2,5.03v2.41ZM45.81,139.58l42.97,15.83c1.38.51,2.61-1.02,1.83-2.26l-9.47-15.03,9.47-15.02c.78-1.24-.45-2.77-1.83-2.26l-43,15.84c-.67.29-1,.79-1,1.46,0,.68.53,1.24,1.03,1.43h0ZM54.92,139.66h23.56l7.13,11.3-30.68-11.3Z"/>
-  </g>
 </svg>
