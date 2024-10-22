@@ -132,6 +132,7 @@
   transform: rotate(-90deg);
   height:70px;
   top:100px;
+  left:calc(10% - 0px);
   z-index: 1230;
 }
 
@@ -293,6 +294,14 @@
     pointer-events: none;
     transition: opacity 0.5s;
     opacity: 100;
+  }
+  #north{
+    position:relative;
+    transform: rotate(-90deg);
+    height:70px;
+    top:100px;
+    z-index: 1230;
+    left:0px
   }
 }
 
