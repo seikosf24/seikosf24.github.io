@@ -303,8 +303,7 @@ const dataset = [
     d: "星光王",
     i: "SRNo4",
     s: "星光王;せいこうおう;seikouking;くいず研究会;くいずけんきゅうかい;specialclassroomno4;specialroomno4;特別第4教室;とくべつだいよんきょうしつ",
-    l: "",
-    undefined,
+    l: "b/QUI",
   },
   //f4
   {
@@ -389,8 +388,7 @@ const dataset = [
     d: "電気工学部",
     i: "Physics",
     s: "電気工学部;でんきこうがくぶ;denkikougakubu;",
-    l: "",
-    undefined,
+    l: "c/DNK",
   },
   //f5
   {
