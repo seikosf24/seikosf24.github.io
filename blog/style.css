@@ -137,7 +137,7 @@ background-color: purple;
   left: -22px;
   border-right-color: #f1f1f1;
 }
-photoFlex img {
+#photoFlex img {
   width: 44%;
   padding: 0;
   margin: 15px 3%;
@@ -168,12 +168,12 @@ photoFlex img {
   box-shadow: 1px 1px 2px var(--shadow);
 }
 .profile.snapshots {
-background-color: #f3f0fc;
-  border: 1px solid #bbbbdd;
+background-color: #f0fcf3;
+  border: 1px solid #bbddbb;
 }
 .profile.snapshots::before {
   content: "Snapshots";
-background-image: repeating-linear-gradient(-45deg, #eeecf6 0, #eeecf6 3px, #fafafa 3px, #fafafa 6px);
+background-image: repeating-linear-gradient(-45deg, #f6eeec 0, #f6eeec 3px, #fafafa 3px, #fafafa 6px);
 }
 @media screen and (max-width: 700px) {
   #letter {
