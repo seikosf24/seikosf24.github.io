@@ -147,7 +147,6 @@ background-color: purple;
   border: 1px solid #ddbbbb;
   border-radius: 15px;
 }
-
 .profile::before {
   content: "Profile";
   background-image: repeating-linear-gradient(-45deg, #F6EEEC 0, #F6EEEC 3px, #fafafa 3px, #fafafa 6px);
@@ -163,7 +162,14 @@ background-color: purple;
   left: 20px;
   box-shadow: 1px 1px 2px var(--shadow);
 }
-
+.snapshots {
+background-color: #f3f0fc;
+  border: 1px solid #bbbbdd;
+}
+.snapshots before {
+  content: "Snapshots";
+background-image: repeating-linear-gradient(-45deg, #eeecf6 0, #eeecf6 3px, #fafafa 3px, #fafafa 6px);
+}
 @media screen and (max-width: 700px) {
   #letter {
     display: block;
