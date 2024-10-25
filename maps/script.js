@@ -217,7 +217,10 @@ const selectSVGbutton = (f)=>{
         })
     }
     document.querySelector("div.mapContain").classList.remove("fullmap")
-    const vw = document.getElementById("mapContain_f1").clientWidth
+    var vw = document.getElementById("mapContain_f1").clientWidth
+    if(vw <= 500){
+      vw = 500
+    }
     document.getElementById("mapContain_f1").style.transform = `translateY(${(f - 1)*vw}px)`
     document.getElementById("mapContain_f2").style.transform = `translateY(${(f - 3)*vw}px)`
     document.getElementById("mapContain_f3").style.transform = `translateY(${(f - 5)*vw}px)`

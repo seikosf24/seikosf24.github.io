@@ -133,7 +133,7 @@
   height:70px;
   top:100px;
   left:calc(10% - 0px);
-  z-index: 88;
+  z-index: 54;
 }
 
 #buttonUP img{
@@ -147,10 +147,10 @@
 
 #buttonDOWN img{
   width:50px;
-  position:absolute;
+  position:relative;
   left:calc(50vw - 25px);
   transform: rotate(180deg);
-  top:1100px;
+  bottom:calc(0px + 80px);
   cursor: pointer;
   z-index: 9;
 }
@@ -162,9 +162,12 @@
   position:relative;
   top:50px;
   overflow: hidden;
-  aspect-ratio: 1 / 0.8;
+  aspect-ratio: 1 / 0.6;
   margin-bottom: 100px;
-  
+}
+.mapContain.fullmap{
+  top:140px;
+  aspect-ratio: 1 / 0.9;
 }
 .mapContain div{
   position:relative;
@@ -277,10 +280,19 @@
     left: calc((100% - 100vw) / 2);
     width: 100vw;
     overflow: hidden;
+    aspect-ratio: unset;
+    height: calc(500px);
+  }
+  .mapContain.fullmap{
+    min-height: 600px;
+  }
+  .mapContain.fullmap div.map{
+    min-height: 700px;
   }
   .map{
     width:100%;
     overflow: auto;
+    min-height: 500px;
   }
   .map svg{
     width:700px;
@@ -300,7 +312,7 @@
     transform: rotate(-90deg);
     height:70px;
     top:100px;
-    z-index: 1230;
+    z-index: 54;
     left:0px
   }
 }
