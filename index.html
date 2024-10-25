@@ -190,6 +190,53 @@
     #pamphlet:hover {
       transform: scale(0.9);
     }
+    /*start*/
+#popup {
+    display: none;
+    /* label でコントロールするので input は非表示に */
+}
+ 
+.popup-overlay {
+    display: none;
+}
+ 
+#popup:checked~.popup-overlay {
+    display: block;
+    z-index: 99999;
+    background-color: #00000070;
+    position: fixed;
+    width: 100%;
+    height: 120vh;
+    top: 0;
+    left: 0;
+}
+ 
+.popup-window {
+    width: calc(45% + 150px);
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 6px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: left;
+    box-shadow: 3px 3px 30px #eeeeee;
+}
+ 
+.popup-window-inside {
+    height: calc(65vh - 50px);
+    overflow-y: scroll;
+    color: #333333;
+}
+ 
+.popup-close {
+    cursor: pointer;
+    position: absolute;
+    top: -30px;
+    right: 0;
+}
+
   </style>
 </head>
 
@@ -335,11 +382,18 @@
       </div>
     </section>
   </main>
-  <!-- <div id="pamphlet">
-      パンフレットの<br>
-      ダウンロードは<br>
-      こちらから
-    </div> -->
+  <!-- popUpTest --> <input type="checkbox" id="popup"> 
+  <label id="pamphlet" for="popup">Settings</label>
+  <div class="popup-overlay">
+　<div class="popup-window"> 
+   <div class="popup-window-inside">
+     中身 
+   </div>
+　　<label class="popup-close"for="popup"> 　　　<svg width="27" height="27"xmlns="http://www.w3.org/2000/svg"> 　　　　<line x1="0" y1="0" x2="27"y2="27" stroke="white"stroke-width="3"> 　　　　<line x1="0" y1="27" x2="27"y2="0" stroke="white"stroke-width="3">
+　　　</svg>
+　　</label>
+　</div>
+</div>
   <footer></footer>
   <script>
     //手作りスライドショー(ガチで時間かかった)
