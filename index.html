@@ -237,7 +237,10 @@ a.btn-flat {
   position: relative;
   overflow: hidden;
  width: 250px;
+  height: 50px;
   padding: 10px;
+  margin: 10px auto;
+  text-align: center;
   color: #eee;
   border-radius: 5px;
   background: #111;
@@ -245,7 +248,7 @@ a.btn-flat {
 a.btn-flat span {
   position: relative;
 }
-    a.btn-flat span::last-child {
+    a.btn-flat span.size {
   font-size: 1.4rem;
 }
 a.btn-flat:before {
@@ -425,8 +428,8 @@ a.btn-flat:hover:before {
       <div class="popup-window-inside">
         <h2>パンフレットをダウンロードする</h2>
 <div style="display:flex;flex-wrap:wrap;justify-content:space-between;">
-<a tabindex="-1" class="btn-flat"><span>低画質版</span><br><span>(2.7MB)</span></a>
-<a tabindex="-1" class="btn-flat"><span>高画質版</span><br><span>(24MB)</span></a>
+<a tabindex="-1" class="btn-flat"><span>低画質版</span><br><span class="size">(2.7MB)</span></a>
+<a tabindex="-1" class="btn-flat"><span>高画質版</span><br><span class="size">(24MB)</span></a>
 </div>
       </div>
       <label class="popup-close" for="popup"> 
