@@ -233,7 +233,7 @@
     }
 
     .popup-window-inside h2 {
-      font-size: 2.1rem;
+      font-size: 2.0rem;
     }
 
     .popup-close {
@@ -256,7 +256,7 @@
       font-size: 2rem;
       font-weight: bold;
       color: var(--dark);
-      padding: 5px;
+      font-family: "Oswald", sans-serif;
     }
 
     /*btn*/
@@ -303,7 +303,8 @@
       -webkit-transform: translateX(-1%) translateY(-175px);
       transform: translateX(-1%) translateY(-175px);
     }
-    #buttons{
+
+    #buttons {
       display: flex;
       flex-wrap: wrap;
       justify-content: space-between;
@@ -467,7 +468,7 @@
         <h2>パンフレットをダウンロードする</h2>
         <div class="atttt">attention</div>
         <div class="att">
-          パンフレットをダウンロードするにあたり、次の注意事項に同意していただく必要があります。
+          パンフレットをダウンロードするために、次の注意事項に同意し、末尾のチェックボックスにチェックを入れてください。
           <ul>
             <li>ネット上で公開してはいけません</li>
             <li>SFに来場していない人への配布はできません</li>
@@ -476,8 +477,9 @@
           <input type="checkbox" id="dl" name="dl" />
           <label for="dl">上記に同意してダウンロードします</label>
         </div>
-        <div  id="buttons">
-          <a href="/assets/pamphlet/SF2024_pamphlet_low.pdf" class="btn-flat" download><span>低画質版</span><br><span class="size">(2.7MB)</span></a>
+        <div id="buttons">
+          <a href="/assets/pamphlet/SF2024_pamphlet_low.pdf" class="btn-flat" download><span>低画質版</span><br><span
+              class="size">(2.7MB)</span></a>
           <a tabindex="-1" class="btn-flat"><span>高画質版</span><br><span class="size">(24MB)</span></a>
         </div>
       </div>
@@ -601,25 +603,17 @@
     }
     changeBG();
 
-    //ここからお知らせノやつ表示する
-    const loadNews = () => {
-      const newsdata = fetch("/api/articles")
-      var content = ""
-      for (var i = 0; i < 3; i++) {
-        if (!newsdata[i]) {
-          continue
-        }
-        date = newsdata[i].date
-        title = newsdata[i].title
-        location = newsdata[i].location
-        content += `
-            <tr>
-              <td>${date}</td>
-              <td><a href="${location}">${title}</a></td>
-            </tr>
-          `
+    //ダウンロードのチェックボックス
+    function valueChange(event) {
+      if (saveCheckbox.checked) {
+        alert('ダウンロード可能');
+      } else {
+        alert('ダウンロード不可能');
       }
     }
+    let saveCheckbox = document.getElementById('dl');
+    saveCheckbox.addEventListener('change', valueChange);
+
   </script>
   <script type="text/javascript" src="./script.js" defer></script>
   <script>
