@@ -303,6 +303,12 @@
       -webkit-transform: translateX(-1%) translateY(-175px);
       transform: translateX(-1%) translateY(-175px);
     }
+    #buttons{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      pointer-events: none;
+    }
   </style>
 </head>
 
@@ -470,8 +476,8 @@
           <input type="checkbox" id="dl" name="dl" />
           <label for="dl">上記に同意してダウンロードします</label>
         </div>
-        <div style="display:flex;flex-wrap:wrap;justify-content:space-between;">
-          <a tabindex="-1" class="btn-flat"><span>低画質版</span><br><span class="size">(2.7MB)</span></a>
+        <div  id="buttons">
+          <a href="/assets/pamphlet/SF2024_pamphlet_low.pdf" class="btn-flat" download><span>低画質版</span><br><span class="size">(2.7MB)</span></a>
           <a tabindex="-1" class="btn-flat"><span>高画質版</span><br><span class="size">(24MB)</span></a>
         </div>
       </div>
