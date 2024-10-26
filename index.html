@@ -121,6 +121,7 @@
     h1.home span {
       font-size: calc(7vw + 20px);
     }
+
     .fusen-2 {
       display: inline-block;
       width: 320px;
@@ -147,6 +148,7 @@
       content: "";
       filter: blur(4px);
     }
+
     #colorText {
       width: 320px;
       margin: 0 10px;
@@ -191,89 +193,103 @@
     #pamphlet:hover {
       transform: scale(0.9);
     }
+
     #popup {
       display: none;
       /* label でコントロールするので input は非表示に */
     }
+
     .popup-overlay {
       display: none;
     }
-#popup:checked~.popup-overlay {
-  display: block;
-  z-index: 99999;
-  background-color: #00000070;
-  position: fixed;
-  width: 100%;
-  height: 120vh;
-  top: 0;
-  left: 0;
-}
-.popup-window {
-  width: min(80vw, 700px);
-  padding: 20px;
-  background-color: #ffffff;
-  border-radius: 6px;
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: left;
-  box-shadow: 3px 3px 30px #eeeeee;
-}
-.popup-window-inside {
-  height: calc(30vh + 150px);
-  overflow-y: scroll;
-  color: #333333;
-}
-    .popup-window-indide h2 {
+
+    #popup:checked~.popup-overlay {
+      display: block;
+      z-index: 99999;
+      background-color: #00000070;
+      position: fixed;
+      width: 100%;
+      height: 120vh;
+      top: 0;
+      left: 0;
+    }
+
+    .popup-window {
+      width: min(80vw, 700px);
+      padding: 20px;
+      background-color: #ffffff;
+      border-radius: 10px;
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      text-align: left;
+      box-shadow: 3px 3px 30px #eeeeee;
+    }
+
+    .popup-window-inside {
+      height: calc(30vh + 150px);
+      overflow-y: scroll;
+      color: #333333;
+    }
+
+    .popup-window-inside h2 {
       font-size: 2.2rem;
     }
-.popup-close {
-  cursor: pointer;
-  position: absolute;
-  top: -30px;
-  right: 0;
-}
-    
-/*btn*/
-a.btn-flat {
-  position: relative;
-  overflow: hidden;
- width: 250px;
-  height: 50px;
-  padding: 10px;
-  margin: 10px auto;
-  text-align: center;
-  color: #eee;
-  border-radius: 5px;
-  background: var(--dark);
-}
-a.btn-flat span {
-  position: relative;
-}
+
+    .popup-close {
+      cursor: pointer;
+      position: absolute;
+      top: -30px;
+      right: 0;
+    }
+    .att {
+      border-color: #bbaa77;
+      border-radius: 5px;
+    }
+    /*btn*/
+    a.btn-flat {
+      position: relative;
+      overflow: hidden;
+      width: 240px;
+      height: 50px;
+      padding: 10px;
+      margin: 10px auto;
+      text-align: center;
+      color: #eee;
+      border-radius: 5px;
+      background: var(--dark);
+    }
+
+    a.btn-flat span {
+      position: relative;
+    }
+
     a.btn-flat span.size {
-  font-size: 1.4rem;
-}
-a.btn-flat:before {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 140px;
-  height: 140px;
-  content: '';
-  -webkit-transition: all .5s ease-in-out;
-  transition: all .5s ease-in-out;
-  -webkit-transform: translateX(-80%) translateY(-25px);
-  transform: translateX(-80%) translateY(-25px);
-  border-radius: 50%;
-  background: #008cff;
-}
-a.btn-flat:hover:before {
-  width: 400px;
-  height: 400px;
-  -webkit-transform: translateX(-1%) translateY(-175px);
-  transform: translateX(-1%) translateY(-175px);
-}
+      font-size: 1.4rem;
+    }
+
+    a.btn-flat:before {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 120px;
+      height: 120px;
+      content: '';
+      -webkit-transition: all .5s ease-in-out;
+      transition: all .5s ease-in-out;
+      -webkit-transform: translateX(-80%) translateY(-25px);
+      transform: translateX(-80%) translateY(-25px);
+      border-radius: 50%;
+      background: #008cff;
+    }
+
+    a.btn-flat:hover:before {
+      width: 400px;
+      height: 400px;
+      -webkit-transform: translateX(-1%) translateY(-175px);
+      transform: translateX(-1%) translateY(-175px);
+    }
   </style>
 </head>
 
@@ -304,48 +320,48 @@ a.btn-flat:hover:before {
   <div id="headerBlack" class="tops"></div>
   <main class="arrow">
     <section class="infoflex">
-        <div class="fusen-2">
-          2024年11月3日(日)<br>
-          9:00〜15:30<br>
-          @大阪星光学院中学校・高等学校
-        </div>
+      <div class="fusen-2">
+        2024年11月3日(日)<br>
+        9:00〜15:30<br>
+        @大阪星光学院中学校・高等学校
+      </div>
       <figure id="colorText">
         <p>あと<span id="countDown">???</span>日</p>
       </figure>
     </section>
     <section>
-        <h2>LATEST BLOG</h2>
-        <table class="news">
-          <tbody>
-            <tr>
-              <td>10/26</td>
-              <td><a href="/blog/article/08.html">星光アミューズメント課インタビュー(中編)</a></td>
-            </tr>
-            <tr>
-              <td>10/25</td>
-              <td><a href="/blog/article/07.html">星光アミューズメント課インタビュー(前編)</a></td>
-            </tr>
-            <tr>
-              <td>10/24</td>
-              <td><a href="/blog/article/06.html">運営委員に聞く(第2回)</a></td>
-            </tr>
-            <tr>
-              <td>10/23</td>
-              <td><a href="/blog/article/05.html">運営委員に聞く(第1回)</a></td>
-            </tr>
-            <tr>
-              <td>10/22</td>
-              <td><a href="/blog/article/04.html">ミュージカル「Les Misérables」インタビュー(後編)</a></td>
-            </tr>
-          </tbody>
-          <tfoot>
-            <tr>
-              <th scope="row" colspan="2">
-                <a href="/blog">《全てのブログをみる》</a>
-              </th>
-            </tr>
-          </tfoot>
-        </table>
+      <h2>LATEST BLOG</h2>
+      <table class="news">
+        <tbody>
+          <tr>
+            <td>10/26</td>
+            <td><a href="/blog/article/08.html">星光アミューズメント課インタビュー(中編)</a></td>
+          </tr>
+          <tr>
+            <td>10/25</td>
+            <td><a href="/blog/article/07.html">星光アミューズメント課インタビュー(前編)</a></td>
+          </tr>
+          <tr>
+            <td>10/24</td>
+            <td><a href="/blog/article/06.html">運営委員に聞く(第2回)</a></td>
+          </tr>
+          <tr>
+            <td>10/23</td>
+            <td><a href="/blog/article/05.html">運営委員に聞く(第1回)</a></td>
+          </tr>
+          <tr>
+            <td>10/22</td>
+            <td><a href="/blog/article/04.html">ミュージカル「Les Misérables」インタビュー(後編)</a></td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <tr>
+            <th scope="row" colspan="2">
+              <a href="/blog">《全てのブログをみる》</a>
+            </th>
+          </tr>
+        </tfoot>
+      </table>
     </section>
     <section class="infoflex">
       <a href="./info" class="info"> 開催情報はこちら </a>
@@ -423,21 +439,31 @@ a.btn-flat:hover:before {
       </div>
     </section>
   </main>
-  <!-- popUpTest --> 
-  <input type="checkbox" id="popup"> 
+  <!-- popUpTest -->
+  <input type="checkbox" id="popup">
   <label style="opacity:0.2" for="popup">Settings</label>
   <div class="popup-overlay">
-    <div class="popup-window"> 
+    <div class="popup-window">
       <div class="popup-window-inside">
         <h2>パンフレットをダウンロードする</h2>
-<div style="display:flex;flex-wrap:wrap;justify-content:space-between;">
-<a tabindex="-1" class="btn-flat"><span>低画質版</span><br><span class="size">(2.7MB)</span></a>
-<a tabindex="-1" class="btn-flat"><span>高画質版</span><br><span class="size">(24MB)</span></a>
-</div>
+        <div class="att">
+          パンフレットをダウンロードするにあたり、次の注意事項に同意していただく必要があります。
+          <ul>
+            <li>ネット上で公開してはいけません</li>
+            <li>SFに来場していない人への配布はできません</li>
+            <li>改変できません</li>
+          </ul>
+          <input type="checkbox" id="dl" name="dl" />
+    <label for="dl">上記に同意してダウンロードします</label>
+        </div>
+        <div style="display:flex;flex-wrap:wrap;justify-content:space-between;">
+          <a tabindex="-1" class="btn-flat"><span>低画質版</span><br><span class="size">(2.7MB)</span></a>
+          <a tabindex="-1" class="btn-flat"><span>高画質版</span><br><span class="size">(24MB)</span></a>
+        </div>
       </div>
-      <label class="popup-close" for="popup"> 
-        <svg width="27" height="27" xmlns="http://www.w3.org/2000/svg"> 
-          <line x1="0" y1="0" x2="27" y2="27" stroke="white" stroke-width="3" /> 
+      <label class="popup-close" for="popup">
+        <svg width="27" height="27" xmlns="http://www.w3.org/2000/svg">
+          <line x1="0" y1="0" x2="27" y2="27" stroke="white" stroke-width="3" />
           <line x1="0" y1="27" x2="27" y2="0" stroke="white" stroke-width="3" />
         </svg>
       </label>
