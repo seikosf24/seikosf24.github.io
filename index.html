@@ -243,12 +243,14 @@
       top: -30px;
       right: 0;
     }
+
     .att {
       border-color: #aa8833;
       border-radius: 5px;
       position: relative;
       padding: 5px;
     }
+
     .att div {
       color: #aa8833;
       background-color: var(--light);
@@ -257,6 +259,7 @@
       top: -8px;
       left: 20px;
     }
+
     /*btn*/
     a.btn-flat {
       position: relative;
@@ -273,6 +276,7 @@
 
     a.btn-flat span {
       position: relative;
+      z-index: 19;
     }
 
     a.btn-flat span.size {
@@ -465,7 +469,7 @@
             <li>改変できません</li>
           </ul>
           <input type="checkbox" id="dl" name="dl" />
-    <label for="dl">上記に同意してダウンロードします</label>
+          <label for="dl">上記に同意してダウンロードします</label>
         </div>
         <div style="display:flex;flex-wrap:wrap;justify-content:space-between;">
           <a tabindex="-1" class="btn-flat"><span>低画質版</span><br><span class="size">(2.7MB)</span></a>
