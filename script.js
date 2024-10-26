@@ -56,7 +56,7 @@ footer.innerHTML =
         </div>
       </div>
       <div class="footerMom">
-        <a href="http://www.osakaseiko.ac.jp/">大阪星光学院中学校・高等学校公式</a><br><br>
+        <a href="http://www.osakaseiko.ac.jp/" target="_blank" rel="noopener noreferrer">大阪星光学院中学校・高等学校公式</a><br><br>
         &copy; 2024 SF運営委員会 All rights reserved.
       </div>
     </div>
