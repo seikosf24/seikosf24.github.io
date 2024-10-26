@@ -209,7 +209,7 @@
   left: 0;
 }
 .popup-window {
-  width: max(80vw, 700px);
+  width: min(80vw, 700px);
   padding: 20px;
   background-color: #ffffff;
   border-radius: 6px;
@@ -231,8 +231,8 @@
   top: -30px;
   right: 0;
 }
+    
 /*btn*/
-
 a.btn-flat {
   position: relative;
   overflow: hidden;
@@ -244,6 +244,9 @@ a.btn-flat {
 }
 a.btn-flat span {
   position: relative;
+}
+    a.btn-flat span::last-child {
+  font-size: 1.4rem;
 }
 a.btn-flat:before {
   position: absolute;
@@ -265,7 +268,6 @@ a.btn-flat:hover:before {
   -webkit-transform: translateX(-1%) translateY(-175px);
   transform: translateX(-1%) translateY(-175px);
 }
-
   </style>
 </head>
 
