@@ -217,7 +217,7 @@
     .popup-window {
       width: min(80vw, 700px);
       padding: 20px;
-      background-color: #ffffff;
+      background-color: var(--light);
       border-radius: 10px;
       position: fixed;
       top: 50%;
@@ -244,8 +244,18 @@
       right: 0;
     }
     .att {
-      border-color: #bbaa77;
+      border-color: #aa8833;
       border-radius: 5px;
+      position: relative;
+      padding: 5px;
+    }
+    .att div {
+      color: #aa8833;
+      background-color: var(--light);
+      line-height: 1;
+      padding: 5px;
+      top: -8px;
+      left: 20px;
     }
     /*btn*/
     a.btn-flat {
