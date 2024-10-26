@@ -304,11 +304,12 @@
       transform: translateX(-1%) translateY(-175px);
     }
 
-    #buttons {
+    #DLbuttons {
       display: flex;
       flex-wrap: wrap;
       justify-content: space-between;
       pointer-events: none;
+      opacity: 0.6;
     }
   </style>
 </head>
@@ -477,10 +478,10 @@
           <input type="checkbox" id="dl" name="dl" />
           <label for="dl">上記に同意してダウンロードします</label>
         </div>
-        <div id="buttons">
+        <div id="DLbuttons">
           <a href="/assets/pamphlet/SF2024_pamphlet_low.pdf" class="btn-flat" download><span>低画質版</span><br><span
               class="size">(2.7MB)</span></a>
-          <a tabindex="-1" class="btn-flat"><span>高画質版</span><br><span class="size">(24MB)</span></a>
+          <a href="/assets/pamphlet/SF2024_pamphlet_high.pdf" class="btn-flat" download><span>高画質版</span><br><span class="size">(24MB)</span></a>
         </div>
       </div>
       <label class="popup-close" for="popup">
@@ -604,11 +605,14 @@
     changeBG();
 
     //ダウンロードのチェックボックス
+    let BDLC = document.getElementById("DLbuttons");
     function valueChange(event) {
       if (saveCheckbox.checked) {
-        alert('ダウンロード可能');
+        BDLC.style.pointerEvents = "auto";
+        BDLC.style.opacity = "1";
       } else {
-        alert('ダウンロード不可能');
+        BDLC.style.pointerEvents = "none";
+        BDLC.style.opacity = "0.6";
       }
     }
     let saveCheckbox = document.getElementById('dl');
