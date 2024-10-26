@@ -2,6 +2,7 @@ let aside = document.getElementById("aside");
 // ここら辺に関してはjsonファイル作って自動化させたい。せっかく付けたタグも役立てないとね？
 //ただしjsonは読み込み時間もあるからこのファイル内に記述するように。
 aside.innerHTML = `<h3>Archive</h3>
+<a href="./08.html">星光アミューズメント課インタビュー(中編)</a><br>
 <a href="./07.html">星光アミューズメント課インタビュー(前編)</a><br>
 <a href="./06.html">運営委員に聞く(第2回)</a><br>
 <a href="./05.html">運営委員に聞く(第1回)</a><br>
