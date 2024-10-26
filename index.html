@@ -231,6 +231,49 @@
   top: -30px;
   right: 0;
 }
+/*btn*/
+
+a.btn-flat {
+  overflow: hidden;
+
+  padding: 1.5rem 6rem;
+
+  color: #fff;
+  border-radius: 0;
+  background: #000;
+}
+
+a.btn-flat span {
+  position: relative;
+}
+
+a.btn-flat:before {
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  width: 100px;
+  height: 100px;
+
+  content: '';
+  -webkit-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
+  -webkit-transform: translateX(-80%) translateY(-25px);
+  transform: translateX(-80%) translateY(-25px);
+
+  border-radius: 50%;
+  background: #eb6100;
+}
+
+a.btn-flat:hover:before {
+  width: 400px;
+  height: 400px;
+
+  -webkit-transform: translateX(-1%) translateY(-175px);
+
+  transform: translateX(-1%) translateY(-175px);
+}
+
   </style>
 </head>
 
@@ -382,11 +425,15 @@
   </main>
   <!-- popUpTest --> 
   <input type="checkbox" id="popup"> 
-  <label id="pamphlet" for="popup">Settings</label>
+  <label style="opacity:0.2" for="popup">Settings</label>
   <div class="popup-overlay">
     <div class="popup-window"> 
       <div class="popup-window-inside">
-        中身 
+        <h2>パンフレットをダウンロードする</h2>
+<div style="display:flex;justify-content:space-between;">
+<a href="" class="btn-flat"><span>低画質版</span><br><span>(2.7MB)</span></a>
+<a href="" class="btn-flat"><span>高画質版</span><br><span>(24MB)</span></a>
+</div>
       </div>
       <label class="popup-close" for="popup"> 
         <svg width="27" height="27" xmlns="http://www.w3.org/2000/svg"> 
