@@ -234,43 +234,35 @@
 /*btn*/
 
 a.btn-flat {
+  position: relative;
   overflow: hidden;
-
-  padding: 1.5rem 6rem;
-
-  color: #fff;
-  border-radius: 0;
-  background: #000;
+ width: 80px;
+  padding: 10px;
+  color: #eee;
+  border-radius: 5px;
+  background: #111;
 }
-
 a.btn-flat span {
   position: relative;
 }
-
 a.btn-flat:before {
   position: absolute;
   top: 0;
   left: 0;
-
   width: 100px;
   height: 100px;
-
   content: '';
   -webkit-transition: all .5s ease-in-out;
   transition: all .5s ease-in-out;
   -webkit-transform: translateX(-80%) translateY(-25px);
   transform: translateX(-80%) translateY(-25px);
-
   border-radius: 50%;
   background: #eb6100;
 }
-
 a.btn-flat:hover:before {
   width: 400px;
   height: 400px;
-
   -webkit-transform: translateX(-1%) translateY(-175px);
-
   transform: translateX(-1%) translateY(-175px);
 }
 
