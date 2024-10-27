@@ -36,7 +36,16 @@
     <link rel="preload" as="font" href="/assets/Oswald-Regular.ttf" />
     <link rel="stylesheet" href="/style.css" />
     <style>
-      
+      .flexChild {
+        max-width: 600px;
+        margin: 0 auto;
+      }
+      #Dino {
+        display: block;
+        width: calc(64vw + 128px);
+        height: calc(36vw + 72px);
+        margin: 0 auto;
+      }
     </style>
   </head>
   <body>
@@ -63,14 +72,13 @@
       <section class="arrow">
         <div class="flexChild">
           お探しのページは見つかりませんでした。<br>
-          ページは削除されたか初めから存在していなかった可能性がございます。<br>
-          <a href="/">&lt;&nbsp;トップへ戻る</a>か、以下のなんとなく見たことのあるゲームをお楽しみください。
+          ページは削除されたか初めから存在していなかった可能性がございます。<br><br>
+          <a href="/">トップへ戻る</a>か、以下のなんとなく見たことのあるゲームをお楽しみください。
         </div>
       </section>
       <iframe
   id="Dino"
   title="Dino"
-  style="width: calc(64vw + 128px); height: calc(36vw + 72px);margin:0 auto;"
   src="/assets/dino">
 </iframe>
     </main>
