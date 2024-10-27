@@ -122,3 +122,69 @@ const openingAnimation = (answer) => [
     opacity: 1,
   },
 ];
+
+class summon{
+  constructor(){
+    this.elem = document.createElement("img")
+    const setting = {
+      side:128,
+      rotate:(Math.random() * 360),
+      left:(Math.random() * window.innerWidth),
+      top:200,
+      vy:-700,
+      ay:1000
+    }
+    this.setting = setting
+    this.vy = setting.vy
+    this.ay = setting.ay
+    this.time = Date.now()
+
+    this.top = setting.top
+
+    this.elem.src = "/assets/icon/icon_transparent.svg"
+    this.elem.style.position = "fixed"
+    this.elem.style.top = setting.top + "px"
+    this.elem.style.left = `${setting.left}px`
+    this.elem.style.width = `${setting.side}px`
+    this.elem.style.height = `${setting.side}px`
+    this.elem.style.rotate = `${setting.rotate}deg`
+    this.elem.style.zIndex = "2024"
+    document.body.appendChild(this.elem)
+
+    const repeat = ()=>{
+      this.update()
+    }
+
+    this.intervalID = setInterval(repeat,1)
+  }
+  update(){
+    const now = Date.now()
+    const dt = now - this.time
+    this.time = now
+    this.top += this.vy * dt * 0.001
+    this.vy += this.ay * dt * 0.001
+
+    this.elem.style.top = this.top + "px"
+
+    if(this.top >= window.innerHeight + this.setting.side * 2){
+      clearInterval(this.intervalID)
+      this.elem.remove()
+    }
+  }
+}
+
+const keydownhistory = []
+
+document.addEventListener("keydown",(e)=>{
+  if(e.key == "S" && e.shiftKey){
+    const summ = new summon()
+  }
+  keydownhistory.push(e.key)
+
+  if(String(keydownhistory.slice(-5)) == 's,e,i,k,o'){
+    console.log("CSS消滅!")
+    document.querySelectorAll("[rel=stylesheet]").forEach(e=>{
+      e.remove()
+    })
+  }
+})
