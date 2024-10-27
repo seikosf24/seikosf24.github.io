@@ -124,16 +124,21 @@ const openingAnimation = (answer) => [
 ];
 
 class summon{
-  constructor(){
-    this.elem = document.createElement("img")
-    const setting = {
-      side:128,
-      rotate:(Math.random() * 360),
-      left:(Math.random() * window.innerWidth),
-      top:200,
-      vy:-700,
-      ay:1000
+  constructor(setting){
+    if(setting != null && setting != undefined){
+      debugger
+    }else{
+      setting = {
+        side:128,
+        rotate:(Math.random() * 360),
+        left:(Math.random() * window.innerWidth),
+        top:200,
+        vy:-500,
+        ay:700
+      }
     }
+    this.elem = document.createElement("img")
+    this.elem.classList.add("sflogoo")
     this.setting = setting
     this.vy = setting.vy
     this.ay = setting.ay
@@ -156,6 +161,12 @@ class summon{
     }
 
     this.intervalID = setInterval(repeat,1)
+
+    const clicker = ()=>{
+      this.vy = -500
+    }
+
+    this.elem.addEventListener("click",clicker)
   }
   update(){
     const now = Date.now()
