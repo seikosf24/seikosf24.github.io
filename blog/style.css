@@ -66,10 +66,12 @@ h2 {
   font-size: 2.2rem;
   font-weight: normal;
 }
+
 h3 {
   font-size: 1.8rem;
   margin: 30px 0px 15px;
 }
+
 p {
   margin: 40px 0;
 }
@@ -99,9 +101,10 @@ p {
   background-color: teal;
   border-radius: 25px;
 }
-.selifIconSub{
-  top:20px;
-  left:-30px;
+
+.selifIconSub {
+  top: 20px;
+  left: -30px;
   width: 30px;
   height: 30px;
   font-size: 18px;
@@ -115,9 +118,11 @@ p {
   padding-right: -10px;
   margin-right: -35px;
 }
+
 .iinncho {
-background-color: purple;
+  background-color: purple;
 }
+
 .selifText {
   position: relative;
   max-width: calc(100% - 80px);
@@ -137,9 +142,11 @@ background-color: purple;
   left: -22px;
   border-right-color: #f1f1f1;
 }
+
 #photoFlex {
   letter-spacing: -1em;
 }
+
 #photoFlex img {
   letter-spacing: 0;
   width: 46%;
@@ -147,6 +154,7 @@ background-color: purple;
   margin: 10px 2%;
   display: inline-block;
 }
+
 /*マスキングテープ風*/
 .profile {
   background-color: #fcf3f0;
@@ -156,6 +164,7 @@ background-color: purple;
   border: 1px solid #ddbbbb;
   border-radius: 15px;
 }
+
 .profile::before {
   content: "Profile";
   background-image: repeating-linear-gradient(-45deg, #F6EEEC 0, #F6EEEC 3px, #fafafa 3px, #fafafa 6px);
@@ -171,14 +180,26 @@ background-color: purple;
   left: 20px;
   box-shadow: 1px 1px 2px var(--shadow);
 }
+
 .profile.snapshots {
-background-color: #f0fcf3;
+  background-color: #f0fcf3;
   border: 1px solid #bbddbb;
 }
+
 .profile.snapshots::before {
   content: "Snapshots";
-background-image: repeating-linear-gradient(-45deg, #ecf6ee 0, #ecf6ee 3px, #fafafa 3px, #fafafa 6px);
+  background-image: repeating-linear-gradient(-45deg, #ecf6ee 0, #ecf6ee 3px, #fafafa 3px, #fafafa 6px);
 }
+.profile.cn {
+  background-color: #f3f0fc;
+  border: 1px solid #bbbbdd;
+}
+
+.profile.cn::before {
+  content: "Community Notes";
+  background-image: repeating-linear-gradient(-45deg, #eeecf6 0, #eeecf6 3px, #fafafa 3px, #fafafa 6px);
+}
+
 @media screen and (max-width: 700px) {
   #letter {
     display: block;
