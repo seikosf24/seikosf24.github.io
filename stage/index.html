@@ -355,7 +355,7 @@
               })
           for(var i = 0; i<3;i++){
             const num = data.now[i]
-            if(num !== null && num <= 0){
+            if(num !== null && num >= 0){
               const list = document.getElementById("column").children
               list[num].classList.add("active")
             }
