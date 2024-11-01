@@ -1,5 +1,5 @@
 #letter {
-  max-width: 1000px;
+  width: min(100%, 1000px);
   margin: 100px auto 50px;
   background-color: #fdfbfb;
   color: #444444;
