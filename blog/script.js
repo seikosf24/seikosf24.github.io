@@ -4,7 +4,7 @@ let aside = document.getElementById("aside");
 aside.innerHTML = `<h3>お知らせ</h3>
 <a href="./10.html">Web版パンフレットが公開されました！</a><br>
 <a href="./01.html">Webサイト開設！</a><br>
-<h3>インタビュー</h3>
+<h3>現場レポート</h3>
 <a href="./28.html">SF2024現場レポート(占いの館)</a><br>
 <a href="./27.html">SF2024現場レポート(色々な団体)</a><br>
 <a href="./26.html">SF2024現場レポート(柔道部)</a><br>
