@@ -36,6 +36,30 @@
     <link rel="preload" as="font" href="/assets/Oswald-Regular.ttf" />
     <link rel="stylesheet" href="/style.css" />
     <style>
+      #playercon{
+        top:0px;
+        position:fixed;
+        width:100vw;
+        height:100vh;
+        z-index: 12312313;
+        background-color: rgba(0,0,0,0.6);
+        display: none;
+        justify-content: center;
+        align-items: center;
+      }
+      #player{
+        position:relative;
+        width:80vw;
+        aspect-ratio: 16 / 9;
+      }
+      #media{
+        width:100%;
+        height:100%
+      }
+      #player svg{
+        transform:translateX(80vw) translateY(-50px);
+      }
+
       .answerInner {
         display: flex;
       }
@@ -69,14 +93,30 @@
       .answerInner div p:last-child::before {
         content: "@";
       }
+      .answerInner div div p a{
+        cursor:pointer;
+      }
       @media screen and (max-width: 700px) {
         .answerInner {
           display: block;
         }
       }
+      @media screen and (max-width:500px) {
+        #player svg{
+          transform:translateX(calc(80vw - 50px)) translateY(-50px);
+        }
+      }
     </style>
   </head>
   <body>
+    <div id="playercon">
+      <div id="player">
+        <svg width="50" height="50" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+          <line x1="10" y1="10" x2="90" y2="90" stroke="black" stroke-width="10" />
+          <line x1="10" y1="90" x2="90" y2="10" stroke="black" stroke-width="10" />
+        </svg>
+      </div>
+    </div>
     <header>
       <div id="openbtn"><span></span><span></span><span></span></div>
       <div id="g-nav">
@@ -311,6 +351,7 @@
                     星光名物教師黒田直樹監修！パッション全開で、生地から作り上げたワッフル。アツアツワッフルと共に飲み物もどうぞ。
                   </p>
                   <div>
+                    <p><a onclick="cm('H1D')">CMを見る</a></p>
                     <p>一枚￥100 / 二枚￥150 / ジュースセット+￥50 </p>
                     <p><a href="/maps#maps_G8">運動場G8</a></p>
                   </div>
@@ -338,6 +379,7 @@
                     notre erreur de jugement aux Jeux olympiques de Paris.
                   </p>
                   <div>
+                    <p><a onclick="cm('H2B')">CMを見る</a></p>
                     <p>二切れ￥250 / 四切れ￥400</p>
                     <p><a href="/maps#maps_G9">運動場G9</a></p>
                   </div>
@@ -388,6 +430,7 @@
                     たこせんです！　たまにたこ焼きないときあるけどごめん！　安くするから許して〜〜
                   </p>
                   <div>
+                    <p><a onclick="cm('H2D.mov')">CMを見る</a></p>
                     <p>タコ抜き￥100 / タコ1￥200 / 以降タコ+1 +￥50</p>                    
                     <p><a href="/maps#maps_G11">運動場G11</a></p>
                   </div>
@@ -664,6 +707,7 @@
                     入学試験を受けに来たあなた。しかし、試験は突然乗っ取られてしまう！試験時間は３０分。果たしてあなたは合格できるのか！
                   </p>
                   <div>
+                    <p><a onclick="cm('AHA.mov')">CMを見る</a></p>
                     <p>参加費￥300 / 問題・解説集一つ￥50</p>
                     <p><a href="/maps#maps_H1A">高一A教室</a></p>
                   </div>
@@ -767,6 +811,7 @@
                     同人誌を販売します。完全自由で書きました。テーマなし、熱意のみ、勝者あり。星光の原液をあなたに。（インドは関係ありません。
                   </p>
                   <div>
+                    <p><a onclick="cm('GNS.mp4')">CMを見る</a></p>
                     <p>
                       一冊￥500 / カバー￥50
                     </p>
@@ -1160,6 +1205,7 @@
                     「HANTER×HANTER」は、校内にいる隠れた星光生を見つけて、景品を獲得するゲームです。ぜひ、遊びに来てください!!
                   </p>
                   <div>
+                    <p><a onclick="cm('M2C.mov')">CMを見る</a></p>
                     <p>一回￥200</p>
                     <p><a href="/maps#maps_M2C_1">中二C教室</a></p>
                   </div>
@@ -1212,6 +1258,7 @@
                     人が動かす的を撃つ射的です！当たった人限定で特別プレゼントが手に入る！動く的に君たちは当てられるか？ぜひ、来てください!
                   </p>
                   <div>
+                    <p><a onclick="cm('M2B.mp4')">CMを見る</a></p>
                     <p>五回￥200</p>
                     <p><a href="/maps#maps_M2B">中二B教室</a></p>
                   </div>
@@ -1335,6 +1382,7 @@
                     俺らの財宝か、欲しけりゃくれてやる。探せ、この世の「愛」全てを高校棟4階に置いてきた。
                   </p>
                   <div>
+                    <p><a onclick="cm('M3D.mov')">CMを見る</a></p>
                     <p>一プレイ￥150</p>
                     <p><a href="/maps#maps_M3D">高三A、B教室</a></p>
                   </div>
@@ -1410,7 +1458,8 @@
                     文化祭のレヴェルの高さって、ジェットコースターとかコーヒーカップがあるかどうかで決まると思うんですよね…
                   </p>
                   <div>
-                    一回￥400
+                    <p><a onclick="cm('AMU.mp4')">CMを見る</a></p>
+                    <p>一回￥400</p>
                     <p><a href="/maps#maps_AMU">特別第五教室</a></p>
                   </div>
                 </div>
@@ -1540,6 +1589,7 @@
                     星を見てほしいから，プラネタリウムしてます！天文部は宇宙のことに夢中です。南部でスターを見てきますたー。
                   </p>
                   <div>
+                    <p><a onclick="cm('AST.mov')">CMを見る</a></p>
                     <p>プラネタリウム一回￥200 / 部誌セット￥50 / エコバッグ一つ￥200 / しおり二枚￥50</p>
                     <p><a href="/maps#maps_AST">中三C、D教室</a></p>
                   </div>
@@ -1618,6 +1668,7 @@
                     今年も電工部の楽しいゲームがやってくる。あなたはすべてのゲームをクリアすることができるかな？　製作体験もやってるゾ。
                   </p>
                   <div>
+                    <p><a onclick="cm('DNK.mov')">CMを見る</a></p>
                     <p>製作体験一回￥200 / ミニゲーム一回￥100 / 部誌セット￥50 / LED装置一個￥200</p>
                     <p><a href="/maps#maps_DNK">物理実験室</a></p>
                   </div>
@@ -1748,6 +1799,54 @@
         }
       }
       lazyAnalyticsScript();
+    </script>
+    <script>
+      const cmsrclist = []
+      const cm = (target)=>{
+        const pc = document.getElementById("playercon")
+        const pl = document.getElementById("player")
+        const me = document.createElement("video")
+        me.controls = true
+        me.id = "media"
+
+        if(target == null || target == undefined){
+          for(i of cmsrclist){
+            i.remove()
+          }
+          pc.style.display = "none"
+          return
+        }
+        pc.style.display = "flex"
+
+        const ra = Math.random() * 10
+        console.log(ra >= 5)
+        if(target == "H1D"){
+          if(ra >= 5){
+            target ="H1D/1.mp4"
+          }else{
+            target = "H1D/2.mov"
+          }
+        }else if(target == "H2B"){
+          if(ra <= 2.5){
+            target = "H2B/CM1.mp4"
+          }else if(ra <= 5.0){
+            target = "H2B/CM2.mp4"
+          }else if(ra <= 7.5){
+            target = "H2B/CM3.mp4"
+          }else{
+            target = "H2B/CM4.mp4"
+          }
+        }
+        console.log(target)
+
+        const src = document.createElement("source")
+        src.src=`/videos/compressed/${target}`
+
+        me.appendChild(src)
+        cmsrclist.push(me)
+        pl.appendChild(me)
+      }
+      document.querySelector("#player svg").addEventListener('click',()=>{cm()})
     </script>
   </body>
 </html>
