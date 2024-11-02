@@ -1,7 +1,10 @@
 let aside = document.getElementById("aside");
 // ここら辺に関してはjsonファイル作って自動化させたい。せっかく付けたタグも役立てないとね？
 //ただしjsonは読み込み時間もあるからこのファイル内に記述するように。
-aside.innerHTML = `<h3>Archive</h3>
+aside.innerHTML = `<h3>お知らせ</h3>
+<a href="./10.html">Web版パンフレットが公開されました！</a><br>
+<a href="./01.html">Webサイト開設！</a><br>
+<h3>インタビュー</h3>
 <a href="./28.html">SF2024現場レポート(占いの館)</a><br>
 <a href="./27.html">SF2024現場レポート(色々な団体)</a><br>
 <a href="./26.html">SF2024現場レポート(柔道部)</a><br>
@@ -10,17 +13,18 @@ aside.innerHTML = `<h3>Archive</h3>
 <a href="./23.html">SF2024現場レポート(ガネー社)</a><br>
 <a href="./22.html">SF2024現場レポート(美術部)</a><br>
 <a href="./21.html">SF2024現場レポート(文芸部&カト研)</a><br>
+<a href="./18.html">SF2024現場レポート(高1A)</a><br>
+<a href="./11.html">SF2024現場レポート(10.28)</a><br>
+<h3>同窓会</h3>
 <a href="./20.html">SF同窓会第5話(最終回)</a><br>
 <a href="./19.html">SF同窓会第4話</a><br>
-<a href="./18.html">SF2024現場レポート(高1A)</a><br>
 <a href="./17.html">SF同窓会第3話</a><br>
 <a href="./16.html">SF同窓会第2話</a><br>
 <a href="./15.html">SF同窓会第1話</a><br>
+<h3>インタビュー</h3>
 <a href="./14.html">運営委員に聞く(第5回)</a><br>
 <a href="./13.html">運営委員に聞く(第4回)</a><br>
 <a href="./12.html">運営委員に聞く(第3回)</a><br>
-<a href="./11.html">SF2024現場レポート(10.28)</a><br>
-<a href="./10.html">Web版パンフレットが公開されました！</a><br>
 <a href="./09.html">星光アミューズメント課インタビュー(後編)</a><br>
 <a href="./08.html">星光アミューズメント課インタビュー(中編)</a><br>
 <a href="./07.html">星光アミューズメント課インタビュー(前編)</a><br>
@@ -29,7 +33,7 @@ aside.innerHTML = `<h3>Archive</h3>
 <a href="./04.html">ミュージカル「Les Misérables」インタビュー(後編)</a><br>
 <a href="./03.html">ミュージカル「Les Misérables」インタビュー(中編)</a><br>
 <a href="./02.html">ミュージカル「Les Misérables」インタビュー(前編)</a><br>
-<a href="./01.html">Webサイト開設！</a><br>`;
+`;
 
 const blogUrl = Number(location.pathname.replace(/\/+$/, "").split('/').pop().slice(0, 2));
 let before = ("00" + (blogUrl - 1)).slice(-2);
