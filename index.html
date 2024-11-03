@@ -612,6 +612,13 @@
     let saveCheckbox = document.getElementById('dl');
     saveCheckbox.addEventListener('change', valueChange);
 
+
+    //なりふり構わず
+    window.addEventListener("load", (event) => {
+  if (Math.random() < 0.05) {
+    alert("2:20から講堂にてミュージカル「Les Misérables」が上演されます");
+  }
+});
   </script>
   <script type="text/javascript" src="./script.js" defer></script>
   <script>
