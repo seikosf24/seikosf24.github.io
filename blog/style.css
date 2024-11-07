@@ -199,7 +199,9 @@ p {
   content: "Community Notes";
   background-image: repeating-linear-gradient(-45deg, #eeecf6 0, #eeecf6 3px, #fafafa 3px, #fafafa 6px);
 }
-
+.profile.after::before {
+  content: "SF2024を語る";
+}
 @media screen and (max-width: 700px) {
   #letter {
     display: block;
