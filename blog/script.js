@@ -6,6 +6,9 @@ aside.innerHTML = `<h3>お知らせ</h3>
 <a href="./10.html">Web版パンフレットが公開されました！</a><br>
 <a href="./01.html">Webサイト開設！</a><br>
 <h3>アフタートーク</h3>
+<a href="./38.html">星光アミューズメント課アフタートーク「後編」</a><br>
+<a href="./37.html">星光アミューズメント課アフタートーク「中編」</a><br>
+<a href="./36.html">星光アミューズメント課アフタートーク「前編」</a><br>
 <a href="./35.html">クラス企画アフタートーク「後編」</a><br>
 <a href="./34.html">クラス企画アフタートーク「前編」</a><br>
 <a href="./33.html">Les Misérablesアフタートーク「後編」</a><br>
