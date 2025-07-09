@@ -1,0 +1,26 @@
+{
+  "theme_color": "#f3f3f9",
+  "background_color": "#f3f3f9",
+  "display": "standalone",
+  "scope": "/",
+  "start_url": "/?osg=libry.jp",
+  "description": "アカデミックなリサーチとデータアクセスのためのオンラインソリューション。",
+  "name": "Filteroid",
+  "short_name": "Filteroid",
+  "icons": [
+    {
+      "src": "https://cdn.glitch.global/6edf62b2-8cdc-477e-bcff-8985d2cb2c50/PNG32.png?v=1709967506992",
+      "sizes": "32x32",
+      "type": "image/png"
+    },{
+      "src": "https://cdn.glitch.global/6edf62b2-8cdc-477e-bcff-8985d2cb2c50/png512.png?v=1709965883156",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "https://cdn.glitch.global/6edf62b2-8cdc-477e-bcff-8985d2cb2c50/Favicon.svg?v=1709964562952",
+      "sizes": "1024x1024",
+      "type": "image/svg+xml"
+    }
+  ]
+}

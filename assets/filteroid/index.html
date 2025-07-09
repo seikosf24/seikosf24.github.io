@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8" />
+    <title>Filteroid 3</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="description" content="Filteroid solves all various problems." />
+    <meta name="format-detection" content="telephone=no" />
+    <!-- favicon/webclipicon -->
+    <link
+      rel="icon"
+      href="https://cdn.glitch.global/6edf62b2-8cdc-477e-bcff-8985d2cb2c50/favicon.ico?v=1709965624409"
+    />
+    <link
+      rel="icon"
+      href="https://cdn.glitch.global/6edf62b2-8cdc-477e-bcff-8985d2cb2c50/PNG32.png?v=1709967506992"
+      type="image/png"
+    />
+    <link
+      rel="icon"
+      href="https://cdn.glitch.global/6edf62b2-8cdc-477e-bcff-8985d2cb2c50/png512.png?v=1709965883156"
+      type="image/png"
+    />
+    <link
+      rel="apple-touch-icon"
+      href="https://cdn.glitch.global/6edf62b2-8cdc-477e-bcff-8985d2cb2c50/Apple180.png?v=1709965710419"
+    />
+    <link
+      rel="manifest"
+      href="https://cdn.glitch.global/6edf62b2-8cdc-477e-bcff-8985d2cb2c50/manifest.webmanifest?v=1710031568984"
+    />
+    <meta name="apple-mobile-web-app-title" content="Filteroid" />
+    <meta name="application-name" content="Filteroid" />
+    <!-- ogp -->
+    <meta property="og:site_name" content="Filteroid" />
+    <meta property="og:url" content="https://filteroid.glitch.me/" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Filteroid 3" />
+    <meta property="og:description" content="最終更新…1月12日" />
+    <meta
+      property="og:image"
+      content="https://cdn.glitch.global/6edf62b2-8cdc-477e-bcff-8985d2cb2c50/ogp.png?v=1709971508574"
+    />
+    <meta property="og:locale" content="ja_JP" />
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body ontouchstart>
+    <header>
+      <button class="bt" id="toggle" onclick="toggle()">
+        Light / <span>Dark</span>
+      </button>
+    </header>
+    <main>
+      <section id="section1">
+        <div id="imgContainer">
+          <img
+            src="https://cdn.glitch.global/6edf62b2-8cdc-477e-bcff-8985d2cb2c50/IMG_7168.png?v=1709975486933"
+            alt="Filteroid"
+            width="300"
+            height="105"
+            id="titleLogo"
+          />
+        </div>
+        <form id="Search" name="Search" action="javascript:void(0);">
+          <input
+            type="text"
+            value=""
+            id="unique_id"
+            name="unique_id"
+            placeholder="Search"
+            size="10"
+            style="ime-mode: disabled"
+          />
+          <div id="ekkusu" onclick="document.Search.unique_id.value=''"></div>
+          <button
+            class="button"
+            onclick="google(document.Search.unique_id.value)"
+          >
+            <img
+              src="https://cdn.glitch.global/6edf62b2-8cdc-477e-bcff-8985d2cb2c50/IMG_6494.svg?v=1701340845212"
+              alt="google"
+              width="40"
+              height="40"
+            />
+          </button>
+        </form>
+      </section>
+      <section id="section2">
+        <form onsubmit="return false;">
+          <input type="text" id="shoryaku" placeholder="Enter URL :" />
+          <button id="submit" onclick="shortage()" class="shoryakuButton">
+            Submit
+          </button>
+          <button id="reset" onclick="kara()" class="shoryakuButton">
+            Reset
+          </button>
+          <button id="paste" onclick="getClip()" class="shoryakuButton">
+            Paste
+          </button>
+        </form>
+        <div class="container">
+          <div id="output"></div>
+        </div>
+      </section>
+      <section id="section3">
+        <div class="web">
+          <div class="icons">
+            <a href="https://google.com/"
+              ><img
+                src="https://cdn.glitch.global/6edf62b2-8cdc-477e-bcff-8985d2cb2c50/IMG_6494.svg?v=1701340845212"
+                alt="google"
+                width="40"
+                height="40"
+                class="scimage"
+                loading="lazy"
+            /></a>
+            <a href="https://ja.wikipedia.org/"
+              ><img
+                src="https://cdn.glitch.global/6edf62b2-8cdc-477e-bcff-8985d2cb2c50/IMG_6520.svg?v=1701434947891"
+                alt="wiki"
+                width="40"
+                height="40"
+                class="scimage"
+                loading="lazy"
+            /></a>
+            <a href="https://www.youtube.com/results?search_query=libry.jp"
+              ><img
+                src="https://cdn.glitch.global/6edf62b2-8cdc-477e-bcff-8985d2cb2c50/IMG_6521.svg?v=1701434950767"
+                alt="youtube"
+                width="40"
+                height="40"
+                class="scimage"
+                loading="lazy"
+            /></a>
+            <a href="https://music.apple.com/?chn=libry.jp"
+              ><img
+                src="https://cdn.glitch.global/6edf62b2-8cdc-477e-bcff-8985d2cb2c50/Apple_Music_Icon_blk_lg_072420.svg?v=1701518490312"
+                alt="apple music"
+                width="40"
+                height="40"
+                class="scimage"
+                loading="lazy"
+            /></a>
+            <a href="https://www.instagram.com?bbc=libry.jp"
+              ><img
+                src="https://cdn.glitch.global/6edf62b2-8cdc-477e-bcff-8985d2cb2c50/IMG_6528.svg?v=1701518532149"
+                alt="instagram"
+                width="40"
+                height="40"
+                class="scimage"
+                loading="lazy"
+            /></a>
+            <a href="https://www.yahoo.co.jp/?cookdo=libry.jp"
+              ><img
+                src="https://cdn.glitch.global/6edf62b2-8cdc-477e-bcff-8985d2cb2c50/IMG_6495.svg?v=1701340847515"
+                alt="yahoo"
+                width="40"
+                height="40"
+                class="scimage"
+                loading="lazy"
+            /></a>
+            <a href="https://remotedesktop.google.com/access?bi=libry.jp"
+              ><img
+                src="https://cdn.glitch.global/6edf62b2-8cdc-477e-bcff-8985d2cb2c50/img-7055.svg?v=1709027543703"
+                alt="google RD"
+                width="40"
+                height="40"
+                class="scimage"
+                loading="lazy"
+            /></a>
+            <a href="https://apple.com/"
+              ><img
+                src="https://cdn.glitch.global/6edf62b2-8cdc-477e-bcff-8985d2cb2c50/IMG_6519.svg?v=1701434946392"
+                alt="apple"
+                width="40"
+                height="40"
+                class="scimage"
+                loading="lazy"
+            /></a>
+          </div>
+          <div id="shortcut">
+            <div class="link">
+              <p>
+                <a
+                  href="https://chatgpt.com/?gpt=libry.jp"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >ChatGPT</a
+                ><a
+                  href="https://www.webdentaku.com/?gpt=libry.jp"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >計算機</a
+                ><a
+                  href="https://www2.sundai.ac.jp/moshienterinfo/?sundai=libry.jp"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >駿台模試</a
+                >
+              </p>
+            </div>
+            <div class="link">
+              <p>
+                <a href="/test/ealeap.html?=libry.jp">LEAP単語帳</a
+                ><a href="/test/koubun.html?=libry.jp">構文練習</a
+                ><a href="/test/eiken.html?=libry.jp">英検準一級出る順</a>
+              </p>
+            </div>
+            <div class="link">
+              <p>
+                <a
+                  href="https://fast.com/ja#libry.jp"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >fast.com</a
+                ><a
+                  href="https://www.freeconvert.com/ja?kkk=libry.jp"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >ファイルコンバータ</a
+                ><a
+                  href="https://scoring-ac.com/?libry.jp"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >ScoringAC</a
+                >
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script>
+      function google(x) {
+        if (x.length < 1) {
+          location.href = "https://www.google.com/?nnw=libry.jp";
+        } else {
+          location.href =
+            "https://www.google.com/search?q=" + x;
+        }
+      }
+      let kara = () => (document.getElementById("shoryaku").value = "");
+
+      let LID = document.getElementById("output");
+      function getClip() {
+        navigator.clipboard
+          .readText()
+          .then((text) => {
+            let neck = LID.innerHTML;
+            if (neck == "") {
+              LID.innerHTML =
+                '<br><a onclick="LIR()">Reset</a>';
+            }
+            document.getElementById("shoryaku").value = text;
+            shortage();
+          })
+          .catch((err) => {
+            console.log("Error\n" + err);
+          });
+      }
+
+      let HD = localStorage.getItem("library");
+      if (HD != null) {
+        document.getElementById("output").innerHTML = HD;
+      }
+
+      function shortage() {
+        let display;
+        let change = document.getElementById("shoryaku").value;
+        if (change >= 100000000 && change < 10000000000) {
+          location.href = "https://enka.network/u/" + spell + "?mora=libry.jp";
+        }
+        if (change.includes("youtu.be")) {
+          let ytnum = change.substring(change.indexOf("be/") + 3);
+          change = "https://youtube.com/watch?v=" + ytnum;
+        }
+        if (!change.includes("http")) {
+          change = "https://" + change;
+        }
+        if (change.includes(".")) {
+          if (change.includes("url=") && change.includes("%23")) {
+            const mae = change.indexOf("url=");
+            const ato = change.indexOf("%23");
+            change = change.substring(mae + 4, ato);
+          }
+          if (change.includes("url=") && change.includes("&ps")) {
+            const mae = change.indexOf("url=");
+            const ato = change.indexOf("&ps");
+            change = change.substring(mae + 4, ato);
+          }
+          if (change.includes("usg=") && change.includes("url=")) {
+            const mae = change.indexOf("url=");
+            const ato = change.indexOf("usg=");
+            change = change.substring(mae + 4, ato - 1);
+          }
+          if (change.includes("url?q=") && change.includes("sa=")) {
+            const mae = change.indexOf("q=");
+            const ato = change.indexOf("sa=");
+            change = change.substring(mae + 2, ato - 1);
+          }
+          change = change.replaceAll("%3A", ":");
+          change = change.replaceAll("%2F", "/");
+          change = change.replaceAll("%3D", "=");
+          change = change.replaceAll("%3F", "?");
+          change = change.replaceAll("%2B", "+");
+          change = change.replaceAll("%20", " ");
+          if (change.includes("?")) {
+            change = change.concat("&abc=libry.jp");
+          } else {
+            change = change.concat("?abc=libry.jp");
+          }
+          display = `<a href='${change}'>${change}</a>`;
+        } else {
+          display = "Invalid URL";
+        }
+        let neck = LID.innerHTML;
+        if (neck == "") {
+          neck = '<br><a onclick="LIR()">Reset</a>';
+        }
+        let display2 = display + "<br>" + neck;
+        LID.innerHTML = display2;
+        localStorage.setItem("library", display2);
+        document.getElementById("shoryaku").value = "";
+      }
+      
+      let LIR = () => {
+        LID.innerHTML = "";
+        localStorage.removeItem("library");
+      };
+      
+      window.onload = function () {
+        let screen = "light";
+        if (window.matchMedia("(prefers-color-scheme: dark)").matches == true) {
+          dark();
+        } else {
+          light();
+        }
+      };
+      function toggle() {
+        if (screen == "dark") {
+          light();
+        } else {
+          dark();
+        }
+      }
+      function light() {
+        screen = "light";
+        document.documentElement.style.setProperty("--color", "#222");
+        document.documentElement.style.setProperty("--bg", "#f3f3f9");
+        document.documentElement.style.setProperty("--impact", "#0b1f61");
+        document.getElementById("toggle").innerHTML =
+          "Light <span>/ Dark</span>";
+      }
+      function dark() {
+        screen = "dark";
+        document.documentElement.style.setProperty("--color", "#ddd");
+        document.documentElement.style.setProperty("--bg", "#112");
+        document.documentElement.style.setProperty("--impact", "#e4d099");
+        document.getElementById("toggle").innerHTML =
+          "<span>Light /</span> Dark";
+      }
+
+      const transList = ["body", ".bt"];
+      window.addEventListener("load", () => {
+        for (let i = 0; i < transList.length; i++) {
+          let elem = document.querySelectorAll(transList[i]);
+          for (let j = 0; j < elem.length; j++) {
+            elem[i].style.transition = "all 0.3s ease";
+          }
+        }
+      });
+    </script>
+    <script>
+      function lazyAnalyticsScript() {
+        var scrollFirstTime = 1;
+        window.addEventListener("scroll", oneTimeFunction, false);
+        window.addEventListener("mousemove", oneTimeFunction, false);
+
+        function oneTimeFunction() {
+          if (scrollFirstTime === 1) {
+            scrollFirstTime = 0;
+            var adScript = document.createElement("script");
+            adScript.src =
+              "https://www.googletagmanager.com/gtag/js?id=G-0V12FE2K46";
+            document.body.appendChild(adScript);
+            var adScript2 = document.createElement("script");
+            adScript2.innerHTML =
+              'window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag("js", new Date()); gtag("config", "G-0V12FE2K46");';
+            document.body.appendChild(adScript2);
+            window.removeEventListener("scroll", oneTimeFunction, false);
+            window.removeEventListener("mousemove", oneTimeFunction, false);
+          }
+        }
+      }
+      lazyAnalyticsScript();
+    </script>
+  </body>
+</html>
