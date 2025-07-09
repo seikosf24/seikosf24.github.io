@@ -1,0 +1,752 @@
+{
+  "1": {
+    "t": "1",
+    "q": "It is quite natural that tastes differ",
+    "a": "人の好みが違うのは全く当然だ。"
+  },
+  "2": {
+    "t": "1",
+    "q": "It seems that oil prices will come down soon.",
+    "a": "石油価格はどうやらすぐに下がりそうだ"
+  },
+  "3": {
+    "t": "1",
+    "q": "It is said that elephants have good memories",
+    "a": "ゾウの記憶力は優れていると言われている"
+  },
+  "4": {
+    "t": "1",
+    "q": "It never occurred to me that I could be an artist",
+    "a": "自分が芸術家になれるとは思いにもよらなかった"
+  },
+  "5": {
+    "t": "1",
+    "q": "It doesn't matter if you are late. ",
+    "a": "遅くなってもかまわないよ。"
+  },
+  "6": {
+    "t": "1",
+    "q": "It goes without saying that exercise is good for your health.",
+    "a": "運動が健康にいいことは言うまでもない"
+  },
+  "7": {
+    "t": "1",
+    "q": "I found it hard to keep a diary in English. ",
+    "a": "英語で日記をつけるのは難しいと思った。"
+  },
+  "8": {
+    "t": "1",
+    "q": "I took it for granted that he would be better soon. ",
+    "a": "彼の体調がすぐに置くなるのは当たり前だと思っていた。"
+  },
+  "9": {
+    "t": "1",
+    "q": "It took her two years to write the novel. ",
+    "a": "彼女がその小説を書くのに二年かかった。"
+  },
+  "10": {
+    "t": "1",
+    "q": "It will cost me over $10,000 to get a new car. ",
+    "a": "新車を買うのに１万ドル以上はかかるだろう。"
+  },
+  "11": {
+    "t": "1",
+    "q": "It has been five years since she wrote her first novel. ",
+    "a": "彼女が最初の小説を書いてから５年になる。 "
+  },
+  "12": {
+    "t": "1",
+    "q": "It will not be long before the snow melts. ",
+    "a": "まもなく［すぐに］雪が溶けるだろう。 "
+  },
+  "13": {
+    "t": "1",
+    "q": "It is easy for birds to fly in the sky. ",
+    "a": "鳥が空を飛ぶのは簡単です。 "
+  },
+  "14": {
+    "t": "1",
+    "q": "It is very kind of you to come. ",
+    "a": "あなたが来てくれるとは親切ですね。→わざわざ来ていただいてどうもすみません "
+  },
+  "15": {
+    "t": "1",
+    "q": "The meeting is to be held in Tokyo. ",
+    "a": "会議は東京で開催される予定だ。 "
+  },
+  "16": {
+    "t": "1",
+    "q": "I was about to go out when the phone rang ",
+    "a": "電話が鳴った時ちょうど外出しようとしていたところだった "
+  },
+  "17": {
+    "t": "1",
+    "q": "Diet and exercise have to do with good heath. ",
+    "a": "食事と運動は健康と関係がある。 "
+  },
+  "18": {
+    "t": "1",
+    "q": "My plane failed to arrive on time. ",
+    "a": "私が乗った飛行機は定刻には到着しなかった "
+  },
+  "19": {
+    "t": "1",
+    "q": "He sat in the front in order to be able to hear my speech. ",
+    "a": "彼は私の話がよく聞こえるように前の席に座っていた。 "
+  },
+  "20": {
+    "t": "1",
+    "q": "He was kind enough to drive me home. ",
+    "a": "彼は親切にも私を家まで送ってくれた。 "
+  },
+  "21": {
+    "t": "1",
+    "q": "He walked too fast for me to follow. ",
+    "a": "彼は歩くのが早過ぎて私はついていけなかった。 "
+  },
+  "22": {
+    "t": "1",
+    "q": "I looked back, only to find no one there. ",
+    "a": "私は後ろを振り返ったが、誰もそこにはいなかった。 "
+  },
+  "23": {
+    "t": "1",
+    "q": "She couldn't help laughing at his joke ",
+    "a": "彼のジョークを聞いて彼女は思わず吹き出してしまった。 "
+  },
+  "24": {
+    "t": "1",
+    "q": "You'll soon get used to living alone",
+    "a": "すぐに一人暮らしになれるさ "
+  },
+  "25": {
+    "t": "1",
+    "q": "There's no telling what will happen next.",
+    "a": "次に何が起こるかわからない "
+  },
+  "26": {
+    "t": "1",
+    "q": "There is no point in discussing the problem ",
+    "a": "この問題を議論しても全く意味がない "
+  },
+  "27": {
+    "t": "1",
+    "q": "Okinawa is worth visiting once.",
+    "a": "沖縄は一度訪れる価値がある "
+  },
+  "28": {
+    "t": "1",
+    "q": "I am in the habit of reading books every day.",
+    "a": "私は毎日読書するのを習慣にしている。 "
+  },
+  "29": {
+    "t": "1",
+    "q": "He makes a point of walking 10,000 steps a day.",
+    "a": "彼は毎日、一万歩は歩くように心がけている→彼は毎日、一万歩は歩くことにしている "
+  },
+  "30": {
+    "t": "1",
+    "q": "Feeling tired, Bill went to bed earlier than usual.",
+    "a": "疲れたと感じるので、ビルはいつもより早く寝た "
+  },
+  "31": {
+    "t": "2",
+    "q": "Shocked at the sight, she couldn't move.",
+    "a": "その光景にショックを受けて、彼女は動くことができなかった。"
+  },
+  "32": {
+    "t": "2",
+    "q": "The winter being over, the snow started to melt ",
+    "a": "冬が終わったので、雪が溶け始めた。 "
+  },
+  "33": {
+    "t": "2",
+    "q": "All things considered, it's a good town. ",
+    "a": "全てを考慮に入れると、その街は素敵なまちだ "
+  },
+  "34": {
+    "t": "2",
+    "q": "Judging by the expression on her face, she is very surprised ",
+    "a": "彼女の表情から判断すると、とても驚いている。"
+  },
+  "35": {
+    "t": "2",
+    "q": "She looks young considering her age. ",
+    "a": "彼女の歳を考えると若く見える。 "
+  },
+  "36": {
+    "t": "2",
+    "q": "Henri Fabre spent 80 years studying insects. ",
+    "a": "アンリ・ファーブルは80年間昆虫の研究に取り組んだ "
+  },
+  "37": {
+    "t": "2",
+    "q": "She had great difficulty walking in her new shoes ",
+    "a": "彼女は新しい靴を履いて歩くのにずいぶん苦労した。 "
+  },
+  "38": {
+    "t": "2",
+    "q": "You just have to fill in your password ",
+    "a": "パスワードを入力しさえすればいいのです。 "
+  },
+  "39": {
+    "t": "2",
+    "q": "I have yet to read the last few chapters ",
+    "a": "まだ最後の数章を読んでいないのです "
+  },
+  "40": {
+    "t": "2",
+    "q": "John used to live near the ocean ",
+    "a": "ジョンは以前、海のそばに住んでいた"
+  },
+  "41": {
+    "t": "2",
+    "q": "When I was a child, I would often play outside. ",
+    "a": "子供の頃はよく外で遊んだものだ。 "
+  },
+  "42": {
+    "t": "2",
+    "q": "He must have lest his mobile phone on the train this morning ",
+    "a": "彼は今朝電車に携帯電話を置き忘れたに違いない "
+  },
+  "43": {
+    "t": "2",
+    "q": "He may well be interested in Japanese history. ",
+    "a": "彼は多分日本史に興味を持っているだろう。 "
+  },
+  "44": {
+    "t": "2",
+    "q": "The station is not far from here. We may as well walk. ",
+    "a": "駅はここからあまり遠くないから、歩いて行っても構わない "
+  },
+  "45": {
+    "t": "2",
+    "q": "You had better carry a pass. ",
+    "a": "君は通行許可証を持って行くべきだ。（そうしないと入れないよ） "
+  },
+  "46": {
+    "t": "2",
+    "q": "I saw a girl walking toward me. ",
+    "a": "女の子が私の方に歩いてくるのが見えた。 "
+  },
+  "47": {
+    "t": "2",
+    "q": "She heard her name called from behind. ",
+    "a": "彼女は自分の名前が後ろから呼ばれるのが聞こえた。 "
+  },
+  "48": {
+    "t": "2",
+    "q": "My mother made me finish my homework before supper. ",
+    "a": "母は私に夕食前に宿題を仕上げさせた。 "
+  },
+  "49": {
+    "t": "2",
+    "q": "My mother forced me to eat a lot of vegetables. ",
+    "a": "母は私に無理やりたくさん野菜を食べさせた。 "
+  },
+  "50": {
+    "t": "2",
+    "q": "I will have my secretary send you a copy. ",
+    "a": "秘書にコピーを頼んであなたのところへ送らせましょう "
+  },
+  "51": {
+    "t": "2",
+    "q": "Emily got her brother to help with her assignment. ",
+    "a": "エミリーは兄に頼んで宿題を手伝ってもらった。 "
+  },
+  "52": {
+    "t": "2",
+    "q": "Jane had her bicycle stolen in the park. ",
+    "a": "ジェーンは公園で自転車を盗まれた。 "
+  },
+  "53": {
+    "t": "2",
+    "q": "He helped me find the post office. ",
+    "a": "彼は私が郵便局を見つけるのを手伝ってくれた。 "
+  },
+  "54": {
+    "t": "2",
+    "q": "There are many people standing in front of the store. ",
+    "a": "お店の前に多くの人が立っている。 "
+  },
+  "55": {
+    "t": "2",
+    "q": "Can you make yourself understood in English? ",
+    "a": "英語であなた自身を理解させられますか。→英語で言いたいことが言えますか。 "
+  },
+  "56": {
+    "t": "2",
+    "q": "John kept me waiting for a long time. ",
+    "a": "ジョンはずいぶん長い間、私を待たせた。 "
+  },
+  "57": {
+    "t": "2",
+    "q": "He was sitting on a bench with his eyes closed. ",
+    "a": "目を閉じたままで彼はベンチに座っていた。 "
+  },
+  "58": {
+    "t": "2",
+    "q": "Heaven helps those who help themselves. ",
+    "a": "天は自ら助くる者を助く "
+  },
+  "59": {
+    "t": "2",
+    "q": "I gave her what little information. ",
+    "a": "彼女には少しではあるが私が持っていた情報を全部教えた"
+  },
+  "60": {
+    "t": "3",
+    "q": "Reading is to the mind what food s to the body. ",
+    "a": "読書と精神の関係は食べ物と体の関係に等しい。 "
+  },
+  "61": {
+    "t": "3",
+    "q": "John is not what he was ten years ago. ",
+    "a": "ジョンは10年前の彼とは違う。 "
+  },
+  "62": {
+    "t": "3",
+    "q": "Studying is what college life is all about. ",
+    "a": "勉強こそ大学生活で最も大切なものだ。 "
+  },
+  "63": {
+    "t": "3",
+    "q": "Tel me what your trip to Seoul was like. ",
+    "a": "ソウル旅行はいかがでしたか "
+  },
+  "64": {
+    "t": "3",
+    "q": "He is what we call a “walking encyclopedia.” ",
+    "a": "彼はいわゆる「生き字引」だ。 "
+  },
+  "65": {
+    "t": "3",
+    "q": "This blog is interesting, and what is more, very instructive. ",
+    "a": "このブログは面白いし、その上、非常にためになる。 "
+  },
+  "66": {
+    "t": "3",
+    "q": "I said nothing, which made him angrier. ",
+    "a": "私は何も言わなかった。それが彼をいっそう怒らせた。 "
+  },
+  "67": {
+    "t": "3",
+    "q": "She is crazy about tennis, which love I do not share. ",
+    "a": "彼女はテニスに熱中しているが、私にはそんな気はない。 "
+  },
+  "68": {
+    "t": "3",
+    "q": "Mike was late coming, as is often the case with him. ",
+    "a": "マイクにはよくあることですが、遅刻してきた。 "
+  },
+  "69": {
+    "t": "3",
+    "q": "A man who I thought was unkind helped me ",
+    "a": "冷たいと思っていた人が手伝ってくれた。 "
+  },
+  "70": {
+    "t": "3",
+    "q": "John is as handsome as Bill. ",
+    "a": "ジョンはビルと同じくらいハンサムだ"
+  },
+  "71": {
+    "t": "3",
+    "q": "The USA is twenty-five times as large as Japan. ",
+    "a": "アメリカ合衆国は日本の25倍くらいの大きさだ。"
+  },
+  "72": {
+    "t": "3",
+    "q": "My brother’s room is ten times the size of mine. ",
+    "a": "兄の部屋は私の部屋の10倍の大きさがある。 "
+  },
+  "73": {
+    "t": "3",
+    "q": "He is as hardworking as any student in his class. ",
+    "a": "彼はクラスの誰にも劣らずよく勉強する。 "
+  },
+  "74": {
+    "t": "3",
+    "q": "Nothing is as important to children as their own birthday. ",
+    "a": "子供にとっては誕生日ほど大切なものはない。 "
+  },
+  "75": {
+    "t": "3",
+    "q": " Learning is not so much a duty as a right.",
+    "a": "勉強は義務というより権利であると言った方がいい。 "
+  },
+  "76": {
+    "t": "3",
+    "q": "The population of Tokyo is larger than that of Washington D.C. ",
+    "a": "東京の人口はワシントンの人口より多い"
+  },
+  "77": {
+    "t": "3",
+    "q": "The harder he worked, the more successful he became. ",
+    "a": "働けば働くほど彼は成功した "
+  },
+  "78": {
+    "t": "3",
+    "q": "I like the story all the more because it is true. ",
+    "a": "本当の話なので、いっそうその話が好きだ。 "
+  },
+  "79": {
+    "t": "3",
+    "q": "Bill can no more swim than a hammer can. ",
+    "a": "ビルは金槌と同様に泳げない。 "
+  },
+  "80": {
+    "t": "3",
+    "q": " Sleep is no less important for your health than food.",
+    "a": "睡眠は食物と同様に健康にとって大切だ。 "
+  },
+  "81": {
+    "t": "3",
+    "q": "The memory card is no bigger than a stamp.",
+    "a": "そのメモリーカードは切手ほどの大きさに過ぎない。"
+  },
+  "82": {
+    "t": "3",
+    "q": "If I were a bird, I would fly to my first love. ",
+    "a": "もし鳥だったら、初恋の人のところへ飛んでいくのだが。 "
+  },
+  "83": {
+    "t": "3",
+    "q": "If she had been a boy, she would have been named Ken. ",
+    "a": "もし彼女が男の子だったら、ケンという名前になっていただろう "
+  },
+  "84": {
+    "t": "3",
+    "q": "If it should rain, the concert will move indoors. ",
+    "a": "ひょっとして雨が降ることになれば、コンサートは室内に移動することになるはずだ。 "
+  },
+  "85": {
+    "t": "3",
+    "q": "If it were to live again, I would like to be a scientist. ",
+    "a": "もしもう一度人生をやり直すとすれば科学者になりたい。 "
+  },
+  "86": {
+    "t": "3",
+    "q": "If it were not for the snow, the plane could take off. ",
+    "a": "もしも雪でなければ、飛行機は離陸できるのに。 "
+  },
+  "87": {
+    "t": "3",
+    "q": "Without languages, there would be no thought. ",
+    "a": "言語がなければ、思想は存在しないだろう。 "
+  },
+  "88": {
+    "t": "3",
+    "q": "I wish I could sing like her. ",
+    "a": "彼女のように歌が歌えたらいいのに "
+  },
+  "89": {
+    "t": "3",
+    "q": "I would rather go to the gym than go to the movies. ",
+    "a": "映画に行くよりスポーツジムに行きたい。 "
+  },
+  "90": {
+    "t": "3",
+    "q": "That boy talks as if e were a grown-up. ",
+    "a": "その子は大人のような口を聞く "
+  },
+  "91": {
+    "t": "4",
+    "q": "It's about time I was leaving",
+    "a": "そろそろおいとまする時間です "
+  },
+  "92": {
+    "t": "4",
+    "q": "A person of sense would never say such a thing. ",
+    "a": "分別のある人だったらそんなことは口にしないだろう "
+  },
+  "93": {
+    "t": "4",
+    "q": "Very few students could solve this problem. ",
+    "a": "この問題が解ける学生はほとんどいなかった。 "
+  },
+  "94": {
+    "t": "4",
+    "q": "His paper contains few, if any, errors in spelling. ",
+    "a": "彼の論文には綴りのミスがほとんどない。 "
+  },
+  "95": {
+    "t": "4",
+    "q": "Mars is not a star but a planet. ",
+    "a": "火星は恒星ではなく、惑星です。"
+  },
+  "96": {
+    "t": "4",
+    "q": "This radio is not only cute, but also functional. ",
+    "a": "このラジオはかわいらしいだけでなう、機能も充実している "
+  },
+  "97": {
+    "t": "4",
+    "q": "Dog food is not necessarily good for dogs. ",
+    "a": "ドッグフードが必ずしも犬に良いとは限らない。 "
+  },
+  "98": {
+    "t": "4",
+    "q": "I don't like him only because he is handsome ",
+    "a": " ハンサムという理由だけで彼を好きなわけではない "
+  },
+  "99": {
+    "t": "4",
+    "q": "We cannot be too careful in crossing the street. ",
+    "a": "通りを横断するときにはくれぐれも注意する必要がある。 "
+  },
+  "100": {
+    "t": "4",
+    "q": "She never bakes a cake without burning it. ",
+    "a": "彼女はケーキを焼けば必ず焦がしてしまう"
+  },
+  "101": {
+    "t": "4",
+    "q": "His story is far from true. ",
+    "a": "彼の話は真実からほど遠い "
+  },
+  "102": {
+    "t": "4",
+    "q": "Who knows what will happen next? ",
+    "a": "次に何が起きるかだれにわかるでしょうか。 "
+  },
+  "103": {
+    "t": "4",
+    "q": "He would be the last person to speak badly of others. ",
+    "a": "彼は他の人のことについて悪口を言うような人ではない。"
+  },
+  "104": {
+    "t": "4",
+    "q": "My sister knows better than to cheat in the exam. ",
+    "a": "妹は試験でカンニングをするほど馬鹿ではない。"
+  },
+  "105": {
+    "t": "4",
+    "q": "Every member worked hard so that his team would win. ",
+    "a": "チームが勝てるようにメンバーそれぞれが頑張った。"
+  },
+  "106": {
+    "t": "4",
+    "q": "Bill was so excited that he couldn't be still. ",
+    "a": "ビルは興奮のあまりじっとしていられなかった。"
+  },
+  "107": {
+    "t": "4",
+    "q": "it was such an exciting game that I forgot to take pictures. ",
+    "a": "それはとても興奮する試合で、写真を撮るのを忘れてしまった。"
+  },
+  "108": {
+    "t": "4",
+    "q": "Take an umbrella in case it rains. ",
+    "a": "雨が降るといけないので［それに備えて］傘を持って行きなさい。"
+  },
+  "109": {
+    "t": "4",
+    "q": "He wrote it down lest he forget it. ",
+    "a": "忘れないように彼はそれを書き留めた。"
+  },
+  "110": {
+    "t": "4",
+    "q": "On arriving at the station, I called a friend of mine. ",
+    "a": "駅に到着するとすぐ［到着した時］、友達に電話した。"
+  },
+  "111": {
+    "t": "4",
+    "q": "As soon as he got home, he turned on the TV ",
+    "a": "彼は帰宅するとすぐにテレビをつけた。"
+  },
+  "112": {
+    "t": "4",
+    "q": "He had hardly reached the station when it began to snow. ",
+    "a": "彼が駅に着いた途端に雪が降り始めた。"
+  },
+  "113": {
+    "t": "4",
+    "q": "No sooner had I sat down on the sofa than the phone rang. ",
+    "a": "私がソファーに腰を下ろした途端に電話が鳴った。"
+  },
+  "114": {
+    "t": "4",
+    "q": "We had not waited long before our bus came. ",
+    "a": "そんなに待たないうちにバスが来た。"
+  },
+  "115": {
+    "t": "4",
+    "q": "It was last week that Mike bought a bike at the store. ",
+    "a": "マイクがお店で自転車を買ったのは先週だった。"
+  },
+  "116": {
+    "t": "4",
+    "q": "What we need is world peace, not food. ",
+    "a": "必要なのは世界の平和であって、食料ではない。"
+  },
+  "117": {
+    "t": "4",
+    "q": "All you have to do is click this button ",
+    "a": "このボタンをクリックしさえすればよい。"
+  },
+  "118": {
+    "t": "4",
+    "q": "You can be whatever you want to be. ",
+    "a": "あなたがなりたいと思うなら何にでもなることができる。"
+  },
+  "119": {
+    "t": "4",
+    "q": "Little did I dream of seeing you again here. ",
+    "a": "再びここであなたにお会いしようとは夢にも思わなかった。"
+  },
+  "120": {
+    "t": "4",
+    "q": "So hard did the wind blow that I couldn't walk",
+    "a": "風が激しく吹いたので、私は歩くことができなかった。"
+  },
+  "121": {
+    "t": "5",
+    "q": "It was not until I was thirty that I started to ski.",
+    "a": "３０歳になって初めてスキーを始めた。"
+  },
+  "122": {
+    "t": "5",
+    "q": "“I like coffee.” “So do I.”",
+    "a": "「コーヒーが好きです」「私も好きです」"
+  },
+  "123": {
+    "t": "5",
+    "q": "“I don't like coffee.” “Neither do I.”",
+    "a": "「コーヒーは好きじゃない」「私も好きじゃないよ」"
+  },
+  "124": {
+    "t": "5",
+    "q": "It is true that he is very old, but he is healthy.",
+    "a": "彼は確かにとても高齢だが、健康です。"
+  },
+  "125": {
+    "t": "5",
+    "q": "Even if it rains tomorrow, I will go to the movies.",
+    "a": "たとえ明日雨が降っても私は映画を見に行きます。"
+  },
+  "126": {
+    "t": "5",
+    "q": "Whether you like it or not, he is our leader.",
+    "a": "気に入ろうが気に入るまいが、彼は私たちの指導者なのですよ。"
+  },
+  "127": {
+    "t": "5",
+    "q": "To solve this problem is difficult, if not impossible.",
+    "a": "その問題を解くのは難しい。ひょっとすると無理かもしれない。"
+  },
+  "128": {
+    "t": "5",
+    "q": "I'm going to school today no matter what happens.",
+    "a": "何が起ころうとも今日は学校に行くぞ。"
+  },
+  "129": {
+    "t": "5",
+    "q": "Whoever you are, wherever you come from, you are welcome.",
+    "a": "君がだれであれ、どこの出身であれ、君を歓迎する。"
+  },
+  "130": {
+    "t": "5",
+    "q": "Angry as he was, he tried to smile.",
+    "a": "彼は怒っていたが、笑おうとした。"
+  },
+  "131": {
+    "t": "5",
+    "q": "Tom has remained poor, while his brother has made a fortune.",
+    "a": "トムは貧乏なままだが、彼の兄は一財産つくった。"
+  },
+  "132": {
+    "t": "5",
+    "q": "I have two hobbies. One is cycling and the other is fishing.",
+    "a": "私には趣味が二つあって、一つはサイクリング、もう一つは釣りです。"
+  },
+  "133": {
+    "t": "5",
+    "q": "Some people said yes and others said no.",
+    "a": "賛成した人もいれば反対した人もいた。"
+  },
+  "134": {
+    "t": "5",
+    "q": "Suppose that you can't come, who will do the work?",
+    "a": "君が来られない場合、だれがその仕事をしますか。"
+  },
+  "135": {
+    "t": "5",
+    "q": "You can stay here as long as you keep quiet.",
+    "a": "あなたが静かにしている限りここにいてもよい。"
+  },
+  "136": {
+    "t": "5",
+    "q": "As far as we knew, she was the best doctor.",
+    "a": "私の知っている限りでは、彼女は最高の医者だった。"
+  },
+  "137": {
+    "t": "5",
+    "q": "As far as I am concerned, I won't change my mind.",
+    "a": "私に関する限り、決心を変えるつもりはない。"
+  },
+  "138": {
+    "t": "5",
+    "q": "Shopping is difficult in this area unless you have a car.",
+    "a": "この地域では車がない限り買い物は難しいよ。"
+  },
+  "139": {
+    "t": "5",
+    "q": "The fact is that I like comedies.",
+    "a": "実は、私は喜劇が好きなのです。"
+  },
+  "140": {
+    "t": "5",
+    "q": "Chances are they'll be out when we call.",
+    "a": "おそらく電話をしても彼らは外出中だろう。"
+  },
+  "141": {
+    "t": "5",
+    "q": "Let's take a walk together. After all, it's a lovely day.",
+    "a": "一緒に散歩でもしようよ。だって、天気がいいんだから。"
+  },
+  "142": {
+    "t": "5",
+    "q": "Now that summer is over, we have a busy schedule.",
+    "a": "もう夏が終わったので、予定が詰まっている。"
+  },
+  "143": {
+    "t": "5",
+    "q": "That mistake cost him his job.",
+    "a": "その失敗のせいで彼は仕事を失った。"
+  },
+  "144": {
+    "t": "5",
+    "q": "A moment's thought will tell you that you are wrong.",
+    "a": "ちょっと考えれば自分の間違いに気づくはずだ。"
+  },
+  "145": {
+    "t": "5",
+    "q": "This street will take you to the school.",
+    "a": "この道を行けば学校につきますよ。"
+  },
+  "146": {
+    "t": "5",
+    "q": "The heavy rain prevented me from going home.",
+    "a": "大雨のせいで私は家に帰れなかった。"
+  },
+  "147": {
+    "t": "5",
+    "q": "My volunteer work keeps me very busy.",
+    "a": "ボランティアの仕事があるので私はとても忙しい。"
+  },
+  "148": {
+    "t": "5",
+    "q": "This medicine will make you feel better.",
+    "a": "この薬を飲めばすぐに気分がよくなるだろう。"
+  },
+  "149": {
+    "t": "5",
+    "q": "He thinks they should act soon and that it's the best solution.",
+    "a": "彼は彼らがすぐに行動すべきであり、それが最善の解決策だと信じている。"
+  },
+  "150": {
+    "t": "5",
+    "q": "Cold chicken is delicious when eaten with salad.",
+    "a": "コールドチキンはサラダと一緒に食べるとおいしい"
+  }
+}

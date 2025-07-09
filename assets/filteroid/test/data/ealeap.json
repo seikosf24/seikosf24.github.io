@@ -1,0 +1,9677 @@
+[
+ {
+  "number": 1,
+  "word": "agree",
+  "meaning": "[自] ①賛成する ②（主語の中で）意見が一致する ③（with ～）（気候，食べ物が）（～に）合う"
+ },
+ {
+  "number": 2,
+  "word": "oppose",
+  "meaning": "[他] ～に反対する"
+ },
+ {
+  "number": 3,
+  "word": "advise",
+  "meaning": "[他] ～に忠告する"
+ },
+ {
+  "number": 4,
+  "word": "tip",
+  "meaning": "[名] ①助言，ヒント ②チップ ③（足や山などの）先，先端（いずれも〈可算〉）"
+ },
+ {
+  "number": 5,
+  "word": "discuss",
+  "meaning": "[他] ①～について話し合う，議論する ②～を話題に出す"
+ },
+ {
+  "number": 6,
+  "word": "blame",
+  "meaning": "[他] ～に責任があるとする"
+ },
+ {
+  "number": 7,
+  "word": "argue",
+  "meaning": "[他] ①（that S V）～と主張する [自] ②（with ～）（～と）言い争う"
+ },
+ {
+  "number": 8,
+  "word": "claim",
+  "meaning": "[他] ①（that S V）～と主張する ②～を要求する，主張する [名] ③主張，要求"
+ },
+ {
+  "number": 9,
+  "word": "complain",
+  "meaning": "[自] ①文句を言う，苦情を言う ②（of ～）（病気などを）訴える"
+ },
+ {
+  "number": 10,
+  "word": "offer",
+  "meaning": "[他] ①～を申し出る [名] ②申し出 ③値引き"
+ },
+ {
+  "number": 11,
+  "word": "suggest",
+  "meaning": "[他] ①～を示唆する ②～を提案する"
+ },
+ {
+  "number": 12,
+  "word": "recommend",
+  "meaning": "[他] ～を推薦する，勧める"
+ },
+ {
+  "number": 13,
+  "word": "grateful",
+  "meaning": "[形] 感謝している"
+ },
+ {
+  "number": 14,
+  "word": "apologize",
+  "meaning": "[自] （to ～）（～に）謝る"
+ },
+ {
+  "number": 15,
+  "word": "excuse",
+  "meaning": "[名] ①言い訳 [他] ②～を許す ③（A from B）（B からA）を免除する"
+ },
+ {
+  "number": 16,
+  "word": "celebrate",
+  "meaning": "[他] ①～を祝う ②（儀式など）を挙行する，執り行なう"
+ },
+ {
+  "number": 17,
+  "word": "admire",
+  "meaning": "[他] ～に感心する，称賛する"
+ },
+ {
+  "number": 18,
+  "word": "impress",
+  "meaning": "[他] ～に感銘を与える，～を感心させる"
+ },
+ {
+  "number": 19,
+  "word": "award",
+  "meaning": "[名] ①賞 [他] ②～を授与する"
+ },
+ {
+  "number": 20,
+  "word": "describe",
+  "meaning": "[他] ～を説明する"
+ },
+ {
+  "number": 21,
+  "word": "explain",
+  "meaning": "[他] ～を説明する"
+ },
+ {
+  "number": 22,
+  "word": "communicate",
+  "meaning": "[自] ①（with ～）（～と）意思の疎通をはかる [他] ②～を伝える"
+ },
+ {
+  "number": 23,
+  "word": "express",
+  "meaning": "[他] ①（意見，気持ち）を表現する [名] ②急行（列車，バス）"
+ },
+ {
+  "number": 24,
+  "word": "promise",
+  "meaning": "[名] ①約束 [他] ②～を約束する"
+ },
+ {
+  "number": 25,
+  "word": "information",
+  "meaning": "[名] 情報〈不可算〉"
+ },
+ {
+  "number": 26,
+  "word": "technology",
+  "meaning": "[名] （科学）技術"
+ },
+ {
+  "number": 27,
+  "word": "research",
+  "meaning": "[名] ①（学術）研究 [他] ②～を研究する"
+ },
+ {
+  "number": 28,
+  "word": "material",
+  "meaning": "[名] ①材料，生地 ②資料，教材 [形] ③物質的な ④重大な"
+ },
+ {
+  "number": 29,
+  "word": "artificial",
+  "meaning": "[形] 人工的な"
+ },
+ {
+  "number": 30,
+  "word": "electric",
+  "meaning": "[形] 電気の，電動の"
+ },
+ {
+  "number": 31,
+  "word": "invent",
+  "meaning": "[他] ①～を発明する ②（話など）をでっち上げる"
+ },
+ {
+  "number": 32,
+  "word": "discover",
+  "meaning": "[他] ①～を発見する ②（that S V）～を知る，～に気がつく ③（知るという意味で）～に出会う"
+ },
+ {
+  "number": 33,
+  "word": "develop",
+  "meaning": "[自] ①発達する [他] ②～を発達させる ③～を開発する ④（話，考え）を発展させる ⑤（病気）にかかる"
+ },
+ {
+  "number": 34,
+  "word": "skill",
+  "meaning": "[名] 技術，力"
+ },
+ {
+  "number": 35,
+  "word": "ability",
+  "meaning": "[名] 能力"
+ },
+ {
+  "number": 36,
+  "word": "talent",
+  "meaning": "[名] 才能"
+ },
+ {
+  "number": 37,
+  "word": "effort",
+  "meaning": "[名] 努力"
+ },
+ {
+  "number": 38,
+  "word": "practice",
+  "meaning": "[名] ①練習 ②実践 ③慣習 [他] ④～を練習する ⑤～を実践する"
+ },
+ {
+  "number": 39,
+  "word": "game",
+  "meaning": "[名] ①試合，ゲーム〈可算〉 ②獲物〈不可算〉"
+ },
+ {
+  "number": 40,
+  "word": "achieve",
+  "meaning": "[他] ～を達成する"
+ },
+ {
+  "number": 41,
+  "word": "manage",
+  "meaning": "[他] ①（to do）何とかして～する ②～を経営する，管理する"
+ },
+ {
+  "number": 42,
+  "word": "improve",
+  "meaning": "[他] ①～を改善する，磨く [自] ②よくなる"
+ },
+ {
+  "number": 43,
+  "word": "produce",
+  "meaning": "[他] ①～を生産する，産出する ②（見せるために）～を取り出す [名] ③農作物〈不可算〉"
+ },
+ {
+  "number": 44,
+  "word": "create",
+  "meaning": "[他] ①～を創造する ②～を引き起こす"
+ },
+ {
+  "number": 45,
+  "word": "establish",
+  "meaning": "[他] ①～を確立する，定着させる ②～を設立する"
+ },
+ {
+  "number": 46,
+  "word": "save",
+  "meaning": "[他] ①（時間，手間）を省く ②～を貯金する ③（命など）を救う [前] ④～を除いて（＝except）"
+ },
+ {
+  "number": 47,
+  "word": "medicine",
+  "meaning": "[名] ①（for ～）（～の）薬 ②医学"
+ },
+ {
+  "number": 48,
+  "word": "patient",
+  "meaning": "[名] ①患者 [形] ②忍耐強い"
+ },
+ {
+  "number": 49,
+  "word": "condition",
+  "meaning": "[名] ①状態，容態 ②（通例 －s）（周囲の）状況，条件"
+ },
+ {
+  "number": 50,
+  "word": "medical",
+  "meaning": "[形] ①医療の ②医学の"
+ },
+ {
+  "number": 51,
+  "word": "stress",
+  "meaning": "[名] ①ストレス ②（on ～）（～に対する）強調 [他] ③～を強調する"
+ },
+ {
+  "number": 52,
+  "word": "suffer",
+  "meaning": "[自] ①（from ～）（病気などで）苦しむ [他] ②（苦痛，損害）を経験する"
+ },
+ {
+  "number": 53,
+  "word": "exercise",
+  "meaning": "[名] ①運動 ②（－s）練習 [自] ③運動する [他] ④～を行使する"
+ },
+ {
+  "number": 54,
+  "word": "breathe",
+  "meaning": "[自] 呼吸する，息をする"
+ },
+ {
+  "number": 55,
+  "word": "thirsty",
+  "meaning": "[形] ①のどが渇いた ②（for ～）（～を）切望して"
+ },
+ {
+  "number": 56,
+  "word": "physical",
+  "meaning": "[形] ①身体的な ②物理的な"
+ },
+ {
+  "number": 57,
+  "word": "fever",
+  "meaning": "[名] ①（体温の）熱 ②熱狂"
+ },
+ {
+  "number": 58,
+  "word": "strength",
+  "meaning": "[名] ①（physical －）体力 ②力"
+ },
+ {
+  "number": 59,
+  "word": "tear",
+  "meaning": "[名] ①（通例 －s）涙〈可算〉 [他] ②（up）～を引き裂く"
+ },
+ {
+  "number": 60,
+  "word": "taste",
+  "meaning": "[自] ①～の味がする [他] ②～の味をみる [名] ③味 ④好み"
+ },
+ {
+  "number": 61,
+  "word": "rule",
+  "meaning": "[名] ①規則 [他] ②～を支配する"
+ },
+ {
+  "number": 62,
+  "word": "role",
+  "meaning": "[名] 役割"
+ },
+ {
+  "number": 63,
+  "word": "habit",
+  "meaning": "[名] 習慣，癖"
+ },
+ {
+  "number": 64,
+  "word": "custom",
+  "meaning": "[名] ①習慣 ②（－s）税関"
+ },
+ {
+  "number": 65,
+  "word": "tradition",
+  "meaning": "[名] 伝統"
+ },
+ {
+  "number": 66,
+  "word": "society",
+  "meaning": "[名] ①社会〈不可算〉 ②（ある具体的な）社会〈可算〉 ③（one's －）～と同席すること ④協会"
+ },
+ {
+  "number": 67,
+  "word": "law",
+  "meaning": "[名] ①（the－）（集合的に）法律，国法 ②（個々の）法律 ③（科学などの）法則"
+ },
+ {
+  "number": 68,
+  "word": "ancestor",
+  "meaning": "[名] 祖先"
+ },
+ {
+  "number": 69,
+  "word": "population",
+  "meaning": "[名] ①人口，個体数 ②（一定の地域に住む）住民"
+ },
+ {
+  "number": 70,
+  "word": "native",
+  "meaning": "[形] ①母国の，その土地の [名] ②（ある土地の）生まれの人"
+ },
+ {
+  "number": 71,
+  "word": "abroad",
+  "meaning": "[副] 海外へ，海外で"
+ },
+ {
+  "number": 72,
+  "word": "local",
+  "meaning": "[形] ①その土地の，地元の ②地方の [名] ③ 地元の人"
+ },
+ {
+  "number": 73,
+  "word": "survey",
+  "meaning": "[名] ①調査〈可算〉 [他] ②～を調査する"
+ },
+ {
+  "number": 74,
+  "word": "evidence",
+  "meaning": "[名] 証拠〈不可算〉"
+ },
+ {
+  "number": 75,
+  "word": "value",
+  "meaning": "[名] ①価値 ②（－s）価値観 ③お買い得品〈不可算〉 [他] ④～を重んじる"
+ },
+ {
+  "number": 76,
+  "word": "treasure",
+  "meaning": "[名] ①財宝，宝 ②大事な物［人］ [他] ③（思い出など）を大事にする"
+ },
+ {
+  "number": 77,
+  "word": "fashion",
+  "meaning": "[名] ①流行 ②流儀，やり方 [他] ③（手などで）～を作る"
+ },
+ {
+  "number": 78,
+  "word": "public",
+  "meaning": "[名] ①（the －）大衆 [形] ②公の，公共の"
+ },
+ {
+  "number": 79,
+  "word": "vote",
+  "meaning": "[名] ①投票（数） [自] ②投票する"
+ },
+ {
+  "number": 80,
+  "word": "government",
+  "meaning": "[名] 政府"
+ },
+ {
+  "number": 81,
+  "word": "nation",
+  "meaning": "[名] ①国家 ②（the －） 国民"
+ },
+ {
+  "number": 82,
+  "word": "capital",
+  "meaning": "[名] ①首都 ②資本 [形] ③重大な，死に値する"
+ },
+ {
+  "number": 83,
+  "word": "state",
+  "meaning": "[名] ①州 ②状態 ③国家 [他] ④（意見，情報）を述べる"
+ },
+ {
+  "number": 84,
+  "word": "political",
+  "meaning": "[形] 政治的な，政治の"
+ },
+ {
+  "number": 85,
+  "word": "price",
+  "meaning": "[名] ①価格 ②（－s）物価 ③代償"
+ },
+ {
+  "number": 86,
+  "word": "cost",
+  "meaning": "[他] ①（費用）を要する，～がかかる ②～を犠牲にする [名] ③費用，犠牲"
+ },
+ {
+  "number": 87,
+  "word": "sum",
+  "meaning": "[名] ①（修飾語を伴って）金額 ②合計 ③（簡単な）計算 [他] ④（up）～を要約する"
+ },
+ {
+  "number": 88,
+  "word": "budget",
+  "meaning": "[名] 予算"
+ },
+ {
+  "number": 89,
+  "word": "fee",
+  "meaning": "[名] ①（会費，遊園地などの）料金 ②（専門職への）謝礼"
+ },
+ {
+  "number": 90,
+  "word": "fare",
+  "meaning": "[名] 運賃"
+ },
+ {
+  "number": 91,
+  "word": "bill",
+  "meaning": "[名] ①勘定 ②請求書 ③〈米〉紙幣 ④法案"
+ },
+ {
+  "number": 92,
+  "word": "trade",
+  "meaning": "[名] ①貿易 ②（the ～ trade）～業 ③商売 [他] ④～を交換する"
+ },
+ {
+  "number": 93,
+  "word": "wealth",
+  "meaning": "[名] ①富，財産〈不可算〉 ②（a － of ～）豊富な～"
+ },
+ {
+  "number": 94,
+  "word": "economy",
+  "meaning": "[名] ①経済 ②節約"
+ },
+ {
+  "number": 95,
+  "word": "company",
+  "meaning": "[名] ①会社 ②（one's －）一緒にいること ③仲間 ④来客"
+ },
+ {
+  "number": 96,
+  "word": "task",
+  "meaning": "[名] 仕事〈可算〉"
+ },
+ {
+  "number": 97,
+  "word": "earn",
+  "meaning": "[他] ①（金）を稼ぐ，もうける ②（評判など）を得る"
+ },
+ {
+  "number": 98,
+  "word": "hurt",
+  "meaning": "[自] ①（身体の部位が）痛む [他] ②（身体，感情）を傷つける"
+ },
+ {
+  "number": 99,
+  "word": "injure",
+  "meaning": "[他] ①～を痛める ②～をけがさせる"
+ },
+ {
+  "number": 100,
+  "word": "damage",
+  "meaning": "[他] ①～に損害を与える [名] ②損害，被害〈不可算〉 ③（－s）賠償金"
+ },
+ {
+  "number": 101,
+  "word": "destroy",
+  "meaning": "[他] ①～を（完全に）破壊する ②～を殺す，全滅させる"
+ },
+ {
+  "number": 102,
+  "word": "ruin",
+  "meaning": "[他] ①～を台無しにする ②～を破滅させる [名] ③（－s）廃墟，荒廃"
+ },
+ {
+  "number": 103,
+  "word": "danger",
+  "meaning": "[名] 危険"
+ },
+ {
+  "number": 104,
+  "word": "neighbor",
+  "meaning": "[名] ①近所の人 ②（a next-door －）隣の人"
+ },
+ {
+  "number": 105,
+  "word": "audience",
+  "meaning": "[名] 聴衆，観客"
+ },
+ {
+  "number": 106,
+  "word": "crowd",
+  "meaning": "[名] 群衆"
+ },
+ {
+  "number": 107,
+  "word": "author",
+  "meaning": "[名] ①著者 ②作家"
+ },
+ {
+  "number": 108,
+  "word": "staff",
+  "meaning": "[名] （集合的に）職員，従業員"
+ },
+ {
+  "number": 109,
+  "word": "clerk",
+  "meaning": "[名] ①〈米〉店員 ②事務員，社員"
+ },
+ {
+  "number": 110,
+  "word": "customer",
+  "meaning": "[名] 客"
+ },
+ {
+  "number": 111,
+  "word": "passenger",
+  "meaning": "[名] 乗客"
+ },
+ {
+  "number": 112,
+  "word": "elderly",
+  "meaning": "[形] ①年配の ②（the －）年配の人々"
+ },
+ {
+  "number": 113,
+  "word": "female",
+  "meaning": "[形] ①女性の ②（動物）雌の [名] ③女性，雌"
+ },
+ {
+  "number": 114,
+  "word": "head",
+  "meaning": "[自] ①向かう [他] ②～を率いる"
+ },
+ {
+  "number": 115,
+  "word": "follow",
+  "meaning": "[他] ①～の後について行く，～に続く ②（忠告，方針など）に従う"
+ },
+ {
+  "number": 116,
+  "word": "wander",
+  "meaning": "[自] 歩き回る，さまよう"
+ },
+ {
+  "number": 117,
+  "word": "travel",
+  "meaning": "[自] ①旅行する，移動する ②（光，音などが）進む"
+ },
+ {
+  "number": 118,
+  "word": "pass",
+  "meaning": "[他] ①～を通り過ぎる ②～を抜く ③（試験）に受かる ④（（人）A）（人）に（A を）渡す [自] ⑤（時が）過ぎる [名] ⑥通行証"
+ },
+ {
+  "number": 119,
+  "word": "likely",
+  "meaning": "[形] ①（to do）～しそうだ，可能性が高い [副] ②おそらく"
+ },
+ {
+  "number": 120,
+  "word": "natural",
+  "meaning": "[形] ①当然の ②自然の ③生まれながらの"
+ },
+ {
+  "number": 121,
+  "word": "certain",
+  "meaning": "[形] ①確かな ②（名詞の前で）ある～"
+ },
+ {
+  "number": 122,
+  "word": "probably",
+  "meaning": "[副] おそらく"
+ },
+ {
+  "number": 123,
+  "word": "face",
+  "meaning": "[他] ①～に直面する ②〈方向〉～向きである [名] ③顔，体面"
+ },
+ {
+  "number": 124,
+  "word": "avoid",
+  "meaning": "[他] ～を避ける"
+ },
+ {
+  "number": 125,
+  "word": "solve",
+  "meaning": "[他] ～を解決する"
+ },
+ {
+  "number": 126,
+  "word": "trouble",
+  "meaning": "[名] ①問題，ごたごた（通例〈不可算〉） [他] ② ～を困らせる"
+ },
+ {
+  "number": 127,
+  "word": "issue",
+  "meaning": "[名] ①問題 ②（雑誌の）号 [他] ③（切手など）を発行する"
+ },
+ {
+  "number": 128,
+  "word": "cheer",
+  "meaning": "[他] ①（on）～に声援を送る ②（up）～を励ます"
+ },
+ {
+  "number": 129,
+  "word": "encourage",
+  "meaning": "[他] ①（A to do）（A）に（～するよう）促す，奨励する ②～を励ます"
+ },
+ {
+  "number": 130,
+  "word": "support",
+  "meaning": "[他] ①～を支持する ②（家族など）を養う ③（理論など）を立証する [名] ④支持，支援"
+ },
+ {
+  "number": 131,
+  "word": "prevent",
+  "meaning": "[他] ①～を妨げる ②～を予防する"
+ },
+ {
+  "number": 132,
+  "word": "deny",
+  "meaning": "[他] ①～を否定する ②〈S V O1 O2〉（O1）に（O2を）与えない"
+ },
+ {
+  "number": 133,
+  "word": "enable",
+  "meaning": "[他] （A to do）（A）に［が］（～することを）可能にする"
+ },
+ {
+  "number": 134,
+  "word": "succeed",
+  "meaning": "[自] ①（in ～）（～に）成功する ②（to ～）（家業などを）継ぐ"
+ },
+ {
+  "number": 135,
+  "word": "miss",
+  "meaning": "[他] ①～を逃す ②～を休む ③～を恋しく思う"
+ },
+ {
+  "number": 136,
+  "word": "fail",
+  "meaning": "[自] ①（in［at］～）（～に）失敗する ②（to do）～できない [他] ③（試験）に落ちる ④（人）に役に立たない"
+ },
+ {
+  "number": 137,
+  "word": "mistake",
+  "meaning": "[名] ①間違い [他] ②（A for B）（A）を（B と）間違える"
+ },
+ {
+  "number": 138,
+  "word": "check",
+  "meaning": "[他] ①～を調べる ②～を阻止する [名] ③小切手 ④勘定書 ⑤検査，点検 ⑥抑制"
+ },
+ {
+  "number": 139,
+  "word": "hide",
+  "meaning": "[他] ①～を隠す [自] ②隠れる"
+ },
+ {
+  "number": 140,
+  "word": "draw",
+  "meaning": "[他] ①（線で絵など）を描く ②（注意）を引く ③ ～を引っ張る，集める"
+ },
+ {
+  "number": 141,
+  "word": "join",
+  "meaning": "[他] ①（クラブ，団体など）に加わる ②～をつなぐ ③（食事などを）～とともにする [自] ④（議論，活動などに）参加する"
+ },
+ {
+  "number": 142,
+  "word": "throw",
+  "meaning": "[他] ①～を投げる ②（away［out］）～を捨てる ③（パーティなど）を催す [名] ④投げること"
+ },
+ {
+  "number": 143,
+  "word": "operate",
+  "meaning": "[他] ①（機械など）を操作する [自] ②手術する ③（機械などが）作動する，（組織が）運営される"
+ },
+ {
+  "number": 144,
+  "word": "repair",
+  "meaning": "[他] ①～を修理する ② ～を修復する [名] ③ 修理，修復"
+ },
+ {
+  "number": 145,
+  "word": "sew",
+  "meaning": "[他] ①～を縫う ②（on）（ボタンなど）を縫いつける"
+ },
+ {
+  "number": 146,
+  "word": "raise",
+  "meaning": "[他]① ～を上げる ②（子ども，作物）を育てる ③（お金，資金）を集める ④（問題）を提起する [名]⑤賃上げ，昇給"
+ },
+ {
+  "number": 147,
+  "word": "serve",
+  "meaning": "[他] ①（飲食物）を出す ②～に役立つ [自] ③ 役立つ"
+ },
+ {
+  "number": 148,
+  "word": "pour",
+  "meaning": "[他] ①～を注ぐ [自] ②降りそそぐ"
+ },
+ {
+  "number": 149,
+  "word": "spill",
+  "meaning": "[他] ①～をこぼす [名] ②（石油などの）流出"
+ },
+ {
+  "number": 150,
+  "word": "pretend",
+  "meaning": "[自] （to do \/ that S V）（～する\/ ～である）ふりをする"
+ },
+ {
+  "number": 151,
+  "word": "behave",
+  "meaning": "[自] ふるまう"
+ },
+ {
+  "number": 152,
+  "word": "bear",
+  "meaning": "[他] ①（can －）～に耐える ②～を持つ ③～を産む"
+ },
+ {
+  "number": 153,
+  "word": "explore",
+  "meaning": "[他] ①～を探検する，（街など）を探索する ②（問題など）を探る"
+ },
+ {
+  "number": 154,
+  "word": "happen",
+  "meaning": "[自] ①（to ～）（～に）起こる ②（to do）偶然～する"
+ },
+ {
+  "number": 155,
+  "word": "appear",
+  "meaning": "[自] ①現れる ②（to be ～）～のように思える"
+ },
+ {
+  "number": 156,
+  "word": "remain",
+  "meaning": "[自] ①～のままでいる ②残る"
+ },
+ {
+  "number": 157,
+  "word": "survive",
+  "meaning": "[自] ①生き残る [他] ②～から生き延びる，～の後も存続する"
+ },
+ {
+  "number": 158,
+  "word": "belong",
+  "meaning": "[自] （to ～）①（～に）所属している ②（～の）所有物である"
+ },
+ {
+  "number": 159,
+  "word": "represent",
+  "meaning": "[他] ①～を代表する ②（記号などが）を表す ③～を表現する"
+ },
+ {
+  "number": 160,
+  "word": "base",
+  "meaning": "[他] ①～の基礎を置く [名] ②基礎（の部分），基盤 ③基地"
+ },
+ {
+  "number": 161,
+  "word": "include",
+  "meaning": "[他] ～を含む"
+ },
+ {
+  "number": 162,
+  "word": "contain",
+  "meaning": "[他] ①～を含む ②～を抑える"
+ },
+ {
+  "number": 163,
+  "word": "own",
+  "meaning": "[形] （所有格の後で）①自分自身の ②（名詞的に）自分自身のもの [他] ③～を所有している"
+ },
+ {
+  "number": 164,
+  "word": "share",
+  "meaning": "[他] ①～を共有する ②（考えなど）を（人に）伝える [名] ③共有 ④分け前"
+ },
+ {
+  "number": 165,
+  "word": "collect",
+  "meaning": "[他] ①（同種の物）を集める ②～を徴収する，回収する"
+ },
+ {
+  "number": 166,
+  "word": "gather",
+  "meaning": "[他] ①～を集める [自] ②集まる"
+ },
+ {
+  "number": 167,
+  "word": "history",
+  "meaning": "[名] ①歴史 ②履歴，前歴，病歴"
+ },
+ {
+  "number": 168,
+  "word": "subject",
+  "meaning": "[名] ①科目 ②話題 ③被験者 [形] ④（be － to ～）～を受けやすい"
+ },
+ {
+  "number": 169,
+  "word": "education",
+  "meaning": "[名] 教育"
+ },
+ {
+  "number": 170,
+  "word": "knowledge",
+  "meaning": "[名] 知識，知っていること"
+ },
+ {
+  "number": 171,
+  "word": "uniform",
+  "meaning": "[名] ①制服 [形] ②同一の，一定の"
+ },
+ {
+  "number": 172,
+  "word": "grade",
+  "meaning": "[名] ①（小，中，高の）学年 ②等級 ③成績"
+ },
+ {
+  "number": 173,
+  "word": "senior",
+  "meaning": "[名] ①（高校，大学の）最上級生 [形] ②高齢者の ③（地位が）上位の"
+ },
+ {
+  "number": 174,
+  "word": "graduate",
+  "meaning": "[自] （from ～）（～を）卒業する"
+ },
+ {
+  "number": 175,
+  "word": "decide",
+  "meaning": "[他] ①（to do）（～すること）を決定する，決心する [自] ②（on ～）（～を）決める"
+ },
+ {
+  "number": 176,
+  "word": "judge",
+  "meaning": "[他] ①～を判断する [名] ②裁判官，審判（員）"
+ },
+ {
+  "number": 177,
+  "word": "quit",
+  "meaning": "[他] ～を（完全に）やめる"
+ },
+ {
+  "number": 178,
+  "word": "retire",
+  "meaning": "[自] （from ～）（～を）引退する，退職する"
+ },
+ {
+  "number": 179,
+  "word": "review",
+  "meaning": "[名] ①再検討 ②（新聞などの）批評 ③復習"
+ },
+ {
+  "number": 180,
+  "word": "choose",
+  "meaning": "[他] ①～を選ぶ [自] ②選ぶ"
+ },
+ {
+  "number": 181,
+  "word": "imagine",
+  "meaning": "[他] ～を想像する"
+ },
+ {
+  "number": 182,
+  "word": "guess",
+  "meaning": "[他] ①～を推測する [名] ②推測"
+ },
+ {
+  "number": 183,
+  "word": "expect",
+  "meaning": "[他] ①～を予期する ②（A of［from］ B）（B にA）を期待する ③（be －ing）（～を）身ごもっている"
+ },
+ {
+  "number": 184,
+  "word": "predict",
+  "meaning": "[他] ～を予測する"
+ },
+ {
+  "number": 185,
+  "word": "remember",
+  "meaning": "[他] ①（doing）（過去にしたこと）を覚えている ②（to do）（～すること）を覚えている ③（me to ～）（～に）よろしく伝える"
+ },
+ {
+  "number": 186,
+  "word": "remind",
+  "meaning": "[他] ①（A of B）（A）に（B のことを）思い出させる ②（（人）to do）（人）に～するように念を押す"
+ },
+ {
+  "number": 187,
+  "word": "realize",
+  "meaning": "[他] ①～を（はっきり）理解する ②（夢，計画など）を実現する"
+ },
+ {
+  "number": 188,
+  "word": "appreciate",
+  "meaning": "[他] ①～を（正しく）理解する ②～のよさがわかる ③～に感謝する"
+ },
+ {
+  "number": 189,
+  "word": "accept",
+  "meaning": "[他] ～を受け入れる"
+ },
+ {
+  "number": 190,
+  "word": "consider",
+  "meaning": "[他] ①～をよく考える，考慮する ②（人の気持ち）を思いやる ③（A （to be） B） （A）を（B と）みなす"
+ },
+ {
+  "number": 191,
+  "word": "mind",
+  "meaning": "[自] ①気にする [名] ②精神，頭脳 ③（才能，知性のある）人"
+ },
+ {
+  "number": 192,
+  "word": "wonder",
+  "meaning": "[他] ①（wh－節 \/ if S V）～かなと思う [自] ②（at ～）（～に）驚く"
+ },
+ {
+  "number": 193,
+  "word": "seem",
+  "meaning": "[自] ～のように思われる"
+ },
+ {
+  "number": 194,
+  "word": "compare",
+  "meaning": "[他] ①（A with［to, and］ B）（A）を（B と）比較する ②（A to B）（A）を（B に）例える [自] ③（with［to］～）（～に）匹敵する"
+ },
+ {
+  "number": 195,
+  "word": "concentrate",
+  "meaning": "[自] ①（on ～）（～に）集中する [他] ②（A on B）（A）を（B に）集中させる"
+ },
+ {
+  "number": 196,
+  "word": "focus",
+  "meaning": "[自] ①（on ～）（～に）焦点を当てる，力を注ぐ [名] ②焦点"
+ },
+ {
+  "number": 197,
+  "word": "allow",
+  "meaning": "[他] ①（人が）～を許可する ②（物が）～を可能にする"
+ },
+ {
+  "number": 198,
+  "word": "admit",
+  "meaning": "[他] ①～を認める ②～の入場［入学］を許可する"
+ },
+ {
+  "number": 199,
+  "word": "ground",
+  "meaning": "[名] ①地面 ②根拠"
+ },
+ {
+  "number": 200,
+  "word": "pollution",
+  "meaning": "[名] 汚染，公害〈不可算〉"
+ },
+ {
+  "number": 201,
+  "word": "sight",
+  "meaning": "[名] ①光景 ②視力"
+ },
+ {
+  "number": 202,
+  "word": "view",
+  "meaning": "[名] ①眺め，景色〈可算〉 ②見解，見方〈不可算〉 [他] ③（A as B）（A）を（B と）みなす"
+ },
+ {
+  "number": 203,
+  "word": "landscape",
+  "meaning": "[名] ①風景 ②（the －）（政治，社会の）情勢"
+ },
+ {
+  "number": 204,
+  "word": "nature",
+  "meaning": "[名] ①（無冠詞）自然 ②（しばしばthe － of ～） （～の）性質"
+ },
+ {
+  "number": 205,
+  "word": "seed",
+  "meaning": "[名] ①種 ②シード選手"
+ },
+ {
+  "number": 206,
+  "word": "plant",
+  "meaning": "[名] ①植物 ②（大規模な）工場 [他] ③～を植える"
+ },
+ {
+  "number": 207,
+  "word": "bloom",
+  "meaning": "[自] ①（花が）咲く [名] ②開花"
+ },
+ {
+  "number": 208,
+  "word": "harvest",
+  "meaning": "[名] ①収穫 [他] ②～を収穫する ③（臓器，体液など）を摘出する"
+ },
+ {
+  "number": 209,
+  "word": "insect",
+  "meaning": "[名] 昆虫"
+ },
+ {
+  "number": 210,
+  "word": "earthquake",
+  "meaning": "[名] 地震"
+ },
+ {
+  "number": 211,
+  "word": "temperature",
+  "meaning": "[名] ①温度，気温 ②体温"
+ },
+ {
+  "number": 212,
+  "word": "degree",
+  "meaning": "[名] ①（温度などの）度 ②程度 ③ 学位"
+ },
+ {
+  "number": 213,
+  "word": "flood",
+  "meaning": "[名] ①洪水 [他] ②～を水浸しにする"
+ },
+ {
+  "number": 214,
+  "word": "freeze",
+  "meaning": "[自] ①凍る，凍りつく [他] ②～を凍らせる"
+ },
+ {
+  "number": 215,
+  "word": "reflect",
+  "meaning": "[他] ①～を反射する ②～を反映する [自] ③（on ～）（～を）熟考する"
+ },
+ {
+  "number": 216,
+  "word": "polite",
+  "meaning": "[形] （人，言動が）礼儀正しい"
+ },
+ {
+  "number": 217,
+  "word": "rude",
+  "meaning": "[形] 無礼な，不作法な"
+ },
+ {
+  "number": 218,
+  "word": "lonely",
+  "meaning": "[形] 孤独な"
+ },
+ {
+  "number": 219,
+  "word": "lazy",
+  "meaning": "[形] ①（やる気がなく）怠惰な，いい加減な ②（名詞の前で）くつろいだ"
+ },
+ {
+  "number": 220,
+  "word": "strict",
+  "meaning": "[形] 厳しい"
+ },
+ {
+  "number": 221,
+  "word": "ugly",
+  "meaning": "[形] 醜い"
+ },
+ {
+  "number": 222,
+  "word": "intelligent",
+  "meaning": "[形] 知的な，賢い"
+ },
+ {
+  "number": 223,
+  "word": "silly",
+  "meaning": "[形] ばかな"
+ },
+ {
+  "number": 224,
+  "word": "nervous",
+  "meaning": "[形] ①あがって，落ち着かない ②神経質な，臆病な ③（身体の）神経の"
+ },
+ {
+  "number": 225,
+  "word": "awake",
+  "meaning": "[形] 目を覚まして"
+ },
+ {
+  "number": 226,
+  "word": "attitude",
+  "meaning": "[名] 態度，姿勢"
+ },
+ {
+  "number": 227,
+  "word": "character",
+  "meaning": "[名] ①性格，特徴 ②登場人物 ③文字"
+ },
+ {
+  "number": 228,
+  "word": "characteristic",
+  "meaning": "[名] ①特徴〈可算〉 [形] ②特有の，特徴的な"
+ },
+ {
+  "number": 229,
+  "word": "feature",
+  "meaning": "[名] ①特徴 ②特集記事 [他] ③～を特集する"
+ },
+ {
+  "number": 230,
+  "word": "detail",
+  "meaning": "[名] ①詳細 ②（建物などの）細部"
+ },
+ {
+  "number": 231,
+  "word": "advantage",
+  "meaning": "[名] （over ～）（～に対する）利点"
+ },
+ {
+  "number": 232,
+  "word": "fault",
+  "meaning": "[名] ①（ちょっとした）欠点，不具合〈可算〉 ②（one's －）責任〈不可算〉 ③断層"
+ },
+ {
+  "number": 233,
+  "word": "quality",
+  "meaning": "[名] ①質〈不可算〉 ②（通例－s）（人間の）資質"
+ },
+ {
+  "number": 234,
+  "word": "correct",
+  "meaning": "[形] ①正確な，正しい [他] ②～を訂正する，矯正する"
+ },
+ {
+  "number": 235,
+  "word": "ideal",
+  "meaning": "[形] ①理想的な，申し分のない [名] ②理想，理想的な姿"
+ },
+ {
+  "number": 236,
+  "word": "fair",
+  "meaning": "[形] ①公正な，公平な [名] ②品評会，見本市"
+ },
+ {
+  "number": 237,
+  "word": "appropriate",
+  "meaning": "[形] 適切な"
+ },
+ {
+  "number": 238,
+  "word": "famous",
+  "meaning": "[形] ①（for one's ～）（～で）有名な ②（as ～）（～として）有名な"
+ },
+ {
+  "number": 239,
+  "word": "elementary",
+  "meaning": "[形] 初歩的な，基本の"
+ },
+ {
+  "number": 240,
+  "word": "major",
+  "meaning": "[形] ①主要な [自] ②（in ～）（～を）専攻する"
+ },
+ {
+  "number": 241,
+  "word": "matter",
+  "meaning": "[自] ①重要である [名] ②（修飾語を伴い）物質 ③（－s）事態，状況"
+ },
+ {
+  "number": 242,
+  "word": "bright",
+  "meaning": "[形] ①明るい ②（主に子どもや若者が）賢い"
+ },
+ {
+  "number": 243,
+  "word": "brilliant",
+  "meaning": "[形] ①輝いている ②すばらしい"
+ },
+ {
+  "number": 244,
+  "word": "lively",
+  "meaning": "[形] 生き生きとした"
+ },
+ {
+  "number": 245,
+  "word": "comfortable",
+  "meaning": "[形] ①（物が）快適な ②（人が）心地よい"
+ },
+ {
+  "number": 246,
+  "word": "pleasant",
+  "meaning": "[形] （人にとって）楽しい，心地よい"
+ },
+ {
+  "number": 247,
+  "word": "convenient",
+  "meaning": "[形] ①都合がよい ②近くて便利がよい"
+ },
+ {
+  "number": 248,
+  "word": false,
+  "meaning": "[形] ①誤った ②偽の"
+ },
+ {
+  "number": 249,
+  "word": "terrible",
+  "meaning": "[形] ①ひどい ②苦手で"
+ },
+ {
+  "number": 250,
+  "word": "awful",
+  "meaning": "[形] ひどい，不快な"
+ },
+ {
+  "number": 251,
+  "word": "thin",
+  "meaning": "[形] ①薄い ②（病的に）やせた ③（毛が）薄い"
+ },
+ {
+  "number": 252,
+  "word": "tight",
+  "meaning": "[形] ①引き締まった，きつい ②厳しい"
+ },
+ {
+  "number": 253,
+  "word": "loose",
+  "meaning": "[形] ①ゆるい ②解き放たれた"
+ },
+ {
+  "number": 254,
+  "word": "raw",
+  "meaning": "[形] 生の，加工されていない"
+ },
+ {
+  "number": 255,
+  "word": "empty",
+  "meaning": "[形] ①空の，中身のない [他] ②～を空にする"
+ },
+ {
+  "number": 256,
+  "word": "smooth",
+  "meaning": "[形] ①滑らかな ②順調な [他] ③（服のしわ）をのばす，（髪）をなでつける"
+ },
+ {
+  "number": 257,
+  "word": "direct",
+  "meaning": "[形] ①直接的な [他] ②～を指揮［監督，演出］する ③（注意など）を向ける ④～に道を教える"
+ },
+ {
+  "number": 258,
+  "word": "familiar",
+  "meaning": "[形] ①知られた ②（人が）（よく）知っている"
+ },
+ {
+  "number": 259,
+  "word": "similar",
+  "meaning": "[形] （to ～）（～に）似た"
+ },
+ {
+  "number": 260,
+  "word": "differ",
+  "meaning": "[自] 異なる"
+ },
+ {
+  "number": 261,
+  "word": "vary",
+  "meaning": "[自] さまざまだ，変わる"
+ },
+ {
+  "number": 262,
+  "word": "specific",
+  "meaning": "[形] ①特定の ②明確な，具体的な"
+ },
+ {
+  "number": 263,
+  "word": "common",
+  "meaning": "[形] ①普及した，普通の ②（主に名詞の前で）共通の"
+ },
+ {
+  "number": 264,
+  "word": "unusual",
+  "meaning": "[形] 珍しい"
+ },
+ {
+  "number": 265,
+  "word": "add",
+  "meaning": "[他] ①～を加える [自] ②（to ～）（～を）増やす"
+ },
+ {
+  "number": 266,
+  "word": "increase",
+  "meaning": "[自] ①増える [他] ②～を増やす [名] ③（in ～）（～の）増加"
+ },
+ {
+  "number": 267,
+  "word": "reduce",
+  "meaning": "[他] ①～を減らす ②（A to B） A をB にする"
+ },
+ {
+  "number": 268,
+  "word": "divide",
+  "meaning": "[他] ①～を分割する ②（by ～）（～によって）（数字）を割る"
+ },
+ {
+  "number": 269,
+  "word": "count",
+  "meaning": "[他] ①～を数える [自]②数える ③重要である ④（on ～）（～を）（全面的に）当てにする"
+ },
+ {
+  "number": 270,
+  "word": "weigh",
+  "meaning": "[自] ①～の重さがある [他] ②～の重さを量る ③～を（比較）検討する"
+ },
+ {
+  "number": 271,
+  "word": "quarter",
+  "meaning": "[名] ①4 分の1 ，15分，25セント ②（都市のある特定な）地域"
+ },
+ {
+  "number": 272,
+  "word": "lot",
+  "meaning": "[名] ①（a － of ～）多くの～ ②（副詞的に）（a －）とても ③（one's）（～の）状況，運命 ④（何らかの目的を持つ）土地"
+ },
+ {
+  "number": 273,
+  "word": "pile",
+  "meaning": "[名] ①積み重ね，山 ②多量 [他] ③～を積み重ねる"
+ },
+ {
+  "number": 274,
+  "word": "rate",
+  "meaning": "[名] ①割合，速さ ②（ホテルなどの一定の）料金 [他] ③～を評価する"
+ },
+ {
+  "number": 275,
+  "word": "figure",
+  "meaning": "[名] ①数字 ②人物 ③スタイル，体つき ④図 [自] ⑤目立つ"
+ },
+ {
+  "number": 276,
+  "word": "lack",
+  "meaning": "[名] ①（（a）－ of ～）（～の）不足 [他] ②～を欠いている"
+ },
+ {
+  "number": 277,
+  "word": "extra",
+  "meaning": "[形] ①余分な，追加の，臨時の [名] ②余分な［追加された］もの"
+ },
+ {
+  "number": 278,
+  "word": "ready",
+  "meaning": "[形] ①用意ができている ②（be ～ to do）進んで～する"
+ },
+ {
+  "number": 279,
+  "word": "prepare",
+  "meaning": "[他] ①～の準備をする，用意をする [自] ②準備をする，用意をする [形] ③（be －d to do）（～する）準備ができている"
+ },
+ {
+  "number": 280,
+  "word": "adjust",
+  "meaning": "[自] ①（to ～）（～に）慣れる [他] ②～を調整する"
+ },
+ {
+  "number": 281,
+  "word": "apply",
+  "meaning": "[自] ①（to ～）（～に）当てはまる ②（for ～）（～に）申し込む [他] ③～を当てはめる，応用する ④（薬，口紅など）を塗る"
+ },
+ {
+  "number": 282,
+  "word": "suit",
+  "meaning": "[他] ①（人）に適している，好都合だ ②（服装，色が人）に似合う [名] ③訴訟（＝lawsuit） ④ スーツ"
+ },
+ {
+  "number": 283,
+  "word": "case",
+  "meaning": "[名] ①場合 ②（the －）事実 ③（犯罪）事件 ④症例 ⑤（make a －）主張（する）"
+ },
+ {
+  "number": 284,
+  "word": "scene",
+  "meaning": "[名] ①（劇，小説などの）場面 ②（事故）現場 ③（the ～ scene）～（業）界"
+ },
+ {
+  "number": 285,
+  "word": "chance",
+  "meaning": "[名] ①（to do）（～する）機会 ②（of ～ \/ that S V）（～の\/ ～する）可能性"
+ },
+ {
+  "number": 286,
+  "word": "opportunity",
+  "meaning": "[名] （よい）機会，好機"
+ },
+ {
+  "number": 287,
+  "word": "experience",
+  "meaning": "[名] ①経験 ②（個々の）体験 [他] ③～を経験する"
+ },
+ {
+  "number": 288,
+  "word": "time",
+  "meaning": "[名] ①（漠然とした）時間 ②（ある長さの）時間 ③回数 ④倍 ⑤（－s）情勢，時代 ⑥（接続詞的に（the） next －）次に～するとき"
+ },
+ {
+  "number": 289,
+  "word": "spring",
+  "meaning": "[名] ①春 ②泉，温泉 [自] ③飛び出る，突然出現する"
+ },
+ {
+  "number": 290,
+  "word": "minute",
+  "meaning": "[名] ①（時間の）分 ②（a －）ちょっとの間 ③（－s）議事録 [形] ④とても小さい，細かい [接] ⑤（the －）～するとすぐに"
+ },
+ {
+  "number": 291,
+  "word": "period",
+  "meaning": "[名] ①時代 ②期間 ③（学校の）時限"
+ },
+ {
+  "number": 292,
+  "word": "generation",
+  "meaning": "[名] ①世代 ②生み出すこと ③発電"
+ },
+ {
+  "number": 293,
+  "word": "anniversary",
+  "meaning": "[名] 記念日"
+ },
+ {
+  "number": 294,
+  "word": "recently",
+  "meaning": "[副] 最近，近ごろ"
+ },
+ {
+  "number": 295,
+  "word": "used",
+  "meaning": "[助] ①（to ～）以前は～だった，よく～したものだ [形] ②（be － to doing）（～することに）慣れている ③中古の"
+ },
+ {
+  "number": 296,
+  "word": "early",
+  "meaning": "[副] ①（時間，時期が）早く，初期に ②（予定より）早く [形] ③早い，初期の"
+ },
+ {
+  "number": 297,
+  "word": "first",
+  "meaning": "[形] ①第1 の ②（for the － time）初めて [副] ③ 初めて ④（文頭で）まず第1 に（＝firstly） [名]⑤（at －）最初のうちは"
+ },
+ {
+  "number": 298,
+  "word": "latest",
+  "meaning": "[形] （the －）最新の"
+ },
+ {
+  "number": 299,
+  "word": "modern",
+  "meaning": "[形] ①現代の ②近代的な"
+ },
+ {
+  "number": 300,
+  "word": "latter",
+  "meaning": "[形] ①後半の [名] ②（the －）後者"
+ },
+ {
+  "number": 301,
+  "word": "spend",
+  "meaning": "[他] ①（時間）を費やす ②（お金）を使う"
+ },
+ {
+  "number": 302,
+  "word": "delay",
+  "meaning": "[他] ①～を遅らせる [名] ②遅延，延期"
+ },
+ {
+  "number": 303,
+  "word": "borrow",
+  "meaning": "[他] ～を借りる"
+ },
+ {
+  "number": 304,
+  "word": "lend",
+  "meaning": "[他] ①（無償で）～を貸す ②（銀行が利子をつけて）を貸す"
+ },
+ {
+  "number": 305,
+  "word": "rent",
+  "meaning": "[他] ①～を借りる ②（A to B）（A）を（B に）賃貸しする [名] ③家賃，賃貸料，使用料"
+ },
+ {
+  "number": 306,
+  "word": "provide",
+  "meaning": "[他] ～を供給する，与える"
+ },
+ {
+  "number": 307,
+  "word": "shelf",
+  "meaning": "[名] 棚（の一段）"
+ },
+ {
+  "number": 308,
+  "word": "board",
+  "meaning": "[名] ①（細長い）板 ②（幹部などによる）委員会 [他] ③～に乗る"
+ },
+ {
+  "number": 309,
+  "word": "garbage",
+  "meaning": "[名] ごみ"
+ },
+ {
+  "number": 310,
+  "word": "item",
+  "meaning": "[名] ①品物 ②項目 ③（短い）記事"
+ },
+ {
+  "number": 311,
+  "word": "wheel",
+  "meaning": "[名] ①車輪 ②（the －）ハンドル [他] ③（車輪のついたもの）を動かす"
+ },
+ {
+  "number": 312,
+  "word": "note",
+  "meaning": "[名] ①メモ ②〈英〉紙幣 [他] ③（that S V）（～ということ）を指摘する ④ ～に注意を払う"
+ },
+ {
+  "number": 313,
+  "word": "present",
+  "meaning": "[名] ①プレゼント ②現在 [形] ③現在の ④ 出席して，存在して [他] ⑤～を贈る，提示する"
+ },
+ {
+  "number": 314,
+  "word": "stuff",
+  "meaning": "[名] ①（漠然とした）もの [他] ②～を詰める"
+ },
+ {
+  "number": 315,
+  "word": "string",
+  "meaning": "[名] ①ひも ②（a － of ～）一連の～ ③（ギターなどの）弦"
+ },
+ {
+  "number": 316,
+  "word": "leisure",
+  "meaning": "[名] ①余暇 ②（形容詞的に）余暇の"
+ },
+ {
+  "number": 317,
+  "word": "diet",
+  "meaning": "[名] ①食事 ②規定食 ③（D－） （日本の）国会"
+ },
+ {
+  "number": 318,
+  "word": "furniture",
+  "meaning": "[名] 家具〈不可算〉"
+ },
+ {
+  "number": 319,
+  "word": "refrigerator",
+  "meaning": "[名] 冷蔵庫"
+ },
+ {
+  "number": 320,
+  "word": "traffic",
+  "meaning": "[名] 交通（量）〈不可算〉"
+ },
+ {
+  "number": 321,
+  "word": "jam",
+  "meaning": "[名] ①渋滞 ②ジャム"
+ },
+ {
+  "number": 322,
+  "word": "sell",
+  "meaning": "[他] ①～を売る [自] ②売れる"
+ },
+ {
+  "number": 323,
+  "word": "pay",
+  "meaning": "[他] ①（A for B） （B の代金としてA）を支払う [自] ②（for A） （A の代金を）支払う ③（仕事などが）割に合う [名] ④給料"
+ },
+ {
+  "number": 324,
+  "word": "wear",
+  "meaning": "[他] ①～を身につけている ②～をすり減らす [自] ③すり減る"
+ },
+ {
+  "number": 325,
+  "word": "clothes",
+  "meaning": "[名] 服〈複数扱い〉"
+ },
+ {
+  "number": 326,
+  "word": "marry",
+  "meaning": "[他] ～と結婚する"
+ },
+ {
+  "number": 327,
+  "word": "greet",
+  "meaning": "[他] ～に挨拶する，出迎える"
+ },
+ {
+  "number": 328,
+  "word": "order",
+  "meaning": "[他] ①～を注文する ②（医者や上官などが）～に命令する [名] ③ 注文 ④命令 ⑤順序 ⑥秩序"
+ },
+ {
+  "number": 329,
+  "word": "room",
+  "meaning": "[名] ①部屋 ②余地，空間〈不可算〉"
+ },
+ {
+  "number": 330,
+  "word": "story",
+  "meaning": "[名] 階"
+ },
+ {
+  "number": 331,
+  "word": "site",
+  "meaning": "[名] ①用地 ②現場，場所 ③（史跡などの）跡"
+ },
+ {
+  "number": 332,
+  "word": "yard",
+  "meaning": "[名] ①（主に〈米〉）庭 ②ヤード（＝約0.9 m）"
+ },
+ {
+  "number": 333,
+  "word": "bottom",
+  "meaning": "[名] ①底 ②一番下，最下位 ③ 尻"
+ },
+ {
+  "number": 334,
+  "word": "line",
+  "meaning": "[名] ①列 ②行，線 ③電話回線 ④セリフ [自] ⑤（up）並ぶ"
+ },
+ {
+  "number": 335,
+  "word": "row",
+  "meaning": "[名] ①列 [他] ②（ボート）をこぐ"
+ },
+ {
+  "number": 336,
+  "word": "background",
+  "meaning": "[名] ①背景 ②経歴，生い立ち"
+ },
+ {
+  "number": 337,
+  "word": "direction",
+  "meaning": "[名] ①方向，方角 ②（－s）道順 ③指示"
+ },
+ {
+  "number": 338,
+  "word": "art",
+  "meaning": "[名] ①芸術 ②技術 ③（liberal －s）一般教養"
+ },
+ {
+  "number": 339,
+  "word": "culture",
+  "meaning": "[名] ①文化 ②培養，養殖 ③教養 [他] ④～を耕す，栽培［養殖］する"
+ },
+ {
+  "number": 340,
+  "word": "cartoon",
+  "meaning": "[名] 漫画"
+ },
+ {
+  "number": 341,
+  "word": "novel",
+  "meaning": "[名] ①小説 [形] ②斬新な"
+ },
+ {
+  "number": 342,
+  "word": "instrument",
+  "meaning": "[名] ①楽器 ②器具"
+ },
+ {
+  "number": 343,
+  "word": "tune",
+  "meaning": "[名] ①曲 [自] ②（番組）にチャンネルを合わせる [他] ③～の調子を合わせる"
+ },
+ {
+  "number": 344,
+  "word": "sentence",
+  "meaning": "[名] ①（ 1 つ1 つの）文 ②判決 [他] ③（A to B）（A）を（B）の刑にする"
+ },
+ {
+  "number": 345,
+  "word": "article",
+  "meaning": "[名] ①記事 ②品物 ③冠詞 ④条項"
+ },
+ {
+  "number": 346,
+  "word": "passage",
+  "meaning": "[名] ①（文章などの）一節 ②（時の）経過，移動 ③通路"
+ },
+ {
+  "number": 347,
+  "word": "vocabulary",
+  "meaning": "[名] 語彙"
+ },
+ {
+  "number": 348,
+  "word": "rumor",
+  "meaning": "[名] うわさ"
+ },
+ {
+  "number": 349,
+  "word": "spell",
+  "meaning": "[他] ①～をつづる [名] ②呪文 ③（天気などのある一続きの）期間"
+ },
+ {
+  "number": 350,
+  "word": "pronounce",
+  "meaning": "[他] ①（単語など）を発音する ②（判決など）を宣告する，～と断言する"
+ },
+ {
+  "number": 351,
+  "word": "sign",
+  "meaning": "[名] ①兆候，印 ②標識，看板，掲示 [他] ③ ～を署名する"
+ },
+ {
+  "number": 352,
+  "word": "mean",
+  "meaning": "[他] ①～を意味する ②（to do）～するつもりだ [形] ③意地悪な"
+ },
+ {
+  "number": 353,
+  "word": "publish",
+  "meaning": "[他] ①～を出版する ②（公式に結果など）を発表する"
+ },
+ {
+  "number": 354,
+  "word": "display",
+  "meaning": "[他] ①～を展示する ②（実力など）を発揮する ③～を誇示する [名] ④展示，表現，誇示"
+ },
+ {
+  "number": 355,
+  "word": "trust",
+  "meaning": "[他] ①～を信頼する [名] ②信頼，信用"
+ },
+ {
+  "number": 356,
+  "word": "depend",
+  "meaning": "[自] ①（物，事が主語）（on ～）（～）次第である ②（人が主語）（on ～）（～に）頼っている"
+ },
+ {
+  "number": 357,
+  "word": "rely",
+  "meaning": "[自] （on ～）（～に）頼る"
+ },
+ {
+  "number": 358,
+  "word": "pray",
+  "meaning": "[自] 祈る"
+ },
+ {
+  "number": 359,
+  "word": "beg",
+  "meaning": "[他] ①～を嘆願する [自] ②求める"
+ },
+ {
+  "number": 360,
+  "word": "prefer",
+  "meaning": "[他] （A to B） （B よりA）を好む"
+ },
+ {
+  "number": 361,
+  "word": "weep",
+  "meaning": "[自] しくしく泣く"
+ },
+ {
+  "number": 362,
+  "word": "hate",
+  "meaning": "[他] ～を嫌う"
+ },
+ {
+  "number": 363,
+  "word": "worry",
+  "meaning": "[自] ①心配をする [名] ②心配（事）"
+ },
+ {
+  "number": 364,
+  "word": "anxious",
+  "meaning": "[形] ①（about ～）（～を）心配して ②（to do \/ for ～）（～を）切望して"
+ },
+ {
+  "number": 365,
+  "word": "satisfy",
+  "meaning": "[他] ①～を満足させる ②（必要性，空腹など）を満たす"
+ },
+ {
+  "number": 366,
+  "word": "annoy",
+  "meaning": "[他] ～をいらだたせる"
+ },
+ {
+  "number": 367,
+  "word": "bother",
+  "meaning": "[他] ①～に面倒をかける ②（to do）わざわざ～する [名] ③面倒なもの"
+ },
+ {
+  "number": 368,
+  "word": "disturb",
+  "meaning": "[他] ①（うるさくして）～に迷惑をかける ②（平和など）を乱す"
+ },
+ {
+  "number": 369,
+  "word": "frighten",
+  "meaning": "[他] ～をおびえさせる"
+ },
+ {
+  "number": 370,
+  "word": "upset",
+  "meaning": "[他] ①～を動揺させる ②（均衡など）を乱す [形] ③動揺して，腹を立てて"
+ },
+ {
+  "number": 371,
+  "word": "regret",
+  "meaning": "[他] ①～を後悔する ②（to do）残念ながら～しないといけない [名] ③後悔"
+ },
+ {
+  "number": 372,
+  "word": "favor",
+  "meaning": "[名] ①親切な行為 ②支持"
+ },
+ {
+  "number": 373,
+  "word": "interest",
+  "meaning": "[名] ①関心 ②（－s）利益 ③（銀行などの）利子"
+ },
+ {
+  "number": 374,
+  "word": "pity",
+  "meaning": "[名] ①残念なこと〈可算〉 ②哀れみ〈不可算〉"
+ },
+ {
+  "number": 375,
+  "word": "due",
+  "meaning": "[形] ①（due to （名詞））（名詞）が原因で ②締め切りの ③到着［出産］予定の"
+ },
+ {
+  "number": 376,
+  "word": "reason",
+  "meaning": "[名] ①理由 ②理性 [他] ③～を推理する [自] ④思考する，判断する"
+ },
+ {
+  "number": 377,
+  "word": "result",
+  "meaning": "[名] ①結果 [自] ②（in ～）結果として（～に）なる ③（from ～）（～の）結果として生じる"
+ },
+ {
+  "number": 378,
+  "word": "effect",
+  "meaning": "[名] 効果，影響，結果"
+ },
+ {
+  "number": 379,
+  "word": "influence",
+  "meaning": "[名] ①影響（力） [他] ②～に影響を与える"
+ },
+ {
+  "number": 380,
+  "word": "cause",
+  "meaning": "[他] ①～を引き起こす [名] ②原因"
+ },
+ {
+  "number": 381,
+  "word": "affect",
+  "meaning": "[他] ～に影響を与える，作用する"
+ },
+ {
+  "number": 382,
+  "word": "way",
+  "meaning": "[名] ①方法 ②（in ～ way）（～の）点（で） ③道 [副] ④はるかに"
+ },
+ {
+  "number": 383,
+  "word": "manner",
+  "meaning": "[名] ①方法 ②流儀，態度 ③（－s）マナー"
+ },
+ {
+  "number": 384,
+  "word": "purpose",
+  "meaning": "[名] 目的"
+ },
+ {
+  "number": 385,
+  "word": "sake",
+  "meaning": "[名] ①（for ～）ため ②日本酒"
+ },
+ {
+  "number": 386,
+  "word": "right",
+  "meaning": "[副] ①（場所や時の副詞（句）を修飾して）ちょうど [形] ②正しい，適切な ③右の [名] ④（to ～）（～の）権利"
+ },
+ {
+  "number": 387,
+  "word": "complete",
+  "meaning": "[形] ①完全な [他] ②～を完成させる"
+ },
+ {
+  "number": 388,
+  "word": "hardly",
+  "meaning": "[副] ①（程度）ほとんど～ない ②（－ ever）めったに～ない"
+ },
+ {
+  "number": 389,
+  "word": "nearly",
+  "meaning": "[副] ①ほとんど ②あやうく～しかける"
+ },
+ {
+  "number": 390,
+  "word": "partly",
+  "meaning": "[副] ある程度，部分的に"
+ },
+ {
+  "number": 391,
+  "word": "actually",
+  "meaning": "[副] ①実は ②実際に"
+ },
+ {
+  "number": 392,
+  "word": "indeed",
+  "meaning": "[副] ①（強調として）実際に，本当に ②（but を伴って）確かに～"
+ },
+ {
+  "number": 393,
+  "word": "even",
+  "meaning": "[副] ①さえも ②（比較級の前で）さらに"
+ },
+ {
+  "number": 394,
+  "word": "exactly",
+  "meaning": "[副] ①正確に ②〈会話で〉そのとおり"
+ },
+ {
+  "number": 395,
+  "word": "gradually",
+  "meaning": "[副] 徐々に"
+ },
+ {
+  "number": 396,
+  "word": "therefore",
+  "meaning": "[副] それゆえに"
+ },
+ {
+  "number": 397,
+  "word": "instead",
+  "meaning": "[副] ①代わりに ②（of ～）（～の）代わりに"
+ },
+ {
+  "number": 398,
+  "word": "until",
+  "meaning": "[前] ①～まで（ずっと） [接] ②～まで（ずっと）"
+ },
+ {
+  "number": 399,
+  "word": "besides",
+  "meaning": "[前] ①～に加えて [副] ②おまけに"
+ },
+ {
+  "number": 400,
+  "word": "except",
+  "meaning": "[前] ①～を除いて ②（for ～）（～を）除いて"
+ },
+ {
+  "number": 401,
+  "word": "debate",
+  "meaning": "[名] ①討論 [他] ②～を討論する"
+ },
+ {
+  "number": 402,
+  "word": "criticize",
+  "meaning": "[他] ～を批判する"
+ },
+ {
+  "number": 403,
+  "word": "accuse",
+  "meaning": "[他] ①～を非難する ②～を告訴する"
+ },
+ {
+  "number": 404,
+  "word": "insist",
+  "meaning": "[自] ①（on ～）（～と）言い張る，（強く）主張する [他] ②～と主張する"
+ },
+ {
+  "number": 405,
+  "word": "object",
+  "meaning": "[自] ①（to ～）（～に感情的に）反対する [名] ②物 ③目的 ④（嘲笑，欲望などの）対象"
+ },
+ {
+  "number": 406,
+  "word": "protest",
+  "meaning": "[自] ①（against ～）（～に対して）抗議する [名] ②抗議"
+ },
+ {
+  "number": 407,
+  "word": "controversial",
+  "meaning": "[形] 論争を招く，物議をかもす"
+ },
+ {
+  "number": 408,
+  "word": "bound",
+  "meaning": "[形] ①（to do）きっと～（する，～する［である］に違いない） ②（for ～）～行きで"
+ },
+ {
+  "number": 409,
+  "word": "bet",
+  "meaning": "[他] ①（that S V）きっと～だと思う ②～を賭ける"
+ },
+ {
+  "number": 410,
+  "word": "congratulate",
+  "meaning": "[他] （人）を祝う，～にお祝いを述べる"
+ },
+ {
+  "number": 411,
+  "word": "praise",
+  "meaning": "[他] ①（A for B）（A）を（B のことで）褒める，称える [名] ②賞賛"
+ },
+ {
+  "number": 412,
+  "word": "honor",
+  "meaning": "[名] ①名誉，栄誉 [他] ②～を敬う"
+ },
+ {
+  "number": 413,
+  "word": "chat",
+  "meaning": "[自] ①おしゃべりする [名] ②おしゃべり"
+ },
+ {
+  "number": 414,
+  "word": "refer",
+  "meaning": "[自] （to ～）①（人が主語）（～に）言及する，参照する ②（物が主語）（～を）示す"
+ },
+ {
+  "number": 415,
+  "word": "mention",
+  "meaning": "[他] ～について述べる，言及する"
+ },
+ {
+  "number": 416,
+  "word": "convey",
+  "meaning": "[他] ①～を伝える ②（乗客，音，病気など）を運ぶ"
+ },
+ {
+  "number": 417,
+  "word": "emphasize",
+  "meaning": "[他] ～を強調する"
+ },
+ {
+  "number": 418,
+  "word": "exaggerate",
+  "meaning": "[他] ①～を誇張する [自] ②誇張する，大げさに言う"
+ },
+ {
+  "number": 419,
+  "word": "reply",
+  "meaning": "[自] ①（to ～）（～に）返事をする，答える [名] ②返事，答え"
+ },
+ {
+  "number": 420,
+  "word": "respond",
+  "meaning": "[自] ①（to ～）（手紙や問いなどに）返答する ②（to ～）（～に）対応する，反応する"
+ },
+ {
+  "number": 421,
+  "word": "whisper",
+  "meaning": "[自] ①ささやく [名] ②ささやき（声）"
+ },
+ {
+  "number": 422,
+  "word": "remark",
+  "meaning": "[名] ①発言 [他] ②～と発言する"
+ },
+ {
+  "number": 423,
+  "word": "observe",
+  "meaning": "[他] ①～を観察する ②（that S V）（気づいたことを）～と述べる ③（規則など）を遵守する ④（記念日など）を祝う"
+ },
+ {
+  "number": 424,
+  "word": "theory",
+  "meaning": "[名] ①理論 ②（学）説"
+ },
+ {
+  "number": 425,
+  "word": "analysis",
+  "meaning": "[名] 分析"
+ },
+ {
+  "number": 426,
+  "word": "experiment",
+  "meaning": "[名] ①実験 [自] ②実験する"
+ },
+ {
+  "number": 427,
+  "word": "device",
+  "meaning": "[名] 装置"
+ },
+ {
+  "number": 428,
+  "word": "phenomenon",
+  "meaning": "[名] ①現象 ②特異なもの，天才"
+ },
+ {
+  "number": 429,
+  "word": "substance",
+  "meaning": "[名] ①物質 ②本質，根拠"
+ },
+ {
+  "number": 430,
+  "word": "chemical",
+  "meaning": "[名] ①（通例 －s）化学物質 [形] ②化学の"
+ },
+ {
+  "number": 431,
+  "word": "fuel",
+  "meaning": "[名] ①燃料 [他] ②（感情など）を大きくする"
+ },
+ {
+  "number": 432,
+  "word": "nuclear",
+  "meaning": "[形] 原子力の，核の"
+ },
+ {
+  "number": 433,
+  "word": "statistics",
+  "meaning": "[名] ①統計（値）〈複数扱い〉 ②統計学〈不可算〉"
+ },
+ {
+  "number": 434,
+  "word": "pursue",
+  "meaning": "[他] ①～を追求する，続ける ②～を追跡する"
+ },
+ {
+  "number": 435,
+  "word": "accomplish",
+  "meaning": "[他] ～をやり遂げる"
+ },
+ {
+  "number": 436,
+  "word": "overcome",
+  "meaning": "[他] ～を克服する"
+ },
+ {
+  "number": 437,
+  "word": "fulfill",
+  "meaning": "[他] ①（義務，願望など）を果たす ②（必要など）を満たす"
+ },
+ {
+  "number": 438,
+  "word": "devote",
+  "meaning": "[他] （A to B） （A）を（B に）ささげる"
+ },
+ {
+  "number": 439,
+  "word": "aim",
+  "meaning": "[自] ①狙う [他] ②（-ed at ～）～向けだ [名] ③狙い，目的"
+ },
+ {
+  "number": 440,
+  "word": "challenge",
+  "meaning": "[名] ①難問，課題 [他] ②～に異議を唱える"
+ },
+ {
+  "number": 441,
+  "word": "trial",
+  "meaning": "[名] ①試み ②裁判 ③試練"
+ },
+ {
+  "number": 442,
+  "word": "dizzy",
+  "meaning": "[形] めまいがして"
+ },
+ {
+  "number": 443,
+  "word": "pale",
+  "meaning": "[形] ①（顔色が）青白い，青ざめた ②（色が）淡い"
+ },
+ {
+  "number": 444,
+  "word": "appetite",
+  "meaning": "[名] 食欲"
+ },
+ {
+  "number": 445,
+  "word": "starve",
+  "meaning": "[自] ①（be －ing）とてもお腹が空いている ②餓死する"
+ },
+ {
+  "number": 446,
+  "word": "mental",
+  "meaning": "[形] ①精神の ②知力の"
+ },
+ {
+  "number": 447,
+  "word": "rest",
+  "meaning": "[名] ①休憩 ②（the －）残り [自] ③（横になったりして）休む ④（on ～）（～）次第だ [他] ⑤～を休ませる"
+ },
+ {
+  "number": 448,
+  "word": "ache",
+  "meaning": "[名] ①痛み [自] ②痛む"
+ },
+ {
+  "number": 449,
+  "word": "surgery",
+  "meaning": "[名] ①手術 ②外科（① ②ともに〈不可算〉)"
+ },
+ {
+  "number": 450,
+  "word": "disease",
+  "meaning": "[名] 病気"
+ },
+ {
+  "number": 451,
+  "word": "symptom",
+  "meaning": "[名] ①（通例 －s）症状 ②兆候"
+ },
+ {
+  "number": 452,
+  "word": "cancer",
+  "meaning": "[名] ①がん ②（C－）カニ座"
+ },
+ {
+  "number": 453,
+  "word": "ambulance",
+  "meaning": "[名] 救急車"
+ },
+ {
+  "number": 454,
+  "word": "recover",
+  "meaning": "[自] ①（from ～）（～から）回復する [他] ②（盗品など）を取り戻す"
+ },
+ {
+  "number": 455,
+  "word": "sore",
+  "meaning": "[形] ①（のどや筋肉が）痛い ②（話題など）触れてほしくない，心が痛む"
+ },
+ {
+  "number": 456,
+  "word": "swell",
+  "meaning": "[自] ①（手足などが）腫れる ②（風船，費用などが）膨らむ"
+ },
+ {
+  "number": 457,
+  "word": "cough",
+  "meaning": "[自] ①咳をする [名] ②咳〈可算〉"
+ },
+ {
+  "number": 458,
+  "word": "bleed",
+  "meaning": "[自] 出血する"
+ },
+ {
+  "number": 459,
+  "word": "faint",
+  "meaning": "[形] ①（色，光などが）かすかな [自] ②気絶する [名] ③気絶"
+ },
+ {
+  "number": 460,
+  "word": "exhaust",
+  "meaning": "[他] ①～を疲れ果てさせる ②～を使い果たす [名] ③排出，排気ガス"
+ },
+ {
+  "number": 461,
+  "word": "cure",
+  "meaning": "[他] ①～を治療する [名] ②治療法"
+ },
+ {
+  "number": 462,
+  "word": "disabled",
+  "meaning": "[形] ①障がいのある [名] ②（the －）（集合的に）障がいのある人"
+ },
+ {
+  "number": 463,
+  "word": "stiff",
+  "meaning": "[形] ①（筋肉などが）凝った，（動かすと）痛い ② 堅い"
+ },
+ {
+  "number": 464,
+  "word": "muscle",
+  "meaning": "[名] 筋肉"
+ },
+ {
+  "number": 465,
+  "word": "tongue",
+  "meaning": "[名] ①舌 ②言語，言葉 ③（have a ～ tongue）話し方"
+ },
+ {
+  "number": 466,
+  "word": "sense",
+  "meaning": "[名] ①感覚 ②分別 ③意味 [他] ④（何となく）～を感じる"
+ },
+ {
+  "number": 467,
+  "word": "sweat",
+  "meaning": "[名] ①汗（通例〈不可算〉） [自] ②汗をかく"
+ },
+ {
+  "number": 468,
+  "word": "nationality",
+  "meaning": "[名] 国籍"
+ },
+ {
+  "number": 469,
+  "word": "citizen",
+  "meaning": "[名] ①市民 ②国民"
+ },
+ {
+  "number": 470,
+  "word": "civil",
+  "meaning": "[形] ①（一般）市民の ②国内の ③礼儀正しい"
+ },
+ {
+  "number": 471,
+  "word": "racial",
+  "meaning": "[形] 人種の，民族の"
+ },
+ {
+  "number": 472,
+  "word": "domestic",
+  "meaning": "[形] ①国内の ②家庭内の"
+ },
+ {
+  "number": 473,
+  "word": "rural",
+  "meaning": "[形] 田舎の"
+ },
+ {
+  "number": 474,
+  "word": "suburb",
+  "meaning": "[名] （通例the －s）郊外"
+ },
+ {
+  "number": 475,
+  "word": "border",
+  "meaning": "[名] ①国境（地帯），境界 [他] ②～を縁取る"
+ },
+ {
+  "number": 476,
+  "word": "burden",
+  "meaning": "[名] 重荷，負担"
+ },
+ {
+  "number": 477,
+  "word": "impact",
+  "meaning": "[名] ①（on ～）（～への）影響 ②（物体間の）衝撃 [自] ③（on ～）（～に）影響を及ぼす"
+ },
+ {
+  "number": 478,
+  "word": "status",
+  "meaning": "[名] ①地位 ②（特定の時点の）状況"
+ },
+ {
+  "number": 479,
+  "word": "equal",
+  "meaning": "[形] ①（to ～）（～に）等しい，平等な [他]②～に等しい"
+ },
+ {
+  "number": 480,
+  "word": "relationship",
+  "meaning": "[名] ①関係 ②親密な関係 （①②ともに〈可算〉）"
+ },
+ {
+  "number": 481,
+  "word": "reputation",
+  "meaning": "[名] （人，物の）評判〈可算〉"
+ },
+ {
+  "number": 482,
+  "word": "trend",
+  "meaning": "[名] ①（世の中の）風潮，傾向 ②流行"
+ },
+ {
+  "number": 483,
+  "word": "service",
+  "meaning": "[名] ①（政府あるいは企業による）事業，制度 ②（電車，バスの）便 ③サービス，接客〈不可算〉"
+ },
+ {
+  "number": 484,
+  "word": "religion",
+  "meaning": "[名] 宗教"
+ },
+ {
+  "number": 485,
+  "word": "moral",
+  "meaning": "[形] ①道徳的な [名] ②（物語の）教訓 ③（－s）道徳"
+ },
+ {
+  "number": 486,
+  "word": "standard",
+  "meaning": "[名] ①基準，水準 [形] ②標準の"
+ },
+ {
+  "number": 487,
+  "word": "prosperity",
+  "meaning": "[名] 繁栄"
+ },
+ {
+  "number": 488,
+  "word": "crisis",
+  "meaning": "[名] 危機"
+ },
+ {
+  "number": 489,
+  "word": "prejudice",
+  "meaning": "[名] ①偏見，先入観 [他] ②～に偏見をもたせる"
+ },
+ {
+  "number": 490,
+  "word": "discrimination",
+  "meaning": "[名] ①差別 ②識別"
+ },
+ {
+  "number": 491,
+  "word": "charity",
+  "meaning": "[名] ①慈善（事業）〈不可算〉 ②慈善団体〈可算〉 ③（形容詞的に）慈善のための"
+ },
+ {
+  "number": 492,
+  "word": "benefit",
+  "meaning": "[名] ①恩恵 ②（－s）手当 [自] ③（from ～）（～から）利益を得る [他] ④～に利益を与える"
+ },
+ {
+  "number": 493,
+  "word": "welfare",
+  "meaning": "[名] ①福祉 ②（健康なども含めた）幸福 ③生活保護"
+ },
+ {
+  "number": 494,
+  "word": "community",
+  "meaning": "[名] （地域）社会，共同体（の人々）"
+ },
+ {
+  "number": 495,
+  "word": "individual",
+  "meaning": "[名] ①個人，個体 [形] ②個人の，個々の"
+ },
+ {
+  "number": 496,
+  "word": "official",
+  "meaning": "[名] ①役人，役員 [形] ②公式の"
+ },
+ {
+  "number": 497,
+  "word": "immigrant",
+  "meaning": "[名] （外国からの）移民"
+ },
+ {
+  "number": 498,
+  "word": "volunteer",
+  "meaning": "[名] ①ボランティア [自] ②（to do）（～することを）進んで引き受ける"
+ },
+ {
+  "number": 499,
+  "word": "contribute",
+  "meaning": "[自] （to ～）①（～に）貢献する ②（～の）一因となる [他] ③（A to B）（A）を（B に）寄付する，提供する"
+ },
+ {
+  "number": 500,
+  "word": "abolish",
+  "meaning": "[他] ～を廃止する"
+ },
+ {
+  "number": 501,
+  "word": "impose",
+  "meaning": "[他] （A on B）（A）を（B に）課す，押しつける"
+ },
+ {
+  "number": 502,
+  "word": "access",
+  "meaning": "[名] ① 利用する権利 ②（場所への）接近方法"
+ },
+ {
+  "number": 503,
+  "word": "duty",
+  "meaning": "[名] ① 義務 ②関税"
+ },
+ {
+  "number": 504,
+  "word": "compulsory",
+  "meaning": "[形] ①義務的な ②規定の"
+ },
+ {
+  "number": 505,
+  "word": "responsible",
+  "meaning": "[形] ①（人が主語）責任がある ②（物が主語）原因となっている"
+ },
+ {
+  "number": 506,
+  "word": "policy",
+  "meaning": "[名] ①政策 ②方針 ③保険契約，約款"
+ },
+ {
+  "number": 507,
+  "word": "elect",
+  "meaning": "[他] ～を（選挙で）選ぶ"
+ },
+ {
+  "number": 508,
+  "word": "industry",
+  "meaning": "[名] ①工業 ②（the ～ industry）産業，業界 ③ 勤勉"
+ },
+ {
+  "number": 509,
+  "word": "income",
+  "meaning": "[名] 収入"
+ },
+ {
+  "number": 510,
+  "word": "profit",
+  "meaning": "[名] 利益，利潤"
+ },
+ {
+  "number": 511,
+  "word": "tax",
+  "meaning": "[名] 税金（〈米〉→〈可算〉 〈英〉→〈不可算〉）"
+ },
+ {
+  "number": 512,
+  "word": "expense",
+  "meaning": "[名] ①費用，経費 ②（at the － of ～）（～を）犠牲（にして）"
+ },
+ {
+  "number": 513,
+  "word": "debt",
+  "meaning": "[名] 借金"
+ },
+ {
+  "number": 514,
+  "word": "deposit",
+  "meaning": "[名] ①預金 ②頭金，保証金 ③埋蔵物 [他] ④ ～を預ける"
+ },
+ {
+  "number": 515,
+  "word": "charge",
+  "meaning": "[名] ①料金 ②責任，管理 ③（against ～）（～に対する）非難，告訴 [他] ④～を請求する ⑤～を告訴する ⑥～を充電する"
+ },
+ {
+  "number": 516,
+  "word": "wage",
+  "meaning": "[名] ①賃金 [他] ②（闘争，運動など）を行う"
+ },
+ {
+  "number": 517,
+  "word": "recession",
+  "meaning": "[名] 不況，不景気"
+ },
+ {
+  "number": 518,
+  "word": "consume",
+  "meaning": "[他] ～を消費する"
+ },
+ {
+  "number": 519,
+  "word": "waste",
+  "meaning": "[他] ①～を浪費する [名] ②浪費，無駄 ③廃棄物〈不可算〉"
+ },
+ {
+  "number": 520,
+  "word": "invest",
+  "meaning": "[他] ①（A in B）（A）を（B に）投資する ②（A with B）（A）に（B を）与える"
+ },
+ {
+  "number": 521,
+  "word": "import",
+  "meaning": "[他] ①～を輸入する [名] ②輸入，輸入品"
+ },
+ {
+  "number": 522,
+  "word": "financial",
+  "meaning": "[形] 財政的な，金銭的な"
+ },
+ {
+  "number": 523,
+  "word": "hire",
+  "meaning": "[他] ①～を（一時的に）雇う ②（金を払って短期間）～を借りる"
+ },
+ {
+  "number": 524,
+  "word": "employ",
+  "meaning": "[他] ①（人）を雇う ②（物，事）を用いる"
+ },
+ {
+  "number": 525,
+  "word": "resign",
+  "meaning": "[自] ①（as ～）（～を）辞職する [他] ②（地位など）を辞める"
+ },
+ {
+  "number": 526,
+  "word": "qualify",
+  "meaning": "[自] ①（for ～）（～の）資格がある ②（as ～）（～としての）資格を得る [他] ③～に資格を与える"
+ },
+ {
+  "number": 527,
+  "word": "assign",
+  "meaning": "[他] ①～を割り当てる ②～を配属する"
+ },
+ {
+  "number": 528,
+  "word": "occupation",
+  "meaning": "[名] ①職業〈可算〉 ②占有，占領〈不可算〉"
+ },
+ {
+  "number": 529,
+  "word": "career",
+  "meaning": "[名] ①職業 ②経歴"
+ },
+ {
+  "number": 530,
+  "word": "profession",
+  "meaning": "[名] ①（専門的な）職業 ②（the －）同業者集団"
+ },
+ {
+  "number": 531,
+  "word": "unemployment",
+  "meaning": "[名] ①失業 ②失業率（＝－rate），失業者数 （① ② ともに〈不可算〉）"
+ },
+ {
+  "number": 532,
+  "word": "document",
+  "meaning": "[名] ①書類，資料 [他] ②～を記録する"
+ },
+ {
+  "number": 533,
+  "word": "department",
+  "meaning": "[名] ①（組織の）部門，課 ②（大学の）学科 ③（米国などの）省"
+ },
+ {
+  "number": 534,
+  "word": "branch",
+  "meaning": "[名] ①支店，支局 ②（学問の）部門 ③枝"
+ },
+ {
+  "number": 535,
+  "word": "retail",
+  "meaning": "[名] ①小売り〈不可算〉 [自] ②小売りされている"
+ },
+ {
+  "number": 536,
+  "word": "system",
+  "meaning": "[名] ①組織，制度 ②体系 （①②ともに〈可算〉）"
+ },
+ {
+  "number": 537,
+  "word": "structure",
+  "meaning": "[名] 構造"
+ },
+ {
+  "number": 538,
+  "word": "architecture",
+  "meaning": "[名] 建築（様式）〈不可算〉"
+ },
+ {
+  "number": 539,
+  "word": "construction",
+  "meaning": "[名] 建設〈不可算〉"
+ },
+ {
+  "number": 540,
+  "word": "function",
+  "meaning": "[名] ①機能 [自] ②機能する"
+ },
+ {
+  "number": 541,
+  "word": "surface",
+  "meaning": "[名] ①表面 [自] ②表面化する"
+ },
+ {
+  "number": 542,
+  "word": "aspect",
+  "meaning": "[名] 側面"
+ },
+ {
+  "number": 543,
+  "word": "edge",
+  "meaning": "[名] ①端 ②（ナイフなどの）刃 ③優位"
+ },
+ {
+  "number": 544,
+  "word": "consist",
+  "meaning": "[自] ①（of ～）（～で）構成されている ②（in ～）（～に）ある"
+ },
+ {
+  "number": 545,
+  "word": "compose",
+  "meaning": "[他] ①～を構成する，組み立てる ②～を作曲［作文］する ③～を落ち着かせる"
+ },
+ {
+  "number": 546,
+  "word": "attach",
+  "meaning": "[他] ①～をくっつける，添付する ②～に愛着を持たせる"
+ },
+ {
+  "number": 547,
+  "word": "connect",
+  "meaning": "[他] ①～をつなげる ②～を関連づける [自] ③つながる"
+ },
+ {
+  "number": 548,
+  "word": "relate",
+  "meaning": "[他] ①（A to B）（A）を（B に）関連づける ②～を（順序立てて）話す [自] ③（to ～）（～の）気持ちがわかる"
+ },
+ {
+  "number": 549,
+  "word": "associate",
+  "meaning": "[他] ①（A with B）（A）を（B と）関連づける，（A）から（B を）連想する [自] ②（with ～） （～と）付き合う [名] ③同僚，共同経営者"
+ },
+ {
+  "number": 550,
+  "word": "stick",
+  "meaning": "[他] ①～を貼り付ける ②（舌や脚）を出す [自] ③（to）（規則などを）守る，固執する"
+ },
+ {
+  "number": 551,
+  "word": "separate",
+  "meaning": "[他] ①～を引き離す [形] ②別々の"
+ },
+ {
+  "number": 552,
+  "word": "thief",
+  "meaning": "[名] 泥棒"
+ },
+ {
+  "number": 553,
+  "word": "crime",
+  "meaning": "[名] 犯罪"
+ },
+ {
+  "number": 554,
+  "word": "motive",
+  "meaning": "[名] 動機"
+ },
+ {
+  "number": 555,
+  "word": "punish",
+  "meaning": "[他] （（人）for ～）（人）を（～の理由で）罰する"
+ },
+ {
+  "number": 556,
+  "word": "violate",
+  "meaning": "[他] ①（法律など）に違反する ②（権利など）を侵害する"
+ },
+ {
+  "number": 557,
+  "word": "legal",
+  "meaning": "[形] ①合法の ②法律の，法的な"
+ },
+ {
+  "number": 558,
+  "word": "enemy",
+  "meaning": "[名] ①敵 ②（形容詞的に）敵の"
+ },
+ {
+  "number": 559,
+  "word": "compete",
+  "meaning": "[自] ①競争する ②（in ～）（競技などに）参加する"
+ },
+ {
+  "number": 560,
+  "word": "defeat",
+  "meaning": "[他] ①（相手）を打ち負かす [名] ②敗北"
+ },
+ {
+  "number": 561,
+  "word": "victim",
+  "meaning": "[名] 犠牲者"
+ },
+ {
+  "number": 562,
+  "word": "obstacle",
+  "meaning": "[名]（to ～）（～に対する）障害〈可算〉"
+ },
+ {
+  "number": 563,
+  "word": "harm",
+  "meaning": "[名] ①害〈不可算〉 [他] ②～に害を与える"
+ },
+ {
+  "number": 564,
+  "word": "invade",
+  "meaning": "[他] ①（プライバシーなど）を侵害する ②（国など）に侵入する，～を侵略する"
+ },
+ {
+  "number": 565,
+  "word": "endanger",
+  "meaning": "[他] ～を危険にさらす"
+ },
+ {
+  "number": 566,
+  "word": "interrupt",
+  "meaning": "[他] ①～を中断する ②～を遮る [自] ③人の話を遮る"
+ },
+ {
+  "number": 567,
+  "word": "spoil",
+  "meaning": "[他] ①～を台無しにする ②（子ども）を甘やかす"
+ },
+ {
+  "number": 568,
+  "word": "spectator",
+  "meaning": "[名] 観客"
+ },
+ {
+  "number": 569,
+  "word": "relative",
+  "meaning": "[名] ①（家族も含めて）親戚 [形] ②相対的な"
+ },
+ {
+  "number": 570,
+  "word": "enter",
+  "meaning": "[他] ①～に入る ②～を入力する [自] ③（into ～）（ある段階などに）入る"
+ },
+ {
+  "number": 571,
+  "word": "accompany",
+  "meaning": "[他] ①（人が主語）～と一緒に行く ②（物が主語）～に伴う"
+ },
+ {
+  "number": 572,
+  "word": "departure",
+  "meaning": "[名] ①出発 ②逸脱"
+ },
+ {
+  "number": 573,
+  "word": "destination",
+  "meaning": "[名] ①目的地 ②（tourist －）旅行先，観光地"
+ },
+ {
+  "number": 574,
+  "word": "transportation",
+  "meaning": "[名] 交通機関〈不可算〉"
+ },
+ {
+  "number": 575,
+  "word": "via",
+  "meaning": "[前] ①～経由で ②～によって"
+ },
+ {
+  "number": 576,
+  "word": "lead",
+  "meaning": "[自] ①（to ～）（～に）至る [他] ②（a ～ life）（～な生活）を送る ③（A to do）A に～させる [名] ④鉛，（シャーペンなどの）芯"
+ },
+ {
+  "number": 577,
+  "word": "rise",
+  "meaning": "[自] ①上がる，昇る [名] ②上昇"
+ },
+ {
+  "number": 578,
+  "word": "lower",
+  "meaning": "[他] ～を下げる"
+ },
+ {
+  "number": 579,
+  "word": "flow",
+  "meaning": "[自] ①流れる [名] ②流れ"
+ },
+ {
+  "number": 580,
+  "word": "burst",
+  "meaning": "[自] ①破裂する，爆発する ②（慣用句で）突然～し始める"
+ },
+ {
+  "number": 581,
+  "word": "crack",
+  "meaning": "[自] ①割れる，砕ける ②（パンと）音を出す [他] ③～を割る，砕く [名] ④割れ目"
+ },
+ {
+  "number": 582,
+  "word": "melt",
+  "meaning": "[自] ①（固体が）溶ける [他] ②～を溶かす"
+ },
+ {
+  "number": 583,
+  "word": "progress",
+  "meaning": "[名] ①進歩，前進 〈不可算〉 [自] ②進歩する，進む"
+ },
+ {
+  "number": 584,
+  "word": "advance",
+  "meaning": "[名] ①進歩，前進 〈可算〉 [自] ②（軍隊などが）前進する，進歩する [形] ③事前の"
+ },
+ {
+  "number": 585,
+  "word": "deal",
+  "meaning": "[自] ①（with～）（～を）扱う [名] ②取り引き"
+ },
+ {
+  "number": 586,
+  "word": "handle",
+  "meaning": "[他] ①～を扱う ②（手で）～を扱う，触れる [名] ③取っ手"
+ },
+ {
+  "number": 587,
+  "word": "cope",
+  "meaning": "[自] （with～）（～に）（うまく）対処する"
+ },
+ {
+  "number": 588,
+  "word": "treat",
+  "meaning": "[他] ①（副詞を伴って）～を扱う ②（病人，病気）を治療する ③（A to B） （A） に（Bを）おごる [名] ④楽しみ"
+ },
+ {
+  "number": 589,
+  "word": "clue",
+  "meaning": "[名] （to ～）（～の）手がかり"
+ },
+ {
+  "number": 590,
+  "word": "restrict",
+  "meaning": "[他] ～を制限する"
+ },
+ {
+  "number": 591,
+  "word": "limit",
+  "meaning": "[他] ①（数量，範囲）を制限する [名] ②制限"
+ },
+ {
+  "number": 592,
+  "word": "forbid",
+  "meaning": "[他] ～を禁じる"
+ },
+ {
+  "number": 593,
+  "word": "ban",
+  "meaning": "[名] ①禁止〈可算〉 [他] ②～を禁止する"
+ },
+ {
+  "number": 594,
+  "word": "refuse",
+  "meaning": "[他] ①～を断る ②（to do）～するのを拒む"
+ },
+ {
+  "number": 595,
+  "word": "reject",
+  "meaning": "[他] ①～を拒絶する ②（人）を除け者にする"
+ },
+ {
+  "number": 596,
+  "word": "persuade",
+  "meaning": "[他] （A to do）（A）を説得して～させる"
+ },
+ {
+  "number": 597,
+  "word": "convince",
+  "meaning": "[他] ①（A of B）（A）に （Bを）確信させる，（A that S V）（A）に（～を） 確信させる ②（A to do）（A）を説得して～させる"
+ },
+ {
+  "number": 598,
+  "word": "inspire",
+  "meaning": "[他] ①～を奮起させる，かき立てる ②（作品）に創作のヒントを与える"
+ },
+ {
+  "number": 599,
+  "word": "discourage",
+  "meaning": "[他] ～のやる気をなくさせる，落胆させる"
+ },
+ {
+  "number": 600,
+  "word": "promote",
+  "meaning": "[他] ①～を促進する ②（be［get］－d to ～）（～に）出世［昇進］する"
+ },
+ {
+  "number": 601,
+  "word": "expand",
+  "meaning": "[自] ①拡大する，膨張する [他] ②～を拡大する，膨張させる"
+ },
+ {
+  "number": 602,
+  "word": "extend",
+  "meaning": "[他] ①～を延長する，広げる [自] ②伸びる，広がる"
+ },
+ {
+  "number": 603,
+  "word": "broaden",
+  "meaning": "[他] ①～を広げる [自] ②広がる"
+ },
+ {
+  "number": 604,
+  "word": "spread",
+  "meaning": "[他] ①～を広げる [自] ②広がる [名] ③広がり"
+ },
+ {
+  "number": 605,
+  "word": "tie",
+  "meaning": "[他] ①（荷物など）を縛る ②（ひも，ネクタイなど）を結ぶ [名] ③ネクタイ （＝necktie） ④（家族などの）きずな"
+ },
+ {
+  "number": 606,
+  "word": "bind",
+  "meaning": "[他] ～を結びつける，縛る"
+ },
+ {
+  "number": 607,
+  "word": "fasten",
+  "meaning": "[他] ①～を固定する ②（ボタンなど）をかける，留める"
+ },
+ {
+  "number": 608,
+  "word": "fix",
+  "meaning": "[他] ①～を固定する ②～を修理する ③（主に 〈米〉）（食事，飲み物）を作る"
+ },
+ {
+  "number": 609,
+  "word": "install",
+  "meaning": "[他] ①（機械など）を設置する ②～をインストールする"
+ },
+ {
+  "number": 610,
+  "word": "resist",
+  "meaning": "[他] ①～を我慢する ②～に抵抗する"
+ },
+ {
+  "number": 611,
+  "word": "obey",
+  "meaning": "[他] ～に従う"
+ },
+ {
+  "number": 612,
+  "word": "engage",
+  "meaning": "[自] ①従事する [他] ②（関心，注意など）を引く"
+ },
+ {
+  "number": 613,
+  "word": "bump",
+  "meaning": "[自] （into～）①（～に）ぶつかる ②（～に）偶然出会う"
+ },
+ {
+  "number": 614,
+  "word": "crash",
+  "meaning": "[自] ①激突する ②（飛行機が）墜落する [名] ③激突，墜落"
+ },
+ {
+  "number": 615,
+  "word": "bend",
+  "meaning": "[自] ①身をかがめる [他] ②～を曲げる [名] ③（道の）カーブ"
+ },
+ {
+  "number": 616,
+  "word": "hug",
+  "meaning": "[他] ①（人）を （愛情こめて）抱きしめる [名] ②抱擁"
+ },
+ {
+  "number": 617,
+  "word": "stare",
+  "meaning": "[自] ①（at ～）（～を）じっと見つめる [名] ②凝視"
+ },
+ {
+  "number": 618,
+  "word": "gaze",
+  "meaning": "[自] ①（at［on］～）（～を）見つめる [名] ②視線，凝視"
+ },
+ {
+  "number": 619,
+  "word": "glance",
+  "meaning": "[自] ①ちらりと見る [名] ②ちらりと見ること"
+ },
+ {
+  "number": 620,
+  "word": "glimpse",
+  "meaning": "[他] ①～がちらりと見える [名] ②ちらりと見えること"
+ },
+ {
+  "number": 621,
+  "word": "stretch",
+  "meaning": "[他] ①（手足や体）を伸ばす，広げる [自] ②伸ばす，広がる [名] ③（ひと続きの）広がり"
+ },
+ {
+  "number": 622,
+  "word": "stumble",
+  "meaning": "[自] ①つまずく ②（across［into］～）（～に）偶然出会う"
+ },
+ {
+  "number": 623,
+  "word": "press",
+  "meaning": "[他] ①～を（強く）押す ②～を押しつける，勧める [名] ③（the －）報道機関，出版"
+ },
+ {
+  "number": 624,
+  "word": "drag",
+  "meaning": "[他] ～を（ずるずると）引きずる"
+ },
+ {
+  "number": 625,
+  "word": "lean",
+  "meaning": "[自] ①（against［on］～）（～に）寄りかかる ②（forward）身を乗り出す [形] ③（健康的に）痩せている"
+ },
+ {
+  "number": 626,
+  "word": "scratch",
+  "meaning": "[他] ①～をひっかく，かく [名] ②ひっかき傷"
+ },
+ {
+  "number": 627,
+  "word": "bow",
+  "meaning": "[自] ①おじぎする [名] ②おじぎ"
+ },
+ {
+  "number": 628,
+  "word": "nod",
+  "meaning": "[自] ①うなずく ②（off）うたた寝する [名] ③うなずき，会釈"
+ },
+ {
+  "number": 629,
+  "word": "sigh",
+  "meaning": "[自] ①ため息をつく [名] ②ため息"
+ },
+ {
+  "number": 630,
+  "word": "yawn",
+  "meaning": "[自] ①あくびをする [名] ②あくび"
+ },
+ {
+  "number": 631,
+  "word": "bury",
+  "meaning": "[他] ①～を埋める ②～を埋葬する"
+ },
+ {
+  "number": 632,
+  "word": "perform",
+  "meaning": "[他] ①～を遂行する ②～を演じる，演奏する [自] ③（副詞を伴い）やる"
+ },
+ {
+  "number": 633,
+  "word": "adopt",
+  "meaning": "[他] ①～を採用する ②～を養子にする"
+ },
+ {
+  "number": 634,
+  "word": "escape",
+  "meaning": "[自] ①（from ～）（～から）逃れる [他] ②～を避ける [名] ③逃亡"
+ },
+ {
+  "number": 635,
+  "word": "scatter",
+  "meaning": "[他] ①～をまき散らす [自] ②（群衆などが）散る"
+ },
+ {
+  "number": 636,
+  "word": "fold",
+  "meaning": "[他] ①～を折る ②（up）～を折りたたむ ③（腕）を組む [自] ④折りたためる"
+ },
+ {
+  "number": 637,
+  "word": "hang",
+  "meaning": "[他] ①～を掛ける ② ～を絞首刑にする [自] ③ぶら下がる"
+ },
+ {
+  "number": 638,
+  "word": "release",
+  "meaning": "[他] ①～を解放する ②（映画など）を発表する，出す ③（ガスなど）を放出する [名] ④解放，発売"
+ },
+ {
+  "number": 639,
+  "word": "strike",
+  "meaning": "[他] ①～を打つ ②（災害が）～を襲う ③（考えが人）に思い浮かぶ ④（A as B）（A）に（B という）印象を与える [名] ⑤ストライキ"
+ },
+ {
+  "number": 640,
+  "word": "beat",
+  "meaning": "[他] ①～を打つ ②～に勝つ"
+ },
+ {
+  "number": 641,
+  "word": "protect",
+  "meaning": "[他] ～を守る，保護する"
+ },
+ {
+  "number": 642,
+  "word": "twist",
+  "meaning": "[他] ①～を（ねじ）曲げる ②（体の一部）をひねる，ねんざする"
+ },
+ {
+  "number": 643,
+  "word": "stir",
+  "meaning": "[他] ①（液体など）を混ぜる ②（up ～）（感情など）を呼び覚ます"
+ },
+ {
+  "number": 644,
+  "word": "shake",
+  "meaning": "[他] ①～を振る ②～を揺さぶる [自] ③（恐怖，寒さで）震える"
+ },
+ {
+  "number": 645,
+  "word": "burn",
+  "meaning": "[自] ①焼ける [他] ②～を燃やす，（CD など）を複製する"
+ },
+ {
+  "number": 646,
+  "word": "skip",
+  "meaning": "[他] ～をサボる，抜かす"
+ },
+ {
+  "number": 647,
+  "word": "expose",
+  "meaning": "[他] ①～をさらす ②（秘密，犯罪など）を暴露する"
+ },
+ {
+  "number": 648,
+  "word": "dip",
+  "meaning": "[他] ①～を（ちょっと）つける，浸す ②～を少し下げる"
+ },
+ {
+  "number": 649,
+  "word": "polish",
+  "meaning": "[他] ～を磨く"
+ },
+ {
+  "number": 650,
+  "word": "cheat",
+  "meaning": "[自] ①ごまかす [他] ②～をだます"
+ },
+ {
+  "number": 651,
+  "word": "attend",
+  "meaning": "[他] ① ～に出席する，通う [自] ②（to ～）（～に）注意を向ける ③（to ～）（～を）世話する"
+ },
+ {
+  "number": 652,
+  "word": "participate",
+  "meaning": "[自] （in ～）（～に）参加する"
+ },
+ {
+  "number": 653,
+  "word": "imitate",
+  "meaning": "[他] ～をまねる"
+ },
+ {
+  "number": 654,
+  "word": "exist",
+  "meaning": "[自] 存在する"
+ },
+ {
+  "number": 655,
+  "word": "arise",
+  "meaning": "[自] 生じる"
+ },
+ {
+  "number": 656,
+  "word": "occur",
+  "meaning": "[自] ①生じる ②（to （人））（考えなどが（人）に）思いつく"
+ },
+ {
+  "number": 657,
+  "word": "generate",
+  "meaning": "[他] （電気，利益など）を生み出す"
+ },
+ {
+  "number": 658,
+  "word": "involve",
+  "meaning": "[他] ①（be －d in ～）（事件などに）巻き込まれる ②（be －d in ～）（子育てなどに）参加する ③～を伴う"
+ },
+ {
+  "number": 659,
+  "word": "require",
+  "meaning": "[他] ～を必要とする"
+ },
+ {
+  "number": 660,
+  "word": "counterpart",
+  "meaning": "[名] （to ～）（～に）対応する［（～と）同等の］人［物，事］"
+ },
+ {
+  "number": 661,
+  "word": "maintain",
+  "meaning": "[他] ①～を維持する ②（that S V）（～）を（強く）主張する"
+ },
+ {
+  "number": 662,
+  "word": "last",
+  "meaning": "[自] ①（時間的に）続く ②（服などが）長持ちする [形] （the last ～）③この前の～，最後の～ ④もっとも～でない [名] ⑤（at －）ついに"
+ },
+ {
+  "number": 663,
+  "word": "persist",
+  "meaning": "[自] ①持続する，残る ②（in［with］～）（～を）貫く，（～に）固執する"
+ },
+ {
+  "number": 664,
+  "word": "gain",
+  "meaning": "[他] ①～を増す ②～を得る [名] ③利益，増加"
+ },
+ {
+  "number": 665,
+  "word": "obtain",
+  "meaning": "[他] （資格，許可，情報など）を得る"
+ },
+ {
+  "number": 666,
+  "word": "acquire",
+  "meaning": "[他] ①～を習得する ②～を獲得する ③～を買収する"
+ },
+ {
+  "number": 667,
+  "word": "examine",
+  "meaning": "[他] ①～を調査する ②～を検査する"
+ },
+ {
+  "number": 668,
+  "word": "search",
+  "meaning": "[他] ①（A for B） （B（物）を求めてA（場所））を捜す [名] ②捜索，調査"
+ },
+ {
+  "number": 669,
+  "word": "reunion",
+  "meaning": "[名] ①同窓会 ②再会"
+ },
+ {
+  "number": 670,
+  "word": "scholarship",
+  "meaning": "[名] ①奨学金〈可算〉 ②（人文科学の）学識〈不可算〉"
+ },
+ {
+  "number": 671,
+  "word": "logic",
+  "meaning": "[名] 論理（学）"
+ },
+ {
+  "number": 672,
+  "word": "instruction",
+  "meaning": "[名] （通例－s）指示"
+ },
+ {
+  "number": 673,
+  "word": "determine",
+  "meaning": "[他] ①～を決める，～に大きく影響する ②（be －d to do）～することを決意している ③（原因など）を特定する"
+ },
+ {
+  "number": 674,
+  "word": "conclude",
+  "meaning": "[他] ①（that S V）～と結論を下す ②～を終わりにする"
+ },
+ {
+  "number": 675,
+  "word": "distinguish",
+  "meaning": "[他] ～を区別する"
+ },
+ {
+  "number": 676,
+  "word": "classify",
+  "meaning": "[他] ～を分類する"
+ },
+ {
+  "number": 677,
+  "word": "estimate",
+  "meaning": "[他] ①～を推定する，見積もる [名] ②（for ～）（～の）見積もり"
+ },
+ {
+  "number": 678,
+  "word": "select",
+  "meaning": "[他] ①（注意深く）～を選ぶ，精選する [形] ②えり抜きの"
+ },
+ {
+  "number": 679,
+  "word": "organize",
+  "meaning": "[他] ①（考えなど）をまとめる ②～を組織化する，取りまとめる"
+ },
+ {
+  "number": 680,
+  "word": "recognize",
+  "meaning": "[他] ①（知り合いなど）が誰だかわかる ②（that S V）～を認識する"
+ },
+ {
+  "number": 681,
+  "word": "suppose",
+  "meaning": "[他] ①（be －d to do）～することになっている ②～と思う，仮定する"
+ },
+ {
+  "number": 682,
+  "word": "assume",
+  "meaning": "[他] ①～と思い込む，決めつける ②～を引き受ける"
+ },
+ {
+  "number": 683,
+  "word": "care",
+  "meaning": "[自] ①（否定文で）気にする ②世話をする [名] ③世話，心配"
+ },
+ {
+  "number": 684,
+  "word": "doubt",
+  "meaning": "[他] ①～を疑う ②（that S V）～とは思わない [名] ③疑い"
+ },
+ {
+  "number": 685,
+  "word": "notice",
+  "meaning": "[他] ①～に気がついている [名] ②通知，掲示，注意"
+ },
+ {
+  "number": 686,
+  "word": "aware",
+  "meaning": "[形] 気づいている"
+ },
+ {
+  "number": 687,
+  "word": "conscious",
+  "meaning": "[形] ①意識している，気づいている ②意識がある"
+ },
+ {
+  "number": 688,
+  "word": "concerned",
+  "meaning": "[形] ①（with［about］～）（～に）関心を持っている，重視している ②（with ～）（～を）扱っている ③（about［for］～）（～を）心配している"
+ },
+ {
+  "number": 689,
+  "word": "regard",
+  "meaning": "[他] ①（A as B）（A）を（B と）みなす ②（副詞を伴い）～を評価する [名] ③（in －）点 ④（－s）よろしくという挨拶"
+ },
+ {
+  "number": 690,
+  "word": "commit",
+  "meaning": "[他] ①（oneself to ～ \/ be －ed to ～）～に専念する ②（A to B） （A）を（B に）委ねる，充てる ③（犯罪など）を犯す"
+ },
+ {
+  "number": 691,
+  "word": "memorize",
+  "meaning": "[他] ～を暗記する"
+ },
+ {
+  "number": 692,
+  "word": "approve",
+  "meaning": "[自] ①（of ～）（～を）認める，承認する [他] ②～を承認する"
+ },
+ {
+  "number": 693,
+  "word": "forgive",
+  "meaning": "[他] （人，過ち）を許す"
+ },
+ {
+  "number": 694,
+  "word": "grant",
+  "meaning": "[他] ①～を認める ②（権利など）を与える [名] ③交付，補助金"
+ },
+ {
+  "number": 695,
+  "word": "recall",
+  "meaning": "[他] ①～を思い出す ②（商品）を回収する，リコールする"
+ },
+ {
+  "number": 696,
+  "word": "abandon",
+  "meaning": "[他] ～を捨てる，放棄する"
+ },
+ {
+  "number": 697,
+  "word": "rid",
+  "meaning": "[名] （get － of ～）①（不要品）を処分する ②～を取り除く"
+ },
+ {
+  "number": 698,
+  "word": "eliminate",
+  "meaning": "[他] ①（不要な人，物，事）を排除する ②（be －d）敗退する"
+ },
+ {
+  "number": 699,
+  "word": "relieve",
+  "meaning": "[他] ①～を取り除く ②～を安心させる"
+ },
+ {
+  "number": 700,
+  "word": "remove",
+  "meaning": "[他] ①～を取り除く，取り去る ②（衣服）を脱ぐ"
+ },
+ {
+  "number": 701,
+  "word": "resource",
+  "meaning": "[名] ①（－s）（石油などの）資源，（人，国の）財産 ②（－s）（困難に立ち向かう）力量 ③（万一の頼みの）手段"
+ },
+ {
+  "number": 702,
+  "word": "conservation",
+  "meaning": "[名] 保護"
+ },
+ {
+  "number": 703,
+  "word": "preserve",
+  "meaning": "[他] ①（自然など）を保護する ②（景観，平和，食品など）を保つ"
+ },
+ {
+  "number": 704,
+  "word": "disaster",
+  "meaning": "[名] ①災害 ②大失敗"
+ },
+ {
+  "number": 705,
+  "word": "planet",
+  "meaning": "[名] ①惑星 ②（the －）地球"
+ },
+ {
+  "number": 706,
+  "word": "environment",
+  "meaning": "[名] 環境，周囲（の状況）"
+ },
+ {
+  "number": 707,
+  "word": "horizon",
+  "meaning": "[名] ①水平線，地平線 ②（－s）視野"
+ },
+ {
+  "number": 708,
+  "word": "agriculture",
+  "meaning": "[名] 農業〈不可算〉"
+ },
+ {
+  "number": 709,
+  "word": "crop",
+  "meaning": "[名] ①作物 ②収穫（高） [自] ③（up）生じる"
+ },
+ {
+  "number": 710,
+  "word": "soil",
+  "meaning": "[名] 土，土壌"
+ },
+ {
+  "number": 711,
+  "word": "weed",
+  "meaning": "[名] ①雑草，海草 [他] ②～の雑草を抜く"
+ },
+ {
+  "number": 712,
+  "word": "drown",
+  "meaning": "[自] 溺れ死ぬ"
+ },
+ {
+  "number": 713,
+  "word": "leak",
+  "meaning": "[自] ①漏れる [他] ②～を漏らす [名] ③漏れ"
+ },
+ {
+  "number": 714,
+  "word": "climate",
+  "meaning": "[名] ①気候 ②（政治，経済，文化の）状況"
+ },
+ {
+  "number": 715,
+  "word": "atmosphere",
+  "meaning": "[名] ①（the－）大気 ②雰囲気 ③（the（ Earth's）－）大気圏"
+ },
+ {
+  "number": 716,
+  "word": "forecast",
+  "meaning": "[名] ①予報 [他] ②～を予報する"
+ },
+ {
+  "number": 717,
+  "word": "thermometer",
+  "meaning": "[名] ①温度計，寒暖計 ②体温計"
+ },
+ {
+  "number": 718,
+  "word": "humid",
+  "meaning": "[形] 湿気が多い"
+ },
+ {
+  "number": 719,
+  "word": "tropical",
+  "meaning": "[形] 熱帯の"
+ },
+ {
+  "number": 720,
+  "word": "solar",
+  "meaning": "[形] 太陽の"
+ },
+ {
+  "number": 721,
+  "word": "mosquito",
+  "meaning": "[名] 蚊"
+ },
+ {
+  "number": 722,
+  "word": "species",
+  "meaning": "[名] 種〈単複同形〉"
+ },
+ {
+  "number": 723,
+  "word": "extinct",
+  "meaning": "[形] 絶滅した"
+ },
+ {
+  "number": 724,
+  "word": "feed",
+  "meaning": "[他] ①～にえさを与える ②（子どもなど）を養う"
+ },
+ {
+  "number": 725,
+  "word": "energetic",
+  "meaning": "[形] （人，運動などが）活発な"
+ },
+ {
+  "number": 726,
+  "word": "greedy",
+  "meaning": "[形] 貪欲な"
+ },
+ {
+  "number": 727,
+  "word": "brave",
+  "meaning": "[形] 勇敢な"
+ },
+ {
+  "number": 728,
+  "word": "generous",
+  "meaning": "[形] 気前のよい"
+ },
+ {
+  "number": 729,
+  "word": "intellectual",
+  "meaning": "[形] 知的な"
+ },
+ {
+  "number": 730,
+  "word": "curious",
+  "meaning": "[形] ①（人が主語）好奇心が強い ②（物が主語）奇妙な，好奇心をそそる"
+ },
+ {
+  "number": 731,
+  "word": "imaginative",
+  "meaning": "[形] 想像力豊かな"
+ },
+ {
+  "number": 732,
+  "word": "talkative",
+  "meaning": "[形] おしゃべりの"
+ },
+ {
+  "number": 733,
+  "word": "afford",
+  "meaning": "[他] ①（can －）～する余裕がある ②（SVO1O2）（O1に）O2を与える"
+ },
+ {
+  "number": 734,
+  "word": "eager",
+  "meaning": "[形] 熱心な"
+ },
+ {
+  "number": 735,
+  "word": "selfish",
+  "meaning": "[形] 利己的な，自分勝手な"
+ },
+ {
+  "number": 736,
+  "word": "aggressive",
+  "meaning": "[形] ①攻撃的な ②積極的な"
+ },
+ {
+  "number": 737,
+  "word": "cruel",
+  "meaning": "[形] 残酷な"
+ },
+ {
+  "number": 738,
+  "word": "addicted",
+  "meaning": "[形] ～の中毒になっている"
+ },
+ {
+  "number": 739,
+  "word": "stubborn",
+  "meaning": "[形] 頑固な"
+ },
+ {
+  "number": 740,
+  "word": "earnest",
+  "meaning": "[形] ①真面目な [名] ②（in －）真面目（に）"
+ },
+ {
+  "number": 741,
+  "word": "bold",
+  "meaning": "[形] 大胆な"
+ },
+ {
+  "number": 742,
+  "word": "guilty",
+  "meaning": "[形] ①申し訳なく思う，罪の意識がある ②（of ～）（～の）罪を犯した"
+ },
+ {
+  "number": 743,
+  "word": "innocent",
+  "meaning": "[形] ①（of ～）（～に関して）無実の ②無邪気な"
+ },
+ {
+  "number": 744,
+  "word": "sincere",
+  "meaning": "[形] ①（心から）誠実な ②（言動が）心からの，偽りのない"
+ },
+ {
+  "number": 745,
+  "word": "modest",
+  "meaning": "[形] ①（人が）謙虚な ②（物が）大きくない，高くない"
+ },
+ {
+  "number": 746,
+  "word": "stupid",
+  "meaning": "[形] ばかな"
+ },
+ {
+  "number": 747,
+  "word": "indifferent",
+  "meaning": "[形] 無関心で"
+ },
+ {
+  "number": 748,
+  "word": "punctual",
+  "meaning": "[形] （約束などの）時間を守る"
+ },
+ {
+  "number": 749,
+  "word": "coward",
+  "meaning": "[名] 臆病者"
+ },
+ {
+  "number": 750,
+  "word": "precise",
+  "meaning": "[形] 正確な"
+ },
+ {
+  "number": 751,
+  "word": "accurate",
+  "meaning": "[形] 正確な"
+ },
+ {
+  "number": 752,
+  "word": "proper",
+  "meaning": "[形] 適切な"
+ },
+ {
+  "number": 753,
+  "word": "tidy",
+  "meaning": "[形] ①（主に〈英〉）きちんとした，整然とした [他] ②～を整頓する"
+ },
+ {
+  "number": 754,
+  "word": "neat",
+  "meaning": "[形] きちんとした"
+ },
+ {
+  "number": 755,
+  "word": "efficient",
+  "meaning": "[形] ①能率的な，無駄がない ②（人が）有能な"
+ },
+ {
+  "number": 756,
+  "word": "reasonable",
+  "meaning": "[形] ①理にかなった ②（値段が）手ごろな"
+ },
+ {
+  "number": 757,
+  "word": "significant",
+  "meaning": "[形] ①重要な ②（数量，増減，相違などが）かなりの"
+ },
+ {
+  "number": 758,
+  "word": "precious",
+  "meaning": "[形] ①（時間や命などが）貴重な ②（宝石などが）高価な"
+ },
+ {
+  "number": 759,
+  "word": "essential",
+  "meaning": "[形] ①不可欠な [名] ②（－s）不可欠なもの"
+ },
+ {
+  "number": 760,
+  "word": "fundamental",
+  "meaning": "[形] ①根本的な，基本的な [名] ②（－s）基本事項"
+ },
+ {
+  "number": 761,
+  "word": "critical",
+  "meaning": "[形] ①重大な，危機的な状況の ②批判的な"
+ },
+ {
+  "number": 762,
+  "word": "serious",
+  "meaning": "[形] ①深刻な ②（人が）真剣な，本気の"
+ },
+ {
+  "number": 763,
+  "word": "complex",
+  "meaning": "[形] ①複雑な [名] ②複合体（の建物） ③強迫観念"
+ },
+ {
+  "number": 764,
+  "word": "complicated",
+  "meaning": "[形] 複雑な"
+ },
+ {
+  "number": 765,
+  "word": "delicate",
+  "meaning": "[形] ①繊細な，微妙な ②（人が）虚弱な"
+ },
+ {
+  "number": 766,
+  "word": "plain",
+  "meaning": "[形] ①明白な，わかりやすい ②質素な [名] ③平野，原野"
+ },
+ {
+  "number": 767,
+  "word": "obvious",
+  "meaning": "[形] 明白な"
+ },
+ {
+  "number": 768,
+  "word": "remarkable",
+  "meaning": "[形] 注目すべき，すばらしい"
+ },
+ {
+  "number": 769,
+  "word": "outstanding",
+  "meaning": "[形] 傑出した，目立った"
+ },
+ {
+  "number": 770,
+  "word": "various",
+  "meaning": "[形] さまざまな"
+ },
+ {
+  "number": 771,
+  "word": "diverse",
+  "meaning": "[形] 多様な"
+ },
+ {
+  "number": 772,
+  "word": "sort",
+  "meaning": "[名] ①種（類） ②（副詞的に）（－ of）多少 [他] ③～を分類する"
+ },
+ {
+  "number": 773,
+  "word": "fancy",
+  "meaning": "[形] ①高級な [他] ②〈英〉～が欲しい，～したい"
+ },
+ {
+  "number": 774,
+  "word": "marvelous",
+  "meaning": "[形] 驚くべき"
+ },
+ {
+  "number": 775,
+  "word": "fabulous",
+  "meaning": "[形] ①とても素敵な ②莫大な"
+ },
+ {
+  "number": 776,
+  "word": "active",
+  "meaning": "[形] 積極的な，活発な"
+ },
+ {
+  "number": 777,
+  "word": "positive",
+  "meaning": "[形] ①前向きな，積極的な ②確信している"
+ },
+ {
+  "number": 778,
+  "word": "pure",
+  "meaning": "[形] ①純粋な ②（水，空気が）澄んだ"
+ },
+ {
+  "number": 779,
+  "word": "steady",
+  "meaning": "[形] 着実な，一定の"
+ },
+ {
+  "number": 780,
+  "word": "flexible",
+  "meaning": "[形] 柔軟な，融通のきく"
+ },
+ {
+  "number": 781,
+  "word": "ripe",
+  "meaning": "[形] 熟した"
+ },
+ {
+  "number": 782,
+  "word": "mature",
+  "meaning": "[形] ①成熟した，熟成した [自] ②成熟する，熟成する"
+ },
+ {
+  "number": 783,
+  "word": "stable",
+  "meaning": "[形] ①安定した [名] ②馬小屋，きゅう舎"
+ },
+ {
+  "number": 784,
+  "word": "negative",
+  "meaning": "[形] 否定的な，否定の"
+ },
+ {
+  "number": 785,
+  "word": "vague",
+  "meaning": "[形] 曖昧な，漠然とした"
+ },
+ {
+  "number": 786,
+  "word": "weird",
+  "meaning": "[形] 変な"
+ },
+ {
+  "number": 787,
+  "word": "rough",
+  "meaning": "[形] ①（表面が）粗い ②おおざっぱな ③（海，天候などが）荒れている"
+ },
+ {
+  "number": 788,
+  "word": "severe",
+  "meaning": "[形] ①（天候，批判，罰則などが）厳しい ②（けが，問題などが）ひどい"
+ },
+ {
+  "number": 789,
+  "word": "passive",
+  "meaning": "[形] 受動的な，消極的な"
+ },
+ {
+  "number": 790,
+  "word": "vain",
+  "meaning": "[形] ①（in －）無駄に ②（努力などが）無駄な ③うぬぼれの強い"
+ },
+ {
+  "number": 791,
+  "word": "fake",
+  "meaning": "[形] ①偽の，偽造の [名]②偽造品"
+ },
+ {
+  "number": 792,
+  "word": "risky",
+  "meaning": "[形] 危険な，危うい"
+ },
+ {
+  "number": 793,
+  "word": "absurd",
+  "meaning": "[形] ばかげた"
+ },
+ {
+  "number": 794,
+  "word": "odd",
+  "meaning": "[形] ①奇妙な ②奇数の ③半端な，雑多な [名] ④〈英〉（the －s）可能性"
+ },
+ {
+  "number": 795,
+  "word": "contrast",
+  "meaning": "[名] ①対比 [他] ②～を対比する [自]③対照をなす"
+ },
+ {
+  "number": 796,
+  "word": "valid",
+  "meaning": "[形] ①（理由，主張などが）妥当な，正当な ②（切符などが）有効な"
+ },
+ {
+  "number": 797,
+  "word": "available",
+  "meaning": "[形] ①手に入る，利用できる ②（人の予定が）空いている"
+ },
+ {
+  "number": 798,
+  "word": "casual",
+  "meaning": "[形] ①気楽な ②ふとした，何気ない"
+ },
+ {
+  "number": 799,
+  "word": "rare",
+  "meaning": "[形] 珍しい"
+ },
+ {
+  "number": 800,
+  "word": "practical",
+  "meaning": "[形] ①（人，知識が）現実的な，実際の ②（発明，道具などが）実用的な，実践的な"
+ },
+ {
+  "number": 801,
+  "word": "brand-new",
+  "meaning": "[形] 新品の，真新しい"
+ },
+ {
+  "number": 802,
+  "word": "rapid",
+  "meaning": "[形] ①急速な [名] ②（－s）急流"
+ },
+ {
+  "number": 803,
+  "word": "urgent",
+  "meaning": "[形] 緊急の，差し迫った"
+ },
+ {
+  "number": 804,
+  "word": "sharp",
+  "meaning": "[形] ①（変化，方向転換などが）急激な ②（言葉が）きつい ③（刃物，感覚，人などが）鋭い [副] ④（時刻が）きっちりで"
+ },
+ {
+  "number": 805,
+  "word": "calm",
+  "meaning": "[形] ①落ち着いた [自] ②落ち着く [他] ③～を落ち着かせる"
+ },
+ {
+  "number": 806,
+  "word": "shallow",
+  "meaning": "[形] ①浅い ②（人，言動などが）浅はかな"
+ },
+ {
+  "number": 807,
+  "word": "bare",
+  "meaning": "[形] ①むき出しの ②最低限の"
+ },
+ {
+  "number": 808,
+  "word": "naked",
+  "meaning": "[形] （人が）裸の，むき出しの"
+ },
+ {
+  "number": 809,
+  "word": "independent",
+  "meaning": "[形] ①独立した，無所属の [名] ②無所属の人"
+ },
+ {
+  "number": 810,
+  "word": "tense",
+  "meaning": "[形] ①張り詰めた ②（人が）緊張した [名] ③時制"
+ },
+ {
+  "number": 811,
+  "word": "broad",
+  "meaning": "[形] 幅広い"
+ },
+ {
+  "number": 812,
+  "word": "narrow",
+  "meaning": "[形] ①狭い [他] ②～を狭くする，細める"
+ },
+ {
+  "number": 813,
+  "word": "vacant",
+  "meaning": "[形] 空いている，使用されていない"
+ },
+ {
+  "number": 814,
+  "word": "vivid",
+  "meaning": "[形] ①（記憶，描写などが）鮮明な ②（色が）鮮明な"
+ },
+ {
+  "number": 815,
+  "word": "mutual",
+  "meaning": "[形] ①（感情，行為が）相互の ②（友だち，趣味などが）共通の"
+ },
+ {
+  "number": 816,
+  "word": "awkward",
+  "meaning": "[形] ①ぎこちない ②気まずい ③扱いにくい"
+ },
+ {
+  "number": 817,
+  "word": "objective",
+  "meaning": "[形] ①客観的な [名] ②目標"
+ },
+ {
+  "number": 818,
+  "word": "manual",
+  "meaning": "[形] ①手を使う，身体を使う ②手動の [名] ③手引き書"
+ },
+ {
+  "number": 819,
+  "word": "alike",
+  "meaning": "[形] ①似ている [副] ②（A and B －）（A もB も）同様に"
+ },
+ {
+  "number": 820,
+  "word": "tend",
+  "meaning": "[自] （to do）～する傾向にある"
+ },
+ {
+  "number": 821,
+  "word": "deserve",
+  "meaning": "[他] ～に値する"
+ },
+ {
+  "number": 822,
+  "word": "fragment",
+  "meaning": "[名] 破片〈可算〉"
+ },
+ {
+  "number": 823,
+  "word": "ease",
+  "meaning": "[名] ①簡単さ [他] ②（痛み，心配など）を和らげる，楽にする"
+ },
+ {
+  "number": 824,
+  "word": "range",
+  "meaning": "[名] ①範囲 [自] ②（from A to B）（A からB の）範囲に及ぶ"
+ },
+ {
+  "number": 825,
+  "word": "scale",
+  "meaning": "[名] ①規模 ②（－s）体重計 ③うろこ"
+ },
+ {
+  "number": 826,
+  "word": "unique",
+  "meaning": "[形] ①（to ～）（～に）特有の，独自の ②独特の"
+ },
+ {
+  "number": 827,
+  "word": "particular",
+  "meaning": "[形] ①ある特定の，特有の ②（about ～）（～の）好みがうるさい [名] ③（in －）特に（＝particularly）"
+ },
+ {
+  "number": 828,
+  "word": "general",
+  "meaning": "[形] ①一般的な，全体の [名] ②大将，将軍"
+ },
+ {
+  "number": 829,
+  "word": "ordinary",
+  "meaning": "[形] 平凡な，ふつうの"
+ },
+ {
+  "number": 830,
+  "word": "typical",
+  "meaning": "[形] 典型的な"
+ },
+ {
+  "number": 831,
+  "word": "account",
+  "meaning": "[自] （for ～）①（割合を）占める ②（～の原因を）説明する [名] ③説明 ④口座"
+ },
+ {
+  "number": 832,
+  "word": "calculate",
+  "meaning": "[他] ～を計算する"
+ },
+ {
+  "number": 833,
+  "word": "measure",
+  "meaning": "[他] ①～を測る [自] ②～の寸法がある [名] ③（－s）手段"
+ },
+ {
+  "number": 834,
+  "word": "split",
+  "meaning": "[他] ①～を割る ②～を分裂させる [自] ③分裂する [名] ④分裂，裂け目，割れ目"
+ },
+ {
+  "number": 835,
+  "word": "volume",
+  "meaning": "[名] ①容積，体積 ②ボリューム，音量 ③（全集などの）1巻"
+ },
+ {
+  "number": 836,
+  "word": "proportion",
+  "meaning": "[名] ①比率 ②部分 ③（－s）規模，大きさ"
+ },
+ {
+  "number": 837,
+  "word": "dozen",
+  "meaning": "[名] ①ダース ②（－s of ～）数十の～"
+ },
+ {
+  "number": 838,
+  "word": "amount",
+  "meaning": "[名] ①量 [自] （to ～）②（合計が）～に達する ③結局～になる"
+ },
+ {
+  "number": 839,
+  "word": "mass",
+  "meaning": "[名] ①大量 ②（the －es）大衆 ③かたまり ④質量 ⑤（M－）ミサ"
+ },
+ {
+  "number": 840,
+  "word": "shortage",
+  "meaning": "[名] 不足〈可算〉"
+ },
+ {
+  "number": 841,
+  "word": "enormous",
+  "meaning": "[形] 莫大な，巨大な"
+ },
+ {
+  "number": 842,
+  "word": "spare",
+  "meaning": "[形] ①余分な，予備の [他] ②（時間やお金，労力）を割く ③～を惜しむ"
+ },
+ {
+  "number": 843,
+  "word": "arrange",
+  "meaning": "[他] ①～を手配する ②～を整理する"
+ },
+ {
+  "number": 844,
+  "word": "adapt",
+  "meaning": "[自] ①適応する [他] ②～を適応させる"
+ },
+ {
+  "number": 845,
+  "word": "match",
+  "meaning": "[他] ①～と調和する ②～に匹敵する [名] ③釣り合う人［物］，好敵手"
+ },
+ {
+  "number": 846,
+  "word": "fit",
+  "meaning": "[他] ①（サイズが人）に合う [形] ②健康な ③（to do）（～するのに）適した"
+ },
+ {
+  "number": 847,
+  "word": "emergency",
+  "meaning": "[名] ①緊急事態 ②（形容詞的に）緊急の"
+ },
+ {
+  "number": 848,
+  "word": "occasion",
+  "meaning": "[名] ①場合 ②行事，祝い事"
+ },
+ {
+  "number": 849,
+  "word": "circumstance",
+  "meaning": "[名] （通例 －s）状況，事情"
+ },
+ {
+  "number": 850,
+  "word": "incident",
+  "meaning": "[名] （主に不快な）出来事"
+ },
+ {
+  "number": 851,
+  "word": "current",
+  "meaning": "[形] ①最新の，今の ②流通して [名] ③流れ，風潮"
+ },
+ {
+  "number": 852,
+  "word": "temporary",
+  "meaning": "[形] 一時的な"
+ },
+ {
+  "number": 853,
+  "word": "permanent",
+  "meaning": "[形] 永久的な"
+ },
+ {
+  "number": 854,
+  "word": "previous",
+  "meaning": "[形] （時間，順序で）前の，以前の"
+ },
+ {
+  "number": 855,
+  "word": "former",
+  "meaning": "[名] ①（the －）前者 [形] ②前任の"
+ },
+ {
+  "number": 856,
+  "word": "annual",
+  "meaning": "[形] ①年に1度の ②1年間の"
+ },
+ {
+  "number": 857,
+  "word": "contemporary",
+  "meaning": "[形] ①現代の ②同時代の [名] ③同時代の人"
+ },
+ {
+  "number": 858,
+  "word": "lately",
+  "meaning": "[副] 最近"
+ },
+ {
+  "number": 859,
+  "word": "immediately",
+  "meaning": "[副] すぐに"
+ },
+ {
+  "number": 860,
+  "word": "supply",
+  "meaning": "[他] ①～を供給する [名] ②供給"
+ },
+ {
+  "number": 861,
+  "word": "replace",
+  "meaning": "[他] ①～に取って代わる ②（A with B）（A）を（B に）取り替える"
+ },
+ {
+  "number": 862,
+  "word": "exchange",
+  "meaning": "[他] ①～を交換する [名] ②交換"
+ },
+ {
+  "number": 863,
+  "word": "substitute",
+  "meaning": "[他] ①（A for B） （B の）代わりに（A）を用いる [自] ②（for ～）（～の）代わりになる，代わりをする [形] ③代わりの [名] ④（for ～）（～の）代用品，代理人"
+ },
+ {
+  "number": 864,
+  "word": "submit",
+  "meaning": "[他] ①（願書，辞表など）を提出する [自] ②（to ～）（～に）服従する"
+ },
+ {
+  "number": 865,
+  "word": "alternative",
+  "meaning": "[名] ①（to ～）（～の）代わりのもの ②選択肢 [形] ③代わりの"
+ },
+ {
+  "number": 866,
+  "word": "deliver",
+  "meaning": "[他] ①～を配達する ②（演説など）をする"
+ },
+ {
+  "number": 867,
+  "word": "enclose",
+  "meaning": "[他] ①～を同封する ②～を囲む，閉じ込める"
+ },
+ {
+  "number": 868,
+  "word": "envelope",
+  "meaning": "[名] 封筒"
+ },
+ {
+  "number": 869,
+  "word": "trick",
+  "meaning": "[名] ①（悪意のない）いたずら ②（巧妙な）手口，策略 ③芸，手品 ④（of ～）秘けつ [他] ⑤～をだます"
+ },
+ {
+  "number": 870,
+  "word": "load",
+  "meaning": "[名] ①荷（物）〈可算〉 [他] ②（A with B）（A）に（B を）積む"
+ },
+ {
+  "number": 871,
+  "word": "content",
+  "meaning": "[名] ①中身，内容 [形] ②（with ～）（～に）満足して"
+ },
+ {
+  "number": 872,
+  "word": "routine",
+  "meaning": "[名] ①日課，決まり切った仕事 [形] ②日課の"
+ },
+ {
+  "number": 873,
+  "word": "household",
+  "meaning": "[名] ①（集合的に）所帯，家庭〈可算〉 [形] ②家庭の"
+ },
+ {
+  "number": 874,
+  "word": "good",
+  "meaning": "[名] ①（－s）商品 ②利益 [形] ③（a － many ～）かなりの"
+ },
+ {
+  "number": 875,
+  "word": "luxury",
+  "meaning": "[名] ①高級（品），ぜいたく品 ②（形容詞的に）豪華な，ぜいたくな"
+ },
+ {
+  "number": 876,
+  "word": "credit",
+  "meaning": "[名] ①（－ card）クレジットカード ②功績，手柄 ③（大学の）単位 [他] ④～の功績を認める"
+ },
+ {
+  "number": 877,
+  "word": "questionnaire",
+  "meaning": "[名] アンケート"
+ },
+ {
+  "number": 878,
+  "word": "reservation",
+  "meaning": "[名] ①予約 ②慎重な姿勢"
+ },
+ {
+  "number": 879,
+  "word": "applause",
+  "meaning": "[名] 拍手〈不可算〉"
+ },
+ {
+  "number": 880,
+  "word": "fuss",
+  "meaning": "[名] 大騒ぎ"
+ },
+ {
+  "number": 881,
+  "word": "reward",
+  "meaning": "[名] ①報酬，褒美 ，懸賞金 [他] ②～に褒美を与える，報いる"
+ },
+ {
+  "number": 882,
+  "word": "farewell",
+  "meaning": "[名] 別れ（のあいさつ）"
+ },
+ {
+  "number": 883,
+  "word": "reception",
+  "meaning": "[名] ①もてなし，歓迎会 ②（ホテルの）フロント ③受信状況"
+ },
+ {
+  "number": 884,
+  "word": "hospitality",
+  "meaning": "[名] もてなし，歓迎"
+ },
+ {
+  "number": 885,
+  "word": "portion",
+  "meaning": "[名] ①（食事の）1盛り ②（食堂などでの）1人前 ③一部"
+ },
+ {
+  "number": 886,
+  "word": "laundry",
+  "meaning": "[名] ①〈米〉洗濯 ②〈米〉洗濯物 ③クリーニング店（＝a cleaner's）"
+ },
+ {
+  "number": 887,
+  "word": "stain",
+  "meaning": "[名] ①シミ，汚れ [他] ②～にシミをつける，～を汚す"
+ },
+ {
+  "number": 888,
+  "word": "dye",
+  "meaning": "[他] ①～を染める [名] ②染料"
+ },
+ {
+  "number": 889,
+  "word": "outlet",
+  "meaning": "[名] ①（電気の）コンセント ②（販売）店 ③（感情などの）はけ口"
+ },
+ {
+  "number": 890,
+  "word": "nap",
+  "meaning": "[名] ①昼寝，仮眠 [自] ②昼寝をする，仮眠をとる"
+ },
+ {
+  "number": 891,
+  "word": "wake",
+  "meaning": "[自] ①目が覚める [他] ②（眠っている人）を起こす"
+ },
+ {
+  "number": 892,
+  "word": "vending machine",
+  "meaning": "[名] 自動販売機"
+ },
+ {
+  "number": 893,
+  "word": "grocery",
+  "meaning": "[名] ①食料雑貨店 ②（-ies）食料雑貨類"
+ },
+ {
+  "number": 894,
+  "word": "appointment",
+  "meaning": "[名] ①（病院などの）予約，（面会の）約束 ②（役職などの）任命，指名"
+ },
+ {
+  "number": 895,
+  "word": "consult",
+  "meaning": "[他] ①～に相談する ②（辞書）を引く [自] ③（with ～）（～に）相談する"
+ },
+ {
+  "number": 896,
+  "word": "register",
+  "meaning": "[他] ①～を登録する，記録する [自] ②（for ～）（授業などに）登録する ③（ホテルなどで）記帳する [名] ④登録（票），登録簿"
+ },
+ {
+  "number": 897,
+  "word": "subscribe",
+  "meaning": "[自] ①（to ～）（～を）定期購読する，加入している ②（主に否定文で）（to ～）（考えなどを）支持する"
+ },
+ {
+  "number": 898,
+  "word": "guarantee",
+  "meaning": "[他] ①～を保証する [名] ②保証（期間）"
+ },
+ {
+  "number": 899,
+  "word": "wipe",
+  "meaning": "[他] ①～を拭く ②～を一掃する，壊滅させる"
+ },
+ {
+  "number": 900,
+  "word": "sweep",
+  "meaning": "[他] ①（床，地面）を掃く ②（風，波などが）～を押し流す"
+ },
+ {
+  "number": 901,
+  "word": "transfer",
+  "meaning": "[自] ①（電車などを）乗り換える ②転勤［転校，移籍］する [他] ③（物，活動拠点など）を移す，～を転勤［転属］させる ④（銀行で）～を振り込む"
+ },
+ {
+  "number": 902,
+  "word": "divorce",
+  "meaning": "[自] ①離婚する [他] ②～と離婚する [名] ③離婚"
+ },
+ {
+  "number": 903,
+  "word": "fate",
+  "meaning": "[名] 運命，宿命"
+ },
+ {
+  "number": 904,
+  "word": "destiny",
+  "meaning": "[名] 運命"
+ },
+ {
+  "number": 905,
+  "word": "flavor",
+  "meaning": "[名] 風味，味〈可算〉"
+ },
+ {
+  "number": 906,
+  "word": "perfume",
+  "meaning": "[名] ①香り ②香水"
+ },
+ {
+  "number": 907,
+  "word": "ingredient",
+  "meaning": "[名] ①（料理などの）材料 ②（何かを達成するための）要因 ③成分"
+ },
+ {
+  "number": 908,
+  "word": "tender",
+  "meaning": "[形] ①（肉などが）柔らかい ②（愛情があり）優しい ③（皮膚などが）弱い"
+ },
+ {
+  "number": 909,
+  "word": "bitter",
+  "meaning": "[形] ①苦い，つらい ②憤慨して"
+ },
+ {
+  "number": 910,
+  "word": "aisle",
+  "meaning": "[名] 通路"
+ },
+ {
+  "number": 911,
+  "word": "track",
+  "meaning": "[名] ①足跡，小道 ②（鉄道の）線路，プラットホーム [他] ③～を追跡する"
+ },
+ {
+  "number": 912,
+  "word": "district",
+  "meaning": "[名] 地区"
+ },
+ {
+  "number": 913,
+  "word": "facility",
+  "meaning": "[名] ①施設，設備 ②能力，器用さ"
+ },
+ {
+  "number": 914,
+  "word": "basement",
+  "meaning": "[名] 地下（室）"
+ },
+ {
+  "number": 915,
+  "word": "height",
+  "meaning": "[名] ①高さ ②高い所 ③最盛期"
+ },
+ {
+  "number": 916,
+  "word": "distant",
+  "meaning": "[形] 遠い"
+ },
+ {
+  "number": 917,
+  "word": "remote",
+  "meaning": "[形] ①（地理的に）へんぴな ②（時間，関係などが）遠い"
+ },
+ {
+  "number": 918,
+  "word": "locate",
+  "meaning": "[他] ①（be －d）～に位置している，ある ②～の場所を見つける"
+ },
+ {
+  "number": 919,
+  "word": "occupy",
+  "meaning": "[他] ～を占める"
+ },
+ {
+  "number": 920,
+  "word": "surround",
+  "meaning": "[他] ～を取り囲む，包囲する"
+ },
+ {
+  "number": 921,
+  "word": "classical",
+  "meaning": "[形] ①（音楽，バレエ，ダンスなどで）クラシックの ②古典的な"
+ },
+ {
+  "number": 922,
+  "word": "civilization",
+  "meaning": "[名] 文明"
+ },
+ {
+  "number": 923,
+  "word": "heritage",
+  "meaning": "[名] 遺産〈不可算〉"
+ },
+ {
+  "number": 924,
+  "word": "script",
+  "meaning": "[名] ①台本，脚本 ②（ある言語の）文字 ③（手書きの）文字"
+ },
+ {
+  "number": 925,
+  "word": "tale",
+  "meaning": "[名] 話"
+ },
+ {
+  "number": 926,
+  "word": "literature",
+  "meaning": "[名] ①文学 ②文献 （①②ともに〈不可算〉）"
+ },
+ {
+  "number": 927,
+  "word": "tragedy",
+  "meaning": "[名] 悲劇〈可算〉"
+ },
+ {
+  "number": 928,
+  "word": "poetry",
+  "meaning": "[名] 詩〈不可算〉"
+ },
+ {
+  "number": 929,
+  "word": "biography",
+  "meaning": "[名] 伝記"
+ },
+ {
+  "number": 930,
+  "word": "term",
+  "meaning": "[名] ①用語，言葉 ②（long［short］などを伴い）期間，学期，任期 ③（be on ～ －s）（～の）間柄（である） ④（－s）（契約などの）条件"
+ },
+ {
+  "number": 931,
+  "word": "proverb",
+  "meaning": "[名] ことわざ"
+ },
+ {
+  "number": 932,
+  "word": "fluent",
+  "meaning": "[形] 流暢な"
+ },
+ {
+  "number": 933,
+  "word": "translate",
+  "meaning": "[他] ①～を翻訳する [自] ②（into ～）（結果として）～に変わる"
+ },
+ {
+  "number": 934,
+  "word": "define",
+  "meaning": "[他] ①～を定義する ②～を規定する"
+ },
+ {
+  "number": 935,
+  "word": "interpret",
+  "meaning": "[他] ①～を解釈する ②～を通訳する [自] ③通訳する"
+ },
+ {
+  "number": 936,
+  "word": "quote",
+  "meaning": "[他] ①～を引用する ② ～に価格を提示する"
+ },
+ {
+  "number": 937,
+  "word": "literally",
+  "meaning": "[副] 文字どおりに"
+ },
+ {
+  "number": 938,
+  "word": "indicate",
+  "meaning": "[他] ①（データなどが）～を示す ②～を指し示す"
+ },
+ {
+  "number": 939,
+  "word": "reveal",
+  "meaning": "[他] ～を明らかにする，暴露する"
+ },
+ {
+  "number": 940,
+  "word": "announce",
+  "meaning": "[他] ～を発表する"
+ },
+ {
+  "number": 941,
+  "word": "broadcast",
+  "meaning": "[他] ①～を放送する [名] ②（ 1 回の）放送"
+ },
+ {
+  "number": 942,
+  "word": "prove",
+  "meaning": "[他] ①～を証明する ②（to be ～）～だとわかる"
+ },
+ {
+  "number": 943,
+  "word": "advertise",
+  "meaning": "[他] ～を宣伝する"
+ },
+ {
+  "number": 944,
+  "word": "seek",
+  "meaning": "[他] ①～を求める ②（to do）～しようと努める"
+ },
+ {
+  "number": 945,
+  "word": "entertain",
+  "meaning": "[他] ①～を楽しませる ② ～をもてなす"
+ },
+ {
+  "number": 946,
+  "word": "amuse",
+  "meaning": "[他] ～を楽しませる"
+ },
+ {
+  "number": 947,
+  "word": "attract",
+  "meaning": "[他] ～を引きつける，魅了する"
+ },
+ {
+  "number": 948,
+  "word": "fascinate",
+  "meaning": "[他] ～を魅了する，～にとても興味をもたせる"
+ },
+ {
+  "number": 949,
+  "word": "absorb",
+  "meaning": "[他] ①（be －ed in ～）～に没頭する ②～を吸収する"
+ },
+ {
+  "number": 950,
+  "word": "fond",
+  "meaning": "[形] ①好きで ② 懐かしい"
+ },
+ {
+  "number": 951,
+  "word": "scare",
+  "meaning": "[他] ～をおびえさせる"
+ },
+ {
+  "number": 952,
+  "word": "alarm",
+  "meaning": "[他] ①～をぎょっとさせる [名] ② 恐怖，不安"
+ },
+ {
+  "number": 953,
+  "word": "amaze",
+  "meaning": "[他] ～を驚かせる"
+ },
+ {
+  "number": 954,
+  "word": "irritate",
+  "meaning": "[他] （長期にわたって）～をいらいらさせる"
+ },
+ {
+  "number": 955,
+  "word": "puzzle",
+  "meaning": "[他] ①～を当惑させる [名] ②難問，パズル"
+ },
+ {
+  "number": 956,
+  "word": "confuse",
+  "meaning": "[他] ① ～を混乱させる，困惑させる ②（A with［and］ B） （A）を（Bと）混同する"
+ },
+ {
+  "number": 957,
+  "word": "bore",
+  "meaning": "[他] ～をうんざりさせる，退屈させる"
+ },
+ {
+  "number": 958,
+  "word": "frustrate",
+  "meaning": "[他] ① ～を欲求不満にさせる ②（計画など）を挫折させる"
+ },
+ {
+  "number": 959,
+  "word": "disappoint",
+  "meaning": "[他] ～を失望させる"
+ },
+ {
+  "number": 960,
+  "word": "embarrass",
+  "meaning": "[他] ～に恥ずかしい思いをさせる，困惑させる"
+ },
+ {
+  "number": 961,
+  "word": "ashamed",
+  "meaning": "[形] 恥ずかしい"
+ },
+ {
+  "number": 962,
+  "word": "uneasy",
+  "meaning": "[形] 不安な，胸騒ぎがする"
+ },
+ {
+  "number": 963,
+  "word": "hesitate",
+  "meaning": "[自] ためらう"
+ },
+ {
+  "number": 964,
+  "word": "reluctant",
+  "meaning": "[形] （to do）（～するのは）気が進まない"
+ },
+ {
+  "number": 965,
+  "word": "tremble",
+  "meaning": "[自] 震える"
+ },
+ {
+  "number": 966,
+  "word": "boast",
+  "meaning": "[自] ①自慢する [他] ②（場所や組織が）～を誇りにしている"
+ },
+ {
+  "number": 967,
+  "word": "jealous",
+  "meaning": "[形] （of ～）（～に）嫉妬した"
+ },
+ {
+  "number": 968,
+  "word": "envy",
+  "meaning": "[他] ①～を羨ましく思う [名] ② 羨望"
+ },
+ {
+  "number": 969,
+  "word": "yell",
+  "meaning": "[自] ①叫ぶ，大声をあげる [名] ②叫び，わめき声"
+ },
+ {
+  "number": 970,
+  "word": "respect",
+  "meaning": "[他] ①（人）を尊敬する ②（物）を尊重する [名] ③（for ～）（～に対する）尊敬，尊重 ④（in －）点"
+ },
+ {
+  "number": 971,
+  "word": "despair",
+  "meaning": "[名] 絶望"
+ },
+ {
+  "number": 972,
+  "word": "emotion",
+  "meaning": "[名] （特に強い）感情〈可算〉"
+ },
+ {
+  "number": 973,
+  "word": "sympathy",
+  "meaning": "[名] ①同情 ② 共感"
+ },
+ {
+  "number": 974,
+  "word": "shame",
+  "meaning": "[名] ①残念なこと ②恥"
+ },
+ {
+  "number": 975,
+  "word": "ambition",
+  "meaning": "[名] （強い）願望，野望"
+ },
+ {
+  "number": 976,
+  "word": "confidence",
+  "meaning": "[名] ①自信 ②（in ～）（～に対する）信頼"
+ },
+ {
+  "number": 977,
+  "word": "courage",
+  "meaning": "[名] 勇気"
+ },
+ {
+  "number": 978,
+  "word": "ignore",
+  "meaning": "[他] （人，物）を無視する"
+ },
+ {
+  "number": 979,
+  "word": "owe",
+  "meaning": "[他] （A to B） ①（A）は（B の）おかげだ ②（A）を（B に）借りている"
+ },
+ {
+  "number": 980,
+  "word": "fear",
+  "meaning": "[名] ①恐怖 [他] ② ～を恐れる ③ ～を心配する"
+ },
+ {
+  "number": 981,
+  "word": "method",
+  "meaning": "[名] 方法"
+ },
+ {
+  "number": 982,
+  "word": "medium",
+  "meaning": "[名] ①（情報伝達）手段，媒体，メディア [形] ② 中間の"
+ },
+ {
+  "number": 983,
+  "word": "means",
+  "meaning": "[名] ①手段〈単複同形〉 ②（特定な表現で）財産，収入"
+ },
+ {
+  "number": 984,
+  "word": "extent",
+  "meaning": "[名] 程度"
+ },
+ {
+  "number": 985,
+  "word": "extremely",
+  "meaning": "[副] 極度に，非常に"
+ },
+ {
+  "number": 986,
+  "word": "total",
+  "meaning": "[形] ①全体の ②（a －）まったくの [名] ③合計"
+ },
+ {
+  "number": 987,
+  "word": "largely",
+  "meaning": "[副] ①大部分は ②主に"
+ },
+ {
+  "number": 988,
+  "word": "moderate",
+  "meaning": "[形] 適度な，節度のある"
+ },
+ {
+  "number": 989,
+  "word": "somewhat",
+  "meaning": "[副] いくぶん"
+ },
+ {
+  "number": 990,
+  "word": "subtle",
+  "meaning": "[形] かすかな"
+ },
+ {
+  "number": 991,
+  "word": "possibly",
+  "meaning": "[副] ①ひょっとすると ②（cannot －）どうしても（～できない）"
+ },
+ {
+  "number": 992,
+  "word": "eventually",
+  "meaning": "[副] 最終的に，ついに"
+ },
+ {
+  "number": 993,
+  "word": "necessarily",
+  "meaning": "[副] （not －）必ずしも（～ない）"
+ },
+ {
+  "number": 994,
+  "word": "frankly",
+  "meaning": "[副] 率直に"
+ },
+ {
+  "number": 995,
+  "word": "ironically",
+  "meaning": "[副] 皮肉なことに"
+ },
+ {
+  "number": 996,
+  "word": "moreover",
+  "meaning": "[副] その上"
+ },
+ {
+  "number": 997,
+  "word": "otherwise",
+  "meaning": "[副] ①さもなければ ② ほかの点では ③ ほかの方法で"
+ },
+ {
+  "number": 998,
+  "word": "regardless",
+  "meaning": "[副] （of ～）（～とは）無関係に"
+ },
+ {
+  "number": 999,
+  "word": "worth",
+  "meaning": "[前] ①～の価値がある ②（－ doing）（～する）価値がある [名] ③ 価値，（～）相当"
+ },
+ {
+  "number": 1000,
+  "word": "according to",
+  "meaning": "[前] ①（調査，人の話など）によれば ②（能力など）に応じて"
+ },
+ {
+  "number": 1001,
+  "word": "propose",
+  "meaning": "[他] ①～を提案する [自] ②（to ～）（～に）結婚を申し込む"
+ },
+ {
+  "number": 1002,
+  "word": "demand",
+  "meaning": "[他] ①～を（強く）要求する [名] ②（for ～）（～への）要求，需要"
+ },
+ {
+  "number": 1003,
+  "word": "desire",
+  "meaning": "[名] ①願望 [他] ②～を強く望む"
+ },
+ {
+  "number": 1004,
+  "word": "dismiss",
+  "meaning": "[他] ①（意見や考えなど）を退ける ②～を解雇する"
+ },
+ {
+  "number": 1005,
+  "word": "bless",
+  "meaning": "[他] ～を祝福する"
+ },
+ {
+  "number": 1006,
+  "word": "glory",
+  "meaning": "[名] 栄光"
+ },
+ {
+  "number": 1007,
+  "word": "compliment",
+  "meaning": "[名] ①褒め言葉，賛辞 [他] ②～を褒める"
+ },
+ {
+  "number": 1008,
+  "word": "feast",
+  "meaning": "[名] ①宴会，祝宴 ②とても楽しいこと，喜ばせるもの"
+ },
+ {
+  "number": 1009,
+  "word": "declare",
+  "meaning": "[他] ①～を宣言する ②（税関や税務署で）～を申告する"
+ },
+ {
+  "number": 1010,
+  "word": "demonstrate",
+  "meaning": "[他] ～を（はっきり）示す，実演する"
+ },
+ {
+  "number": 1011,
+  "word": "highlight",
+  "meaning": "[他] ①～を強調する [名] ②呼び物，目玉商品，ハイライト"
+ },
+ {
+  "number": 1012,
+  "word": "imply",
+  "meaning": "[他] （暗に）～を意味する，ほのめかす"
+ },
+ {
+  "number": 1013,
+  "word": "recite",
+  "meaning": "[他] ～を暗唱する"
+ },
+ {
+  "number": 1014,
+  "word": "ray",
+  "meaning": "[名] ①光線 ②放射線 ③（a － of）一縷の，わずかな"
+ },
+ {
+  "number": 1015,
+  "word": "radiation",
+  "meaning": "[名] 放射線"
+ },
+ {
+  "number": 1016,
+  "word": "laboratory",
+  "meaning": "[名] 研究室，研究所"
+ },
+ {
+  "number": 1017,
+  "word": "oxygen",
+  "meaning": "[名] 酸素"
+ },
+ {
+  "number": 1018,
+  "word": "molecule",
+  "meaning": "[名] 分子"
+ },
+ {
+  "number": 1019,
+  "word": "compound",
+  "meaning": "[名] ①化合物 [形] ②複合的な"
+ },
+ {
+  "number": 1020,
+  "word": "tissue",
+  "meaning": "[名] ①組織 ②ティッシュペーパー"
+ },
+ {
+  "number": 1021,
+  "word": "cell",
+  "meaning": "[名] ①細胞 ②電池 ③独房 （①②③いずれも〈可算〉)"
+ },
+ {
+  "number": 1022,
+  "word": "gene",
+  "meaning": "[名] 遺伝子〈可算〉"
+ },
+ {
+  "number": 1023,
+  "word": "solid",
+  "meaning": "[形] ①固体の ②ぎっしり詰まった [名] ③固体"
+ },
+ {
+  "number": 1024,
+  "word": "satellite",
+  "meaning": "[名] ①（月などの）衛星 ②人工衛星"
+ },
+ {
+  "number": 1025,
+  "word": "orbit",
+  "meaning": "[名] ①軌道 [他] ②（惑星などが）～を周回する"
+ },
+ {
+  "number": 1026,
+  "word": "launch",
+  "meaning": "[他] ①（ロケットなど）を打ち上げる ②（運動，事業など）を始める [名] ③打ち上げ，開始，発売"
+ },
+ {
+  "number": 1027,
+  "word": "attempt",
+  "meaning": "[名] ①試み [他] ②（to do）（～しようと）試みる"
+ },
+ {
+  "number": 1028,
+  "word": "capacity",
+  "meaning": "[名] ①能力 ②容量，収容力"
+ },
+ {
+  "number": 1029,
+  "word": "capable",
+  "meaning": "[形] ①（of ～）（～する）力がある ②有能な"
+ },
+ {
+  "number": 1030,
+  "word": "attain",
+  "meaning": "[他] ①（人が主語）～を達成する ②（物，人が主語）～に到達する"
+ },
+ {
+  "number": 1031,
+  "word": "desperate",
+  "meaning": "[形] ①必死の ②（状況が）絶望的な"
+ },
+ {
+  "number": 1032,
+  "word": "struggle",
+  "meaning": "[自] ①苦闘する，もがく [名] ②苦闘，もがくこと〈可算〉"
+ },
+ {
+  "number": 1033,
+  "word": "dedicate",
+  "meaning": "[他] （A to B）（A）を（B に）ささげる"
+ },
+ {
+  "number": 1034,
+  "word": "pain",
+  "meaning": "[名] ①苦痛 ②（－s）苦労"
+ },
+ {
+  "number": 1035,
+  "word": "strain",
+  "meaning": "[名] ①（心身の）負担，無理 [他] ②（目や筋肉など）を痛める"
+ },
+ {
+  "number": 1036,
+  "word": "remedy",
+  "meaning": "[名] ①治療法，治療薬 ②改善策，対策（① ② いずれも〈可算〉）"
+ },
+ {
+  "number": 1037,
+  "word": "fatigue",
+  "meaning": "[名] （ひどい）疲労〈不可算〉"
+ },
+ {
+  "number": 1038,
+  "word": "obesity",
+  "meaning": "[名] （病的な）肥満"
+ },
+ {
+  "number": 1039,
+  "word": "nursing",
+  "meaning": "[名] 看護"
+ },
+ {
+  "number": 1040,
+  "word": "terminal",
+  "meaning": "[形] ①（病気が）末期の [名] ②終着［始発］駅（の建物），ターミナルビル"
+ },
+ {
+  "number": 1041,
+  "word": "pregnant",
+  "meaning": "[形] 妊娠した"
+ },
+ {
+  "number": 1042,
+  "word": "heal",
+  "meaning": "[他] ①～を治す [自] ②治る"
+ },
+ {
+  "number": 1043,
+  "word": "ankle",
+  "meaning": "[名] 足首"
+ },
+ {
+  "number": 1044,
+  "word": "thumb",
+  "meaning": "[名] 親指"
+ },
+ {
+  "number": 1045,
+  "word": "forehead",
+  "meaning": "[名] 額，おでこ"
+ },
+ {
+  "number": 1046,
+  "word": "chin",
+  "meaning": "[名] 下あご，あごの先端"
+ },
+ {
+  "number": 1047,
+  "word": "chest",
+  "meaning": "[名] ①胸（部） ②（大きな木の）箱，密閉容器"
+ },
+ {
+  "number": 1048,
+  "word": "breast",
+  "meaning": "[名] （主に女性の）胸，乳房"
+ },
+ {
+  "number": 1049,
+  "word": "lung",
+  "meaning": "[名] 肺〈可算〉"
+ },
+ {
+  "number": 1050,
+  "word": "organ",
+  "meaning": "[名] ①臓器，（動植物の）器官 ②（楽器）オルガン"
+ },
+ {
+  "number": 1051,
+  "word": "vision",
+  "meaning": "[名] ①視力，視野 ②未来像 ③未来を見通す力，先見の明"
+ },
+ {
+  "number": 1052,
+  "word": "skeleton",
+  "meaning": "[名] がい骨，骨格"
+ },
+ {
+  "number": 1053,
+  "word": "sensation",
+  "meaning": "[名] ①感覚 ②（説明し難い）感情"
+ },
+ {
+  "number": 1054,
+  "word": "code",
+  "meaning": "[名] ①（服装などの）規定 ②暗号"
+ },
+ {
+  "number": 1055,
+  "word": "agenda",
+  "meaning": "[名] 議題，協議事項"
+ },
+ {
+  "number": 1056,
+  "word": "gender",
+  "meaning": "[名] 性，性別"
+ },
+ {
+  "number": 1057,
+  "word": "liberty",
+  "meaning": "[名] 自由"
+ },
+ {
+  "number": 1058,
+  "word": "humanity",
+  "meaning": "[名] ①（集合的に）人類 ②（the －ies）人文科学 ③人間性"
+ },
+ {
+  "number": 1059,
+  "word": "mankind",
+  "meaning": "[名] （集合的に）人類"
+ },
+ {
+  "number": 1060,
+  "word": "authority",
+  "meaning": "[名] ①権威 ②権力 ③（－ies）当局"
+ },
+ {
+  "number": 1061,
+  "word": "justice",
+  "meaning": "[名] 正義"
+ },
+ {
+  "number": 1062,
+  "word": "insurance",
+  "meaning": "[名] 保険〈不可算〉"
+ },
+ {
+  "number": 1063,
+  "word": "hardship",
+  "meaning": "[名] （主に経済的）苦難"
+ },
+ {
+  "number": 1064,
+  "word": "poverty",
+  "meaning": "[名] 貧困〈不可算〉"
+ },
+ {
+  "number": 1065,
+  "word": "chaos",
+  "meaning": "[名] 大混乱，混沌〈不可算〉"
+ },
+ {
+  "number": 1066,
+  "word": "isolation",
+  "meaning": "[名] 孤立，分離，孤独感"
+ },
+ {
+  "number": 1067,
+  "word": "interaction",
+  "meaning": "[名] ① 交流，やりとり ②相互作用"
+ },
+ {
+  "number": 1068,
+  "word": "region",
+  "meaning": "[名] 地域"
+ },
+ {
+  "number": 1069,
+  "word": "proof",
+  "meaning": "[名] ①証拠，証明〈不可算〉 [形] ②（複合語で）～を防ぐ，～に耐える"
+ },
+ {
+  "number": 1070,
+  "word": "principle",
+  "meaning": "[名] ①原理，原則 ②主義，信念"
+ },
+ {
+  "number": 1071,
+  "word": "origin",
+  "meaning": "[名] 起源"
+ },
+ {
+  "number": 1072,
+  "word": "setting",
+  "meaning": "[名] ①環境，状況 ②（小説，劇，機械などの）設定，舞台"
+ },
+ {
+  "number": 1073,
+  "word": "monument",
+  "meaning": "[名] 記念碑，遺跡，史跡"
+ },
+ {
+  "number": 1074,
+  "word": "mission",
+  "meaning": "[名] ①任務，使命 ②使節団 ③（主にキリスト教の）布教（団）"
+ },
+ {
+  "number": 1075,
+  "word": "project",
+  "meaning": "[名] ①計画，企画 [他] ②（予算など）を見積もる ③～を投影する"
+ },
+ {
+  "number": 1076,
+  "word": "revolution",
+  "meaning": "[名] 革命"
+ },
+ {
+  "number": 1077,
+  "word": "pension",
+  "meaning": "[名] 年金〈可算〉"
+ },
+ {
+  "number": 1078,
+  "word": "found",
+  "meaning": "[他] ～を創立する"
+ },
+ {
+  "number": 1079,
+  "word": "contract",
+  "meaning": "[名] ①契約 [他] ②～を契約する ③（病気）に感染する"
+ },
+ {
+  "number": 1080,
+  "word": "negotiate",
+  "meaning": "[自] ①（with ～）（～と）交渉する [他] ②（交渉の上で，条件など）を取り決める"
+ },
+ {
+  "number": 1081,
+  "word": "cooperate",
+  "meaning": "[自] （with ～）（～と）協力する，（in ～）（～を）協力する"
+ },
+ {
+  "number": 1082,
+  "word": "restore",
+  "meaning": "[他] ①（治安など）を回復する ②（古い建物，絵など）を修復する"
+ },
+ {
+  "number": 1083,
+  "word": "conservative",
+  "meaning": "[形] 保守的な"
+ },
+ {
+  "number": 1084,
+  "word": "affair",
+  "meaning": "[名] ①（－s）情勢 ②（スキャンダラスな）事件 ③ 情事，浮気"
+ },
+ {
+  "number": 1085,
+  "word": "agency",
+  "meaning": "[名] ①（政府）機関 ②代理店"
+ },
+ {
+  "number": 1086,
+  "word": "council",
+  "meaning": "[名] 議会"
+ },
+ {
+  "number": 1087,
+  "word": "kingdom",
+  "meaning": "[名] ①王国 ②（the ～ kingdom）～界，社会"
+ },
+ {
+  "number": 1088,
+  "word": "republic",
+  "meaning": "[名] 共和国"
+ },
+ {
+  "number": 1089,
+  "word": "empire",
+  "meaning": "[名] 帝国"
+ },
+ {
+  "number": 1090,
+  "word": "security",
+  "meaning": "[名] ①（国家などの）安全 ②防犯，防衛"
+ },
+ {
+  "number": 1091,
+  "word": "aid",
+  "meaning": "[名] 援助，救援物資〈不可算〉"
+ },
+ {
+  "number": 1092,
+  "word": "reform",
+  "meaning": "[名] 改革"
+ },
+ {
+  "number": 1093,
+  "word": "mayor",
+  "meaning": "[名] 市長"
+ },
+ {
+  "number": 1094,
+  "word": "minister",
+  "meaning": "[名] ①大臣 ②牧師"
+ },
+ {
+  "number": 1095,
+  "word": "poll",
+  "meaning": "[名] ①（政治関連の）世論調査 ②投票 [他] ③（得票）を得る"
+ },
+ {
+  "number": 1096,
+  "word": "fortune",
+  "meaning": "[名] ①財産 ②運"
+ },
+ {
+  "number": 1097,
+  "word": "property",
+  "meaning": "[名] ①（主に集合的）財産，資産 ②（建物を含む）所有地 ③（物質の）特性"
+ },
+ {
+  "number": 1098,
+  "word": "fund",
+  "meaning": "[名] ①（－s）資金 ②基金 [他] ③～に資金を出す"
+ },
+ {
+  "number": 1099,
+  "word": "stock",
+  "meaning": "[名] ①株（式） ②在庫品，蓄え"
+ },
+ {
+  "number": 1100,
+  "word": "bankrupt",
+  "meaning": "[形] 倒産した，破産した"
+ },
+ {
+  "number": 1101,
+  "word": "labor",
+  "meaning": "[名] ①労働 ②（集合的に）労働者 ③努力，陣痛"
+ },
+ {
+  "number": 1102,
+  "word": "overwork",
+  "meaning": "[自] ①働きすぎる [他] ②～を働かせすぎる，酷使する [名] ③過労"
+ },
+ {
+  "number": 1103,
+  "word": "firm",
+  "meaning": "[名] ①会社 [形] ②（土台，信念などが）固い ③（体が）引き締まった"
+ },
+ {
+  "number": 1104,
+  "word": "union",
+  "meaning": "[名] ①労働組合 ②合併 ③連邦"
+ },
+ {
+  "number": 1105,
+  "word": "administration",
+  "meaning": "[名] ①経営，運営 ②行政 ③政権 （①②は〈不可算〉）"
+ },
+ {
+  "number": 1106,
+  "word": "secretary",
+  "meaning": "[名] ①秘書 ②（米国の各省の）長官，事務局長"
+ },
+ {
+  "number": 1107,
+  "word": "editor",
+  "meaning": "[名] （新聞，雑誌などの）編集長，（書籍の）編集者"
+ },
+ {
+  "number": 1108,
+  "word": "client",
+  "meaning": "[名] ①依頼人 ②（サービス業の）取引先"
+ },
+ {
+  "number": 1109,
+  "word": "colleague",
+  "meaning": "[名] （from ～）（～の）同僚"
+ },
+ {
+  "number": 1110,
+  "word": "basis",
+  "meaning": "[名] ①基礎，根拠 ②（on a ～ basis）（～を）基準（として）"
+ },
+ {
+  "number": 1111,
+  "word": "element",
+  "meaning": "[名] ①（最も重要な）要素，（化学の）元素 ②（the －s）自然の力，悪天候 ③（an － of ～）少しの～"
+ },
+ {
+  "number": 1112,
+  "word": "constitute",
+  "meaning": "[他] ①（主語が複数）～を構成する ②（主語が単数）～である"
+ },
+ {
+  "number": 1113,
+  "word": "unify",
+  "meaning": "[他] ～を統一する"
+ },
+ {
+  "number": 1114,
+  "word": "unite",
+  "meaning": "[自] ①団結する [他] ②～を団結させる"
+ },
+ {
+  "number": 1115,
+  "word": "combine",
+  "meaning": "[他] ①（A with B） （A）を（B と）結びつける，同時に行う [自] ②結びつく"
+ },
+ {
+  "number": 1116,
+  "word": "murder",
+  "meaning": "[名] ①殺人 ②（形容詞的に）殺人の [他] ③（計画的に）～を殺す"
+ },
+ {
+  "number": 1117,
+  "word": "arrest",
+  "meaning": "[他] ①～を逮捕する [名] ②逮捕"
+ },
+ {
+  "number": 1118,
+  "word": "prison",
+  "meaning": "[名] 刑務所"
+ },
+ {
+  "number": 1119,
+  "word": "vice",
+  "meaning": "[名] ①（売春，麻薬などの）犯罪〈不可算〉 ②悪徳 [形] ③ 副～"
+ },
+ {
+  "number": 1120,
+  "word": "witness",
+  "meaning": "[名] ①目撃者，証人 ② 証言 [他] ③～を目撃する"
+ },
+ {
+  "number": 1121,
+  "word": "conflict",
+  "meaning": "[名] ①対立，紛争 ②葛藤 [自] ③（with ～）（～と）矛盾する"
+ },
+ {
+  "number": 1122,
+  "word": "bullet",
+  "meaning": "[名] 弾丸"
+ },
+ {
+  "number": 1123,
+  "word": "wound",
+  "meaning": "[名] ①傷 [他] ②～を傷つける"
+ },
+ {
+  "number": 1124,
+  "word": "triumph",
+  "meaning": "[名] ①勝利 [自] ②勝利する"
+ },
+ {
+  "number": 1125,
+  "word": "military",
+  "meaning": "[形] 軍事的な"
+ },
+ {
+  "number": 1126,
+  "word": "strategy",
+  "meaning": "[名] 戦略"
+ },
+ {
+  "number": 1127,
+  "word": "conquer",
+  "meaning": "[他] ①（国や地域）を征服する ②（病気や恐怖など）を克服する"
+ },
+ {
+  "number": 1128,
+  "word": "defend",
+  "meaning": "[他] （A from B）（B からA）を守る"
+ },
+ {
+  "number": 1129,
+  "word": "quarrel",
+  "meaning": "[自] ①（with ～）（～と）口論する [名] ②口論"
+ },
+ {
+  "number": 1130,
+  "word": "rob",
+  "meaning": "[他] ①（銀行など）を襲う ②（A of B）（A）から（B を）奪う"
+ },
+ {
+  "number": 1131,
+  "word": "deprive",
+  "meaning": "[他] （A of B） （A）から（B を）奪う"
+ },
+ {
+  "number": 1132,
+  "word": "devastate",
+  "meaning": "[他] ①（町など）を壊滅させる ②（人）を打ちのめす"
+ },
+ {
+  "number": 1133,
+  "word": "hazard",
+  "meaning": "[名] 危険（になり得るもの）"
+ },
+ {
+  "number": 1134,
+  "word": "orphan",
+  "meaning": "[名] 孤児"
+ },
+ {
+  "number": 1135,
+  "word": "infant",
+  "meaning": "[名] （主に歩く前の）幼児"
+ },
+ {
+  "number": 1136,
+  "word": "slave",
+  "meaning": "[名] ①奴隷 ②（to ～）（比喩的に）（～の）奴隷"
+ },
+ {
+  "number": 1137,
+  "word": "acquaintance",
+  "meaning": "[名] ①知人 ②面識，（ちょっとした）知識"
+ },
+ {
+  "number": 1138,
+  "word": "merchant",
+  "meaning": "[名] 商人"
+ },
+ {
+  "number": 1139,
+  "word": "resident",
+  "meaning": "[名] ①住人，居住者 ②滞在者 [形] ③住んでいる"
+ },
+ {
+  "number": 1140,
+  "word": "crew",
+  "meaning": "[名] ①（集合的に）乗組員 ②（取材などの）チーム"
+ },
+ {
+  "number": 1141,
+  "word": "commute",
+  "meaning": "[自] ①通勤する [名] ②通勤"
+ },
+ {
+  "number": 1142,
+  "word": "chase",
+  "meaning": "[他] ①～を追いかける [名] ②追跡"
+ },
+ {
+  "number": 1143,
+  "word": "overtake",
+  "meaning": "[他] ～を追い越す"
+ },
+ {
+  "number": 1144,
+  "word": "fade",
+  "meaning": "[自] （色，記憶などが）薄れる"
+ },
+ {
+  "number": 1145,
+  "word": "dissolve",
+  "meaning": "[自] ①溶ける [他] ②～を溶かす ③（議会など）を解散する"
+ },
+ {
+  "number": 1146,
+  "word": "float",
+  "meaning": "[自] ①浮かぶ [他] ②～を浮かべる"
+ },
+ {
+  "number": 1147,
+  "word": "sink",
+  "meaning": "[自] ①沈む [他] ②～を沈める [名] ③（台所の）流し"
+ },
+ {
+  "number": 1148,
+  "word": "fluctuate",
+  "meaning": "[自] （数値，物価が）変動する"
+ },
+ {
+  "number": 1149,
+  "word": "circulate",
+  "meaning": "[自] ①循環する，流布する [他] ②～を循環させる"
+ },
+ {
+  "number": 1150,
+  "word": "transform",
+  "meaning": "[他] ①～を（大幅に）変える [自] ②（大幅に）変形する，変身する"
+ },
+ {
+  "number": 1151,
+  "word": "shift",
+  "meaning": "[名] ①（考え方の）転換 ②（勤務の）交替"
+ },
+ {
+  "number": 1152,
+  "word": "modify",
+  "meaning": "[他] ～を修正する"
+ },
+ {
+  "number": 1153,
+  "word": "revise",
+  "meaning": "[他] （制度，予測，論文など）を修正する，改正する"
+ },
+ {
+  "number": 1154,
+  "word": "vehicle",
+  "meaning": "[名] ①（エンジンの付いた）車両 ②（思想，意見の）伝達手段"
+ },
+ {
+  "number": 1155,
+  "word": "voyage",
+  "meaning": "[名] 航海，船旅"
+ },
+ {
+  "number": 1156,
+  "word": "confirm",
+  "meaning": "[他] ①～を確認する ②～を裏付ける"
+ },
+ {
+  "number": 1157,
+  "word": "ensure",
+  "meaning": "[他] ～を確実にする"
+ },
+ {
+  "number": 1158,
+  "word": "address",
+  "meaning": "[他] ①～に取り組む ②～に呼びかける [名] ③演説 ④住所"
+ },
+ {
+  "number": 1159,
+  "word": "approach",
+  "meaning": "[名] ①（to ～）（～への）取り組み方，接近 [他] ②～に取り組む，接近する"
+ },
+ {
+  "number": 1160,
+  "word": "resolve",
+  "meaning": "[他] ①～を解決する ②（to do）（～する）決心をする"
+ },
+ {
+  "number": 1161,
+  "word": "settle",
+  "meaning": "[他] ①（紛争など）を解決する ②～を置く，据える [自] ③定住する ④（on ～）（～を）決める"
+ },
+ {
+  "number": 1162,
+  "word": "warn",
+  "meaning": "[他] ～に警告する"
+ },
+ {
+  "number": 1163,
+  "word": "force",
+  "meaning": "[他] ①～に強いる [名] ②力，武力"
+ },
+ {
+  "number": 1164,
+  "word": "boost",
+  "meaning": "[他] ～を促進させる，増大させる"
+ },
+ {
+  "number": 1165,
+  "word": "appeal",
+  "meaning": "[自] ①（to ～）（～に）訴える [名] ②魅力，人気 ③（for ～）（～に対する）訴え"
+ },
+ {
+  "number": 1166,
+  "word": "leap",
+  "meaning": "[自] ①跳ぶ [名] ②躍進，急増"
+ },
+ {
+  "number": 1167,
+  "word": "grab",
+  "meaning": "[他] ①（ぐいっと）～をつかむ ②（急いで食事，睡眠）をとる"
+ },
+ {
+  "number": 1168,
+  "word": "seize",
+  "meaning": "[他] ①～をつかむ ②（麻薬など）を押収する，（犯人）を捕らえる"
+ },
+ {
+  "number": 1169,
+  "word": "cast",
+  "meaning": "[他] ①～を投げる ②（光など）を投げかける ③～に役を与える"
+ },
+ {
+  "number": 1170,
+  "word": "slap",
+  "meaning": "[他] ～を平手打ちする"
+ },
+ {
+  "number": 1171,
+  "word": "stun",
+  "meaning": "[他] ①～を気絶させる ②～をぼう然とさせる"
+ },
+ {
+  "number": 1172,
+  "word": "illuminate",
+  "meaning": "[他] ①～を照らす ②（問題など）を解明する"
+ },
+ {
+  "number": 1173,
+  "word": "mend",
+  "meaning": "[他] ～を修繕する"
+ },
+ {
+  "number": 1174,
+  "word": "react",
+  "meaning": "[自] （to ～）（～に）反応する"
+ },
+ {
+  "number": 1175,
+  "word": "endure",
+  "meaning": "[他] （長期にわたり）～に耐える"
+ },
+ {
+  "number": 1176,
+  "word": "encounter",
+  "meaning": "[他] ①～に偶然出会う ②（問題，反対など）に遭う [名] ③出会い"
+ },
+ {
+  "number": 1177,
+  "word": "neglect",
+  "meaning": "[他] ①～を怠る，放置する ②（子ども）の世話をしない [名] ③放置"
+ },
+ {
+  "number": 1178,
+  "word": "undergo",
+  "meaning": "[他] ～を経験する"
+ },
+ {
+  "number": 1179,
+  "word": "trace",
+  "meaning": "[他] ①～を捜し出す ②～の追跡調査をする [名] ③（微妙な）跡"
+ },
+ {
+  "number": 1180,
+  "word": "conduct",
+  "meaning": "[他] ①～を行う ②（電気，熱）を伝える [名] ③行為"
+ },
+ {
+  "number": 1181,
+  "word": "emerge",
+  "meaning": "[自] ①（隠れていたものが）現れる ②（国家などが）台頭する"
+ },
+ {
+  "number": 1182,
+  "word": "unfold",
+  "meaning": "[自] ①展開する，はっきりしてくる [他] ②～を広げる"
+ },
+ {
+  "number": 1183,
+  "word": "derive",
+  "meaning": "[自] ①（from ～）（～に）由来する [他] ②～を引き出す，得る"
+ },
+ {
+  "number": 1184,
+  "word": "possess",
+  "meaning": "[他] ～を所有している"
+ },
+ {
+  "number": 1185,
+  "word": "retain",
+  "meaning": "[他] ～を保持する"
+ },
+ {
+  "number": 1186,
+  "word": "secure",
+  "meaning": "[他] ①（場所，地位，契約など）を確保する [形] ②安全で，守られて"
+ },
+ {
+  "number": 1187,
+  "word": "capture",
+  "meaning": "[他] ①～を捕らえる [名] ②捕獲，（敵地の）攻略"
+ },
+ {
+  "number": 1188,
+  "word": "inquiry",
+  "meaning": "[名] ①（into ～）（～の）調査 ②質問，問い合わせ"
+ },
+ {
+  "number": 1189,
+  "word": "specialize",
+  "meaning": "[自] （in ～） ①〈英〉（～を）専攻する ②（～を）専門にする"
+ },
+ {
+  "number": 1190,
+  "word": "semester",
+  "meaning": "[名] （米，日本などの2 学期制の）学期"
+ },
+ {
+  "number": 1191,
+  "word": "biology",
+  "meaning": "[名] 生物学"
+ },
+ {
+  "number": 1192,
+  "word": "ecology",
+  "meaning": "[名] 生態（学）"
+ },
+ {
+  "number": 1193,
+  "word": "philosophy",
+  "meaning": "[名] ①（学問としての）哲学〈不可算〉 ②人生哲学，考え方〈可算〉"
+ },
+ {
+  "number": 1194,
+  "word": "geography",
+  "meaning": "[名] 地理（学）"
+ },
+ {
+  "number": 1195,
+  "word": "psychology",
+  "meaning": "[名] ①心理学 ②心理"
+ },
+ {
+  "number": 1196,
+  "word": "institution",
+  "meaning": "[名] ①（大学，病院などの）機関 ②（結婚などの）制度"
+ },
+ {
+  "number": 1197,
+  "word": "dormitory",
+  "meaning": "[名] 寮"
+ },
+ {
+  "number": 1198,
+  "word": "notion",
+  "meaning": "[名] 考え"
+ },
+ {
+  "number": 1199,
+  "word": "concept",
+  "meaning": "[名] 概念，考え"
+ },
+ {
+  "number": 1200,
+  "word": "meditation",
+  "meaning": "[名] ①瞑想 ②熟考"
+ },
+ {
+  "number": 1201,
+  "word": "insight",
+  "meaning": "[名] ①（into ～）（～に対する）洞察（力） ②見識"
+ },
+ {
+  "number": 1202,
+  "word": "outlook",
+  "meaning": "[名] ①（人生，世界などに対する）考え方 ②（経済，天候などの）見通し"
+ },
+ {
+  "number": 1203,
+  "word": "caution",
+  "meaning": "[名] ①用心 ②警告 [他] ③～に注意［警告］を与える"
+ },
+ {
+  "number": 1204,
+  "word": "will",
+  "meaning": "[名] ①意志 ②遺書"
+ },
+ {
+  "number": 1205,
+  "word": "option",
+  "meaning": "[名] 選択肢，選択（の自由）"
+ },
+ {
+  "number": 1206,
+  "word": "nightmare",
+  "meaning": "[名] ①悪夢 ②悪夢のようなこと"
+ },
+ {
+  "number": 1207,
+  "word": "keen",
+  "meaning": "[形] ①（頭脳，感性などが）鋭い ②（be － on ～）（～に）熱中して，好きで"
+ },
+ {
+  "number": 1208,
+  "word": "cherish",
+  "meaning": "[他] ～を大切にする，胸に抱く"
+ },
+ {
+  "number": 1209,
+  "word": "intend",
+  "meaning": "[他] （to do）～するつもりだ"
+ },
+ {
+  "number": 1210,
+  "word": "suspect",
+  "meaning": "[他] ①（that S V）～ではないかと思う ②～に嫌疑をかける [名] ③容疑者"
+ },
+ {
+  "number": 1211,
+  "word": "comprehend",
+  "meaning": "[他] ～を（十分に）理解する"
+ },
+ {
+  "number": 1212,
+  "word": "misunderstand",
+  "meaning": "[他] （人，人の言うこと）を誤解している"
+ },
+ {
+  "number": 1213,
+  "word": "identify",
+  "meaning": "[他] ①～を（何なのか）特定する ②（A with B）（A）を（B と）同一視する ③（with ～）（～に）なりきる"
+ },
+ {
+  "number": 1214,
+  "word": "permit",
+  "meaning": "[他] ①～を許可する [名] ②許可証"
+ },
+ {
+  "number": 1215,
+  "word": "acknowledge",
+  "meaning": "[他] ～を認める"
+ },
+ {
+  "number": 1216,
+  "word": "trim",
+  "meaning": "[他]①～を刈り込む，切り取る [形] ②こぎれいな"
+ },
+ {
+  "number": 1217,
+  "word": "omit",
+  "meaning": "[他] ～を省く"
+ },
+ {
+  "number": 1218,
+  "word": "cultivate",
+  "meaning": "[他] ①～を耕す ②～を育む ③～を磨く"
+ },
+ {
+  "number": 1219,
+  "word": "shade",
+  "meaning": "[名] ①日陰，（絵画，写真の）陰の部分，ブラインド ②（意味などの）わずかな違い"
+ },
+ {
+  "number": 1220,
+  "word": "breeze",
+  "meaning": "[名] そよ風"
+ },
+ {
+  "number": 1221,
+  "word": "desert",
+  "meaning": "[名] ①砂漠 [他] ②～を見捨てる"
+ },
+ {
+  "number": 1222,
+  "word": "fog",
+  "meaning": "[名] 霧"
+ },
+ {
+  "number": 1223,
+  "word": "moisture",
+  "meaning": "[名] 湿気，水分"
+ },
+ {
+  "number": 1224,
+  "word": "damp",
+  "meaning": "[形] 湿った，じめじめした"
+ },
+ {
+  "number": 1225,
+  "word": "path",
+  "meaning": "[名] （小）道"
+ },
+ {
+  "number": 1226,
+  "word": "trail",
+  "meaning": "[名] ①山道 ②跡 ③（a － of destruction）爪跡"
+ },
+ {
+  "number": 1227,
+  "word": "stream",
+  "meaning": "[名] ①小川 ②（a － of ～）（～の）流れ"
+ },
+ {
+  "number": 1228,
+  "word": "tide",
+  "meaning": "[名] ①潮（の干満），潮流 ②時流"
+ },
+ {
+  "number": 1229,
+  "word": "habitat",
+  "meaning": "[名] 生息地"
+ },
+ {
+  "number": 1230,
+  "word": "layer",
+  "meaning": "[名] （大気や地面などの）層"
+ },
+ {
+  "number": 1231,
+  "word": "volcano",
+  "meaning": "[名] 火山"
+ },
+ {
+  "number": 1232,
+  "word": "mine",
+  "meaning": "[名] ①鉱山 ②地雷（＝landmine）"
+ },
+ {
+  "number": 1233,
+  "word": "scent",
+  "meaning": "[名] ①（花，果物の良い）香り ②（動物が残したそれ自身の）臭い"
+ },
+ {
+  "number": 1234,
+  "word": "wheat",
+  "meaning": "[名] 小麦"
+ },
+ {
+  "number": 1235,
+  "word": "swallow",
+  "meaning": "[名] ①ツバメ [他] ②～を飲み込む"
+ },
+ {
+  "number": 1236,
+  "word": "web",
+  "meaning": "[名] ①（クモの）巣 ②インターネット（www＝the World Wide Web）"
+ },
+ {
+  "number": 1237,
+  "word": "cattle",
+  "meaning": "[名] ウシ"
+ },
+ {
+  "number": 1238,
+  "word": "kitten",
+  "meaning": "[名] 子ネコ"
+ },
+ {
+  "number": 1239,
+  "word": "organism",
+  "meaning": "[名] 生物"
+ },
+ {
+  "number": 1240,
+  "word": "wildlife",
+  "meaning": "[名] 野生生物"
+ },
+ {
+  "number": 1241,
+  "word": "beast",
+  "meaning": "[名] 野獣"
+ },
+ {
+  "number": 1242,
+  "word": "ape",
+  "meaning": "[名] 類人猿"
+ },
+ {
+  "number": 1243,
+  "word": "mammal",
+  "meaning": "[名] 哺乳動物，哺乳類"
+ },
+ {
+  "number": 1244,
+  "word": "flock",
+  "meaning": "[名] ①（鳥，羊の）群れ [自] ②群れる"
+ },
+ {
+  "number": 1245,
+  "word": "breed",
+  "meaning": "[自] ①繁殖する [他] ②～を繁殖させる ③～を引き起こす [名] ④品種，血統"
+ },
+ {
+  "number": 1246,
+  "word": "reproduce",
+  "meaning": "[自] ①繁殖する [他] ②～を繁殖させる ③（音，絵など）を再現する"
+ },
+ {
+  "number": 1247,
+  "word": "hatch",
+  "meaning": "[自] ①（卵から）かえる，孵化する [他] ②（卵から）～をかえす"
+ },
+ {
+  "number": 1248,
+  "word": "diligent",
+  "meaning": "[形] 勤勉な"
+ },
+ {
+  "number": 1249,
+  "word": "noble",
+  "meaning": "[形] ①高潔な ②貴族の [名] ③貴族〈可算〉"
+ },
+ {
+  "number": 1250,
+  "word": "arrogant",
+  "meaning": "[形] 傲慢な"
+ },
+ {
+  "number": 1251,
+  "word": "timid",
+  "meaning": "[形] 臆病な"
+ },
+ {
+  "number": 1252,
+  "word": "humble",
+  "meaning": "[形] ①控えめな ②卑しい，貧しい"
+ },
+ {
+  "number": 1253,
+  "word": "inclined",
+  "meaning": "[形] ①（be ～ to do）～する傾向がある ②～したい気持ちだ"
+ },
+ {
+  "number": 1254,
+  "word": "principal",
+  "meaning": "[形] ①主要な [名] ②〈米〉校長"
+ },
+ {
+  "number": 1255,
+  "word": "prime",
+  "meaning": "[形] ①（目標，容疑者などが）最重要な [名] ②素数"
+ },
+ {
+  "number": 1256,
+  "word": "indispensable",
+  "meaning": "[形] 不可欠な"
+ },
+ {
+  "number": 1257,
+  "word": "grave",
+  "meaning": "[形] ①重大な [名] ②墓（穴）"
+ },
+ {
+  "number": 1258,
+  "word": "definite",
+  "meaning": "[形] 明確な"
+ },
+ {
+  "number": 1259,
+  "word": "evident",
+  "meaning": "[形] 明らかな"
+ },
+ {
+  "number": 1260,
+  "word": "prominent",
+  "meaning": "[形] ①（物が）目立った ②（人が）著名な，重要な"
+ },
+ {
+  "number": 1261,
+  "word": "marked",
+  "meaning": "[形] （名詞の前で）際立った，著しい"
+ },
+ {
+  "number": 1262,
+  "word": "grace",
+  "meaning": "[名] ①優美さ ②（say －）（食事の前後の）感謝の祈り（をささげる）"
+ },
+ {
+  "number": 1263,
+  "word": "charm",
+  "meaning": "[名] ①魅力 ②（a good-luck －）お守り，まじない"
+ },
+ {
+  "number": 1264,
+  "word": "rational",
+  "meaning": "[形] 理性的な"
+ },
+ {
+  "number": 1265,
+  "word": "magnificent",
+  "meaning": "[形] 壮大な，素晴らしい"
+ },
+ {
+  "number": 1266,
+  "word": "superior",
+  "meaning": "[形] ①（be － to ～）（～）より優れている [名] ②上役，上司"
+ },
+ {
+  "number": 1267,
+  "word": "loyal",
+  "meaning": "[形] （to ～）（～に）忠実な"
+ },
+ {
+  "number": 1268,
+  "word": "horrible",
+  "meaning": "[形] （物，天気などが）とてもひどい，ぞっとする"
+ },
+ {
+  "number": 1269,
+  "word": "miserable",
+  "meaning": "[形] 悲惨な，とても不幸な"
+ },
+ {
+  "number": 1270,
+  "word": "dull",
+  "meaning": "[形] ①退屈な ②切れ味が悪い ③鈍い"
+ },
+ {
+  "number": 1271,
+  "word": "nasty",
+  "meaning": "[形] （人，物，発言などが）不快な"
+ },
+ {
+  "number": 1272,
+  "word": "insane",
+  "meaning": "[形] 正気でない"
+ },
+ {
+  "number": 1273,
+  "word": "ridiculous",
+  "meaning": "[形] ばかげた"
+ },
+ {
+  "number": 1274,
+  "word": "notorious",
+  "meaning": "[形] （for ～）（～で）悪名高い"
+ },
+ {
+  "number": 1275,
+  "word": "evil",
+  "meaning": "[形] ①（道徳的に）悪い [名] ②悪"
+ },
+ {
+  "number": 1276,
+  "word": "mess",
+  "meaning": "[名] ①乱雑 [自] ②（with ～）（～を）からかう，ちょっかいを出す"
+ },
+ {
+  "number": 1277,
+  "word": "vast",
+  "meaning": "[形] ①（地域，土地が）広大な ②（数量が）莫大な"
+ },
+ {
+  "number": 1278,
+  "word": "huge",
+  "meaning": "[形] 巨大な"
+ },
+ {
+  "number": 1279,
+  "word": "tiny",
+  "meaning": "[形] とても小さな"
+ },
+ {
+  "number": 1280,
+  "word": "sphere",
+  "meaning": "[名] ①球体 ②範囲，領域"
+ },
+ {
+  "number": 1281,
+  "word": "strip",
+  "meaning": "[名] ①細長い一片 [他] ②（罰として）～から奪う [自] ③裸になる"
+ },
+ {
+  "number": 1282,
+  "word": "internal",
+  "meaning": "[形] ①内部の ②国内の"
+ },
+ {
+  "number": 1283,
+  "word": "mobile",
+  "meaning": "[形] ①流動的な [名] ②携帯電話"
+ },
+ {
+  "number": 1284,
+  "word": "steep",
+  "meaning": "[形] ①（坂などが）険しい ②（増減が）急な，（価格などが）異常に高い"
+ },
+ {
+  "number": 1285,
+  "word": "intense",
+  "meaning": "[形] （感情，競争などが）強烈な"
+ },
+ {
+  "number": 1286,
+  "word": "abstract",
+  "meaning": "[形] ①抽象的な [名] ②（論文などの）要旨"
+ },
+ {
+  "number": 1287,
+  "word": "inevitable",
+  "meaning": "[形] 避けられない，必然的な"
+ },
+ {
+  "number": 1288,
+  "word": "neutral",
+  "meaning": "[形] ①中立の [名] ②中立"
+ },
+ {
+  "number": 1289,
+  "word": "brief",
+  "meaning": "[形] ①手短な，簡潔な [名] ②要約"
+ },
+ {
+  "number": 1290,
+  "word": "potential",
+  "meaning": "[形] ①潜在的な [名] ②潜在能力，可能性〈不可算〉"
+ },
+ {
+  "number": 1291,
+  "word": "tough",
+  "meaning": "[形] ①たくましい，頑強な ②骨の折れる，厳しい"
+ },
+ {
+  "number": 1292,
+  "word": "secondhand",
+  "meaning": "[形] ①中古の ②間接的な"
+ },
+ {
+  "number": 1293,
+  "word": "resemble",
+  "meaning": "[他] ～に似ている"
+ },
+ {
+  "number": 1294,
+  "word": "contrary",
+  "meaning": "[名] ①（on the －）それどころか [副] ②（－ to A）（A とは）反対に [形] ③（（名詞） to the －）それとは反対の～"
+ },
+ {
+  "number": 1295,
+  "word": "category",
+  "meaning": "[名] 範疇"
+ },
+ {
+  "number": 1296,
+  "word": "scope",
+  "meaning": "[名] 範囲"
+ },
+ {
+  "number": 1297,
+  "word": "respective",
+  "meaning": "[形] それぞれの"
+ },
+ {
+  "number": 1298,
+  "word": "given",
+  "meaning": "[形] ①（時間，量などが）定められた [前] ②～を考慮すると"
+ },
+ {
+  "number": 1299,
+  "word": "peculiar",
+  "meaning": "[形] ①（to ～）（～に）固有の ②独特な，変な"
+ },
+ {
+  "number": 1300,
+  "word": "plenty",
+  "meaning": "[名] （of ～）十分な～，たくさんの～"
+ },
+ {
+  "number": 1301,
+  "word": "sufficient",
+  "meaning": "[形] 十分な"
+ },
+ {
+  "number": 1302,
+  "word": "numerous",
+  "meaning": "[形] 多くの"
+ },
+ {
+  "number": 1303,
+  "word": "substantial",
+  "meaning": "[形] ①かなりの，たくさんの ②内容のある，重要な"
+ },
+ {
+  "number": 1304,
+  "word": "unit",
+  "meaning": "[名] 単位"
+ },
+ {
+  "number": 1305,
+  "word": "diameter",
+  "meaning": "[名] 直径"
+ },
+ {
+  "number": 1306,
+  "word": "quantity",
+  "meaning": "[名] 量"
+ },
+ {
+  "number": 1307,
+  "word": "deficiency",
+  "meaning": "[名] 欠乏，不足"
+ },
+ {
+  "number": 1308,
+  "word": "lessen",
+  "meaning": "[他] ～を減らす"
+ },
+ {
+  "number": 1309,
+  "word": "era",
+  "meaning": "[名] 時代"
+ },
+ {
+  "number": 1310,
+  "word": "session",
+  "meaning": "[名] ①（活動の）期間 ②（議会などの）会期 ③（ある活動の）集まり"
+ },
+ {
+  "number": 1311,
+  "word": "pause",
+  "meaning": "[名] ①休止 [自] ②休止する"
+ },
+ {
+  "number": 1312,
+  "word": "meanwhile",
+  "meaning": "[副] ①その間 ②（対比を示して）その一方で"
+ },
+ {
+  "number": 1313,
+  "word": "souvenir",
+  "meaning": "[名] 土産，記念品"
+ },
+ {
+  "number": 1314,
+  "word": "brick",
+  "meaning": "[名] ①れんが ②〈英〉（おもちゃの）積み木"
+ },
+ {
+  "number": 1315,
+  "word": "pole",
+  "meaning": "[名] ①棒，さお，柱 ②（天体，地球の）極"
+ },
+ {
+  "number": 1316,
+  "word": "thread",
+  "meaning": "[名] ①糸 [他] ②～に糸を通す"
+ },
+ {
+  "number": 1317,
+  "word": "mischief",
+  "meaning": "[名] いたずら〈不可算〉"
+ },
+ {
+  "number": 1318,
+  "word": "superstition",
+  "meaning": "[名] 迷信"
+ },
+ {
+  "number": 1319,
+  "word": "storage",
+  "meaning": "[名] 貯蔵，保管〈不可算〉"
+ },
+ {
+  "number": 1320,
+  "word": "shelter",
+  "meaning": "[名] ①避難（所） ②住居"
+ },
+ {
+  "number": 1321,
+  "word": "garment",
+  "meaning": "[名] 衣類"
+ },
+ {
+  "number": 1322,
+  "word": "cabinet",
+  "meaning": "[名] ①戸棚 ②（the C－）内閣"
+ },
+ {
+  "number": 1323,
+  "word": "recipe",
+  "meaning": "[名] ①レシピ，調理法 ②秘訣，原因"
+ },
+ {
+  "number": 1324,
+  "word": "brochure",
+  "meaning": "[名] パンフレット"
+ },
+ {
+  "number": 1325,
+  "word": "shipping",
+  "meaning": "[名] （商品の）発送"
+ },
+ {
+  "number": 1326,
+  "word": "fetch",
+  "meaning": "[他] （主に〈英〉）～を取って来る"
+ },
+ {
+  "number": 1327,
+  "word": "distribute",
+  "meaning": "[他] ①～を分配する，配る ②（be －d）分布している"
+ },
+ {
+  "number": 1328,
+  "word": "statue",
+  "meaning": "[名] 像"
+ },
+ {
+  "number": 1329,
+  "word": "sculpture",
+  "meaning": "[名] 彫刻"
+ },
+ {
+  "number": 1330,
+  "word": "carve",
+  "meaning": "[他] ～を彫る，刻む"
+ },
+ {
+  "number": 1331,
+  "word": "myth",
+  "meaning": "[名] ①（俗説という意味での）神話 ②（古代の）神話"
+ },
+ {
+  "number": 1332,
+  "word": "craft",
+  "meaning": "[名] ①工芸（品） ②（職人の）技術 ③船，乗り物"
+ },
+ {
+  "number": 1333,
+  "word": "journal",
+  "meaning": "[名] ①雑誌，専門誌 ②（公的な）日誌，日記"
+ },
+ {
+  "number": 1334,
+  "word": "heaven",
+  "meaning": "[名] ①天国 ②（the －s）空"
+ },
+ {
+  "number": 1335,
+  "word": "funeral",
+  "meaning": "[名] 葬式"
+ },
+ {
+  "number": 1336,
+  "word": "soul",
+  "meaning": "[名] ①魂 ②（慣用句あるいは否定文で）人"
+ },
+ {
+  "number": 1337,
+  "word": "priest",
+  "meaning": "[名] 神父，僧侶，牧師，聖職者"
+ },
+ {
+  "number": 1338,
+  "word": "faith",
+  "meaning": "[名] ①（主に宗教上の）信仰 ②信頼"
+ },
+ {
+  "number": 1339,
+  "word": "sacred",
+  "meaning": "[形] 神聖な"
+ },
+ {
+  "number": 1340,
+  "word": "divine",
+  "meaning": "[形] 神の"
+ },
+ {
+  "number": 1341,
+  "word": "context",
+  "meaning": "[名] ①文脈 ②状況"
+ },
+ {
+  "number": 1342,
+  "word": "singular",
+  "meaning": "[形] ①単数の ②（褒めて）比類なき ③奇妙な"
+ },
+ {
+  "number": 1343,
+  "word": "command",
+  "meaning": "[名] ①言語を操る力 ②命令 [他] ③～を集める ④～を見渡せる"
+ },
+ {
+  "number": 1344,
+  "word": "instance",
+  "meaning": "[名] 例"
+ },
+ {
+  "number": 1345,
+  "word": "narrative",
+  "meaning": "[名] 語り，物語"
+ },
+ {
+  "number": 1346,
+  "word": "dialogue",
+  "meaning": "[名] ①（本，劇，映画の中の）会話 ②対談，対話"
+ },
+ {
+  "number": 1347,
+  "word": "usage",
+  "meaning": "[名] 語法"
+ },
+ {
+  "number": 1348,
+  "word": "accent",
+  "meaning": "[名] ①訛 ②アクセント"
+ },
+ {
+  "number": 1349,
+  "word": "temper",
+  "meaning": "[名] ①気性 ②平静（な気分）"
+ },
+ {
+  "number": 1350,
+  "word": "affection",
+  "meaning": "[名] 愛情"
+ },
+ {
+  "number": 1351,
+  "word": "enthusiasm",
+  "meaning": "[名] 情熱，熱意"
+ },
+ {
+  "number": 1352,
+  "word": "passion",
+  "meaning": "[名] 情熱"
+ },
+ {
+  "number": 1353,
+  "word": "rage",
+  "meaning": "[名] ①激怒 [自] ②（戦争，病気が）激しく続く，猛威をふるう"
+ },
+ {
+  "number": 1354,
+  "word": "sorrow",
+  "meaning": "[名] 悲しみ"
+ },
+ {
+  "number": 1355,
+  "word": "incredible",
+  "meaning": "[形] 信じられない"
+ },
+ {
+  "number": 1356,
+  "word": "chuckle",
+  "meaning": "[自] ①くすくす笑う [名] ②くすくす笑うこと"
+ },
+ {
+  "number": 1357,
+  "word": "tease",
+  "meaning": "[他] ～をからかう，冷やかす"
+ },
+ {
+  "number": 1358,
+  "word": "dare",
+  "meaning": "[他] ①（to do）思い切って～する [助] ②（do）思い切って～する"
+ },
+ {
+  "number": 1359,
+  "word": "willing",
+  "meaning": "[形] （be － to do）嫌がらずに～する"
+ },
+ {
+  "number": 1360,
+  "word": "scream",
+  "meaning": "[自] ①悲鳴を上げる [名] ②悲鳴"
+ },
+ {
+  "number": 1361,
+  "word": "soothe",
+  "meaning": "[他] ①（人）をなだめる ②（痛みなど）をやわらげる"
+ },
+ {
+  "number": 1362,
+  "word": "tempt",
+  "meaning": "[他] ～を誘惑する"
+ },
+ {
+  "number": 1363,
+  "word": "scold",
+  "meaning": "[他] ～を??る"
+ },
+ {
+  "number": 1364,
+  "word": "oppress",
+  "meaning": "[他] ～を圧迫する，虐げる"
+ },
+ {
+  "number": 1365,
+  "word": "threaten",
+  "meaning": "[他] ①（to do）～すると脅す ②～を脅かす ③～のおそれがある"
+ },
+ {
+  "number": 1366,
+  "word": "delight",
+  "meaning": "[他] ①～を喜ばせる [名] ②（大）喜び"
+ },
+ {
+  "number": 1367,
+  "word": "astonish",
+  "meaning": "[他] ～を（とても）驚かせる"
+ },
+ {
+  "number": 1368,
+  "word": "mourn",
+  "meaning": "[他] ～を嘆く，悼む"
+ },
+ {
+  "number": 1369,
+  "word": "offend",
+  "meaning": "[他] （人，物が）～を怒らせる，～の気分を害する"
+ },
+ {
+  "number": 1370,
+  "word": "depress",
+  "meaning": "[他] ～を憂うつにさせる，落ち込ませる"
+ },
+ {
+  "number": 1371,
+  "word": "sacrifice",
+  "meaning": "[他] ①～を犠牲にする [名] ②犠牲"
+ },
+ {
+  "number": 1372,
+  "word": "impulse",
+  "meaning": "[名] 衝動"
+ },
+ {
+  "number": 1373,
+  "word": "curse",
+  "meaning": "[名] ①災いの元 ②呪い [他] ③～を呪う，ののしる"
+ },
+ {
+  "number": 1374,
+  "word": "factor",
+  "meaning": "[名] 要因"
+ },
+ {
+  "number": 1375,
+  "word": "stem",
+  "meaning": "[自] ①（from ～）（～が）原因である [名] ②茎，幹，ワイングラスの脚"
+ },
+ {
+  "number": 1376,
+  "word": "trigger",
+  "meaning": "[他] ①～のきっかけになる，～を誘発する [名] ②（銃の）引き金"
+ },
+ {
+  "number": 1377,
+  "word": "consequence",
+  "meaning": "[名] ①結果 ②（of －） 重要性"
+ },
+ {
+  "number": 1378,
+  "word": "process",
+  "meaning": "[名] ①過程 [他] ②～を加工する，処理する"
+ },
+ {
+  "number": 1379,
+  "word": "resort",
+  "meaning": "[自] ①（to ～）（～に）訴える [名] ②行楽地 ③手段"
+ },
+ {
+  "number": 1380,
+  "word": "formula",
+  "meaning": "[名] ①方法 ②秘けつ ③（数学，化学などの）式，公式"
+ },
+ {
+  "number": 1381,
+  "word": "procedure",
+  "meaning": "[名] 手続き，手順"
+ },
+ {
+  "number": 1382,
+  "word": "extraordinary",
+  "meaning": "[形] ①並外れた ②臨時の（会議など） ③特命の（大使など）"
+ },
+ {
+  "number": 1383,
+  "word": "absolute",
+  "meaning": "[形] 絶対的な"
+ },
+ {
+  "number": 1384,
+  "word": "overwhelming",
+  "meaning": "[形] 圧倒的な"
+ },
+ {
+  "number": 1385,
+  "word": "altogether",
+  "meaning": "[副] ①完全に ②全部で"
+ },
+ {
+  "number": 1386,
+  "word": "entire",
+  "meaning": "[形] すべての"
+ },
+ {
+  "number": 1387,
+  "word": "tremendous",
+  "meaning": "[形] すさまじい"
+ },
+ {
+  "number": 1388,
+  "word": "sheer",
+  "meaning": "[形] ①（数量やサイズを強調して）とてつもない～の ②まったくの"
+ },
+ {
+  "number": 1389,
+  "word": "partial",
+  "meaning": "[形] ①部分的な ②不公平な ③（to ～）（～が）大好きで"
+ },
+ {
+  "number": 1390,
+  "word": "barely",
+  "meaning": "[副] ①かろうじて ②ほとんど～ない"
+ },
+ {
+  "number": 1391,
+  "word": "slight",
+  "meaning": "[形] わずかな"
+ },
+ {
+  "number": 1392,
+  "word": "approximately",
+  "meaning": "[副] （数量が）おおよそ，約"
+ },
+ {
+  "number": 1393,
+  "word": "frequently",
+  "meaning": "[副] 頻繁に"
+ },
+ {
+  "number": 1394,
+  "word": "apparently",
+  "meaning": "[副] ①どうやら～らしい ②見たところでは"
+ },
+ {
+  "number": 1395,
+  "word": "merely",
+  "meaning": "[副] ①（主に名詞の前で）～にすぎない ②（動詞などの前で）単に"
+ },
+ {
+  "number": 1396,
+  "word": "nevertheless",
+  "meaning": "[副] それにもかかわらず"
+ },
+ {
+  "number": 1397,
+  "word": "somehow",
+  "meaning": "[副] ①何らかの方法で ②何らかの理由で，どういうわけか"
+ },
+ {
+  "number": 1398,
+  "word": "thus",
+  "meaning": "[副] ①それゆえ（に） ②このように"
+ },
+ {
+  "number": 1399,
+  "word": "pretty",
+  "meaning": "[副] ①まあまあ [形] ②かわいい"
+ },
+ {
+  "number": 1400,
+  "word": "despite",
+  "meaning": "[前] ～にもかかわらず"
+ },
+ {
+  "number": 1401,
+  "word": "assert",
+  "meaning": "[他] ～と断定する，～を主張する"
+ },
+ {
+  "number": 1402,
+  "word": "defy",
+  "meaning": "[他] ①～に逆らう ②～を拒む"
+ },
+ {
+  "number": 1403,
+  "word": "condemn",
+  "meaning": "[他] ①～を非難する ②～に（刑の）宣告をする ③ ～を強いる"
+ },
+ {
+  "number": 1404,
+  "word": "contradict",
+  "meaning": "[他] ①～と矛盾する ②～に反論する"
+ },
+ {
+  "number": 1405,
+  "word": "cite",
+  "meaning": "[他] ～を引き合いに出す，引用する"
+ },
+ {
+  "number": 1406,
+  "word": "illustrate",
+  "meaning": "[他] ①（例で）～を説明する，例証する ②～に挿絵を入れる，～を図解する"
+ },
+ {
+  "number": 1407,
+  "word": "articulate",
+  "meaning": "[他] ①（考えなど）をはっきり述べる [形] ②考えを明確に表現できる"
+ },
+ {
+  "number": 1408,
+  "word": "advocate",
+  "meaning": "[名] ①提唱者，支持者 [他] ②～を主張する，支持する"
+ },
+ {
+  "number": 1409,
+  "word": "breakthrough",
+  "meaning": "[名] 飛躍的進歩，大発見"
+ },
+ {
+  "number": 1410,
+  "word": "evolution",
+  "meaning": "[名] 進化"
+ },
+ {
+  "number": 1411,
+  "word": "innovation",
+  "meaning": "[名] 革新"
+ },
+ {
+  "number": 1412,
+  "word": "probe",
+  "meaning": "[名] ①探査機 [他] ②～を調査する"
+ },
+ {
+  "number": 1413,
+  "word": "fluid",
+  "meaning": "[名] ①流体 [形] ②流動的な，なめらかな"
+ },
+ {
+  "number": 1414,
+  "word": "particle",
+  "meaning": "[名] ①粒子 ②（not a － of A）（A の）かけら（もない）"
+ },
+ {
+  "number": 1415,
+  "word": "gravity",
+  "meaning": "[名] ①重力 ②重大さ"
+ },
+ {
+  "number": 1416,
+  "word": "friction",
+  "meaning": "[名] 摩擦"
+ },
+ {
+  "number": 1417,
+  "word": "mutation",
+  "meaning": "[名] 突然変異"
+ },
+ {
+  "number": 1418,
+  "word": "heredity",
+  "meaning": "[名] 遺伝"
+ },
+ {
+  "number": 1419,
+  "word": "hypothesis",
+  "meaning": "[名] 仮説"
+ },
+ {
+  "number": 1420,
+  "word": "specimen",
+  "meaning": "[名] ①標本 ②サンプル"
+ },
+ {
+  "number": 1421,
+  "word": "microscope",
+  "meaning": "[名] 顕微鏡"
+ },
+ {
+  "number": 1422,
+  "word": "realm",
+  "meaning": "[名] 領域，領土"
+ },
+ {
+  "number": 1423,
+  "word": "acid",
+  "meaning": "[形] ①酸性の ②辛辣な"
+ },
+ {
+  "number": 1424,
+  "word": "toxic",
+  "meaning": "[形] 有害な，有毒な"
+ },
+ {
+  "number": 1425,
+  "word": "poison",
+  "meaning": "[名] 毒"
+ },
+ {
+  "number": 1426,
+  "word": "strive",
+  "meaning": "[自] 努力する"
+ },
+ {
+  "number": 1427,
+  "word": "endeavor",
+  "meaning": "[名] ①努力，試み [他] ②～を（懸命に）努力する，試みる"
+ },
+ {
+  "number": 1428,
+  "word": "manufacture",
+  "meaning": "[他] ①～を製造する [名] ②製造，製品"
+ },
+ {
+  "number": 1429,
+  "word": "yield",
+  "meaning": "[他] ①～を産出する [自] ②（to ～）（～に）屈する [名] ③産出量"
+ },
+ {
+  "number": 1430,
+  "word": "duplicate",
+  "meaning": "[他] ①～を複製する [名] ②複製品 [形] ③複製の"
+ },
+ {
+  "number": 1431,
+  "word": "assemble",
+  "meaning": "[他] ①～を組み立てる [自] ②集まる"
+ },
+ {
+  "number": 1432,
+  "word": "mold",
+  "meaning": "[他] ①～を（型に入れて）作る ②（人格，意見など）を形成する"
+ },
+ {
+  "number": 1433,
+  "word": "coin",
+  "meaning": "[他] ①～を作り出す [名] ②硬貨"
+ },
+ {
+  "number": 1434,
+  "word": "physician",
+  "meaning": "[名] ①〈米〉医師 ②〈英〉内科医"
+ },
+ {
+  "number": 1435,
+  "word": "veterinarian",
+  "meaning": "[名] 獣医"
+ },
+ {
+  "number": 1436,
+  "word": "therapy",
+  "meaning": "[名] 治療（法）"
+ },
+ {
+  "number": 1437,
+  "word": "injection",
+  "meaning": "[名] 注射"
+ },
+ {
+  "number": 1438,
+  "word": "dose",
+  "meaning": "[名] （1回分の）服用量"
+ },
+ {
+  "number": 1439,
+  "word": "sanitation",
+  "meaning": "[名] 衛生"
+ },
+ {
+  "number": 1440,
+  "word": "germ",
+  "meaning": "[名] 細菌，ばい菌〈可算〉"
+ },
+ {
+  "number": 1441,
+  "word": "tumor",
+  "meaning": "[名] 腫瘍〈可算〉"
+ },
+ {
+  "number": 1442,
+  "word": "agony",
+  "meaning": "[名] 苦痛"
+ },
+ {
+  "number": 1443,
+  "word": "disorder",
+  "meaning": "[名] （心身の）不調"
+ },
+ {
+  "number": 1444,
+  "word": "plague",
+  "meaning": "[名] ①（大規模な）疫病，伝染病，災害 [他] ②～を苦しめる"
+ },
+ {
+  "number": 1445,
+  "word": "epidemic",
+  "meaning": "[名] （大）流行"
+ },
+ {
+  "number": 1446,
+  "word": "diagnosis",
+  "meaning": "[名] 診断"
+ },
+ {
+  "number": 1447,
+  "word": "mortality",
+  "meaning": "[名] ①（－ rate）死亡率 ②死すべき運命"
+ },
+ {
+  "number": 1448,
+  "word": "chronic",
+  "meaning": "[形] 慢性の"
+ },
+ {
+  "number": 1449,
+  "word": "immune",
+  "meaning": "[形] 免疫の（ある）"
+ },
+ {
+  "number": 1450,
+  "word": "choke",
+  "meaning": "[自] ①（on ～）（～で）息が詰まる，窒息する [他] ②～を窒息させる"
+ },
+ {
+  "number": 1451,
+  "word": "paralyze",
+  "meaning": "[他] ～を麻痺させる"
+ },
+ {
+  "number": 1452,
+  "word": "infect",
+  "meaning": "[他] （人，動物，地域）に感染させる，伝染する"
+ },
+ {
+  "number": 1453,
+  "word": "prescribe",
+  "meaning": "[他] ①（薬など）を処方する ②（行為など）を指示する"
+ },
+ {
+  "number": 1454,
+  "word": "digest",
+  "meaning": "[他] ①～を消化する ②～を理解する [名] ③要約"
+ },
+ {
+  "number": 1455,
+  "word": "weary",
+  "meaning": "[形] ①（極度に）疲れている ②うんざり［飽き飽き］している"
+ },
+ {
+  "number": 1456,
+  "word": "nourish",
+  "meaning": "[他] ①～に栄養を与える ②（考えなど）を抱く"
+ },
+ {
+  "number": 1457,
+  "word": "flesh",
+  "meaning": "[名] （人，動物の皮，骨に対する）肉"
+ },
+ {
+  "number": 1458,
+  "word": "kidney",
+  "meaning": "[名] 腎臓"
+ },
+ {
+  "number": 1459,
+  "word": "posture",
+  "meaning": "[名] 姿勢"
+ },
+ {
+  "number": 1460,
+  "word": "limb",
+  "meaning": "[名] 手足（の1 本）"
+ },
+ {
+  "number": 1461,
+  "word": "erect",
+  "meaning": "[形] ①直立した [他] ②～を建てる"
+ },
+ {
+  "number": 1462,
+  "word": "compensate",
+  "meaning": "[他] （A for B） （A）に（B を）補償する"
+ },
+ {
+  "number": 1463,
+  "word": "flourish",
+  "meaning": "[自] 栄える"
+ },
+ {
+  "number": 1464,
+  "word": "abuse",
+  "meaning": "[名] ①虐待 ②乱用 [他] ③～を悪用する"
+ },
+ {
+  "number": 1465,
+  "word": "bias",
+  "meaning": "[名] 偏見"
+ },
+ {
+  "number": 1466,
+  "word": "prestige",
+  "meaning": "[名] 名声，威信"
+ },
+ {
+  "number": 1467,
+  "word": "privilege",
+  "meaning": "[名] 特権"
+ },
+ {
+  "number": 1468,
+  "word": "feat",
+  "meaning": "[名] 偉業"
+ },
+ {
+  "number": 1469,
+  "word": "dignity",
+  "meaning": "[名] 威厳"
+ },
+ {
+  "number": 1470,
+  "word": "virtue",
+  "meaning": "[名] ①美徳 ②（人，物の個々の）長所 ③（by － of ～）～のために"
+ },
+ {
+  "number": 1471,
+  "word": "aristocracy",
+  "meaning": "[名] 貴族（階級，社会）"
+ },
+ {
+  "number": 1472,
+  "word": "rebel",
+  "meaning": "[名] ①反逆者 [自] ②（against ～）（～に）反逆する，反抗する"
+ },
+ {
+  "number": 1473,
+  "word": "scheme",
+  "meaning": "[名] ①〈英〉計画 ②陰謀"
+ },
+ {
+  "number": 1474,
+  "word": "convention",
+  "meaning": "[名] ①会議，大会 ②慣習 ③条約"
+ },
+ {
+  "number": 1475,
+  "word": "conference",
+  "meaning": "[名] （on ～）（～に関する）会議"
+ },
+ {
+  "number": 1476,
+  "word": "consent",
+  "meaning": "[名] ①合意 [自] ②（to ～）（～に）合意する"
+ },
+ {
+  "number": 1477,
+  "word": "initiative",
+  "meaning": "[名] ①新構想，新計画 ②主導権"
+ },
+ {
+  "number": 1478,
+  "word": "province",
+  "meaning": "[名] ①（カナダなどの）州，（中国の）省 ②（the －s）地方"
+ },
+ {
+  "number": 1479,
+  "word": "colony",
+  "meaning": "[名] ①植民地 ②（アリなどの）群落"
+ },
+ {
+  "number": 1480,
+  "word": "frontier",
+  "meaning": "[名] ①辺境，（主に〈英〉）国境 ②（the －s）最前線"
+ },
+ {
+  "number": 1481,
+  "word": "tribe",
+  "meaning": "[名] 部族，種族"
+ },
+ {
+  "number": 1482,
+  "word": "primitive",
+  "meaning": "[形] 原始的な，未開の"
+ },
+ {
+  "number": 1483,
+  "word": "ethnic",
+  "meaning": "[形] 民族の，民族的な"
+ },
+ {
+  "number": 1484,
+  "word": "anonymous",
+  "meaning": "[形] 匿名の"
+ },
+ {
+  "number": 1485,
+  "word": "coverage",
+  "meaning": "[名] ①報道 ②（保険の）補償（範囲）"
+ },
+ {
+  "number": 1486,
+  "word": "obligation",
+  "meaning": "[名] ①（社会に対する）責務 ②（個人に対する）恩義"
+ },
+ {
+  "number": 1487,
+  "word": "norm",
+  "meaning": "[名] ①ふつうのこと ②（－s）規範"
+ },
+ {
+  "number": 1488,
+  "word": "patent",
+  "meaning": "[名] ①特許（権） [他] ②～の特許をとる [形] ③明白な，見えすいた"
+ },
+ {
+  "number": 1489,
+  "word": "entitled",
+  "meaning": "[形] ①（to ～）（～の）権利がある ②～と題された"
+ },
+ {
+  "number": 1490,
+  "word": "donate",
+  "meaning": "[他] ①～を寄付する ②（臓器など）を提供する"
+ },
+ {
+  "number": 1491,
+  "word": "conform",
+  "meaning": "[自] （to ～）（～に）合わせる"
+ },
+ {
+  "number": 1492,
+  "word": "comply",
+  "meaning": "[自] （with ～）（～に）従う， 遵守する"
+ },
+ {
+  "number": 1493,
+  "word": "legislation",
+  "meaning": "[名] （集合的に）法律〈不可算〉"
+ },
+ {
+  "number": 1494,
+  "word": "testimony",
+  "meaning": "[名] （法廷などでの）証言"
+ },
+ {
+  "number": 1495,
+  "word": "jury",
+  "meaning": "[名] 陪審（員団）"
+ },
+ {
+  "number": 1496,
+  "word": "legitimate",
+  "meaning": "[形] ①正当な ②合法の"
+ },
+ {
+  "number": 1497,
+  "word": "enforce",
+  "meaning": "[他] ①～を施行する ②～を強制する"
+ },
+ {
+  "number": 1498,
+  "word": "regime",
+  "meaning": "[名] 政権，政治体制"
+ },
+ {
+  "number": 1499,
+  "word": "bureaucracy",
+  "meaning": "[名] ①官僚制度，官僚主義 ②（集合的に）官僚"
+ },
+ {
+  "number": 1500,
+  "word": "corruption",
+  "meaning": "[名] 腐敗，汚職"
+ },
+ {
+  "number": 1501,
+  "word": "tyranny",
+  "meaning": "[名] ①圧政，専制政治 ②暴虐（な行為）"
+ },
+ {
+  "number": 1502,
+  "word": "sanction",
+  "meaning": "[名] ①（－s）制裁 ②（公的な）認可"
+ },
+ {
+  "number": 1503,
+  "word": "census",
+  "meaning": "[名] 国勢調査"
+ },
+ {
+  "number": 1504,
+  "word": "candidate",
+  "meaning": "[名] （for ～）（～の）候補（者），（～に）なりそうな人［物］"
+ },
+ {
+  "number": 1505,
+  "word": "senator",
+  "meaning": "[名] 〈米〉（しばしばS－）上院議員"
+ },
+ {
+  "number": 1506,
+  "word": "ambassador",
+  "meaning": "[名] 大使"
+ },
+ {
+  "number": 1507,
+  "word": "diplomat",
+  "meaning": "[名] 外交官"
+ },
+ {
+  "number": 1508,
+  "word": "refugee",
+  "meaning": "[名] 難民"
+ },
+ {
+  "number": 1509,
+  "word": "territory",
+  "meaning": "[名] ①領土 ②（動物などの）縄張り，（学問などの）領域"
+ },
+ {
+  "number": 1510,
+  "word": "ally",
+  "meaning": "[名] ①同盟国，協力者 [自] ②（with ～）（～と）提携する"
+ },
+ {
+  "number": 1511,
+  "word": "federal",
+  "meaning": "[形] 連邦の"
+ },
+ {
+  "number": 1512,
+  "word": "feudal",
+  "meaning": "[形] （主に欧州の）封建制の"
+ },
+ {
+  "number": 1513,
+  "word": "communist",
+  "meaning": "[形] ①共産主義（者）の [名] ②共産主義者"
+ },
+ {
+  "number": 1514,
+  "word": "estate",
+  "meaning": "[名] ①（全）財産 ②地所"
+ },
+ {
+  "number": 1515,
+  "word": "asset",
+  "meaning": "[名] 財産，資産"
+ },
+ {
+  "number": 1516,
+  "word": "revenue",
+  "meaning": "[名] （国などの）歳入，（事業などの）収益"
+ },
+ {
+  "number": 1517,
+  "word": "deficit",
+  "meaning": "[名] （会社，国の）赤字"
+ },
+ {
+  "number": 1518,
+  "word": "commerce",
+  "meaning": "[名] 商業"
+ },
+ {
+  "number": 1519,
+  "word": "output",
+  "meaning": "[名] ①生産高 ②（エンジン，発電機などの）出力"
+ },
+ {
+  "number": 1520,
+  "word": "subsidy",
+  "meaning": "[名] 補助金"
+ },
+ {
+  "number": 1521,
+  "word": "monopoly",
+  "meaning": "[名] 独占（権，品），独占企業"
+ },
+ {
+  "number": 1522,
+  "word": "transaction",
+  "meaning": "[名] 取り引き"
+ },
+ {
+  "number": 1523,
+  "word": "corporation",
+  "meaning": "[名] 企業，法人"
+ },
+ {
+  "number": 1524,
+  "word": "enterprise",
+  "meaning": "[名] ①企業 ②（冒険的な）事業"
+ },
+ {
+  "number": 1525,
+  "word": "venture",
+  "meaning": "[名] ①（ベンチャー）事業 [自] ②危険を冒して行く"
+ },
+ {
+  "number": 1526,
+  "word": "headquarters",
+  "meaning": "[名] 本社，本部"
+ },
+ {
+  "number": 1527,
+  "word": "personnel",
+  "meaning": "[名] ①（官庁，会社などの）全職員〈複数扱い〉 ②人事"
+ },
+ {
+  "number": 1528,
+  "word": "expertise",
+  "meaning": "[名] 専門的知識，専門的技術〈不可算〉"
+ },
+ {
+  "number": 1529,
+  "word": "quota",
+  "meaning": "[名] ノルマ，割り当て"
+ },
+ {
+  "number": 1530,
+  "word": "warehouse",
+  "meaning": "[名] 倉庫，〈英〉問屋"
+ },
+ {
+  "number": 1531,
+  "word": "toil",
+  "meaning": "[自] ①（長時間）骨折って働く [名] ②骨の折れる仕事"
+ },
+ {
+  "number": 1532,
+  "word": "undertake",
+  "meaning": "[他] （仕事など）を引き受ける，始める"
+ },
+ {
+  "number": 1533,
+  "word": "merge",
+  "meaning": "[自] ①合併する [他] ②～を合併させる"
+ },
+ {
+  "number": 1534,
+  "word": "comprise",
+  "meaning": "[他] ①～から成る ②（割合）を占める"
+ },
+ {
+  "number": 1535,
+  "word": "component",
+  "meaning": "[名] 構成要素，（車などの）部品"
+ },
+ {
+  "number": 1536,
+  "word": "framework",
+  "meaning": "[名] ①枠組 ②骨組み"
+ },
+ {
+  "number": 1537,
+  "word": "prototype",
+  "meaning": "[名] ①（of［for］～）（～の）原型 ②試作品 ③典型"
+ },
+ {
+  "number": 1538,
+  "word": "dimension",
+  "meaning": "[名] ①（問題などの）側面，要因，次元 ②（－s）寸法，大きさ"
+ },
+ {
+  "number": 1539,
+  "word": "margin",
+  "meaning": "[名] ①余白，欄外 ②（票などの）差 ③端"
+ },
+ {
+  "number": 1540,
+  "word": "relevant",
+  "meaning": "[形] 関連のある"
+ },
+ {
+  "number": 1541,
+  "word": "compatible",
+  "meaning": "[形] （with ～）（～と）適合する，互換性がある"
+ },
+ {
+  "number": 1542,
+  "word": "correspond",
+  "meaning": "[自] ①（to［with］～）（～と）一致する ②（with ～）（～と）（メールや手紙で）やりとりをする"
+ },
+ {
+  "number": 1543,
+  "word": "identical",
+  "meaning": "[形] 同一の，うり二つの"
+ },
+ {
+  "number": 1544,
+  "word": "equivalent",
+  "meaning": "[形] ①等しい [名] ②同等のもの"
+ },
+ {
+  "number": 1545,
+  "word": "random",
+  "meaning": "[形] 無作為の，でたらめの"
+ },
+ {
+  "number": 1546,
+  "word": "warrior",
+  "meaning": "[名] 戦士"
+ },
+ {
+  "number": 1547,
+  "word": "assault",
+  "meaning": "[名] 襲撃，暴行"
+ },
+ {
+  "number": 1548,
+  "word": "troop",
+  "meaning": "[名] （－s）軍隊"
+ },
+ {
+  "number": 1549,
+  "word": "torture",
+  "meaning": "[名] ①拷問 ②辛いこと [他] ③～を拷問にかける"
+ },
+ {
+  "number": 1550,
+  "word": "dispute",
+  "meaning": "[名] ①論争，紛争 [他] ②～に異議を唱える"
+ },
+ {
+  "number": 1551,
+  "word": "riot",
+  "meaning": "[名] 暴動"
+ },
+ {
+  "number": 1552,
+  "word": "persecution",
+  "meaning": "[名] 迫害"
+ },
+ {
+  "number": 1553,
+  "word": "dominate",
+  "meaning": "[他] ～を支配する"
+ },
+ {
+  "number": 1554,
+  "word": "slaughter",
+  "meaning": "[他] ～を虐殺する，（食肉用に）殺す"
+ },
+ {
+  "number": 1555,
+  "word": "suppress",
+  "meaning": "[他] ①（反乱，暴動）を鎮圧する ②（笑い，怒り）を抑える"
+ },
+ {
+  "number": 1556,
+  "word": "surrender",
+  "meaning": "[自] ①（to ～）（～に）降伏する [他] ②～を引き渡す"
+ },
+ {
+  "number": 1557,
+  "word": "contend",
+  "meaning": "[自] ①（with ～）（～と）戦う [他] ②（that S V）（～と）（強く）主張する"
+ },
+ {
+  "number": 1558,
+  "word": "hostile",
+  "meaning": "[形] ①敵意のある ②敵の ③（環境などが）厳しい"
+ },
+ {
+  "number": 1559,
+  "word": "wreck",
+  "meaning": "[名] ①（乗り物，家の）残骸 ②（健康を損ね）ボロボロの人"
+ },
+ {
+  "number": 1560,
+  "word": "toll",
+  "meaning": "[名] ①犠牲［死傷］者（数），被害 ②（高速道路などの）通行料 ③通話料"
+ },
+ {
+  "number": 1561,
+  "word": "disrupt",
+  "meaning": "[他] （活動の進行など）をかき乱す"
+ },
+ {
+  "number": 1562,
+  "word": "interfere",
+  "meaning": "[自] （with ～）（～を）邪魔する，干渉する"
+ },
+ {
+  "number": 1563,
+  "word": "confront",
+  "meaning": "[他] ①（困難などが人）に立ちふさがる ②（人が困難など）に直面する，"
+ },
+ {
+  "number": 1564,
+  "word": "hinder",
+  "meaning": "[他] ～を妨げる"
+ },
+ {
+  "number": 1565,
+  "word": "explode",
+  "meaning": "[自] ①爆発する ②爆発的に増加する"
+ },
+ {
+  "number": 1566,
+  "word": "collide",
+  "meaning": "[自] （with ～）（～と）衝突する"
+ },
+ {
+  "number": 1567,
+  "word": "nephew",
+  "meaning": "[名] 甥"
+ },
+ {
+  "number": 1568,
+  "word": "spouse",
+  "meaning": "[名] 配偶者"
+ },
+ {
+  "number": 1569,
+  "word": "heir",
+  "meaning": "[名] 相続人，後継者"
+ },
+ {
+  "number": 1570,
+  "word": "folk",
+  "meaning": "[名] ①民族 ②人々"
+ },
+ {
+  "number": 1571,
+  "word": "peer",
+  "meaning": "[名] ①（－s）同等の人，同輩 [自] ②（よく見えなくて）じっと見る"
+ },
+ {
+  "number": 1572,
+  "word": "proceed",
+  "meaning": "[自] ①（順を追って）進む ②（to do）（さらに続けて）～する"
+ },
+ {
+  "number": 1573,
+  "word": "navigate",
+  "meaning": "[自] ①（旅などで）進路を決める [他] ②～を航行する，誘導する"
+ },
+ {
+  "number": 1574,
+  "word": "roam",
+  "meaning": "[自] 歩き回る"
+ },
+ {
+  "number": 1575,
+  "word": "flee",
+  "meaning": "[自] 逃亡する"
+ },
+ {
+  "number": 1576,
+  "word": "retreat",
+  "meaning": "[自] ①退く [名] ②撤退，退却"
+ },
+ {
+  "number": 1577,
+  "word": "crawl",
+  "meaning": "[自] 這って進む，這うように進む"
+ },
+ {
+  "number": 1578,
+  "word": "drift",
+  "meaning": "[自] 漂う"
+ },
+ {
+  "number": 1579,
+  "word": "alter",
+  "meaning": "[他] ～を変える"
+ },
+ {
+  "number": 1580,
+  "word": "convert",
+  "meaning": "[他] ①（A into B）（A）を（B に）転換する ②～を改宗させる"
+ },
+ {
+  "number": 1581,
+  "word": "shrink",
+  "meaning": "[自] ①縮む ②（数量が）減る [他] ③～を縮ませる，減らす"
+ },
+ {
+  "number": 1582,
+  "word": "wither",
+  "meaning": "[自] しおれる，しぼむ"
+ },
+ {
+  "number": 1583,
+  "word": "transition",
+  "meaning": "[名] 移り変わり，推移"
+ },
+ {
+  "number": 1584,
+  "word": "distortion",
+  "meaning": "[名] 歪めること"
+ },
+ {
+  "number": 1585,
+  "word": "enhance",
+  "meaning": "[他] ～を向上させる"
+ },
+ {
+  "number": 1586,
+  "word": "reinforce",
+  "meaning": "[他] ～を補強する"
+ },
+ {
+  "number": 1587,
+  "word": "foster",
+  "meaning": "[他] ①（才能など）を育成する ②～の里親になる [形] ③里親の"
+ },
+ {
+  "number": 1588,
+  "word": "breakdown",
+  "meaning": "[名] ①崩壊 ②故障 ③衰弱"
+ },
+ {
+  "number": 1589,
+  "word": "collapse",
+  "meaning": "[自] ①崩壊する，倒れる [名] ②崩壊，倒れること"
+ },
+ {
+  "number": 1590,
+  "word": "render",
+  "meaning": "[他] ①（SVOC）（O）を（C）にする ②（援助など）を与える"
+ },
+ {
+  "number": 1591,
+  "word": "impair",
+  "meaning": "[他] （人間の機能など）を低下させる，損なう"
+ },
+ {
+  "number": 1592,
+  "word": "deteriorate",
+  "meaning": "[自] 悪化する"
+ },
+ {
+  "number": 1593,
+  "word": "undermine",
+  "meaning": "[他] ～を弱める，揺るがす"
+ },
+ {
+  "number": 1594,
+  "word": "tackle",
+  "meaning": "[他] ～に取り組む"
+ },
+ {
+  "number": 1595,
+  "word": "disposal",
+  "meaning": "[名] ①（at one's －）～を自由にする ②処分，廃棄"
+ },
+ {
+  "number": 1596,
+  "word": "confine",
+  "meaning": "[他] ①～を閉じ込める ②（活動など）を制限する"
+ },
+ {
+  "number": 1597,
+  "word": "designate",
+  "meaning": "[他] （通例，受け身で）～を指定する"
+ },
+ {
+  "number": 1598,
+  "word": "regulate",
+  "meaning": "[他] ①（主に規則によって）～を規制する ②（機器など）を調整する"
+ },
+ {
+  "number": 1599,
+  "word": "prohibit",
+  "meaning": "[他] ～を禁じる"
+ },
+ {
+  "number": 1600,
+  "word": "refrain",
+  "meaning": "[自] （from ～）（～を）控える"
+ },
+ {
+  "number": 1601,
+  "word": "curb",
+  "meaning": "[他] ①～を抑制する [名] ②縁石"
+ },
+ {
+  "number": 1602,
+  "word": "restrain",
+  "meaning": "[他] ～を抑制する"
+ },
+ {
+  "number": 1603,
+  "word": "halt",
+  "meaning": "[他] ①～を止める [自] ②止まる [名] ③停止"
+ },
+ {
+  "number": 1604,
+  "word": "animate",
+  "meaning": "[他] ①～を活気づける ②～をアニメ化する"
+ },
+ {
+  "number": 1605,
+  "word": "spur",
+  "meaning": "[他] ①～を駆り立てる，促す [名] ②拍車，刺激，動機"
+ },
+ {
+  "number": 1606,
+  "word": "urge",
+  "meaning": "[他] ①～をせき立てる，～に強く勧める [名] ②（何かがしたい）衝動"
+ },
+ {
+  "number": 1607,
+  "word": "lure",
+  "meaning": "[他] ①～を誘い込む [名] ②魅力，誘惑"
+ },
+ {
+  "number": 1608,
+  "word": "stimulate",
+  "meaning": "[他] ～を刺激する"
+ },
+ {
+  "number": 1609,
+  "word": "compel",
+  "meaning": "[他] （A to do）（A）に（～することを）強制する"
+ },
+ {
+  "number": 1610,
+  "word": "dictate",
+  "meaning": "[他] ①～を書き取らせる ②～を命令する，規定する"
+ },
+ {
+  "number": 1611,
+  "word": "blur",
+  "meaning": "[他] ①～をぼやかす [自] ②ぼやける"
+ },
+ {
+  "number": 1612,
+  "word": "divert",
+  "meaning": "[他] ①（川など）の方向を変える ②（注意など）をそらす"
+ },
+ {
+  "number": 1613,
+  "word": "reverse",
+  "meaning": "[他] ①～を逆転する，覆す [名] ②逆 [形] ③逆の"
+ },
+ {
+  "number": 1614,
+  "word": "supplement",
+  "meaning": "[他] ①（栄養，収入など）を補う [名] ②補充，栄養補助食品 ③付録"
+ },
+ {
+  "number": 1615,
+  "word": "pose",
+  "meaning": "[他] ～をもたらす"
+ },
+ {
+  "number": 1616,
+  "word": "stroll",
+  "meaning": "[自] 散策する"
+ },
+ {
+  "number": 1617,
+  "word": "shrug",
+  "meaning": "[他] ①（肩）をすくめる [自] ②肩をすくめる"
+ },
+ {
+  "number": 1618,
+  "word": "sniff",
+  "meaning": "[自] ①（くんくん）臭いをかぐ ②（かぜや泣いて）鼻をすする"
+ },
+ {
+  "number": 1619,
+  "word": "embrace",
+  "meaning": "[他] ①～を抱擁する ②（思想など）を受け入れる"
+ },
+ {
+  "number": 1620,
+  "word": "betray",
+  "meaning": "[他] ①～を裏切る ②～を漏らす，（うっかり）さらけ出す"
+ },
+ {
+  "number": 1621,
+  "word": "deceive",
+  "meaning": "[他] ～をだます"
+ },
+ {
+  "number": 1622,
+  "word": "bully",
+  "meaning": "[他] ①～をいじめる [名] ②いじめっ子"
+ },
+ {
+  "number": 1623,
+  "word": "squeeze",
+  "meaning": "[他] ①（果汁など）を搾る ②（手，指で）～を強く押す"
+ },
+ {
+  "number": 1624,
+  "word": "insert",
+  "meaning": "[他] ①～を差し込む ②（語句など）を書き込む"
+ },
+ {
+  "number": 1625,
+  "word": "detach",
+  "meaning": "[他] （A from B） （A）を（B から）切り離す"
+ },
+ {
+  "number": 1626,
+  "word": "withdraw",
+  "meaning": "[他] ①～を引っ込める ②（預金など）を引き出す [自] ③退く"
+ },
+ {
+  "number": 1627,
+  "word": "withstand",
+  "meaning": "[他] ～に耐える"
+ },
+ {
+  "number": 1628,
+  "word": "exert",
+  "meaning": "[他] （力，影響力など）を働かせる"
+ },
+ {
+  "number": 1629,
+  "word": "compile",
+  "meaning": "[他] ～をまとめる，編集する"
+ },
+ {
+  "number": 1630,
+  "word": "browse",
+  "meaning": "[自] ①拾い読みする [他] ②～を拾い読みする"
+ },
+ {
+  "number": 1631,
+  "word": "manipulate",
+  "meaning": "[他] ～を操作する"
+ },
+ {
+  "number": 1632,
+  "word": "implement",
+  "meaning": "[他] ①（契約，計画など）を実行する [名] ②（単純な）道具"
+ },
+ {
+  "number": 1633,
+  "word": "execute",
+  "meaning": "[他] ①～を遂行する，実行する ②～を処刑する"
+ },
+ {
+  "number": 1634,
+  "word": "host",
+  "meaning": "[他] ①（大会など）を主催する [名] ②（a － of）多くの ③（客を接待する）主人（＊女性も含む），主催者，開催地"
+ },
+ {
+  "number": 1635,
+  "word": "mount",
+  "meaning": "[他] ①～を据え付ける ②（馬，自転車）に乗る [自] ③増加する"
+ },
+ {
+  "number": 1636,
+  "word": "discharge",
+  "meaning": "[他] ①～を排出する ②（職務，任地などから）～を解放する"
+ },
+ {
+  "number": 1637,
+  "word": "drain",
+  "meaning": "[他] ①～の水を抜く ②～の水分を切る [自] ③（液体が）流出する，乾く"
+ },
+ {
+  "number": 1638,
+  "word": "soak",
+  "meaning": "[他] ①～を浸す ②（up）（日光，考えなど）を吸収する"
+ },
+ {
+  "number": 1639,
+  "word": "suspend",
+  "meaning": "[他] ①～をつるす ②～を中断する ③～を停職［停学］にする"
+ },
+ {
+  "number": 1640,
+  "word": "extract",
+  "meaning": "[他] ①～を取り出す，抽出する [名] ②抽出したもの，抜粋"
+ },
+ {
+  "number": 1641,
+  "word": "summon",
+  "meaning": "[他] ①～を呼ぶ，召喚する，喚問する ②（勇気など）を奮い立たせる"
+ },
+ {
+  "number": 1642,
+  "word": "embark",
+  "meaning": "[自] （on ～）（～に）着手する，乗り込む"
+ },
+ {
+  "number": 1643,
+  "word": "thrust",
+  "meaning": "[他] ①～を強く押しつける ②（刃物で）～を突き刺す"
+ },
+ {
+  "number": 1644,
+  "word": "penetrate",
+  "meaning": "[他] ①～に入り込む ②～を貫通する [自] ③貫通する，入る"
+ },
+ {
+  "number": 1645,
+  "word": "intrude",
+  "meaning": "[自] （on～）（～に）立ち入る"
+ },
+ {
+  "number": 1646,
+  "word": "evade",
+  "meaning": "[他] ～を逃れる"
+ },
+ {
+  "number": 1647,
+  "word": "utilize",
+  "meaning": "[他] ～を利用する"
+ },
+ {
+  "number": 1648,
+  "word": "spin",
+  "meaning": "[自] ①ぐるぐる回る [他] ②～を回す ③～を紡ぐ"
+ },
+ {
+  "number": 1649,
+  "word": "plunge",
+  "meaning": "[自] ①（into ～）（～に）突っ込む [他] ②（A into B）（A）を（B に）突っ込む"
+ },
+ {
+  "number": 1650,
+  "word": "rattle",
+  "meaning": "[自] ①ガタガタ鳴る [他] ②～を鳴らす [名] ③ガラガラ"
+ },
+ {
+  "number": 1651,
+  "word": "vanish",
+  "meaning": "[自] 消える"
+ },
+ {
+  "number": 1652,
+  "word": "cease",
+  "meaning": "[他] （to do［doing］）～しなくなる"
+ },
+ {
+  "number": 1653,
+  "word": "haste",
+  "meaning": "[名] 急ぐこと〈不可算〉"
+ },
+ {
+  "number": 1654,
+  "word": "conceal",
+  "meaning": "[他] ～を隠す"
+ },
+ {
+  "number": 1655,
+  "word": "disguise",
+  "meaning": "[他] ①～を（偽装して）隠す ②（oneself as ～）～に変装する [名] ③変装"
+ },
+ {
+  "number": 1656,
+  "word": "coincide",
+  "meaning": "[自] ①（with ～）（～と）同時に起きる ②（with ～）（～と）一致する"
+ },
+ {
+  "number": 1657,
+  "word": "prevail",
+  "meaning": "[自] ①（考え，習慣などが）普及している ②（最後に人，考えが）優勢となる"
+ },
+ {
+  "number": 1658,
+  "word": "sustain",
+  "meaning": "[他] （生命など）を維持する，支える"
+ },
+ {
+  "number": 1659,
+  "word": "linger",
+  "meaning": "[自] ①（いつまでも）残る ②（on）長居する"
+ },
+ {
+  "number": 1660,
+  "word": "revive",
+  "meaning": "[自] ①生き返る，よみがえる [他] ②～を生き返らせる"
+ },
+ {
+  "number": 1661,
+  "word": "resume",
+  "meaning": "[他] ①～を再開する [自] ②再開する [名] ③〈米〉履歴書 ④概要，レジュメ"
+ },
+ {
+  "number": 1662,
+  "word": "inspect",
+  "meaning": "[他] ～を検査する"
+ },
+ {
+  "number": 1663,
+  "word": "investigate",
+  "meaning": "[他] ①（研究班などが）～を調査する ②（警察が）～を捜査する"
+ },
+ {
+  "number": 1664,
+  "word": "detect",
+  "meaning": "[他] ～を探知する，（病気など）を発見する，（うそなど）を見抜く"
+ },
+ {
+  "number": 1665,
+  "word": "discern",
+  "meaning": "[他] ～を見分ける"
+ },
+ {
+  "number": 1666,
+  "word": "expedition",
+  "meaning": "[名] ①（研究・探求・戦争目的の）探検，遠征 ②探検隊"
+ },
+ {
+  "number": 1667,
+  "word": "enroll",
+  "meaning": "[自] ①（in ～）（～に）入学する [他] ②（be －ed）在籍している"
+ },
+ {
+  "number": 1668,
+  "word": "discipline",
+  "meaning": "[他] ①～をしつける [名] ②しつけ，規律 ③（学問）分野"
+ },
+ {
+  "number": 1669,
+  "word": "cram",
+  "meaning": "[自] ①詰め込み勉強をする [他] ②～を詰め込む [名] ③詰め込み"
+ },
+ {
+  "number": 1670,
+  "word": "faculty",
+  "meaning": "[名] ①（生まれ持った）能力 ②（大学の）学部 ③（大学の）全教員"
+ },
+ {
+  "number": 1671,
+  "word": "tuition",
+  "meaning": "[名] ①〈米〉授業料 ②（少人数での）授業"
+ },
+ {
+  "number": 1672,
+  "word": "diploma",
+  "meaning": "[名] 〈米〉卒業証書"
+ },
+ {
+  "number": 1673,
+  "word": "mentor",
+  "meaning": "[他] ①～を指導する [名] ②（会社，大学などでの）指導者"
+ },
+ {
+  "number": 1674,
+  "word": "ethic",
+  "meaning": "[名] ①（－s）（社会や職業上の）倫理（観） ②（伝統的に守られた）倫理"
+ },
+ {
+  "number": 1675,
+  "word": "astronomy",
+  "meaning": "[名] 天文学"
+ },
+ {
+  "number": 1676,
+  "word": "archaeologist",
+  "meaning": "[名] 考古学者"
+ },
+ {
+  "number": 1677,
+  "word": "anthropologist",
+  "meaning": "[名] （文化）人類学者"
+ },
+ {
+  "number": 1678,
+  "word": "perceive",
+  "meaning": "[他] ①（A as B）（A）を（B だと）認識する ②～を知覚する"
+ },
+ {
+  "number": 1679,
+  "word": "grasp",
+  "meaning": "[他] ①～を理解する ②～をつかむ [名] ③理解，つかむこと"
+ },
+ {
+  "number": 1680,
+  "word": "conceive",
+  "meaning": "[他] ①～を思い浮かべる ②～を妊娠する [自] ③（of ～）（～を）想像する"
+ },
+ {
+  "number": 1681,
+  "word": "anticipate",
+  "meaning": "[他] ①～を予想する ②～を期待する"
+ },
+ {
+  "number": 1682,
+  "word": "foresee",
+  "meaning": "[他] ～を予知する"
+ },
+ {
+  "number": 1683,
+  "word": "speculate",
+  "meaning": "[自] ①推測する ②（株，土地などに）投機をする"
+ },
+ {
+  "number": 1684,
+  "word": "infer",
+  "meaning": "[他] （A from B） （B からA）を推測する"
+ },
+ {
+  "number": 1685,
+  "word": "deduce",
+  "meaning": "[他] （A from B） （B からA）を推定する"
+ },
+ {
+  "number": 1686,
+  "word": "ponder",
+  "meaning": "[他] ～を熟考する"
+ },
+ {
+  "number": 1687,
+  "word": "contemplate",
+  "meaning": "[他] ～を熟考する"
+ },
+ {
+  "number": 1688,
+  "word": "assure",
+  "meaning": "[他] ～に保証する，確信させる"
+ },
+ {
+  "number": 1689,
+  "word": "assess",
+  "meaning": "[他] ～を評価する，査定する"
+ },
+ {
+  "number": 1690,
+  "word": "evaluate",
+  "meaning": "[他] ～を（正しく）評価する"
+ },
+ {
+  "number": 1691,
+  "word": "verify",
+  "meaning": "[他] （事実かどうか）を確かめる，検証する"
+ },
+ {
+  "number": 1692,
+  "word": "compromise",
+  "meaning": "[自] ①（with ～）（～と）妥協する [他] ②（主義など）を曲げる [名] ③妥協"
+ },
+ {
+  "number": 1693,
+  "word": "reconcile",
+  "meaning": "[他] ①（A with B）（A）を（B と）調和させる，和解させる ②（oneself to ～）（～を）仕方なく受け入れる"
+ },
+ {
+  "number": 1694,
+  "word": "alert",
+  "meaning": "[形] ①油断のない，用心深い [名] ②（公的な）警告"
+ },
+ {
+  "number": 1695,
+  "word": "stereotype",
+  "meaning": "[名] 固定観念"
+ },
+ {
+  "number": 1696,
+  "word": "perspective",
+  "meaning": "[名] ①（経験などで得られる）視点〈可算〉 ②（大局的な）見方，遠近法〈不可算〉"
+ },
+ {
+  "number": 1697,
+  "word": "prospect",
+  "meaning": "[名] 見通し"
+ },
+ {
+  "number": 1698,
+  "word": "vow",
+  "meaning": "[名] ①誓い [他] ②～を誓う"
+ },
+ {
+  "number": 1699,
+  "word": "intuition",
+  "meaning": "[名] 直観"
+ },
+ {
+  "number": 1700,
+  "word": "illusion",
+  "meaning": "[名] 幻想"
+ },
+ {
+  "number": 1701,
+  "word": "criterion",
+  "meaning": "[名] 基準"
+ },
+ {
+  "number": 1702,
+  "word": "tolerate",
+  "meaning": "[他] ～を大目に見る，我慢する"
+ },
+ {
+  "number": 1703,
+  "word": "overlook",
+  "meaning": "[他] ①～を（うっかり）見落とす ②（人の欠点やミスなど）を見逃す，大目に見る ③（場所が）～を見渡す"
+ },
+ {
+  "number": 1704,
+  "word": "grain",
+  "meaning": "[名] ①穀物 ②粒，少量"
+ },
+ {
+  "number": 1705,
+  "word": "drought",
+  "meaning": "[名] 干ばつ"
+ },
+ {
+  "number": 1706,
+  "word": "irrigation",
+  "meaning": "[名] 灌漑"
+ },
+ {
+  "number": 1707,
+  "word": "spectacle",
+  "meaning": "[名] ①（きわめて印象的な）光景 ②（大がかりな）見せ物"
+ },
+ {
+  "number": 1708,
+  "word": "altitude",
+  "meaning": "[名] 標高，高度"
+ },
+ {
+  "number": 1709,
+  "word": "catastrophe",
+  "meaning": "[名] 大災害，災難"
+ },
+ {
+  "number": 1710,
+  "word": "decay",
+  "meaning": "[名] ①腐敗 [自] ②腐敗する，衰える"
+ },
+ {
+  "number": 1711,
+  "word": "erosion",
+  "meaning": "[名] 侵食"
+ },
+ {
+  "number": 1712,
+  "word": "flame",
+  "meaning": "[名] 炎"
+ },
+ {
+  "number": 1713,
+  "word": "galaxy",
+  "meaning": "[名] 銀河"
+ },
+ {
+  "number": 1714,
+  "word": "meteor",
+  "meaning": "[名] 流星，隕石"
+ },
+ {
+  "number": 1715,
+  "word": "chill",
+  "meaning": "[名] ①寒気 [他] ②～を冷やす"
+ },
+ {
+  "number": 1716,
+  "word": "meadow",
+  "meaning": "[名] 草地，牧草地"
+ },
+ {
+  "number": 1717,
+  "word": "exploit",
+  "meaning": "[他] ①（自然の力など）を利用する ②～を搾取する"
+ },
+ {
+  "number": 1718,
+  "word": "contaminate",
+  "meaning": "[他] ～を汚染する"
+ },
+ {
+  "number": 1719,
+  "word": "erupt",
+  "meaning": "[自] （火山が）噴火する"
+ },
+ {
+  "number": 1720,
+  "word": "evaporate",
+  "meaning": "[自] 蒸発する"
+ },
+ {
+  "number": 1721,
+  "word": "fertile",
+  "meaning": "[形] 肥沃な，肥えた"
+ },
+ {
+  "number": 1722,
+  "word": "roar",
+  "meaning": "[自] ①ほえる [名] ②うなり声，怒号，轟音"
+ },
+ {
+  "number": 1723,
+  "word": "inhabit",
+  "meaning": "[他] ～に生息している，ある"
+ },
+ {
+  "number": 1724,
+  "word": "nurture",
+  "meaning": "[他] ①～を育てる [名] ②養育，教育"
+ },
+ {
+  "number": 1725,
+  "word": "owl",
+  "meaning": "[名] フクロウ"
+ },
+ {
+  "number": 1726,
+  "word": "instinct",
+  "meaning": "[名] 本能"
+ },
+ {
+  "number": 1727,
+  "word": "prey",
+  "meaning": "[名] ①餌食 [自] ②（on ～）餌食にする"
+ },
+ {
+  "number": 1728,
+  "word": "timber",
+  "meaning": "[名] （主に〈英〉）材木"
+ },
+ {
+  "number": 1729,
+  "word": "fabric",
+  "meaning": "[名] ①布地，織物 ②組織，構造"
+ },
+ {
+  "number": 1730,
+  "word": "textile",
+  "meaning": "[名] ①織物 [形] ②織物の"
+ },
+ {
+  "number": 1731,
+  "word": "weave",
+  "meaning": "[他] ①～を織る ②～を編む"
+ },
+ {
+  "number": 1732,
+  "word": "competent",
+  "meaning": "[形] 有能な"
+ },
+ {
+  "number": 1733,
+  "word": "optimistic",
+  "meaning": "[形] 楽観的な"
+ },
+ {
+  "number": 1734,
+  "word": "patriotic",
+  "meaning": "[形] 愛国的な"
+ },
+ {
+  "number": 1735,
+  "word": "naughty",
+  "meaning": "[形] いたずらな"
+ },
+ {
+  "number": 1736,
+  "word": "vigorous",
+  "meaning": "[形] ①（人，活動が）精力的な ②活発な"
+ },
+ {
+  "number": 1737,
+  "word": "solitary",
+  "meaning": "[形] ①（人が）孤高の ②ただひとつの"
+ },
+ {
+  "number": 1738,
+  "word": "vulgar",
+  "meaning": "[形] ①（人，行動が）品がない ②（冗談などが）卑わいな"
+ },
+ {
+  "number": 1739,
+  "word": "skeptical",
+  "meaning": "[形] 懐疑的な"
+ },
+ {
+  "number": 1740,
+  "word": "haunt",
+  "meaning": "[他] ①（亡霊，考えなどが）～につきまとう，出没する [名] ②好んで行く場所，たまり場"
+ },
+ {
+  "number": 1741,
+  "word": "obsessed",
+  "meaning": "[形] （with［by］ ～）（～に）取りつかれて，頭が一杯で"
+ },
+ {
+  "number": 1742,
+  "word": "intent",
+  "meaning": "[形] ①（on ～）（～に）没頭した，決心した [名] ② 意図"
+ },
+ {
+  "number": 1743,
+  "word": "indulge",
+  "meaning": "[自] ①（in ～）（～に）ふける [他] ② ～を思いのままにさせる"
+ },
+ {
+  "number": 1744,
+  "word": "cling",
+  "meaning": "[自] （to ～）（～に）固執する，しがみつく"
+ },
+ {
+  "number": 1745,
+  "word": "flaw",
+  "meaning": "[名] 欠陥"
+ },
+ {
+  "number": 1746,
+  "word": "defect",
+  "meaning": "[名] 欠陥"
+ },
+ {
+  "number": 1747,
+  "word": "trait",
+  "meaning": "[名] 特性"
+ },
+ {
+  "number": 1748,
+  "word": "analogy",
+  "meaning": "[名] 類似点，例え"
+ },
+ {
+  "number": 1749,
+  "word": "parallel",
+  "meaning": "[名] ①類似（物） [形] ②（to ～）（～と）平行の，類似した"
+ },
+ {
+  "number": 1750,
+  "word": "crucial",
+  "meaning": "[形] 重大な"
+ },
+ {
+  "number": 1751,
+  "word": "primary",
+  "meaning": "[形] ①主な，第1 の ②初期の，原始の"
+ },
+ {
+  "number": 1752,
+  "word": "integral",
+  "meaning": "[形] ①不可欠な ②完全な"
+ },
+ {
+  "number": 1753,
+  "word": "vital",
+  "meaning": "[形] 不可欠な，きわめて重要な"
+ },
+ {
+  "number": 1754,
+  "word": "profound",
+  "meaning": "[形] 深い"
+ },
+ {
+  "number": 1755,
+  "word": "grim",
+  "meaning": "[形] （状況などが）厳しい"
+ },
+ {
+  "number": 1756,
+  "word": "fierce",
+  "meaning": "[形] ①（競争，嵐などが）激しい ② どう猛な"
+ },
+ {
+  "number": 1757,
+  "word": "harsh",
+  "meaning": "[形] 厳しい"
+ },
+ {
+  "number": 1758,
+  "word": "savage",
+  "meaning": "[形] （とても）容赦ない，どう猛な"
+ },
+ {
+  "number": 1759,
+  "word": "acute",
+  "meaning": "[形] ①深刻な ②鋭い ③急性の"
+ },
+ {
+  "number": 1760,
+  "word": "ambiguous",
+  "meaning": "[形] 曖昧な"
+ },
+ {
+  "number": 1761,
+  "word": "obscure",
+  "meaning": "[形] ①ぼやけた，わかりにくい ②無名の"
+ },
+ {
+  "number": 1762,
+  "word": "misleading",
+  "meaning": "[形] 誤解を招く，紛らわしい"
+ },
+ {
+  "number": 1763,
+  "word": "straightforward",
+  "meaning": "[形] ①（方法などが）わかりやすい ②（人や行動が）率直な"
+ },
+ {
+  "number": 1764,
+  "word": "explicit",
+  "meaning": "[形] （発言や文章などが）明確な"
+ },
+ {
+  "number": 1765,
+  "word": "sophisticated",
+  "meaning": "[形] ①（機械，システムが）高度な ② 洗練された，教養のある"
+ },
+ {
+  "number": 1766,
+  "word": "ingenious",
+  "meaning": "[形] 独創的な"
+ },
+ {
+  "number": 1767,
+  "word": "decent",
+  "meaning": "[形] まともな，きちんとした"
+ },
+ {
+  "number": 1768,
+  "word": "thrive",
+  "meaning": "[自] ①（会社などが）好調である，繁栄する ②（動［植］物などが）健康に育つ"
+ },
+ {
+  "number": 1769,
+  "word": "wit",
+  "meaning": "[名] 機知，機知に富んだ人"
+ },
+ {
+  "number": 1770,
+  "word": "affluent",
+  "meaning": "[形] 裕福な"
+ },
+ {
+  "number": 1771,
+  "word": "elaborate",
+  "meaning": "[形] ①手の込んだ，凝った [他] ②～を苦労して作り上げる [自] ③（on ～）（～を）詳しく話す"
+ },
+ {
+  "number": 1772,
+  "word": "prompt",
+  "meaning": "[形] ①迅速な [他] ②～に促す"
+ },
+ {
+  "number": 1773,
+  "word": "swift",
+  "meaning": "[形] 素早い"
+ },
+ {
+  "number": 1774,
+  "word": "mighty",
+  "meaning": "[形] 強力な"
+ },
+ {
+  "number": 1775,
+  "word": "renowned",
+  "meaning": "[形] 有名な"
+ },
+ {
+  "number": 1776,
+  "word": "dim",
+  "meaning": "[形] ①薄暗い ②（記憶などが）ぼんやりした [他] ③ ～を暗くする"
+ },
+ {
+  "number": 1777,
+  "word": "gloomy",
+  "meaning": "[形] ①薄暗い ②陰気な，悲観的な"
+ },
+ {
+  "number": 1778,
+  "word": "barren",
+  "meaning": "[形] 不毛な"
+ },
+ {
+  "number": 1779,
+  "word": "idle",
+  "meaning": "[形] ①（仕事がなく）何もしていない ② 怠惰な [他] ③（away）（～を）何もしないでいる"
+ },
+ {
+  "number": 1780,
+  "word": "tiresome",
+  "meaning": "[形] 退屈な，うんざりする"
+ },
+ {
+  "number": 1781,
+  "word": "static",
+  "meaning": "[形] 静的な，（経済などで）変化のない，活気のない"
+ },
+ {
+  "number": 1782,
+  "word": "clumsy",
+  "meaning": "[形] 無器用な"
+ },
+ {
+  "number": 1783,
+  "word": "ignorant",
+  "meaning": "[形] 無知の"
+ },
+ {
+  "number": 1784,
+  "word": "reckless",
+  "meaning": "[形] 無謀な"
+ },
+ {
+  "number": 1785,
+  "word": "arbitrary",
+  "meaning": "[形] 独断的な，勝手な"
+ },
+ {
+  "number": 1786,
+  "word": "foul",
+  "meaning": "[形] ①（味，臭いなどが）不快な [名] ②（スポーツなどの）違反，ファウル"
+ },
+ {
+  "number": 1787,
+  "word": "shabby",
+  "meaning": "[形] みすぼらしい，おんぼろの"
+ },
+ {
+  "number": 1788,
+  "word": "monotonous",
+  "meaning": "[形] 単調な"
+ },
+ {
+  "number": 1789,
+  "word": "crude",
+  "meaning": "[形] ①粗末な，粗野な ②加工されていない"
+ },
+ {
+  "number": 1790,
+  "word": "fragile",
+  "meaning": "[形] 壊れやすい，もろい"
+ },
+ {
+  "number": 1791,
+  "word": "vulnerable",
+  "meaning": "[形] ①傷つきやすい，弱い ②（非難，攻撃を）受けやすい，（病気に）かかりやすい"
+ },
+ {
+  "number": 1792,
+  "word": "rust",
+  "meaning": "[名] ①さび [自] ②さびる"
+ },
+ {
+  "number": 1793,
+  "word": "plight",
+  "meaning": "[名] 窮状，苦境"
+ },
+ {
+  "number": 1794,
+  "word": "conventional",
+  "meaning": "[形] 従来の，慣習的な"
+ },
+ {
+  "number": 1795,
+  "word": "innate",
+  "meaning": "[形] （才能などが）先天的な，生まれつきの"
+ },
+ {
+  "number": 1796,
+  "word": "exotic",
+  "meaning": "[形] ①（動［植］物が）外来の ②異国情緒のある"
+ },
+ {
+  "number": 1797,
+  "word": "tame",
+  "meaning": "[形] ①飼い慣らされた，従順な [他] ②～を飼い慣らす"
+ },
+ {
+  "number": 1798,
+  "word": "solemn",
+  "meaning": "[形] ①（場所，祝祭が）厳粛な，（音楽が）荘厳な ②（態度が）真面目な"
+ },
+ {
+  "number": 1799,
+  "word": "manifest",
+  "meaning": "[形] ①明らかな [他] ②（姿勢，感情など）を明らかにする"
+ },
+ {
+  "number": 1800,
+  "word": "dense",
+  "meaning": "[形] 密集した，（霧などが）濃い"
+ },
+ {
+  "number": 1801,
+  "word": "superficial",
+  "meaning": "[形] 表面的な"
+ },
+ {
+  "number": 1802,
+  "word": "transparent",
+  "meaning": "[形] 透明な"
+ },
+ {
+  "number": 1803,
+  "word": "consistent",
+  "meaning": "[形] ①（with ～）矛盾のない，一致している ②安定した，不変の"
+ },
+ {
+  "number": 1804,
+  "word": "coherent",
+  "meaning": "[形] 一貫している"
+ },
+ {
+  "number": 1805,
+  "word": "universal",
+  "meaning": "[形] 普遍的な"
+ },
+ {
+  "number": 1806,
+  "word": "upright",
+  "meaning": "[副] ①直立して [形] ②直立した"
+ },
+ {
+  "number": 1807,
+  "word": "underlying",
+  "meaning": "[形] 根底にある"
+ },
+ {
+  "number": 1808,
+  "word": "spontaneous",
+  "meaning": "[形] 自然発生的な"
+ },
+ {
+  "number": 1809,
+  "word": "mock",
+  "meaning": "[形] ①模擬の，見せかけの [他] ②（からかって）～をまねる ③～をあざける"
+ },
+ {
+  "number": 1810,
+  "word": "liable",
+  "meaning": "[形] ①（to do）～しがちだ ②（to ～）（病気などに）かかりやすい ③（for ～）（～に対して）（法的に）責任がある"
+ },
+ {
+  "number": 1811,
+  "word": "converse",
+  "meaning": "[名] ①正反対 [形] ②正反対の [自] ③（with ～）（～と）会話する"
+ },
+ {
+  "number": 1812,
+  "word": "preliminary",
+  "meaning": "[形] ①予備的な，事前の ②予選の [名] ③予選"
+ },
+ {
+  "number": 1813,
+  "word": "version",
+  "meaning": "[名] ①（個人的な）解釈，意見 ②（製品などの）～版"
+ },
+ {
+  "number": 1814,
+  "word": "indigenous",
+  "meaning": "[形] （動［植］物，民族が）固有の"
+ },
+ {
+  "number": 1815,
+  "word": "decline",
+  "meaning": "[自] ①減る，衰退する [他] ②～を断る [名] ③ 衰退，減少"
+ },
+ {
+  "number": 1816,
+  "word": "multiply",
+  "meaning": "[他] ①～を増やす ②（A by B）（A）に（B を）掛ける [自] ③増える"
+ },
+ {
+  "number": 1817,
+  "word": "soar",
+  "meaning": "[自] ①（価格，温度が）急上昇する ②（鳥が）舞い上がる"
+ },
+ {
+  "number": 1818,
+  "word": "accumulate",
+  "meaning": "[他] ①～を蓄積する [自] ② 蓄積する"
+ },
+ {
+  "number": 1819,
+  "word": "exceed",
+  "meaning": "[他] ～を越える"
+ },
+ {
+  "number": 1820,
+  "word": "abundant",
+  "meaning": "[形] 豊富な"
+ },
+ {
+  "number": 1821,
+  "word": "ample",
+  "meaning": "[形] 豊富な"
+ },
+ {
+  "number": 1822,
+  "word": "gross",
+  "meaning": "[形] ①総計の ②（食べ物，行動などが）ひどい"
+ },
+ {
+  "number": 1823,
+  "word": "infinite",
+  "meaning": "[形] 無限の"
+ },
+ {
+  "number": 1824,
+  "word": "sole",
+  "meaning": "[形] ①唯一の [名] ②足の裏，靴底"
+ },
+ {
+  "number": 1825,
+  "word": "heap",
+  "meaning": "[名] ①山 ②（a － of ～）たくさんの～"
+ },
+ {
+  "number": 1826,
+  "word": "fraction",
+  "meaning": "[名] ①少量 ②分数，端数"
+ },
+ {
+  "number": 1827,
+  "word": "simultaneous",
+  "meaning": "[形] 同時の"
+ },
+ {
+  "number": 1828,
+  "word": "medieval",
+  "meaning": "[形] 中世の"
+ },
+ {
+  "number": 1829,
+  "word": "decade",
+  "meaning": "[名] 10年"
+ },
+ {
+  "number": 1830,
+  "word": "dawn",
+  "meaning": "[名] ①夜明け [自] ②夜が明ける ③（on ～）（～に）わかり始める"
+ },
+ {
+  "number": 1831,
+  "word": "span",
+  "meaning": "[名] ①（継続した）期間 ②（集中力，注意力，機械の持続）期間"
+ },
+ {
+  "number": 1832,
+  "word": "expire",
+  "meaning": "[自] 期限が切れる"
+ },
+ {
+  "number": 1833,
+  "word": "postpone",
+  "meaning": "[他] ～を延期する"
+ },
+ {
+  "number": 1834,
+  "word": "equip",
+  "meaning": "[他] ①～を装備させる，備え付ける ②（人）に（知識や能力などを）身につけさせる"
+ },
+ {
+  "number": 1835,
+  "word": "transmit",
+  "meaning": "[他] ①～を送る，伝える ②（病気など）をうつす"
+ },
+ {
+  "number": 1836,
+  "word": "endow",
+  "meaning": "[他] ～を授ける"
+ },
+ {
+  "number": 1837,
+  "word": "inherit",
+  "meaning": "[他] ～を受け継ぐ"
+ },
+ {
+  "number": 1838,
+  "word": "retrieve",
+  "meaning": "[他] ①～を回収する，取り戻す ②（ファイルなど）を検索する"
+ },
+ {
+  "number": 1839,
+  "word": "displace",
+  "meaning": "[他] ① ～に取って代わる ②（戦争，災害などで）～を（故郷などから）追い出す"
+ },
+ {
+  "number": 1840,
+  "word": "bond",
+  "meaning": "[名] ①きずな ②公債，社債"
+ },
+ {
+  "number": 1841,
+  "word": "ornament",
+  "meaning": "[名] （小さな）飾り，置物"
+ },
+ {
+  "number": 1842,
+  "word": "certificate",
+  "meaning": "[名] 証明書，免許状，鑑定書"
+ },
+ {
+  "number": 1843,
+  "word": "accommodation",
+  "meaning": "[名] （〈米〉－s）宿泊施設"
+ },
+ {
+  "number": 1844,
+  "word": "intersection",
+  "meaning": "[名] 交差点"
+ },
+ {
+  "number": 1845,
+  "word": "pavement",
+  "meaning": "[名] （主に〈英〉）歩道"
+ },
+ {
+  "number": 1846,
+  "word": "pedestrian",
+  "meaning": "[名] 歩行者"
+ },
+ {
+  "number": 1847,
+  "word": "excursion",
+  "meaning": "[名] 小旅行，遠足"
+ },
+ {
+  "number": 1848,
+  "word": "itinerary",
+  "meaning": "[名] 旅程（表）"
+ },
+ {
+  "number": 1849,
+  "word": "token",
+  "meaning": "[名] ①（as a － of）（～の）しるし（として） ②（バスなどで使われる）代用硬貨，トークン ③〈英〉商品引換券"
+ },
+ {
+  "number": 1850,
+  "word": "detergent",
+  "meaning": "[名] 洗剤"
+ },
+ {
+  "number": 1851,
+  "word": "purchase",
+  "meaning": "[他] ①～を購入する [名] ②購入（品）"
+ },
+ {
+  "number": 1852,
+  "word": "dwell",
+  "meaning": "[自] ①住む ②（on ～）（～をくどくど）考える"
+ },
+ {
+  "number": 1853,
+  "word": "juvenile",
+  "meaning": "[形] 青少年の"
+ },
+ {
+  "number": 1854,
+  "word": "adolescent",
+  "meaning": "[名] ①思春期の若者 [形] ②思春期の"
+ },
+ {
+  "number": 1855,
+  "word": "initial",
+  "meaning": "[形] ①最初の [名] ②頭文字，イニシャル"
+ },
+ {
+  "number": 1856,
+  "word": "precede",
+  "meaning": "[他] ～に先行する"
+ },
+ {
+  "number": 1857,
+  "word": "phase",
+  "meaning": "[名] 段階"
+ },
+ {
+  "number": 1858,
+  "word": "priority",
+  "meaning": "[名] 優先（事項）"
+ },
+ {
+  "number": 1859,
+  "word": "premise",
+  "meaning": "[名] ①前提 ②（－s）（建物を含めた）敷地"
+ },
+ {
+  "number": 1860,
+  "word": "legend",
+  "meaning": "[名] ①伝説，言い伝え ②伝説的人物"
+ },
+ {
+  "number": 1861,
+  "word": "masterpiece",
+  "meaning": "[名] 傑作"
+ },
+ {
+  "number": 1862,
+  "word": "ritual",
+  "meaning": "[名] ①（宗教的）儀式 [形] ②儀式の"
+ },
+ {
+  "number": 1863,
+  "word": "worship",
+  "meaning": "[名] ①崇拝，礼拝 [他] ②～を崇拝する [自] ③（神社などに）お参りする"
+ },
+ {
+  "number": 1864,
+  "word": "advent",
+  "meaning": "[名] ①到来 ②（the A－）キリストの降臨"
+ },
+ {
+  "number": 1865,
+  "word": "swear",
+  "meaning": "[自] ①誓う ②罵る"
+ },
+ {
+  "number": 1866,
+  "word": "confess",
+  "meaning": "[自] ①（to ～）（～を）白状する [他] ②～を認める"
+ },
+ {
+  "number": 1867,
+  "word": "verbal",
+  "meaning": "[形] 言葉による"
+ },
+ {
+  "number": 1868,
+  "word": "oral",
+  "meaning": "[形] ①口述の ②口の"
+ },
+ {
+  "number": 1869,
+  "word": "eloquent",
+  "meaning": "[形] 雄弁な"
+ },
+ {
+  "number": 1870,
+  "word": "linguistic",
+  "meaning": "[形] 言語の，言語学の"
+ },
+ {
+  "number": 1871,
+  "word": "plot",
+  "meaning": "[名] ①（小説，演劇などの）筋 ②悪だくみ，陰謀"
+ },
+ {
+  "number": 1872,
+  "word": "draft",
+  "meaning": "[名] ①下書き，草稿 [他] ②～を徴兵する [形] ③（－ beer）生の（ビール）"
+ },
+ {
+  "number": 1873,
+  "word": "statement",
+  "meaning": "[名] ①述べたこと，声明 ②（給与などの）明細書"
+ },
+ {
+  "number": 1874,
+  "word": "paradox",
+  "meaning": "[名] 逆説"
+ },
+ {
+  "number": 1875,
+  "word": "slang",
+  "meaning": "[名] （集合的に）俗語"
+ },
+ {
+  "number": 1876,
+  "word": "riddle",
+  "meaning": "[名] なぞなぞ，謎"
+ },
+ {
+  "number": 1877,
+  "word": "clarify",
+  "meaning": "[他] ～を明らかにする"
+ },
+ {
+  "number": 1878,
+  "word": "exhibit",
+  "meaning": "[他] ①～を展示する ②～を示す [名] ③展示物，展覧会"
+ },
+ {
+  "number": 1879,
+  "word": "portray",
+  "meaning": "[他] ～を描く"
+ },
+ {
+  "number": 1880,
+  "word": "attribute",
+  "meaning": "[他] ①（A to B） （A）を（B）のせいだとする [名] ②特性，属性"
+ },
+ {
+  "number": 1881,
+  "word": "console",
+  "meaning": "[他] ～を慰める"
+ },
+ {
+  "number": 1882,
+  "word": "arouse",
+  "meaning": "[他] ～を呼び起こす"
+ },
+ {
+  "number": 1883,
+  "word": "distract",
+  "meaning": "[他] ①（注意，意識など）をそらす ②～の気を紛らす"
+ },
+ {
+  "number": 1884,
+  "word": "plead",
+  "meaning": "[自] ①（with ～）（～に）懇願する [他] ②～を申し立てる"
+ },
+ {
+  "number": 1885,
+  "word": "yearn",
+  "meaning": "[自] ①切望する [他] ②～を切望する"
+ },
+ {
+  "number": 1886,
+  "word": "long",
+  "meaning": "[自] （for ～）（～を）切望する"
+ },
+ {
+  "number": 1887,
+  "word": "adore",
+  "meaning": "[他] ～を熱愛している"
+ },
+ {
+  "number": 1888,
+  "word": "utter",
+  "meaning": "[他] ①（叫び声など）を発する [形] ②まったくの"
+ },
+ {
+  "number": 1889,
+  "word": "exclaim",
+  "meaning": "[自] （驚き，怒りなどで）叫ぶ"
+ },
+ {
+  "number": 1890,
+  "word": "lament",
+  "meaning": "[他] ～を深く悲しむ，嘆く"
+ },
+ {
+  "number": 1891,
+  "word": "shed",
+  "meaning": "[他] ①（涙など）を流す ②（光）を当てる ③～を取り除く ④（ヘビなどが）（皮）を脱ぐ，（木が葉っぱ）を落とす"
+ },
+ {
+  "number": 1892,
+  "word": "resent",
+  "meaning": "[他] ～に憤慨する"
+ },
+ {
+  "number": 1893,
+  "word": "dread",
+  "meaning": "[他] ①～を恐れる [名] ②恐怖"
+ },
+ {
+  "number": 1894,
+  "word": "startle",
+  "meaning": "[他] ～を驚かせる"
+ },
+ {
+  "number": 1895,
+  "word": "thrill",
+  "meaning": "[他] ①～をぞくぞく［わくわく］させる [名] ②スリル"
+ },
+ {
+  "number": 1896,
+  "word": "humiliate",
+  "meaning": "[他] ～に恥をかかせる"
+ },
+ {
+  "number": 1897,
+  "word": "blush",
+  "meaning": "[自] ①赤面する [名] ②赤面"
+ },
+ {
+  "number": 1898,
+  "word": "frown",
+  "meaning": "[自] ①（on ～）（～に）眉をひそめる [名] ②しかめっ面"
+ },
+ {
+  "number": 1899,
+  "word": "dismay",
+  "meaning": "[他] ①～を狼狽させる [名] ②狼狽"
+ },
+ {
+  "number": 1900,
+  "word": "bewilder",
+  "meaning": "[他] （通例，受け身）～を当惑させる"
+ },
+ {
+  "number": 1901,
+  "word": "perplex",
+  "meaning": "[他] ～を困惑させる"
+ },
+ {
+  "number": 1902,
+  "word": "disgust",
+  "meaning": "[他] ①～に嫌悪を抱かせる [名] ②嫌悪"
+ },
+ {
+  "number": 1903,
+  "word": "despise",
+  "meaning": "[他] ～を軽蔑する"
+ },
+ {
+  "number": 1904,
+  "word": "furious",
+  "meaning": "[形] 激怒した"
+ },
+ {
+  "number": 1905,
+  "word": "intimate",
+  "meaning": "[形] ①親密な ②（知識などが）深い"
+ },
+ {
+  "number": 1906,
+  "word": "intriguing",
+  "meaning": "[形] 興味深い"
+ },
+ {
+  "number": 1907,
+  "word": "conscience",
+  "meaning": "[名] 良心"
+ },
+ {
+  "number": 1908,
+  "word": "self-esteem",
+  "meaning": "[名] 自尊心"
+ },
+ {
+  "number": 1909,
+  "word": "mercy",
+  "meaning": "[名] ①慈悲，情け ② 幸運"
+ },
+ {
+  "number": 1910,
+  "word": "aspiration",
+  "meaning": "[名] 熱望"
+ },
+ {
+  "number": 1911,
+  "word": "grief",
+  "meaning": "[名] （人の死などに対する）深い悲しみ"
+ },
+ {
+  "number": 1912,
+  "word": "distress",
+  "meaning": "[名] ①苦しみ，苦難 [他] ②～を苦しめる"
+ },
+ {
+  "number": 1913,
+  "word": "apprehension",
+  "meaning": "[名] ①不安 ②逮捕"
+ },
+ {
+  "number": 1914,
+  "word": "melancholy",
+  "meaning": "[名] 憂うつ，ふさぎ込み"
+ },
+ {
+  "number": 1915,
+  "word": "contempt",
+  "meaning": "[名] 軽蔑"
+ },
+ {
+  "number": 1916,
+  "word": "insult",
+  "meaning": "[名] ①侮辱 [他] ②～を侮辱する"
+ },
+ {
+  "number": 1917,
+  "word": "nuisance",
+  "meaning": "[名] 迷惑（になるもの）"
+ },
+ {
+  "number": 1918,
+  "word": "menace",
+  "meaning": "[名] （to ～）（～にとっての）厄介なもの［人］，脅威"
+ },
+ {
+  "number": 1919,
+  "word": "verge",
+  "meaning": "[名] ①瀬戸際，寸前 ② 道路べり，（場所の）縁"
+ },
+ {
+  "number": 1920,
+  "word": "incentive",
+  "meaning": "[名] 励み"
+ },
+ {
+  "number": 1921,
+  "word": "outcome",
+  "meaning": "[名] 結果"
+ },
+ {
+  "number": 1922,
+  "word": "thorough",
+  "meaning": "[形] 完全な，徹底的な"
+ },
+ {
+  "number": 1923,
+  "word": "adequate",
+  "meaning": "[形] 十分な，適切な"
+ },
+ {
+  "number": 1924,
+  "word": "overall",
+  "meaning": "[形] ①全体的な，全面的な [副] ②全体的に，全面的に"
+ },
+ {
+  "number": 1925,
+  "word": "ultimate",
+  "meaning": "[形] 究極の，最終の"
+ },
+ {
+  "number": 1926,
+  "word": "genuine",
+  "meaning": "[形] ①（感情が）心からの ②（絵画などが）本物の"
+ },
+ {
+  "number": 1927,
+  "word": "radical",
+  "meaning": "[形] ①根本的な，抜本的な ②過激な"
+ },
+ {
+  "number": 1928,
+  "word": "drastic",
+  "meaning": "[形] 抜本的な，思い切った"
+ },
+ {
+  "number": 1929,
+  "word": "trivial",
+  "meaning": "[形] ささいな"
+ },
+ {
+  "number": 1930,
+  "word": "virtually",
+  "meaning": "[副] 事実上"
+ },
+ {
+  "number": 1931,
+  "word": "abruptly",
+  "meaning": "[副] 不意に，突然"
+ },
+ {
+  "number": 1932,
+  "word": "deliberately",
+  "meaning": "[副] ①故意に ②慎重に"
+ },
+ {
+  "number": 1933,
+  "word": "hence",
+  "meaning": "[副] だから，それゆえに"
+ },
+ {
+  "number": 1934,
+  "word": "namely",
+  "meaning": "[副] すなわち"
+ },
+ {
+  "number": 1935,
+  "word": "whereas",
+  "meaning": "[接] ～だが一方"
+ }
+]
