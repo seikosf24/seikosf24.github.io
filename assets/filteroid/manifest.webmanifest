@@ -2,9 +2,9 @@
   "theme_color": "#f3f3f9",
   "background_color": "#f3f3f9",
   "display": "standalone",
-  "scope": "/",
-  "start_url": "/?osg=libry.jp",
-  "description": "アカデミックなリサーチとデータアクセスのためのオンラインソリューション。",
+  "scope": "/assets/filteroid/",
+  "start_url": "/assets/filteroid/?osg=libry.jp",
+  "description": "あー",
   "name": "Filteroid",
   "short_name": "Filteroid",
   "icons": [
