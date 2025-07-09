@@ -2,7 +2,7 @@
 <html lang="ja">
   <head>
     <meta charset="utf-8" />
-    <title>Filteroid 3</title>
+    <title>Filteroid</title>
     <meta name="viewport" content="width=device-width,initial-scale=1" />
     <meta name="description" content="Filteroid solves all various problems." />
     <meta name="format-detection" content="telephone=no" />
@@ -33,16 +33,16 @@
     <meta name="application-name" content="Filteroid" />
     <!-- ogp -->
     <meta property="og:site_name" content="Filteroid" />
-    <meta property="og:url" content="https://filteroid.glitch.me/" />
+    <meta property="og:url" content="https://seikosf24.github.io/assets/filteroid/" />
     <meta property="og:type" content="website" />
-    <meta property="og:title" content="Filteroid 3" />
-    <meta property="og:description" content="最終更新…1月12日" />
+    <meta property="og:title" content="Filteroid" />
+    <meta property="og:description" content="最終更新…7月9日" />
     <meta
       property="og:image"
       content="https://cdn.glitch.global/6edf62b2-8cdc-477e-bcff-8985d2cb2c50/ogp.png?v=1709971508574"
     />
     <meta property="og:locale" content="ja_JP" />
-    <link rel="stylesheet" href="/style.css" />
+    <link rel="stylesheet" href="/assets/filteroid/style.css" />
   </head>
   <body ontouchstart>
     <header>
@@ -201,9 +201,9 @@
             </div>
             <div class="link">
               <p>
-                <a href="/test/ealeap.html?=libry.jp">LEAP単語帳</a
-                ><a href="/test/koubun.html?=libry.jp">構文練習</a
-                ><a href="/test/eiken.html?=libry.jp">英検準一級出る順</a>
+                <a href="/assets/filteroid/test/ealeap.html?=libry.jp">LEAP単語帳</a
+                ><a href="/assets/filteroid/test/koubun.html?=libry.jp">構文練習</a
+                ><a href="/assets/filteroid/test/eiken.html?=libry.jp">英検準一級出る順</a>
               </p>
             </div>
             <div class="link">
@@ -369,30 +369,6 @@
           }
         }
       });
-    </script>
-    <script>
-      function lazyAnalyticsScript() {
-        var scrollFirstTime = 1;
-        window.addEventListener("scroll", oneTimeFunction, false);
-        window.addEventListener("mousemove", oneTimeFunction, false);
-
-        function oneTimeFunction() {
-          if (scrollFirstTime === 1) {
-            scrollFirstTime = 0;
-            var adScript = document.createElement("script");
-            adScript.src =
-              "https://www.googletagmanager.com/gtag/js?id=G-0V12FE2K46";
-            document.body.appendChild(adScript);
-            var adScript2 = document.createElement("script");
-            adScript2.innerHTML =
-              'window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag("js", new Date()); gtag("config", "G-0V12FE2K46");';
-            document.body.appendChild(adScript2);
-            window.removeEventListener("scroll", oneTimeFunction, false);
-            window.removeEventListener("mousemove", oneTimeFunction, false);
-          }
-        }
-      }
-      lazyAnalyticsScript();
     </script>
   </body>
 </html>
