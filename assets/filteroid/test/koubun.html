@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8" />
+    <title>Filteroid 構文練習</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta
+      name="description"
+      content="簡易的な検索エンジンっぽいやつ。リンクの末尾にリブリーを付ける。"
+    />
+    <meta name="format-detection" content="telephone=no" />
+    <!-- favicon/webclipicon -->
+    <link
+      rel="icon"
+      href="https://cdn.glitch.global/6edf62b2-8cdc-477e-bcff-8985d2cb2c50/IMG_2529.ico?v=1702500147262"
+    />
+    <link
+      rel="icon"
+      href="https://cdn.glitch.global/6edf62b2-8cdc-477e-bcff-8985d2cb2c50/IMG_512.jpeg?v=1702349088228"
+      type="image/jpeg"
+    />
+    <link
+      rel="apple-touch-icon"
+      href="https://cdn.glitch.global/6edf62b2-8cdc-477e-bcff-8985d2cb2c50/IMG_512.jpeg?v=1702349088228"
+    />
+    <!-- ogp -->
+    <meta property="og:site_name" content="Filteroid" />
+    <meta
+      property="og:url"
+      content="https://filteroid.glitch.me/test/koubun.html?q=libry.jp"
+    />
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="Filteroid LEAP単語帳" />
+    <meta
+      property="og:description"
+      content="簡易的な検索エンジンっぽいやつ。リンクの末尾にリブリーを付ける。"
+    />
+    <meta
+      property="og:image"
+      content="https://cdn.glitch.global/6edf62b2-8cdc-477e-bcff-8985d2cb2c50/IMG_512.jpeg?v=1702349088228"
+    />
+    <meta property="og:locale" content="ja_JP" />
+    <link rel="manifest" href="/manifest.json" />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body ontouchstart>
+    <header>
+      <div class="pageTitle">構文練習</div>
+    </header>
+    <div class="tenti">
+      <form id="console" name="console">
+        <div>
+          <input type="radio" id="koubun1" name="sect" value="koubun1" />
+          <label for="koubun1">1から50</label>
+        </div>
+        <div>
+          <input type="radio" id="koubun2" name="sect" value="koubun2" />
+          <label for="koubun2">51から100</label>
+        </div>
+        <div>
+          <input type="radio" id="koubun3" name="sect" value="koubun3" />
+          <label for="koubun3">101から150</label>
+        </div>
+        <div>
+          <input
+            type="radio"
+            id="koubunAll"
+            name="sect"
+            value="koubunAll"
+            checked
+          />
+          <label for="koubunAll">全範囲</label>
+        </div>
+      </form>
+    </div>
+    <div class="tenti">
+      <div id="card" class="koubun">
+        <div id="en" class="koubun">日本語が表示されます</div>
+        <hr id="shikiri" />
+        <div id="ja" class="koubun">さあ、右のボタンを押してスタート！</div>
+      </div>
+      <div id="next" onclick="nextCard()" class="koubun"></div>
+    </div>
+    <div class="tenti"><a href="/?na=libry.jp">戻る</a></div>
+    <script src="./koubun.js" type="text/javascript"></script>
+    <script>
+      function lazyAnalyticsScript() {
+        var scrollFirstTime = 1;
+        //スクロール、マウス
+        window.addEventListener("scroll", oneTimeFunction, false);
+        window.addEventListener("mousemove", oneTimeFunction, false);
+
+        function oneTimeFunction() {
+          if (scrollFirstTime === 1) {
+            scrollFirstTime = 0;
+            //1つ目
+            var adScript = document.createElement("script");
+            adScript.src =
+              "https://www.googletagmanager.com/gtag/js?id=G-0V12FE2K46";
+            document.body.appendChild(adScript);
+            //2つ目
+            var adScript2 = document.createElement("script");
+            adScript2.innerHTML =
+              'window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag("js", new Date()); gtag("config", "G-0V12FE2K46");';
+            document.body.appendChild(adScript2);
+            //念のため削除
+            window.removeEventListener("scroll", oneTimeFunction, false);
+            window.removeEventListener("mousemove", oneTimeFunction, false);
+          }
+        }
+      }
+      lazyAnalyticsScript();
+    </script>
+  </body>
+</html>

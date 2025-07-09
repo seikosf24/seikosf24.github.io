@@ -1,0 +1,118 @@
+html {
+  font-size: 62.5%;
+}
+:root {
+  --bg: #f3f3f9;
+  --color: #222222;
+  --impact: #0b1f61;
+}
+body {
+  background-color: var(--bg);
+  color: var(--color);
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: transparent;
+  font-size: 1.8rem;
+  font-family: sans-serif;
+  line-height: 1.5;
+  scroll-behavior: smooth;
+}
+header {
+  width: min(84%, 1000px);
+  margin: 30px auto 0;
+}
+.pageTitle {
+  font-size: 2.4rem;
+}
+a {
+  color: var(--impact);
+}
+
+.tenti {
+  height: 25vh;
+  display: grid;
+  place-items: center;
+}
+#console {
+  padding: 10px;
+  border: none;
+  width: 340px;
+  height: 100px;
+  background-color: #88888844;
+  box-shadow: 3px 3px 10px gray;
+  border-radius: 30px;
+  display: flex;
+  flex-wrap: wrap;
+}
+#console div {
+  width: 50%;
+  text-align: left;
+}
+#card {
+  width: 320px;
+  height: 200px;
+  border-radius: 30px;
+  background: linear-gradient(145deg, #dbdbe0, #ffffff);
+  box-shadow: 20px 20px 50px #cfcfd4, -20px -20px 60px #ffffff;
+  z-index: 233;
+  -webkit-tap-highlight-color:transparent;
+}
+#card.koubun {
+width: 520px;
+}
+.hidden {
+  display: none;
+}
+#shikiri {
+  width: 75%;
+  margin: 10px auto;
+  border: 1px solid #666;
+}
+#en {
+  margin: 20px auto;
+  width:280px;
+  color: #444;
+  font-weight: bold;
+  font-size: 28px;
+}
+#en.koubun {
+font-size: 20px;
+  width: 480px;
+}
+#ja {
+  margin: 10px auto;
+  width:280px;
+  color: #444;
+  font-size: 16px;
+}
+#ja.koubun {
+font-size: 18px;
+  width: 480px;
+}
+#next {
+  border-radius: 0 30px 30px 0;
+  background-color: #6666aa66;
+  width: 80px;
+  height: 100px;
+  text-align: right;
+  position: relative;
+  top: -150px;
+  right: -200px;
+}
+#next.koubun {
+  right: -300px;
+}
+#next::after {
+  content: "";
+  width: 25px;
+  height: 25px;
+  margin-top: -15px;
+  border-top: solid 2px #555; /* 好みで色を変えてください */
+  border-right: solid 2px #555; /* 好みで色を変えてください */
+  transform: rotate(45deg);
+  position: absolute;
+  top: 50%;
+  right: 20px;
+}
