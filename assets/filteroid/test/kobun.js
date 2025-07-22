@@ -35,5 +35,5 @@ function nextCard() {
   let last = endData[index] + 1;
   let taisho = Math.floor(Math.random() * (last - first) + first);
   document.getElementById("en").innerHTML = alltango[taisho - 1].Kogo;
-  document.getElementById("ja").innerHTML = alltango[taisho - 1].First + "\n" + alltango[taisho - 1].Second;
+  document.getElementById("ja").innerHTML = alltango[taisho - 1].First + "<br>" + alltango[taisho - 1].Second;
 }
