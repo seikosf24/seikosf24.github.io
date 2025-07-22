@@ -34,6 +34,6 @@ function nextCard() {
   let first = startData[index];
   let last = endData[index] + 1;
   let taisho = Math.floor(Math.random() * (last - first) + first);
-  document.getElementById("en").innerHTML = alltango[taisho - 1].a;
-  document.getElementById("ja").innerHTML = alltango[taisho - 1].q;
+  document.getElementById("en").innerHTML = alltango[taisho - 1].First;
+  document.getElementById("ja").innerHTML = alltango[taisho - 1].Kogo;
 }
