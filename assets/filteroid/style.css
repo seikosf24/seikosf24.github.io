@@ -27,13 +27,6 @@ body {
   scroll-behavior: smooth;
   transition: all 0.3s ease;
 }
-@media (min-height: 740px) {
-   body { position: fixed;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0; }
-}
 header {
   width: min(84%, 800px);
   margin: 30px auto 0;
@@ -60,7 +53,7 @@ header {
   line-height: 2;
 }
 #imgContainer {
-  margin: 50px auto 10px;
+  margin: 55px auto 15px;
   overflow: hidden;
   height: 105px;
 }
@@ -90,7 +83,7 @@ input {
   outline: none;
 }
 section {
-  margin: 80px auto 40px;
+  margin: 90px auto 40px;
   width: min(84%, 800px);
 }
 #section1 form {
