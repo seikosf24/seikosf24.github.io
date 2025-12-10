@@ -26,11 +26,13 @@ body {
   line-height: 1.5;
   scroll-behavior: smooth;
   transition: all 0.3s ease;
-  position: fixed;
+}
+@media (min-height: 740px) {
+   body { position: fixed;
   top: 0;
   bottom: 0;
   left: 0;
-  right: 0;
+  right: 0; }
 }
 header {
   width: min(84%, 800px);
