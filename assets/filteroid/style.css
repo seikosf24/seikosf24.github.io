@@ -57,7 +57,7 @@ header {
   line-height: 2;
 }
 #imgContainer {
-  margin: calc(15vh - 30px) auto 0;
+  margin: calc(15vh - 30px) auto;
   overflow: hidden;
   height: 105px;
 }
