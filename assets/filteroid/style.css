@@ -84,7 +84,7 @@ input {
   outline: none;
 }
 section {
-  margin: 0 auto 80px;
+  margin: 50px auto 50px;
   width: min(84%, 800px);
 }
 #section1 form {
